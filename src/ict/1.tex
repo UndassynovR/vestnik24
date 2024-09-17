@@ -220,90 +220,28 @@ Home Credit Bank и других, кредитная система начала
 w_1x_1+w_2x_2+\ldots w_ix_i+b=0
 \end{equation}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/85}
-	\caption*{}
-\end{figure} \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/86}
-	\caption*{}
-\end{figure}
-(3)
+\begin{equation}
+\sum_{i=1}^n w_ix_i+b=0 \ ^{w\in R^n, b\in R}
+\end{equation}
 
-где \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/87}
-	\caption*{}
-\end{figure}-- коэффициенты, определяющие все
-семейство прямых, проходящих через точку
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/88}
-	\caption*{}
-\end{figure}. Соотношение w определяет угол линии
-к осям. Ненулевой коэффициент \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/89}
-	\caption*{}
-\end{figure}
-позволяет линии не проходить через ноль, другими словами, это смещение.
-Наклон к осям не меняется, то есть \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/90}
-	\caption*{}
-\end{figure}
-определяет семейство параллельных прямых,
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/82}
-	\caption*{}
-\end{figure} -- количество неизвестных переменных.
-Геометрический смысл вектора \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/91}
-	\caption*{}
-\end{figure}
-нормален к гиперплоскости {[}5{]}.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure}{\bfseries -Nearest Neighbours (KNN).}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure}-Nearest Neighbours (KNN) -- это тип
+где $w_i$-- коэффициенты, определяющие все
+семейство прямых, проходящих через точку $(0,0)$. Соотношение w определяет угол линии
+к осям. Ненулевой коэффициент $ b$ позволяет линии не проходить через ноль, другими словами, это смещение.
+Наклон к осям не меняется, то есть $ b$ определяет семейство параллельных прямых, $n $ -- количество неизвестных переменных.
+Геометрический смысл вектора $(w_i, w_n)$ нормален к гиперплоскости {[}5{]}.
+
+$k$ {\bfseries -Nearest Neighbours (KNN).}
+$k$-Nearest Neighbours (KNN) -- это тип
 алгоритма машинного обучения, используемый для решения задач
 классификации и регрессии. KNN основан на простой идее: объекты одного
 класса обычно находятся ближе друг к другу в пространстве признаков. KNN
-основан на принципе, где \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/93}
-	\caption*{}
-\end{figure} обозначает
+основан на принципе, где $k$ обозначает
 количество «ближайших соседей». Когда новый наблюдаемый случай (или
-объект) требует классификации, алгоритм KNN просматривает
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure} ближайших соседей этого объекта из
+объект) требует классификации, алгоритм KNN просматривает $k$ ближайших соседей этого объекта из
 набора обучающих данных. Затем он присваивает объекту класс, наиболее
-распространенный среди этих соседей. Если
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/94}
-	\caption*{}
-\end{figure}, новый объект присваивается классу
-его ближайшего соседа. В контексте регрессии KNN присваивает новому
-объекту среднее значение \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure} ближайших
+распространенный среди этих соседей. Если $k=1$, новый объект присваивается классу его ближайшего соседа. В контексте регрессии KNN присваивает новому
+объекту среднее значение $k$ ближайших
 соседей. Но раз уж мы решили взять в классификацию KNN, то не будем
 особо останавливаться на регрессии. Для определения ближайших соседей
 можно использовать различные метрики расстояния:
@@ -313,12 +251,9 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
 \item
   Евклидовое расстояние:
 \end{enumerate}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/95}
-	\caption*{}
-\end{figure} (4)
+\begin{equation}
+	d(x,y)=\sqrt{\sum_{i} (x_i-y_i)^2}
+\end{equation}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -326,12 +261,9 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
 \item
   Расстояние Манхэттена:
 \end{enumerate}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/96}
-	\caption*{}
-\end{figure} (5)
+\begin{equation}
+	d(x,y)=\sum_{i} |x_i - y_i|
+\end{equation}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -340,115 +272,35 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
   Расстояние Минковского:
 \end{enumerate}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/97}
-	\caption*{}
-\end{figure} (6)
+\begin{equation}
+	d(x,y)=(\sum_{i} (|x_i - y_i|^p))^\frac{1}{p}
+\end{equation}
 
-где \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/98}
-	\caption*{}
-\end{figure} и
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/99}
-	\caption*{}
-\end{figure} -- два экземпляра, а
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/100}
-	\caption*{}
-\end{figure}и \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/101}
-	\caption*{}
-\end{figure}
--- значения признака \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/102}
-	\caption*{}
-\end{figure} для
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/98}
-	\caption*{}
-\end{figure} и
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/99}
-	\caption*{}
-\end{figure}соответственно, а
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/103}
-	\caption*{}
-\end{figure} -- параметр определяющий степень
-ближайших соседей.
+где $x $ и $y $ -- два экземпляра, а $x_i$ и $y_i$ -- значения признака $i$ для $x$ и $y$
+соответственно, а $p$ -- параметр определяющий степень ближайших соседей.
 
 После расчета расстояний до всех соседей в обучающей выборке KNN
-выбирает \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure} соседей, расстояние которых
-минимально. Когда выбрано число \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure} и
-метрика расстояния, KNN классифицирует новые наблюдения на основе того,
-какие классы наиболее распространены среди их
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure} ближайших соседей {[}6{]}.
+выбирает $k$ соседей, расстояние которых
+минимально. Когда выбрано число $k$ и метрика расстояния, KNN классифицирует новые наблюдения на основе того,
+какие классы наиболее распространены среди их $k$ ближайших соседей {[}6{]}.
 
 {\bfseries Машины опорных векторов (SVM)}. Машины опорных векторов (SVM) --
 это тип алгоритма машинного обучения, который в основном используется
 для решения задач классификации, хотя его также можно применять для
-регрессии и обнаружения выбросов. Целью SVM является поиск
-гиперплоскости в многомерном пространстве, которая лучше всего разделяет
-два класса данных {[}7{]}. Гиперплоскость -- это линия, которая делит
+регрессии и обнаружения выбросов. Целью SVM является поиск гиперплоскости в многомерном пространстве, которая лучше всего разделяет
+два класса данных {[}7{]}.\\ Гиперплоскость -- это линия, которая делит
 пространство входных объектов, создавая раздел между классами. SVM
 стремится найти оптимальную гиперплоскость, которая эффективно разделяет
 точки данных на основе их принадлежности к определенному классу -- это
 может быть класс 0 или класс 1. Если мы представим, что это линия в
 контексте двумерного пространства, разделяющая наши данные. Например:
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/104}
-	\caption*{}
-\end{figure} (7)
+\begin{equation}
+	B_o+B_1X_1+B_2X_2=0
+\end{equation}
 
-где коэффициенты \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/105}
-	\caption*{}
-\end{figure} и
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/106}
-	\caption*{}
-\end{figure}, определяющие наклон линии и точку
-пересечения \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/107}
-	\caption*{}
-\end{figure}, находятся с помощью
-алгоритма обучения, а \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/108}
-	\caption*{}
-\end{figure} и
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/109}
-	\caption*{}
-\end{figure} -- две входные переменные.
+где коэффициенты $B_1$ и $B_2$ , определяющие наклон линии и точку
+пересечения $B_0$, находятся с помощью алгоритма обучения, а $X_1$ и $X_2$ -- две входные переменные.
 
 Линия гиперплоскости позволяет проводить классификацию. Используя
 уравнение линии, мы можем вставить входные значения и определить
@@ -469,10 +321,9 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/110}
+	\includegraphics[width=0.5\textwidth]{assets/110}
 	\caption*{}
 \end{figure}
-
 {\bfseries Рис. 1 -- Машины опорных векторов}
 
 Расстояние между линией и ближайшими точками данных определяется как
@@ -531,12 +382,9 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
 \item
   Энтропия (в случае бинарной классификации):
 \end{enumerate}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/112}
-	\caption*{}
-\end{figure} (8)
+\begin{equation}
+	E(p)= - p*\log2(p)-(1-p)*\log2(1-p)
+\end{equation}
 
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
@@ -545,17 +393,11 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
   Коэффициент Джини:
 \end{enumerate}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/113}
-	\caption*{}
-\end{figure} (9)
+\begin{equation}
+	G(p)= 1 - (p^2 + (1 - p)^2)
+\end{equation}
 
-где\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/114}
-	\caption*{}
-\end{figure}-- вероятность того, что случайно
+где $P$-- вероятность того, что случайно
 выбранный элемент из узла будет принадлежать классу 1. Таким образом,
 если все элементы в узле принадлежат к одному классу (т.е. узел
 «чистый»), энтропия и коэффициент Джини будут равны 0. Если данные
@@ -590,12 +432,7 @@ w_1x_1+w_2x_2+\ldots w_ix_i+b=0
 переменной. Результаты экспериментов показали, что все рассмотренные
 модели демонстрируют ту или иную степень эффективности при решении
 задачи кредитного скоринга. В частности, модели KNN, Random Forest
-достигли высоких значений точности и
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/115}
-	\caption*{}
-\end{figure}-меры, что указывает на их
+достигли высоких значений точности и $F1$-меры, что указывает на их
 способность правильно классифицировать клиентов с низким и высоким
 кредитным риском. С другой стороны, модели SVM и логистической регрессии
 также показали приемлемые результаты, но их производительность оказалась
@@ -627,45 +464,29 @@ TN (True Negative) -- истинно отрицательный.
 модели, особенно когда представители разных классов встречаются с разной
 вероятностью (несбалансированная выборка). Точность рассчитывается по
 следующей формуле:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/116}
-	\caption*{}
-\end{figure} (10)
+\begin{equation}
+	Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
+\end{equation}
 
 \emph{Точность(Precision)} -- это доля объектов, которые классификатор
 называет положительными и которые на самом деле являются положительными.
 Рассчитывается по формуле:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/117}
-	\caption*{}
-\end{figure} (11)
+\begin{equation}
+	Precision = \frac{TP}{TP + FP }
+\end{equation}
 
 \emph{Полнота(Recall)} -- доля объектов положительного класса от всех
 объектов положительного класса, найденных алгоритмом. Он рассчитывается
 по формуле:
+\begin{equation}
+	Recall = \frac{TP}{TP + FN }
+\end{equation}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/118}
-	\caption*{}
-\end{figure} (12)
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/119}
-	\caption*{}
-\end{figure}оценка -- среднее гармоническое
+$F1$ оценка -- среднее гармоническое
 значение точности и полноты:
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/120}
-	\caption*{}
-\end{figure} (13)
+\begin{equation}
+	F1Score = \frac{2\cdot(Precision \cdot Recall}{Precision + Recall }
+\end{equation}
 
 Матрица путаницы -- это матричная таблица, используемая для оценки
 эффективности классификатора. Обычно он указывает количество правильных
@@ -724,11 +545,7 @@ Positive/Negative \\
 \end{figure}
 
 {\bfseries Рис. 5- Результаты}
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/92}
-	\caption*{}
-\end{figure}{\bfseries ближайщих соседей (KNN)}
+$k$ {\bfseries ближайщих соседей (KNN)}
 
 \begin{figure}[H]
 	\centering
@@ -787,11 +604,7 @@ Positive/Negative \\
 обработаны и прошли этапы очистки, масштабирования и преобразования для
 подготовки к обучению модели. В исследовании применялись четыре
 различных моделей машинного обучения: случайный лес, машины опорных
-векторов (SVM), \begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/125}
-	\caption*{}
-\end{figure}ближайших соседей
+векторов (SVM), $K$ ближайших соседей
 (KNN), логистическая регрессия. Каждая модель была обучена на обучающей
 выборке и протестирована на тестовой выборке. Эксперименты позволили нам
 сравнить производительность различных моделей и оценить их точность,
