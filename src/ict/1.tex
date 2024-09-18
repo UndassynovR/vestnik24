@@ -376,10 +376,10 @@ $k$-Nearest Neighbours (KNN) -- это тип
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/111}
-	\caption*{}
+	\caption*{\bfseries Рис. 2 -- Концептуальная основа классификатора случайного леса}
 \end{figure}
 
-{\bfseries Рис. 2 -- Концептуальная основа классификатора случайного леса}
+
 
 Существует несколько показателей, которые можно использовать для
 измерения «качества» разделения в дереве решений, и эти показатели также
@@ -528,10 +528,9 @@ Positive/Negative \\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/121}
-	\caption*{}
+	\caption*{\bfseries Рис. 3 - Результаты случайного леса}
 \end{figure}
 
-{\bfseries Рис. 3 - Результаты случайного леса}
 
 Результаты случайного леса (Random Forest): точность - хорошая, но
 увеличилось и количество ошибок второго рода. Эта модель редко
@@ -540,10 +539,9 @@ Positive/Negative \\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/122}
-	\caption*{}
+	\caption*{\bfseries Рис. 4 - Результаты машины опорных векторов (SVM)}
 \end{figure}
 
-{\bfseries Рис. 4 - Результаты машины опорных векторов (SVM)}
 
 Результаты SVM: эта модель показывает средние результаты при сравнении
 логистической регрессии и случайного леса.
@@ -551,19 +549,16 @@ Positive/Negative \\
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/123}
-	\caption*{}
+	\caption*{\bfseries Рис. 5- Результаты $k$ ближайщих соседей (KNN)}
 \end{figure}
 
-{\bfseries Рис. 5- Результаты}
-$k$ {\bfseries ближайщих соседей (KNN)}
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/124}
-	\caption*{}
+	\caption*{\bfseries Рис. 6 - Результаты логистической регрессии (LR)}
 \end{figure}
 
-{\bfseries Рис. 6 - Результаты логистической регрессии (LR)}
 
 Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
 типа, он достаточно мал, о чем свидетельствует показатель полноты.
@@ -571,38 +566,34 @@ $k$ {\bfseries ближайщих соседей (KNN)}
 
 {\bfseries Таблица 2 -- Результаты использованных моделей}
 
-% \begin{longtable}[]{@{}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2748}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1858}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1942}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}@{}}
-% \toprule\noalign{}
-% \begin{minipage}[b]{\linewidth}\raggedright
-% Модели
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% Accuracy
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% Precision
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% Recall
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% F1-score
-% \end{minipage} \\
-% \midrule\noalign{}
-% \endhead
-% \bottomrule\noalign{}
-% \endlastfoot
-% Случайный лес (Random Forest) & 0.91 & 0.35 & 0.006 & 0.01 \\
-% Машины опорных векторов (SVM) & 0.68 & 0.17 & 0.71 & 0.28 \\
-% \begin{figure}[H]
-% 	\centering
-% 	\includegraphics[width=0.8\textwidth]{assets/92}
-% 	\caption*{}
-% \end{figure}-Ближайших соседей (KNN) & 0.69 &
-% 0.14 & 0.51 & 0.22 \\
-% Логистическая регрессия & 0.7 & 0.18 & 0.68 & 0.28 \\
-% \end{longtable}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2748}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1858}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1942}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Модели
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Accuracy
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Precision
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Recall
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+F1-score
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Случайный лес (Random Forest) & 0.91 & 0.35 & 0.006 & 0.01 \\
+Машины опорных векторов (SVM) & 0.68 & 0.17 & 0.71 & 0.28 \\
+$k$-Ближайших соседей (KNN) & 0.69 \\&
+0.14 & 0.51 & 0.22 \\
+Логистическая регрессия & 0.7 & 0.18 & 0.68 & 0.28 \\
+\end{longtable}
 
 {\bfseries Выводы.} В статье проведено исследование кредитного скоринга с
 использованием различных машинных алгоритмов. Основной целью
