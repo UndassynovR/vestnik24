@@ -277,10 +277,10 @@ FedAvg -- федералды оқытудың ең танымал алгорит
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/199}
-	\caption*{}
+	\caption*{\bfseries 1-сурет. FedAvg алгортмінің жұмыс істеу қадамдары}
 \end{figure}
 
-{\bfseries 1-сурет. FedAvg алгортмінің жұмыс істеу қадамдары}
+
 
 Алгоритмді Google Colab ортасында Python бағдарламалау тілінде іске
 асырылды, кодтың үзіндісі 2-суретте көрсетілген.
@@ -288,10 +288,10 @@ FedAvg -- федералды оқытудың ең танымал алгорит
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/200}
-	\caption*{}
+	\caption*{\bfseries 2-сурет. FedAvg алгортмінің псевдокоды}
 \end{figure}
 
-{\bfseries 2-сурет. FedAvg алгортмінің псевдокоды}
+
 
 FedAvg алгортмінің псевдокодындағы \emph{federated\_averagin} функциясы
 серверде федеративті орташалау үрдісін орындайды. Федеративті оқытуда
@@ -314,10 +314,10 @@ FedAvg - бұл IoT құрылғыларының өзра әрекеттесу �
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.8\textwidth]{assets/201}
-	\caption*{}
+	\caption*{\bfseries 3-сурет. Ұсынылған жүйе.}
 \end{figure}
 
-{\bfseries 3-сурет. Ұсынылған жүйе.}
+
 
 Осы жұмыста ұсынылған федеративті оқыту әдісі IoT құрылғылар
 желілеріндегі DDoS шабуылдар қаншалықты төмендететінін анықтау үшін
@@ -340,33 +340,28 @@ Precision - модельдің жалған оң нәтижелерді азай
 болды (Сурет 4b). Модельдің шынайы оң жағдайларды анықтау қабілеті
 90,0\% орта көрсеткішке жетті (Сурет 4c).
 
-% \begin{longtable}[]{@{}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3334}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{0.3333}}@{}}
-% \toprule\noalign{}
-% \endhead
-% \bottomrule\noalign{}
-% \endlastfoot
-% \begin{figure}[H]
-% 	\centering
-% 	\includegraphics[width=0.8\textwidth]{assets/202}
-% 	\caption*{}
-% \end{figure} &
-% \begin{figure}[H]
-% 	\centering
-% 	\includegraphics[width=0.8\textwidth]{assets/203}
-% 	\caption*{}
-% \end{figure} &
-% \begin{figure}[H]
-% 	\centering
-% 	\includegraphics[width=0.8\textwidth]{assets/204}
-% 	\caption*{}
-% \end{figure} \\
-% a) Accuracy & b) Precision & c) Recall \\
-% \multicolumn{3}{@{}>{\raggedright\arraybackslash}p{(\columnwidth - 4\tabcolsep) * \real{1.0000} + 4\tabcolsep}@{}}{%
-% {\bfseries 4-сурет. Бағалау көрсеткіштерінің құрылғыларға қатысты мәні}} \\
-% \end{longtable}
+\begin{figure}[H]
+  \centering
+  \begin{minipage}{0.3\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{assets/202}
+      \caption*{a) Accuracy}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.3\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{assets/203}
+      \caption*{b) Precision}
+  \end{minipage}
+  \hfill
+  \begin{minipage}{0.3\textwidth}
+      \centering
+      \includegraphics[width=\textwidth]{assets/204}
+      \caption*{c) Recall}
+  \end{minipage}
+  \caption*{\bfseries 4-сурет. Бағалау көрсеткіштерінің құрылғыларға қатысты мәні}
+\end{figure}
+
 
 Fedavg деректерді тарату теңдестірілген желілерде жақсы жұмыс істейтіні
 белгілі. Алайда, деректердің таралуы әр түрлі болатын жағдайларда оның
