@@ -2,8 +2,7 @@
 % -----------------
 
 % Font and language packages
-\usepackage{fontspec}       
-          % Kazakh and Russian fonts
+\usepackage{fontspec}                 % Kazakh and Russian fonts
 \usepackage{polyglossia}              % Multilingual support
 
 \setmainlanguage{russian}
@@ -14,7 +13,7 @@
 \setmonofont{FreeMono}
 
 % Hyperlink and color packages
-\usepackage[hidelinks]{hyperref}      % Hyperlinks within the document
+\usepackage{hyperref}      % Hyperlinks within the document
 \usepackage{xcolor}                   % Color support
 
 % Table packages
@@ -51,11 +50,10 @@
 \usepackage{titlesec}
 % Redefine the format of the section title
 \titleformat{\section}[block]{\centering\bfseries\large}{}{0pt}{}[]
-\titlespacing{\section}{0pt}{2em}{0pt} % Default space before, \parskip space after
 \titleformat{\chapter}[display]
-  {\centering\large\bfseries}{}{3pt}{\Large}
+  {\centering\large\bfseries}{}{3pt}{\large}
 % Decrease the top margin for chapter titles
-\titlespacing*{\chapter}{0pt}{-60pt}{20pt}
+\titlespacing*{\chapter}{0pt}{-100pt}{1em}
 % Additional packages
 % -------------------
 
@@ -67,7 +65,10 @@
 \hypersetup{
     colorlinks=true,                   % Color links instead of boxes
     linkcolor=black,                    % Color of internal links
-    urlcolor=blue!80!black               % Color of external links
+    urlcolor=blue!80!black,               % Color of external links
+    bookmarks=true,
+    bookmarksopen=true,
+    bookmarksnumbered=true,
 }
 
 % Graphics path
@@ -107,21 +108,21 @@
 
 \usepackage{mdframed}
 
+\renewcommand{\part}[1]{\addcontentsline{toc}{part}{#1}}
+
 \newcommand{\sectionwithauthors}[2]{%
-  \addcontentsline{toc}{section}{#1 \\ #2}%
   \section*{#2}%
-  \setcounter{figure}{0}
-  \setcounter{table}{0}
-  \setcounter{equation}{0}
+  \addcontentsline{toc}{section}{%
+    \protect\numberline{}%
+    #1 \\ % Authors
+    \protect\numberline{}%
+    \normalfont\normalsize\itshape #2 % Section Title
+  }%
+  \setcounter{figure}{0}%
+  \setcounter{table}{0}%
+  \setcounter{equation}{0}%
 }
 
-\newcommand{\shortsectionwithauthors}[3]{%
-  \addcontentsline{toc}{section}{#1 \\ #3}%
-  \section*{#2}%
-  \setcounter{figure}{0}
-  \setcounter{table}{0}
-  \setcounter{equation}{0}
-}
 % Front page
 \usepackage{pdfpages}
 
@@ -130,18 +131,54 @@
 \renewcommand{\thefigure}{\arabic{figure}}
 \DeclareCaptionLabelFormat{figureformat}{#1 #2}
 \DeclareCaptionLabelSeparator{figureformat}{ - }
-\captionsetup[figure]{labelformat=figureformat, labelsep=figureformat, justification=centering}
+\captionsetup[figure]{font={bf, small}, labelformat=figureformat, labelsep=figureformat, justification=centering}
 
 % Таблица 1 -
 \numberwithin{table}{section}
 \renewcommand{\thetable}{\arabic{table}}
 \DeclareCaptionLabelFormat{tableformat}{Таблица #2}
 \DeclareCaptionLabelSeparator{tableformat}{ - }
-\captionsetup[table]{labelformat=tableformat, labelsep=tableformat, justification=centering}
+\captionsetup[table]{font={bf, small}, labelformat=tableformat, labelsep=tableformat, justification=centering}
 
 \renewcommand{\theequation}{\arabic{equation}}
 \newenvironment{noparindent}{%
   \setlength{\parindent}{0pt}%
 }{%
   \setlength{\parindent}{2pt}%
+}
+% Define the aliases for superscript and subscript
+\newcommand{\tsp}[1]{\textsuperscript{#1}}
+\newcommand{\tsb}[1]{\textsubscript{#1}}
+
+\usepackage{makecell}
+
+\newcommand{\envelope}{\textsuperscript{\includegraphics[width=1em]{envelope}}}
+
+
+\titleformat{\section}[block]{\normalfont\centering\fontsize{11}{13}\selectfont\bfseries}{}{0pt}{}
+
+\titlespacing{\section}{0pt}{1em}{1em}
+
+\newcommand{\smal}{\fontsize{11}{13}\selectfont}
+
+\newenvironment{authors}{
+    \begin{center}
+    \fontsize{11}{13}\selectfont
+    \bfseries
+}{
+    \vspace{-\baselineskip}
+    \end{center}
+}
+
+\newenvironment{affiliations}{%
+  \begin{center}
+    \fontsize{10}{12}\selectfont
+}{%
+  \end{center}
+}
+
+\newcommand{\sectionheading}[1]{%
+  \begin{center}
+    {\fontsize{11}{13}\selectfont\textbf{#1}}%
+  \end{center}
 }
