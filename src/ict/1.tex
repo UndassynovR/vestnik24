@@ -1,11 +1,11 @@
 \newpage
 {\bfseries МРНТИ 20.23.17}
 
-\begin{center}
 
-{\large\bfseries ИССЛЕДОВАНИЕ СИСТЕМ КРЕДИТНОГО СКОРИНГА С ИСПОЛЬЗОВАНИЕМ
+\sectionwithauthors{Д.К. Даркенбаев,Г.З.Зиятбекова, А. Алтыбай, Н.О. Мекебаев,Д.С.Жамангарин}{ИССЛЕДОВАНИЕ СИСТЕМ КРЕДИТНОГО СКОРИНГА С ИСПОЛЬЗОВАНИЕМ
 АЛГОРИТМОВ МАШИННОГО ОБУЧЕНИЯ}
 
+\begin{center}
 {\bfseries \textsuperscript{1}Д.К. Даркенбаев, \textsuperscript{1}Г.З.
 Зиятбекова\textsuperscript{🖂}, \textsuperscript{1}А. Алтыбай,
 \textsuperscript{2}Н.О. Мекебаев, \textsuperscript{3}Д.С.Жамангарин}
@@ -16,11 +16,10 @@
 \textsuperscript{2}Казахский национальный женский педагогический
 университет, Алматы, Казахстан,
 
-Казахский университет технологии и бизнеса им.К.Кулажанова, Астана,
+\textsuperscript{3}Казахский университет технологии и бизнеса им.К.Кулажанова, Астана,
 Казахстан
 
-
-{\bfseries \textsuperscript{🖂}}Корреспондент-автор: ziyatbekova@mail.ru
+Корреспондент-автор: \emph{ziyatbekova@mail.ru}
 \end{center}
 
 В статье использовались алгоритмы машинного обучения для решения задач
@@ -117,6 +116,9 @@ process and reduce the risks of financial organizations. The authors of
 the article plan to continue research in this area.
 
 {\bfseries Key words:} methods, technology, data, algorithm, analysis.
+
+
+\begin{multicols}{2}
 
 {\bfseries Введение}. Кредитный скоринг играет важную роль в современном
 финансовом секторе Казахстана. Встроенная в процесс принятия кредитных
@@ -329,12 +331,16 @@ $k$-Nearest Neighbours (KNN) -- это тип
 4) Если значение велико, это указывает на большую уверенность модели в
 своем прогнозе.
 
+\end{multicols}
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{assets/110}
-	\caption*{}
+	\includegraphics[width=0.4\textwidth]{assets/110}
+	\caption*{\bfseries Рис. 1 -- Машины опорных векторов}
 \end{figure}
-{\bfseries Рис. 1 -- Машины опорных векторов}
+
+
+\begin{multicols}{2}
 
 Расстояние между линией и ближайшими точками данных определяется как
 «запас». Идеальная или оптимальная линия, которая может эффективно
@@ -372,14 +378,16 @@ $k$-Nearest Neighbours (KNN) -- это тип
 Однако следует отметить, что при работе со Random Forest нам не нужно
 обрабатывать каждое дерево отдельно. Мы просто обучаем модель на данных,
 и она автоматически создает и объединяет все деревья.
+\end{multicols}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/111}
-	\caption*{}
+	\includegraphics[width=0.4\textwidth]{assets/111}
+	\caption*{\bfseries Рис. 2 -- Концептуальная основа классификатора случайного леса}
 \end{figure}
 
-{\bfseries Рис. 2 -- Концептуальная основа классификатора случайного леса}
+\begin{multicols}{2}
+
 
 Существует несколько показателей, которые можно использовать для
 измерения «качества» разделения в дереве решений, и эти показатели также
@@ -503,6 +511,9 @@ $F1$ оценка -- среднее гармоническое
 и неправильных результатов алгоритма классификации. Он также
 предоставляет информацию об ошибках первого и второго порядка {[}13{]}.
 
+\end{multicols}
+
+
 {\bfseries Таблица 1 -- Матрица путаницы}
 
 \begin{longtable}[]{@{}
@@ -525,13 +536,15 @@ False Negative(Type 2) & True Negative & Predicted --
 Positive/Negative \\
 \end{longtable}
 
+\begin{multicols}{2}
+
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/121}
-	\caption*{}
+	\includegraphics[width=0.5\textwidth]{assets/121}
+	\caption*{\bfseries Рис. 3 - Результаты случайного леса}
 \end{figure}
 
-{\bfseries Рис. 3 - Результаты случайного леса}
 
 Результаты случайного леса (Random Forest): точность - хорошая, но
 увеличилось и количество ошибок второго рода. Эта модель редко
@@ -539,70 +552,72 @@ Positive/Negative \\
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/122}
-	\caption*{}
+	\includegraphics[width=0.5\textwidth]{assets/122}
+	\caption*{\bfseries Рис. 4 - Результаты машины опорных векторов (SVM)}
 \end{figure}
 
-{\bfseries Рис. 4 - Результаты машины опорных векторов (SVM)}
+
 
 Результаты SVM: эта модель показывает средние результаты при сравнении
 логистической регрессии и случайного леса.
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/123}
-	\caption*{}
-\end{figure}
 
-{\bfseries Рис. 5- Результаты}
-$k$ {\bfseries ближайщих соседей (KNN)}
+
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.8\textwidth]{assets/124}
-	\caption*{}
+	\includegraphics[width=0.5\textwidth]{assets/123}
+	\caption*{\bfseries Рис. 5- Результаты $k$ ближайщих соседей (KNN)}
 \end{figure}
 
-{\bfseries Рис. 6 - Результаты логистической регрессии (LR)}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.5\textwidth]{assets/124}
+	\caption*{\bfseries Рис. 6 - Результаты логистической регрессии (LR)}
+\end{figure}
+
+
 
 Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
 типа, он достаточно мал, о чем свидетельствует показатель полноты.
 Точность приемлемая.
 
+\end{multicols}
+
 {\bfseries Таблица 2 -- Результаты использованных моделей}
 
-% \begin{longtable}[]{@{}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2748}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1858}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1942}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}
-%   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}@{}}
-% \toprule\noalign{}
-% \begin{minipage}[b]{\linewidth}\raggedright
-% Модели
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% Accuracy
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% Precision
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% Recall
-% \end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-% F1-score
-% \end{minipage} \\
-% \midrule\noalign{}
-% \endhead
-% \bottomrule\noalign{}
-% \endlastfoot
-% Случайный лес (Random Forest) & 0.91 & 0.35 & 0.006 & 0.01 \\
-% Машины опорных векторов (SVM) & 0.68 & 0.17 & 0.71 & 0.28 \\
-% \begin{figure}[H]
-% 	\centering
-% 	\includegraphics[width=0.8\textwidth]{assets/92}
-% 	\caption*{}
-% \end{figure}-Ближайших соседей (KNN) & 0.69 &
-% 0.14 & 0.51 & 0.22 \\
-% Логистическая регрессия & 0.7 & 0.18 & 0.68 & 0.28 \\
-% \end{longtable}
+\begin{longtable}[]{@{}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2748}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1858}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1942}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}
+  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1726}}@{}}
+\toprule\noalign{}
+\begin{minipage}[b]{\linewidth}\raggedright
+Модели
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Accuracy
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Precision
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+Recall
+\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
+F1-score
+\end{minipage} \\
+\midrule\noalign{}
+\endhead
+\bottomrule\noalign{}
+\endlastfoot
+Случайный лес (Random Forest) & 0.91 & 0.35 & 0.006 & 0.01 \\
+Машины опорных векторов (SVM) & 0.68 & 0.17 & 0.71 & 0.28 \\
+$k$-Ближайших соседей (KNN) & 0.69 \\&
+0.14 & 0.51 & 0.22 \\
+Логистическая регрессия & 0.7 & 0.18 & 0.68 & 0.28 \\
+\end{longtable}
+
+\begin{multicols}{2}
 
 {\bfseries Выводы.} В статье проведено исследование кредитного скоринга с
 использованием различных машинных алгоритмов. Основной целью
@@ -645,7 +660,13 @@ KNN, SVM LightGBM в свою систему кредитного скоринг
 повысить качество и достоверность прогноза погашения кредита и снизить
 риск для банка.
 
+\end{multicols}
+
+\begin{center}
 {\bfseries Литература}
+\end{center}
+
+\begin{noparindent}
 
 1.G.T.Balakayeva, D.K.Darkenbayev, C.Phillips. Investigation of
 technologies of processing of BigData//International Journal of
@@ -699,6 +720,9 @@ Association.-1963.-No.58.-P.799-806.
 
 13. David W. Hosmer,~Stanley Lemeshow Applied logistic regression. -
 N.-Y.: John Wiley and Sons, 2000. - P.1162-1163. DOI:10.1002/0471722146
+\end{noparindent}
+
+\begin{noparindent}
 
 \emph{{\bfseries Сведения об авторах}}
 
@@ -709,7 +733,8 @@ N.-Y.: John Wiley and Sons, 2000. - P.1162-1163. DOI:10.1002/0471722146
 им. аль-Фараби, Алмата, Казахстан, e-mail: ziyatbekova@mail.ru;
 
 Алтыбай А. - PhD, и.о. доцента, Казахский национальный университет им.
-аль-Фараби, Алмата, Казахстан, e-mail: arshyn.altybay@gmail.com;
+аль-Фараби, Алмата, Казахстан,
+\\e-mail: arshyn.altybay@gmail.com;
 
 Мекебаев Н.О.-PhD, ассоциированный профессор, Казахский национальный
 женский педагогический университет, Алматы, Казахстан, e-mail:
@@ -717,22 +742,32 @@ nurbapa@mail.ru
 
 Жамангарин Д. С.- PhD, Казахский университет технологии и бизнеса имени
 К. Кулажанова, Астана, Казахстан, е-mail: Dus\_man89@mail.ru
+\end{noparindent}
+
+
 
 \emph{{\bfseries Information about the authors}}
 
+\begin{noparindent}
+
 Dauren D.-PhD, Acting Associate Professor Al-Farabi Kazakh National
-University, Almaty, Kazakhstan,e-mail: dauren.kadyrovich@gmail.com;
+University, Almaty, Kazakhstan, 
+\\e-mail: dauren.kadyrovich@gmail.com;
 
 Ziyatbekova G{\bfseries .-} PhD, Acting Associate Professor Al-Farabi
-Kazakh National University, Almaty, Kazakhstan,e-mail:
-ziyatbekova@mail.ru;
+Kazakh National University, Almaty, Kazakhstan,
+\\e-mail:ziyatbekova@mail.ru;
 
 Altybay A.-PhD, Acting Associate Professor Al-Farabi Kazakh National
-University, Almaty, Kazakhstan, e-mail: arshyn.altybay@gmail.com;
+University, Almaty, Kazakhstan,
+\\e-mail: arshyn.altybay@gmail.com;
 
 Nurbapa M.-PhD, Associate Professor of the Department of Computer
 Science, Kazakh National Women\textquotesingle s Pedagogical University,
-Almaty, Kazakhstan, e-mail: nurbapa@mail.ru
+Almaty, Kazakhstan,
+\\e-mail: nurbapa@mail.ru
 
 Zhamangarin D. S.-PhD, K. Kulazhanov Kazakh University of Technology and
-Business, Astana, Kazakhstan, е-mail: Dus\_man89@mail.ru.
+Business, Astana, Kazakhstan,
+\\е-mail: Dus\_man89@mail.ru.
+\end{noparindent}
