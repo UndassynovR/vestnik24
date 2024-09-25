@@ -317,8 +317,9 @@ matrix. The required state at the final time can be specified as fixed
 
 The optimal control problem is considered, including control constraints
 (5) with fixed (7) or variable boundaries (8). Currently, solving such
-problems is accompanied by many mathematical difficulties. Various
-formulations of optimal control problems will be considered. The task is
+problems is accompanied by many mathematical difficulties. 
+
+Various formulations of optimal control problems will be considered. The task is
 to minimize the functional (8) under the constraints (4), (5), (6), and
 (7). The time moment \(T\) is considered given (fixed).
 
@@ -442,35 +443,31 @@ obtain the analytical form of the original and conjugate systems of
 differential equations, the form of the Hamiltonian function for the UAV
 mathematical model (1)-(3):
 
-H=10.*ux\^{}2+10.*uy\^{}2+(9.80*ux-9.80*sin(O))*fi1+(5.15*uy-9.80*cos(O))/V*fi2-8.34*uy/V/cos(O)*fi3+V*cos(O)*cos(K)*fi4+V*sin(O)*fi5-1.*V*cos(O)*sin(K)*fi6
 
-f1=9.80*ux-9.80*sin(O)
+\begin{lstlisting}
+  H=10.*ux^2+10.*uy^2+(9.80*ux-9.80*sin(O))*fi1+(5.15*uy-9.80*cos(O))/V*fi2-8.34*uy/V/cos(O)*fi3+V*cos(O)*cos(K)*fi4+V*sin(O)*fi5-1.*V*cos(O)*sin(K)*fi6
 
-f2=(5.15*uy-9.80*cos(O))/V
+f1 = 9.80*ux - 9.80*sin(O);
+f2 = (5.15*uy - 9.80*cos(O))/V;
+f3 = -8.34*uy/V/cos(O);
+f4 = V*cos(O)*cos(K);
+f5 = V*sin(O);
+f6 = -1.*V*cos(O)*sin(K);
 
-f3=-8.34*uy/V/cos(O)
+fp1=(5.15*uy-9.80*cos(O))/V^2*fi2-8.34*uy/V^2/cos(O)*fi3-1.*cos(O)*cos(K)*fi4-1.*sin(O)*fi5+cos(O)*sin(K)*fi6
 
-f4=V*cos(O)*cos(K)
+fp2=9.80*cos(O)*fi1-9.80*sin(O)/V*fi2+8.34*uy/V/cos(O)^2*fi3*sin(O)+V*sin(O)*cos(K)*fi4-1.*V*cos(O)*fi5-1.*V*sin(O)*sin(K)*fi6
 
-f5=V*sin(O)
+fp3 = V*cos(O)*sin(K)*fi4 + V*cos(O)*cos(K)*fi6;
 
-f6=-1.*V*cos(O)*sin(K)
+fp4 = 0;
+fp5 = 0;
+fp6 = 0;
 
-fp1=(5.15*uy-9.80*cos(O))/V\^{}2*fi2-8.34*uy/V\^{}2/cos(O)*fi3-1.*cos(O)*cos(K)*fi4-1.*sin(O)*fi5+cos(O)*sin(K)*fi6
+H1 = -20.*ux - 9.80*fi1;
+H2 = -20.*uy - 5.15/V*fi2 + 8.34/V/cos(O)*fi3;
 
-fp2=9.80*cos(O)*fi1-9.80*sin(O)/V*fi2+8.34*uy/V/cos(O)\^{}2*fi3*sin(O)+V*sin(O)*cos(K)*fi4-1.*V*cos(O)*fi5-1.*V*sin(O)*sin(K)*fi6
-
-fp3=V*cos(O)*sin(K)*fi4+V*cos(O)*cos(K)*fi6
-
-fp4=0
-
-fp5=0
-
-fp6=0
-
-H1=-20.*ux-9.80*fi1
-
-H2=-20.*uy-5.15/V*fi2+8.34/V/cos(O)*fi3
+\end{lstlisting}
 
 Here f1,\ldots,f6 is the view of the right side of the initial system of
 differential equations, fp1,\ldots,fp6 is the view of the right side of
@@ -482,27 +479,21 @@ which performs numerical calculations to find the optimal control.
 The results of the program are output to the file "rez.txt," a fragment
 of which is provided below:
 
-T=1,00 nt=1000
-
--10,00\textless=U1\textless=10,00
-
--5,00\textless=U2\textless=5,00
-
-x0 = 8,00; = 1,00; = 3,00; = 5,00; = 1,00; = 3,00;
-
-xk = 4,00; = 0,50; = 1,50; = 2,50; = 0,50; = 1,50;
-
-F1 == 1009,53 11276,69 11276,69
-
-F2 == 1164,04 20148,99 10102,31
-
-F3 == 1191,48 40409,25 10874,49
-
-F4 == 1127,07 42853,26 5356,66
-
-F5 == 1250,00 184817,12 4551,07
-
-F6 == 1244,47 321606,47 3050,20
+\begin{lstlisting}
+  T=1,00 nt=1000
+  -10,00<=U1<=10,00
+  -5,00<=U2<=5,00
+  x0 = 8,00;  = 1,00;  = 3,00;  = 5,00;  = 1,00;  = 3,00; 
+  xk = 4,00;  = 0,50;  = 1,50;  = 2,50;  = 0,50;  = 1,50;
+  
+  F1 ==   1009,53  11276,69  11276,69
+  F2 ==   1164,04  20148,99  10102,31
+  F3 ==   1191,48  40409,25  10874,49
+  F4 ==   1127,07  42853,26  5356,66
+  F5 ==   1250,00  184817,12  4551,07
+  F6 ==   1244,47  321606,47  3050,20
+  
+\end{lstlisting}
 
 A total of 6 functionals F1,\ldots,F6. were calculated. As can be seen
 from the last column, the difference between the specified and final
