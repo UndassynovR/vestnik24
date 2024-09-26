@@ -8,9 +8,7 @@
 
 {\bfseries \textsuperscript{1}A.T. Mazakova, \textsuperscript{1}Sh.A.
 Jomartova, \textsuperscript{1,2}T.Zh. Mazakov\textsuperscript{🖂}, G.Ch.
-\textsuperscript{3} Toikenov,}
-
-{\bfseries \textsuperscript{2}M.S. Aliaskar}
+\textsuperscript{3} Toikenov, \textsuperscript{2}M.S. Aliaskar}
 
 ¹Kazakh National University named after Al-Farabi, Almaty, Kazakhstan,
 
@@ -19,9 +17,9 @@ Kazakhstan,
 
 ³Kazakh National Women\textquotesingle s Pedagogical University, Almaty,
 Kazakhstan
-
-Corresponding author: \emph{ tmazakov@mail.ru}
 \end{center}
+Corresponding author: \emph{ tmazakov@mail.ru}
+
 
 The main objective of this work is to develop algorithms and software
 solutions for finding optimal control strategies for an unmanned aerial
@@ -33,15 +31,13 @@ economic and technical systems.
 
 {\bfseries Key words}: UAV, dynamics, mathematical model, controllability,
 stability.
+
+
+\sectionheading{ҰШҚЫШСЫЗ ҰШУ АППАРАТЫН ОҢТАЙЛЫ БАСҚАРУ}
 \begin{center}
-
-{\bfseries ҰШҚЫШСЫЗ ҰШУ АППАРАТЫН ОҢТАЙЛЫ БАСҚАРУ}
-
 {\bfseries \textsuperscript{1}А.Т. Мазақова,
 \textsuperscript{1}Ш.А.Джомартова, \textsuperscript{1,2}Т.Ж.
-Мазаков\textsuperscript{🖂}, \textsuperscript{3}Г.Ч. Тойкенов,}
-
-{\bfseries \textsuperscript{2}М.С. Әлиаскар}
+Мазаков\textsuperscript{🖂}, \textsuperscript{3}Г.Ч. Тойкенов, \textsuperscript{2}М.С. Әлиаскар}
 
 \textsuperscript{1}Әл-Фараби атындағы Қазақ ұлттық университеті, Алматы,
 Қазақстан,
@@ -66,15 +62,13 @@ stability.
 
 {\bfseries Түйін сөздер:} ҰҰА, динамика, математикалық модель,
 басқарылғыштық, тұрақтылық.
+
+
+\sectionheading{ОПТИМАЛЬНОЕ УПРАВЛЕНИЕ БЕСПИЛОТНЫМ ЛЕТАТЕЛЬНЫМ АППАРАТОМ}
 \begin{center}
-
-{\bfseries ОПТИМАЛЬНОЕ УПРАВЛЕНИЕ БЕСПИЛОТНЫМ ЛЕТАТЕЛЬНЫМ АППАРАТОМ}
-
 {\bfseries \textsuperscript{1}А.Т. Мазакова,
 \textsuperscript{1}Ш.А.Джомартова, \textsuperscript{1,2}Т.Ж.
-Мазаков\textsuperscript{🖂}, \textsuperscript{3}Тойкенов Г.Ч.,}
-
-{\bfseries \textsuperscript{2}М.С. Алиаскар}
+Мазаков\textsuperscript{🖂}, \textsuperscript{3}Тойкенов Г.Ч., \textsuperscript{2}М.С. Алиаскар}
 
 \textsuperscript{1}Казахский национальный университет имени аль-Фараби,
 Алматы, Казахстан,
@@ -94,11 +88,12 @@ stability.
 представлена системой обыкновенных дифференциальных уравнений. Используя
 принцип максимума, был разработан алгоритм для определения оптимального
 управления. Представленные методы и модели обладают высокой практической
-значимостью для управления различными экономическими и техническими
+значимостью для управления различными экономи-ческими и техническими
 системами.
 
 {\bfseries Ключевые слова}: БПЛА, динамика, математическая модель,
 управляемость, устойчивость.
+\begin{multicols}{2}
 
 {\bfseries Introduction.} Unmanned aviation is actively developing
 worldwide due to the growing demand for lightweight, relatively
@@ -120,6 +115,7 @@ minimizing a certain quality functional.
 
 {\bfseries Materials and Methods.} The work is devoted to the study of
 optimal control of the mathematical model of UAV dynamics:
+\end{multicols}
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9470}}
@@ -153,44 +149,49 @@ optimal control of the mathematical model of UAV dynamics:
 \end{minipage} \\
 \end{longtable}
 
+\begin{multicols}{2}
+
 Where:
 
-\begin{itemize}
-\item
-  \emph{x, y, z} are the coordinates of the aircraft\textquotesingle s
-  center of mass in the normal Earth coordinate system;
-\item
-  \emph{V} is the flight speed;
-\item
-  \emph{ϴ} is the trajectory angle;
-\item
-  \emph{Ψ} is the course angle;
-\item
-  \emph{α} is the angle of attack;
-\item
-  \emph{γ} is the roll angle;
-\item
-  \emph{P} is the engine thrust;
-\item
-  \(X_{a}\) is aerodynamic drag;
-\item
-  \(Y_{a}\) is aerodynamic lift;
-\item
-  \emph{m} is the mass of the aircraft;
-\item
-  \emph{g} is gravitational acceleration;
-\item
-  \(n_{xa}\) is the longitudinal overload;
-\item
-  \(n_{ya}\) is the lateral overload (in flow axes of coordinates)
-  {[}6-7{]}.
-\end{itemize}
+\begin{minipage}[t]{0.45\textwidth}
+  \begin{itemize}
+    \setlength{\itemindent}{1cm}
+    \item \emph{x, y, z} are the coordinates of the aircraft’s center of mass in the normal Earth coordinate system;
+    \item \emph{V} is the flight speed;
+    \item \emph{ϴ} is the trajectory angle;
+    \item \emph{Ψ} is the course angle;
+    \item \emph{α} is the angle of attack;
+    \item \emph{γ} is the roll angle;
+    \item \emph{P} is the engine thrust;
+  \end{itemize}
+  \end{minipage}%
+  \hfill
+  \begin{minipage}[t]{0.45\textwidth}
+  \begin{itemize}
+    \setlength{\itemindent}{1cm}
+    
+    \item \(X_{a}\) is aerodynamic drag;
+    \item \(Y_{a}\) is aerodynamic lift;
+    \item \emph{m} is the mass of the aircraft;
+    \item \emph{g} is gravitational acceleration;
+    \item \(n_{xa}\) is the longitudinal overload;
+    \item \(n_{ya}\) is the lateral overload (in flow axes of coordinates) {[}6-7{]}.
+  \end{itemize}
+  \end{minipage}
+  
+
+
+
+
 
 Overloads \(n_{xa}\), \(n_{ya}\) and the roll angle \emph{γ} are taken
 as control variables in (1).
 
+\newpage
+
 We introduce the following notation:
 
+\end{multicols}
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9470}}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.0530}}@{}}
@@ -234,19 +235,16 @@ z_{1}
 \end{minipage} \\
 \end{longtable}
 
+
+
 The system of equations (1) is rewritten as the following system of
 nonlinear ordinary differential equations:
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9483}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.0517}}@{}}
-
-\begin{minipage}[b]{\linewidth}\raggedright
-\(\dot{\mathbf{x}}\mathbf{= f}\left( \mathbf{x,t} \right)\mathbf{+ Bu(t)}\).
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-(4)
-\end{minipage} \\
-\end{longtable}
+\begin{equation}
+  \dot{\mathbf{x}} = \mathbf{f}\left( \mathbf{x,t} \right) + \mathbf{Bu(t)}.
+  \tag{4}
+  \end{equation}
+  
 
 Where:
 
@@ -260,7 +258,9 @@ Where:
   u is scalar control.
 \end{itemize}
 
+
 Control is subject to constraints:
+
 
 \begin{longtable}[]{@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9470}}
@@ -275,27 +275,16 @@ Control is subject to constraints:
 The problem is to find a control satisfying constraint (5) that
 transfers the system from the initial state
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9470}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.0530}}@{}}
-\begin{minipage}[b]{\linewidth}\raggedright
-\(x\left( t_{0} \right) = x_{0}\).
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-(6)
-\end{minipage} \\
-\end{longtable}
-
+\begin{equation}
+  x\left( t_{0} \right) = x_{0}.
+  \tag{6}
+  \end{equation}
 to the final specified state
 
-\begin{longtable}[]{@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.9470}}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.0530}}@{}}
-\begin{minipage}[b]{\linewidth}\raggedright
-\(x\left( t_{1} \right) = x_{1}\).
-\end{minipage} & \begin{minipage}[b]{\linewidth}\raggedright
-(7)
-\end{minipage} \\
-\end{longtable}
+\begin{equation}
+  x(t_1) = x_1 \tag{7}
+  \end{equation}
+  
 
 within a fixed time \(t_{1} - t_{0}\).
 
@@ -328,8 +317,9 @@ matrix. The required state at the final time can be specified as fixed
 
 The optimal control problem is considered, including control constraints
 (5) with fixed (7) or variable boundaries (8). Currently, solving such
-problems is accompanied by many mathematical difficulties. Various
-formulations of optimal control problems will be considered. The task is
+problems is accompanied by many mathematical difficulties. 
+
+Various formulations of optimal control problems will be considered. The task is
 to minimize the functional (8) under the constraints (4), (5), (6), and
 (7). The time moment \(T\) is considered given (fixed).
 
@@ -453,35 +443,31 @@ obtain the analytical form of the original and conjugate systems of
 differential equations, the form of the Hamiltonian function for the UAV
 mathematical model (1)-(3):
 
-H=10.*ux\^{}2+10.*uy\^{}2+(9.80*ux-9.80*sin(O))*fi1+(5.15*uy-9.80*cos(O))/V*fi2-8.34*uy/V/cos(O)*fi3+V*cos(O)*cos(K)*fi4+V*sin(O)*fi5-1.*V*cos(O)*sin(K)*fi6
 
-f1=9.80*ux-9.80*sin(O)
+\begin{lstlisting}
+  H=10.*ux^2+10.*uy^2+(9.80*ux-9.80*sin(O))*fi1+(5.15*uy-9.80*cos(O))/V*fi2-8.34*uy/V/cos(O)*fi3+V*cos(O)*cos(K)*fi4+V*sin(O)*fi5-1.*V*cos(O)*sin(K)*fi6
 
-f2=(5.15*uy-9.80*cos(O))/V
+f1 = 9.80*ux - 9.80*sin(O);
+f2 = (5.15*uy - 9.80*cos(O))/V;
+f3 = -8.34*uy/V/cos(O);
+f4 = V*cos(O)*cos(K);
+f5 = V*sin(O);
+f6 = -1.*V*cos(O)*sin(K);
 
-f3=-8.34*uy/V/cos(O)
+fp1=(5.15*uy-9.80*cos(O))/V^2*fi2-8.34*uy/V^2/cos(O)*fi3-1.*cos(O)*cos(K)*fi4-1.*sin(O)*fi5+cos(O)*sin(K)*fi6
 
-f4=V*cos(O)*cos(K)
+fp2=9.80*cos(O)*fi1-9.80*sin(O)/V*fi2+8.34*uy/V/cos(O)^2*fi3*sin(O)+V*sin(O)*cos(K)*fi4-1.*V*cos(O)*fi5-1.*V*sin(O)*sin(K)*fi6
 
-f5=V*sin(O)
+fp3 = V*cos(O)*sin(K)*fi4 + V*cos(O)*cos(K)*fi6;
 
-f6=-1.*V*cos(O)*sin(K)
+fp4 = 0;
+fp5 = 0;
+fp6 = 0;
 
-fp1=(5.15*uy-9.80*cos(O))/V\^{}2*fi2-8.34*uy/V\^{}2/cos(O)*fi3-1.*cos(O)*cos(K)*fi4-1.*sin(O)*fi5+cos(O)*sin(K)*fi6
+H1 = -20.*ux - 9.80*fi1;
+H2 = -20.*uy - 5.15/V*fi2 + 8.34/V/cos(O)*fi3;
 
-fp2=9.80*cos(O)*fi1-9.80*sin(O)/V*fi2+8.34*uy/V/cos(O)\^{}2*fi3*sin(O)+V*sin(O)*cos(K)*fi4-1.*V*cos(O)*fi5-1.*V*sin(O)*sin(K)*fi6
-
-fp3=V*cos(O)*sin(K)*fi4+V*cos(O)*cos(K)*fi6
-
-fp4=0
-
-fp5=0
-
-fp6=0
-
-H1=-20.*ux-9.80*fi1
-
-H2=-20.*uy-5.15/V*fi2+8.34/V/cos(O)*fi3
+\end{lstlisting}
 
 Here f1,\ldots,f6 is the view of the right side of the initial system of
 differential equations, fp1,\ldots,fp6 is the view of the right side of
@@ -493,31 +479,26 @@ which performs numerical calculations to find the optimal control.
 The results of the program are output to the file "rez.txt," a fragment
 of which is provided below:
 
-T=1,00 nt=1000
-
--10,00\textless=U1\textless=10,00
-
--5,00\textless=U2\textless=5,00
-
-x0 = 8,00; = 1,00; = 3,00; = 5,00; = 1,00; = 3,00;
-
-xk = 4,00; = 0,50; = 1,50; = 2,50; = 0,50; = 1,50;
-
-F1 == 1009,53 11276,69 11276,69
-
-F2 == 1164,04 20148,99 10102,31
-
-F3 == 1191,48 40409,25 10874,49
-
-F4 == 1127,07 42853,26 5356,66
-
-F5 == 1250,00 184817,12 4551,07
-
-F6 == 1244,47 321606,47 3050,20
+\begin{lstlisting}
+  T=1,00 nt=1000
+  -10,00<=U1<=10,00
+  -5,00<=U2<=5,00
+  x0 = 8,00;  = 1,00;  = 3,00;  = 5,00;  = 1,00;  = 3,00; 
+  xk = 4,00;  = 0,50;  = 1,50;  = 2,50;  = 0,50;  = 1,50;
+  
+  F1 ==   1009,53  11276,69  11276,69
+  F2 ==   1164,04  20148,99  10102,31
+  F3 ==   1191,48  40409,25  10874,49
+  F4 ==   1127,07  42853,26  5356,66
+  F5 ==   1250,00  184817,12  4551,07
+  F6 ==   1244,47  321606,47  3050,20
+  
+\end{lstlisting}
 
 A total of 6 functionals F1,\ldots,F6. were calculated. As can be seen
 from the last column, the difference between the specified and final
 points decreases.
+\begin{multicols}{2}
 
 {\bfseries Results and Discussion}. Constructing the conjugate system of
 differential equations (11) for the original nonlinear system (1) is a
@@ -580,6 +561,8 @@ of the Research Institute of Mathematics and Mechanics at Al-Farabi
 Kazakh National University and grant funding for scientific research for
 2023--2025 under project AP19678157.}
 
+\end{multicols}
+
 \begin{center}
   {\bfseries References}
   \end{center}
@@ -589,7 +572,7 @@ Kazakh National University and grant funding for scientific research for
 
 1.Loginov A.A., Hvan A.A. Aktual\textquotesingle nost\textquotesingle{}
 ispol\textquotesingle zovanija bespilotnyh letatel\textquotesingle nyh
-apparatov// Aktual\textquotesingle nye problemy aviacii \\i kosmonavtiki.
+apparatov// Aktual\textquotesingle nye prob-lemy aviacii i kosmonavtiki.
 -- 2015.-T.1.- S.704 -705.{[}in Russ.{]}
 
 2. Husnutdinov T.D., Shherbakova A.V., Komarova P.A., Rublevskaja E.V.,
@@ -603,12 +586,12 @@ bespilotnyh transportnyh sredstv.- M.:DMK Press.- 2022.-246 s. ISBN
 978-5-97060-969-9. {[}in Russ.{]}
 
 4.Avgustov L.I i dr. Navigacija letatel\textquotesingle nyh apparatov v
-okolozemnom prostranstve. -- M.: OOO «Nauchtehlitizdat», 2015. -592s.
+okolozemnom prostranstve. -- M.: OOO \\«Nauchtehlitizdat», 2015. -592s.
 ISBN 978-5-93728-146-3. {[}in Russ.{]}
 
 5.Berns V.A., Dolgopolov A.V. i dr. Jeksperimental\textquotesingle nyj
 modal\textquotesingle nyj analiz letatel\textquotesingle nyh apparatov.
--- Novosibirsk: NGTU, 2023. -- 328 s. ISBN 978-5-7782-3209-9{[}in
+\\-- Novosibirsk: NGTU, 2023. -- 328 s. ISBN 978-5-7782-3209-9{[}in
 Russ.{]}
 
 6.Tang Than\textquotesingle{} Lam Sistemnyj analiz i optimizacija
@@ -619,7 +602,7 @@ rezhimov poleta dlja upravlenija letatel\textquotesingle nym apparatom
 7. Mazakova A., Jomartova Sh.,Vfzakov T., Shormanov., Amirkhanov B.
 Controllability of an unmanned aerial vehicle.// 2022 IEEE 7th
 International Energy Conference (ENERGYCON) - C.1-5.
-DOI~10.1109/ENERGYCON53164.2022.9830244
+DOI~10.1109/\\ENERGYCON53164.2022.9830244
 
 8.Smolencev N.K. MatLAb. Programmirovanie na Visual C\#, Borland
 JBuilder, VBA. -- M.: DMK Press, 2009. -- 464s.
@@ -629,7 +612,7 @@ signalov i izobrazhenij. Special\textquotesingle nyj spravochnik. --
 SPb.: Piter, 2002. - 608 s. ISBN 5-318-00667-1.
 
 10. A.C. № 45572 ot 05.10.2024. Mazakova A.T., Dzhomartova S.A., Mazakov
-T.Ja. Opredelenie optimal\textquotesingle nogo upravlenija BPLA.
+T.Ja. Opredelenie optimal\textquotesingle \\nogo upravlenija BPLA.
 Komp\textquotesingle juternaja programma
 \end{noparindent}
  
@@ -660,21 +643,21 @@ and Technology, Almaty, Kazakhstan, \\e-mail: m.alyasqar@gmail.ru
 \begin{noparindent}
 
 Мазақова А.Т. -- докторант Казахского национального университета
-им.аль-Фараби, e-mail: aigerym97@mail.ru;
+им.аль-Фараби, \\e-mail: aigerym97@mail.ru;
 
 Джомартова Ш.А. - доктор технических наук, доцент, Казахский
 национальный университет им. аль-Фараби, Алматы, Казахстан, e-mail:
 jomartova@mail.ru;
 
 Мазаков Т.Ж. -- доктор физико-математических наук, профессор, Казахский
-национальный университетим. аль-Фараби, Алматы, Казахстан, e-mail:
+национальный универ-ситет им. аль-Фараби, Алматы, Казахстан, e-mail:
 tmazakov@mail.ru;
 
 Тойкенов Г.Ч. - кандидат физико-математических наук, доцент, Казахский
-национальный женский педагогический \\университет, Алматы, Казахстан,
+национальный женский педагогический университет, Алматы, Казахстан,
 e-mail: gumyrbektoike@mail.ru;
 
 Әлиасқар М.С. - докторант Казахского национального университета
-им.аль-Фараби, Алматы, Казахстан, \\e-mail: m.alyasqar@gmail.ru
+им.аль-Фараби, Алматы,\\Казахстан,e-mail: m.alyasqar@gmail.ru
 \end{noparindent}
 
