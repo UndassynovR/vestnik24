@@ -1,9 +1,13 @@
 (undo-tree-save-format-version . 1)
 <<<<<<< HEAD
+<<<<<<< HEAD
 "e6204b91266abda99230f8f28d62144d123936e8"
 =======
 "a6fec3d59daf3e64c6961ce048029aee30f0c215"
 >>>>>>> de5d744 (econ 1-4 done)
+=======
+"a6fec3d59daf3e64c6961ce048029aee30f0c215"
+>>>>>>> de5d744df34a883367e6dc2755b4879e322941fd
 [nil nil nil nil (26357 31968 717423 360000) 0 nil]
 ([nil nil ((#("<<<<<<< HEAD
 " 0 1 (face font-lock-keyword-face smerge-refine-part (10 . 2) fontified t) 1 2 (face font-lock-keyword-face fontified t) 2 13 (face smerge-markers fontified t)) . 257) (undo-tree-id4 . -12) (t 26357 31938 485589 333000)) nil (26357 31968 717422 78000) 0 nil])
@@ -182,5 +186,8 @@ nil
 ([nil nil ((apply -30 892 1236 undo--wrap-and-run-primitive-undo 892 1236 ((1208 . 1211) (1173 . 1176) (1138 . 1141) (1104 . 1107) (1070 . 1073) (1036 . 1039) (1002 . 1005) (968 . 971) (934 . 937) (900 . 903) 1205))) nil (26358 25626 894328 109000) 0 nil])
 ([nil nil ((apply -3 861 929 undo--wrap-and-run-primitive-undo 861 929 ((869 . 872) 892))) nil (26358 25626 894324 558000) 0 nil])
 ([nil current ((apply 33 861 1205 undo--wrap-and-run-primitive-undo 861 1205 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1181) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1149) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1117) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1086) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1055) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1024) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -993) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -962) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -931) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -900) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -869) 1238))) nil (26358 25711 674745 638000) 0 nil])
+<<<<<<< HEAD
 >>>>>>> de5d744 (econ 1-4 done)
+=======
+>>>>>>> de5d744df34a883367e6dc2755b4879e322941fd
 nil
