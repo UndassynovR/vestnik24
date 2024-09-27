@@ -331,7 +331,7 @@ z_{1}
 
 
 \begin{equation}
-  \frac{\mathbf{dq}}{\mathbf{dt}} = \mathbf{A}(\mathbf{\Pr})\mathbf{q}
+  \frac{{dq}}{{dt}} = {A}({\Pr}){q}
   \tag{11}
 \end{equation}
 
@@ -345,22 +345,22 @@ z_{1}
 \emph{Определение.} Систему (11) с матрицей \emph{А}, элементы которой
 зависят от параметров \emph{Pr}, назовем параметрически асимптотически
 устойчивой по Ляпунову, если для некоторого \emph{Pr} существует реше-ние
-\(\mathbf{q(}\mathbf{Pr,}\mathbf{t}\mathbf{),}\text{     }\mathbf{t}\mathbf{\in}\mathbf{\lbrack 0,}\mathbf{\infty}\mathbf{)}\),
+\({q(}{Pr,}{t}{),}\text{     }{t}{\in}{\lbrack 0,}{\infty}{)}\),
 такое что справедливо утверждение:
 \begin{enumerate}
   \def\labelenumi{\arabic{enumi})}
   \setlength{\itemindent}{1cm}
   \item
     для любых \(\varepsilon\) \textgreater 0 и
-    \(\mathbf{t}_{0} \in [0, \infty)\)
+    \({t}_{0} \in [0, \infty)\)
     существует
     \(\delta = \delta(\varepsilon, t_{0})\)
     такое, что для всех решений
-    \(\mathbf{q} = \mathbf{q}(\mathbf{Pr}, t)\), удовлетворяющих
+    \({q} = {q}({Pr}, t)\), удовлетворяющих
     условию
-    \(\left\| \mathbf{q}(t_{0}) \right\| < \delta\),
+    \(\left\| {q}(t_{0}) \right\| < \delta\),
     справедливо неравенство
-    \(\left\| \mathbf{q}(\mathbf{Pr}, t) \right\| < \varepsilon\),
+    \(\left\| {q}({Pr}, t) \right\| < \varepsilon\),
     при
     \(t \in [t_{0}, \infty)\);
   \item
@@ -369,9 +369,9 @@ z_{1}
     существует
     \(\lambda = \lambda(t_{0})\)
     такое, что все решения
-    \(\mathbf{q} = \mathbf{q}(\mathbf{Pr}, t)\), удовлетворя-ющие
+    \({q} = {q}({Pr}, t)\), удовлетворя-ющие
     условию
-    \(\left\| \mathbf{q}(t_{0}) \right\| < \lambda\),
+    \(\left\| {q}(t_{0}) \right\| < \lambda\),
     обладают свойством:
   \end{enumerate}
   
@@ -397,7 +397,7 @@ z_{1}
 
 
 где
-\(\mathbf{p}_{\mathbf{i}}\mathbf{,i =}\overline{\mathbf{0,n}}\mathbf{-}\)зависят
+\({p}_{{i}}{,i =}\overline{{0,n}}{-}\)зависят
 от параметров \emph{Pr}.
 
 
@@ -408,15 +408,18 @@ z_{1}
 Составим матрицу Гурвица
 
 \begin{center}
-\(\mathbf{M =}\begin{bmatrix} 
-\mathbf{p}_{\mathbf{1}} & \mathbf{p}_{\mathbf{0}} & \mathbf{0} & \mathbf{0} & \mathbf{...} & \mathbf{0} \\
-\mathbf{p}_{\mathbf{3}} & \mathbf{p}_{\mathbf{2}} & \mathbf{p}_{\mathbf{1}} & \mathbf{p}_{\mathbf{0}} & \mathbf{...} & \mathbf{0} \\
-\mathbf{...} & \mathbf{...} & \mathbf{...} & \mathbf{...} & \mathbf{...} & \mathbf{...} \\
-\mathbf{p}_{\mathbf{2}\mathbf{n}\mathbf{-}\mathbf{1}} & \mathbf{p}_{\mathbf{2}\mathbf{n}\mathbf{-}\mathbf{2}} & \mathbf{p}_{\mathbf{2}\mathbf{n}\mathbf{-}\mathbf{3}} & \mathbf{p}_{\mathbf{2}\mathbf{n}\mathbf{-}\mathbf{4}} & \mathbf{...} & \mathbf{p}_{\mathbf{n}}
-\end{bmatrix}\),
+  \[
+  M = \begin{bmatrix} 
+  p_{1} & p_{0} & 0 & 0 & \dots & 0 \\
+  p_{3} & p_{2} & p_{1} & p_{0} & \dots & 0 \\
+  \dots & \dots & \dots & \dots & \dots & \dots \\
+  p_{2n-1} & p_{2n-2} & p_{2n-3} & p_{2n-4} & \dots & p_{n}
+  \end{bmatrix}
+  \]
+  
 \end{center}
-где принято \(\mathbf{p}_{\mathbf{j}}\mathbf{= 0}\) при
-\(\mathbf{j < 0}\) и \(\mathbf{j > n}\).
+где принято \({p}_{{j}}{= 0}\) при
+\({j < 0}\) и \({j > n}\).
 
 Обозначим через
 \(\Delta_{1}, \Delta_{2}, \ldots, \Delta_{n}\)
@@ -439,10 +442,10 @@ p_{3} & p_{2}
 \emph{Критерий параметрической устойчивости Гурвица:} для того чтобы
 некоторого значения параметра \emph{Pr} собственные значения матрицы
 A(Pr) были
-\(\mathbf{Re}{\lambda}_{\mathbf{j}}\left( \mathbf{A(}\mathbf{\Pr}\mathbf{)} \right)\mathbf{< 0,j =}\overline{\mathbf{1,n}}\)
+\({Re}{\lambda}_{{j}}\left( {A(}{\Pr}{)} \right){< 0,j =}\overline{{1,n}}\)
 необходимо и достаточно, чтобы главные диагональные миноры
 \({\Delta}_{{1}}{,}{\Delta}_{{2}}{,...,}{\Delta}_{{n}}\)
-матрицы \(\mathbf{M}\) находились в правой полуплоскости, т.е.
+матрицы \({M}\) находились в правой полуплоскости, т.е.
 \({\Delta}_{{j}}{> 0,j =}\overline{{1,n}}\).
 
 
@@ -776,8 +779,7 @@ DOI~10.1109/\\ENERGYCON53164.2022.9830244
 8.Mazakova A., Jomartova Sh., Wójcik W., Mazakov T., Ziyatbekova G.
 Automated Linearization of a System of Nonlinear Ordinary Differential
 Equations// Intl.Journal of electronics and
-Telecommunications.-2023.-Vol.69(4).-\\ P.655-660. DOI:
-10.24425/ijet.2023.147684
+Telecommunications.-2023.-Vol.69(4).-P.655-660. DOI:10.24425/ijet.2023.147684
 
 9.Смоленцев Н.К. MatLAb. Программирование на Visual C\#, Borland
 JBuilder, VBA. -- М.: ДМК Пресс, 2009. -- 464с.
@@ -848,8 +850,7 @@ DOI~10.1109/\\ENERGYCON53164.2022.9830244
 
 8.Mazakova A., Jomartova Sh., Wójcik W., Mazakov T., Ziyatbekova G.
 Automated Linearization of a System of Nonlinear Ordinary Differential
-Equations// Intl.Journal of electronics and
-Telecommunications.-2023.-Vol.69(4).- P.655-660. \\DOI:
+Equations// Intl.Journal of electronics and Telecommunications.-2023.-Vol.69(4).- P.655-660. DOI:
 10.24425/ijet.2023.147684
 
 9.Smolencev N.K. MatLAb. Programmirovanie na Visual C\#, Borland

@@ -387,7 +387,7 @@ $k$-Nearest Neighbours (KNN) -- это тип
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\textwidth]{assets/111}
+	\includegraphics[height=0.35\textwidth, width=0.6\textwidth]{assets/111}
 	\caption*{\bfseries Рис. 2 -- Концептуальная основа классификатора случайного леса}
 \end{figure}
 
@@ -521,8 +521,8 @@ $F1$ оценка -- среднее гармоническое
 
 \end{multicols}
 
-\begin{table}[]
-	{\bfseries Таблица 1 -- Матрица путаницы}\\[10pt]
+\begin{table}[H]
+	\caption*{Таблица 1 -- Матрица путаницы}
 	\centering
 	\begin{tabular}{|ll|l|}
 	\hline
@@ -533,19 +533,22 @@ $F1$ оценка -- среднее гармоническое
 	\end{table}
 
 
+	\begin{figure}[H]
+		\centering
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{assets/121}
+			\caption*{\bfseries Рис. 3 - Результаты случайного леса}
+		\end{subfigure}
+		\hfill
+		\begin{subfigure}[b]{0.45\textwidth}
+			\centering
+			\includegraphics[width=\textwidth]{assets/122}
+			\caption*{\bfseries Рис. 4 - Результаты машины опорных векторов (SVM)}
+		\end{subfigure}
+		
+	\end{figure}
 
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{assets/121}
-	\caption*{\bfseries Рис. 3 - Результаты случайного леса}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{assets/122}
-	\caption*{\bfseries Рис. 4 - Результаты машины опорных векторов (SVM)}
-\end{figure}
 
 \begin{multicols}{2}
 
@@ -561,38 +564,27 @@ $F1$ оценка -- среднее гармоническое
 
 
 
-
-
-
-
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.5\textwidth]{assets/123}
-	\caption*{\bfseries Рис. 5- Результаты $k$ ближайщих соседей (KNN)}
-\end{figure}
-
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{assets/123}
+		\caption*{\bfseries Рис. 5- Результаты $k$ ближайщих соседей (KNN)}
+	\end{subfigure}
+	\hfill
+	\begin{subfigure}[b]{0.45\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{assets/124}
+		\caption*{\bfseries Рис. 6 - Результаты логистической регрессии (LR)}
+	\end{subfigure}
 	
-\begin{multicols}{2}
-	
-	Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
-	типа, он достаточно мал, о чем свидетельствует показатель полноты.
-	Точность приемлемая.
-\end{multicols}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.5\textwidth]{assets/124}
-	\caption*{\bfseries Рис. 6 - Результаты логистической регрессии (LR)}
 \end{figure}
 
 
 
 
-
-
-\begin{table}[]
-	{\bfseries Таблица 2 -- Результаты использованных моделей}\\[10pt]
+\begin{table}[H]
+	\caption*{Таблица 2 -- Результаты использованных моделей}
 	\centering
 	\begin{tabular}{|l|l|l|l|l|}
 	\hline
@@ -605,7 +597,9 @@ $F1$ оценка -- среднее гармоническое
 	\end{table}
 
 \begin{multicols}{2}
-
+Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
+типа, он достаточно мал, о чем свидетельствует показатель полноты.
+Точность приемлемая.
 {\bfseries Выводы.} В статье проведено исследование кредитного скоринга с
 использованием различных машинных алгоритмов. Основной целью
 исследования было создание эффективной скоринговой модели для
