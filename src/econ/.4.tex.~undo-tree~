@@ -1,0 +1,402 @@
+(undo-tree-save-format-version . 1)
+"24727b50bb900df1607578fdb6e176491d9fa109"
+[nil nil nil nil (26358 24535 310636 894000) 0 nil]
+([nil nil ((#("
+" 0 1 (fontified t)) . 1) (t 26358 13808 843216 547000)) nil (26358 24535 310636 68000) 0 nil])
+([nil nil ((#("{\\bfseries " 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t)) . 10) (undo-tree-id19 . -10)) nil (26358 24535 310635 331000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 24)) nil (26358 24535 310634 45000) 0 nil])
+([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 27) (undo-tree-id18 . -9)) nil (26358 24535 310633 407000) 0 nil])
+([nil nil (27) nil (26358 24535 310632 291000) 0 nil])
+([nil nil (26) nil (26358 24535 310631 695000) 0 nil])
+([nil nil ((45 . 47) (27 . 45) (#("sectionwi" 0 9 (face font-lock-keyword-face fontified t)) . -27) (undo-tree-id11 . -9) (undo-tree-id12 . -9) (undo-tree-id13 . -9) 36 (35 . 36) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -35) (undo-tree-id14 . -1) (34 . 36) (31 . 34) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -31) (undo-tree-id15 . -1) (26 . 32) (#("|" 0 1 (fontified t)) . -26) (undo-tree-id16 . -1) (#("s" 0 1 (fontified t)) . -27) (undo-tree-id17 . -1) 28 (26 . 28)) nil (26358 24535 310629 863000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 378)) nil (26358 24535 310621 425000) 0 nil])
+([nil nil ((378 . 379) (#("
+" 0 1 (fontified t)) . -378) (#("
+" 0 1 (fontified t)) . -378) 377) nil (26358 24535 310620 581000) 0 nil])
+([nil nil ((#("{\\bfseries " 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t)) . 379) (undo-tree-id10 . -10)) nil (26358 24535 310619 688000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 292 . 293) (nil fontified nil 46 . 293) (46 . 293) 45) nil (26358 24535 310618 425000) 0 nil])
+([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 46) (undo-tree-id9 . -9)) nil (26358 24535 310617 459000) 0 nil])
+([nil nil ((#("\\textsuperscript{1}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 46) (undo-tree-id7 . -18) (undo-tree-id8 . -19)) nil (26358 24535 310616 152000) 0 nil])
+([nil nil ((#("\\textsuperscript{1}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 64) (undo-tree-id6 . -18)) nil (26358 24535 310613 908000) 0 nil])
+([nil nil ((68 . 69) (#("
+" 0 1 (fontified t)) . -68) 64) nil (26358 24535 310612 621000) 0 nil])
+([nil nil ((#("\\textsuperscript{1}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 82) (undo-tree-id5 . -18)) nil (26358 24535 310611 788000) 0 nil])
+([nil nil ((#("\\textsuperscript{1}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 97) (undo-tree-id4 . -18)) nil (26358 24535 310610 509000) 0 nil])
+([nil nil ((328 . 329) (#("
+" 0 1 (fontified t)) . -328) (264 . 265) (#("
+" 0 1 (fontified t)) . -264) (172 . 173) (#("
+" 0 1 (fontified t)) . -172) (101 . 102) (#("
+" 0 1 (fontified t)) . -101) 97) nil (26358 24535 310608 644000) 0 nil])
+([nil nil ((#("\\textsuperscript{2}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 114) (undo-tree-id2 . -18) (undo-tree-id3 . -19)) nil (26358 24535 310606 766000) 0 nil])
+([nil nil ((#("\\textsuperscript{🖂}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 133) (undo-tree-id1 . -18)) nil (26358 24535 310604 78000) 0 nil])
+([nil nil ((#("\\textsuperscript{2}" 0 16 (face font-lock-keyword-face fontified t) 16 19 (fontified t)) . 135) (undo-tree-id0 . -18)) nil (26358 24535 310601 95000) 0 nil])
+([nil nil ((328 . 343) (791 . 804)) nil (26358 24535 310579 815000) 0 nil])
+([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 2839) (undo-tree-id24 . -9) (t 26358 24535 372801 719000)) nil (26358 24548 830812 158000) 0 nil])
+([nil nil ((2898 . 2899) (#("
+" 0 1 (fontified t)) . -2898) 2839) nil (26358 24548 830810 207000) 0 nil])
+([nil nil ((2839 . 2853) (#("section" 0 7 (face font-lock-keyword-face fontified t)) . -2839) (undo-tree-id20 . -7) (undo-tree-id21 . -7) (undo-tree-id22 . -7) 2846 (2843 . 2846) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -2843) (undo-tree-id23 . -1) (2838 . 2844)) nil (26358 24548 830807 527000) 0 nil])
+([nil nil ((2982 . 2997) (3497 . 3510)) nil (26358 24548 830791 827000) 0 nil])
+([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 5201) (undo-tree-id29 . -9) (t 26358 24548 862392 755000)) nil (26358 24559 882604 100000) 0 nil])
+([nil nil (5201) nil (26358 24559 882602 453000) 0 nil])
+([nil nil ((5201 . 5215) (#("section" 0 7 (face font-lock-keyword-face fontified t)) . -5201) (undo-tree-id25 . -7) (undo-tree-id26 . -7) (undo-tree-id27 . -7) 5208 (5205 . 5208) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -5205) (undo-tree-id28 . -1) (5200 . 5206)) nil (26358 24559 882600 806000) 0 nil])
+([nil nil ((5280 . 5281) (#("
+" 0 1 (fontified t)) . -5280) 5214) nil (26358 24559 882588 363000) 0 nil])
+([nil nil ((5355 . 5370) (5882 . 5895)) nil (26358 24559 882584 129000) 0 nil])
+([nil nil ((7781 . 7802) (20681 . 20697) (t 26358 24559 928723 898000)) nil (26358 24571 729468 21000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 22584 . 22585) (nil fontified nil 20812 . 22585) (20812 . 22585) (t 26358 24571 761698 439000)) nil (26358 24652 993976 923000) 0 nil])
+([nil nil ((#("\\begin{longtable}[]{@{}
+  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 4\\tabcolsep) * \\real{0.0627}}
+  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 4\\tabcolsep) * \\real{0.4374}}
+  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 4\\tabcolsep) * \\real{0.4998}}@{}}
+\\toprule\\noalign{}
+\\begin{minipage}[b]{\\linewidth}\\raggedright
+№
+\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright
+Tourist areas
+\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright
+Name of the settlement
+\\end{minipage} \\\\
+\\midrule\\noalign{}
+\\endhead
+\\bottomrule\\noalign{}
+\\endlastfoot
+1 & Khan Ordasy & West Kazakhstan region \\\\
+2 & Kargalinskoye reservoir & Aktobe region \\\\
+3 & Shchuchinsko-Borovskaya resort area & Akmola region \\\\
+4 & Akbura & Akmola region \\\\
+5 & Imantau-Shalkar resort area & North Kazakhstan region \\\\
+6 & Bayanaul & Pavlodar region \\\\
+7 & Katon-Karagay resort area & East Kazakhstan region \\\\
+8 & Alakol resort area & Abai and Zhetisu regions \\\\
+9 & Turgen & Almaty and Almaty region \\\\
+10 & Kaskelen ski complex & Almaty and Almaty region \\\\
+11 & Koksai Resort & Zhambyl region \\\\
+12 & Lake Balkhash & Karaganda region \\\\
+13 & Turkestan & Turkestan region \\\\
+14 & Baikonur Cosmodrome & Kyzylorda region \\\\
+15 & Ulytau village & Ulytau region \\\\
+16 & Warm Beach & Mangistau region \\\\
+17 & Sarayshik settlement & Atyrau region \\\\
+18 & Center for Gastronomic Tourism & Shymkent \\\\
+19 & Expo Tourist Area & Astana \\\\
+\\end{longtable}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 28 (fontified t) 28 40 (face font-lock-keyword-face fontified t) 40 55 (face font-lock-keyword-face fontified t) 55 59 (fontified t) 59 71 (face font-lock-keyword-face fontified t) 71 75 (fontified t) 75 85 (face font-lock-keyword-face fontified t) 85 89 (fontified t) 89 94 (face font-lock-keyword-face fontified t) 94 108 (fontified t) 108 120 (face font-lock-keyword-face fontified t) 120 135 (face font-lock-keyword-face fontified t) 135 139 (fontified t) 139 151 (face font-lock-keyword-face fontified t) 151 155 (fontified t) 155 165 (face font-lock-keyword-face fontified t) 165 169 (fontified t) 169 174 (face font-lock-keyword-face fontified t) 174 188 (fontified t) 188 200 (face font-lock-keyword-face fontified t) 200 215 (face font-lock-keyword-face fontified t) 215 219 (fontified t) 219 231 (face font-lock-keyword-face fontified t) 231 235 (fontified t) 235 245 (face font-lock-keyword-face fontified t) 245 249 (fontified t) 249 254 (face font-lock-keyword-face fontified t) 254 268 (fontified t) 268 276 (face font-lock-keyword-face fontified t) 276 284 (face font-lock-keyword-face fontified t) 284 287 (fontified t) 287 293 (face font-lock-keyword-face fontified t) 293 294 (fontified t latex-env-pair t) 294 302 (face font-lock-function-name-face fontified t latex-env-pair t) 302 303 (fontified t latex-env-pair t) 303 307 (fontified t) 307 308 (face font-lock-keyword-face fontified t) 308 317 (face font-lock-keyword-face fontified t) 317 318 (fontified t) 318 330 (face font-lock-keyword-face fontified t) 330 331 (fontified t) 331 333 (fontified t) 333 337 (face font-lock-keyword-face fontified t) 337 338 (fontified t latex-env-pair t) 338 346 (face font-lock-function-name-face fontified t latex-env-pair t) 346 347 (fontified t latex-env-pair t) 347 350 (fontified t) 350 356 (face font-lock-keyword-face fontified t) 356 357 (fontified t latex-env-pair t) 357 365 (face font-lock-function-name-face fontified t latex-env-pair t) 365 366 (fontified t latex-env-pair t) 366 370 (fontified t) 370 380 (face font-lock-keyword-face fontified t) 380 381 (fontified t) 381 393 (face font-lock-keyword-face fontified t) 393 408 (fontified t) 408 412 (face font-lock-keyword-face fontified t) 412 413 (fontified t latex-env-pair t) 413 421 (face font-lock-function-name-face fontified t latex-env-pair t) 421 422 (fontified t latex-env-pair t) 422 425 (fontified t) 425 431 (face font-lock-keyword-face fontified t) 431 432 (fontified t latex-env-pair t) 432 440 (face font-lock-function-name-face fontified t latex-env-pair t) 440 441 (fontified t latex-env-pair t) 441 445 (fontified t) 445 455 (face font-lock-keyword-face fontified t) 455 456 (fontified t) 456 468 (face font-lock-keyword-face fontified t) 468 492 (fontified t) 492 496 (face font-lock-keyword-face fontified t) 496 497 (fontified t latex-env-pair t) 497 505 (face font-lock-function-name-face fontified t latex-env-pair t) 505 506 (fontified t latex-env-pair t) 506 507 (fontified t) 507 509 (face font-lock-warning-face fontified t) 509 510 (fontified t) 510 518 (face font-lock-keyword-face fontified t) 518 526 (face font-lock-keyword-face fontified t) 526 529 (fontified t) 529 537 (face font-lock-keyword-face fontified t) 537 538 (fontified t) 538 549 (face font-lock-keyword-face fontified t) 549 557 (face font-lock-keyword-face fontified t) 557 560 (fontified t) 560 572 (face font-lock-keyword-face fontified t) 572 614 (fontified t) 614 616 (face font-lock-warning-face fontified t) 616 661 (fontified t) 661 663 (face font-lock-warning-face fontified t) 663 720 (fontified t) 720 722 (face font-lock-warning-face fontified t) 722 750 (fontified t) 750 752 (face font-lock-warning-face fontified t) 752 811 (fontified t) 811 813 (face font-lock-warning-face fontified t) 813 845 (fontified t) 845 847 (face font-lock-warning-face fontified t) 847 903 (fontified t) 903 905 (face font-lock-warning-face fontified t) 905 956 (fontified t) 956 958 (face font-lock-warning-face fontified t) 958 997 (fontified t) 997 999 (face font-lock-warning-face fontified t) 999 1053 (fontified t) 1053 1055 (face font-lock-warning-face fontified t) 1055 1092 (fontified t) 1092 1094 (face font-lock-warning-face fontified t) 1094 1133 (fontified t) 1133 1135 (face font-lock-warning-face fontified t) 1135 1170 (fontified t) 1170 1172 (face font-lock-warning-face fontified t) 1172 1217 (fontified t) 1217 1219 (face font-lock-warning-face fontified t) 1219 1256 (fontified t) 1256 1258 (face font-lock-warning-face fontified t) 1258 1274 (fontified t) 1274 1294 (fontified t) 1294 1296 (face font-lock-warning-face fontified t) 1296 1297 (fontified t) 1297 1339 (fontified t) 1339 1341 (face font-lock-warning-face fontified t) 1341 1389 (fontified t) 1389 1391 (face font-lock-warning-face fontified t) 1391 1424 (fontified t) 1424 1426 (face font-lock-warning-face fontified t) 1426 1427 (fontified t) 1427 1431 (face font-lock-keyword-face fontified t) 1431 1432 (fontified t latex-env-pair t) 1432 1441 (face font-lock-function-name-face fontified t latex-env-pair t) 1441 1442 (fontified t latex-env-pair t) 1442 1443 (fontified t)) . 22586) (undo-tree-id45 . -1442) (undo-tree-id46 . -1437) (undo-tree-id47 . -10) (undo-tree-id48 . -1437) (undo-tree-id49 . -104) (undo-tree-id50 . -1437) 24023) nil (26358 24652 993975 420000) 0 nil])
+([nil nil ((#("% Please add the following required packages to your document preamble:
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 72 (face font-lock-comment-face fontified t)) . 20812) (undo-tree-id44 . -71)) nil (26358 24652 993970 555000) 0 nil])
+([nil nil ((#("% \\usepackage[normalem]{ulem}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 29 (face font-lock-comment-face fontified t) 29 30 (face font-lock-comment-face fontified t)) . 20812) (undo-tree-id43 . -29)) nil (26358 24652 993969 154000) 0 nil])
+([nil nil ((#("% \\useunder{\\uline}{\\ul}{}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t) 26 27 (face font-lock-comment-face fontified t)) . 20812) (undo-tree-id42 . -26)) nil (26358 24652 993967 887000) 0 nil])
+([nil nil ((20789 . 20790) (#("
+" 0 1 (face (bold) fontified t)) . -20789) 20719) nil (26358 24652 993966 357000) 0 nil])
+([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 20720) (undo-tree-id41 . -9)) nil (26358 24652 993965 359000) 0 nil])
+([nil nil (20720) nil (26358 24652 993963 304000) 0 nil])
+([nil nil ((20724 . 20728) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -20724) (undo-tree-id37 . -1) (20722 . 20725) (#("t" 0 1 (face font-lock-keyword-face fontified t)) . -20722) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) 20723 (20719 . 20723)) nil (26358 24652 993961 744000) 0 nil])
+([nil nil ((#("\\caption*{Table 1 -- Ranking of priority tourism development areas in Kazakhstan by region}
+" 0 9 (face font-lock-keyword-face fontified t) 9 10 (fontified t) 10 69 (fontified t) 69 70 (fontified t) 70 90 (fontified t) 90 92 (fontified t)) . 20719) (undo-tree-id30 . -91) (undo-tree-id31 . 83) (undo-tree-id32 . -3) (undo-tree-id33 . -92) (undo-tree-id34 . -92) (undo-tree-id35 . -3) (undo-tree-id36 . -8) 20727) nil (26358 24652 993956 403000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 20734 . 20735) (#("
+" 0 1 (fontified nil)) . -20826) (20734 . 20827) 20727) nil (26358 24652 993940 648000) 0 nil])
+([nil nil ((20733 . 20734)) nil (26358 24652 993936 246000) 0 nil])
+([nil nil ((#("\\begin{longtable}[]{@{}
+  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 4\\tabcolsep) * \\real{0.0985}}
+  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 4\\tabcolsep) * \\real{0.2921}}
+  >{\\raggedright\\arraybackslash}p{(\\columnwidth - 4\\tabcolsep) * \\real{0.6094}}@{}}
+\\toprule\\noalign{}
+\\begin{minipage}[b]{\\linewidth}\\raggedright
+Trend number
+\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright
+Trend name
+\\end{minipage} & \\begin{minipage}[b]{\\linewidth}\\raggedright
+Characteristics of the trend
+\\end{minipage} \\\\
+\\midrule\\noalign{}
+\\endhead
+\\bottomrule\\noalign{}
+\\endlastfoot
+1 & Sustainable tourism and conscious travel & Travel that minimizes
+impact on nature; supports regional economies and local residents. For
+hotels, sustainability includes using local products in the restaurant,
+implementing eco-friendly practices, saving energy, and sorting waste;
+hosting events that introduce local traditions, crafts, etc. \\\\
+2 & Immersion in local culture & Involving tourists in the life of the
+local population rather than observing it; growing interest in culture
+and history. A way to follow this trend is to connect with local
+communities. \\\\
+3 & Seeking unique gastronomic experiences & Gaining unique culinary
+experiences: the beauty of presentation, aroma, and taste of food, the
+atmosphere of the place. Gastronomic themes add color to the promotional
+campaigns of regions. \\\\
+4 & Self-discovery and learning new skills & Acquiring new knowledge and
+skills, developing wellness programs aimed at helping participants
+achieve harmony, develop creativity and communication skills, enrich
+their inner world. \\\\
+5 & Flexible booking and payment conditions & The COVID-19 pandemic has
+heightened the uncertainty factor in travel planning. It is necessary to
+offer booking conditions that allow tourists to change the date and/or
+destination without significant penalties. \\\\
+6 & Places where famous movies or TV series were filmed & Locations
+where \"star\" films were shot - tourist attractions. In Kazakhstan, this
+is the village of Teriberka. Interactive quests and reconstructions of
+scenes from films will add uniqueness to tours. \\\\
+7 & Travel for special occasions & Significant personal events become
+reasons for travel. \\\\
+8 & Emotional balance restoration & Growing demand for digital detox
+programs using practices for physical and mental recovery. \\\\
+9 & Spontaneous travel & Related to tourists\\textquotesingle{} desire to
+explore unknown places and enjoy unplanned trips; the appeal of
+last-minute tours. \\\\
+10 & Countries and regions with a temperate climate & This trend arose
+in response to climate changes, due to which traditional beach resorts
+sometimes become too hot for comfortable rest; fans of cooler climates
+visit mountain resorts. \\\\
+11 & Visiting unexplored countries and regions (instead of popular ones)
+& Choosing alternative destinations instead of familiar ones (this trend
+applies to both beach resorts and mountains). \\\\
+12 & Attributes of \"beautiful life\" for budget travelers & A way to
+relax comfortably and brightly without significant expenses. The trend
+requires a balanced approach from tour operators and hotels in forming
+offers: base prices for trips accessible to a wide range of consumers
+should be complemented by a wide list of high-quality services. \\\\
+13 & Use of innovative technologies in travel planning & Statistics from
+Booking -- 48\\% of travelers trust artificial intelligence (AI) to plan
+their trips (from 8\\% in the UK to 63\\% in the US). AI can quickly
+analyze large volumes of information, provide personalized
+recommendations, and optimize routes. \\\\
+\\end{longtable}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 28 (fontified t) 28 40 (face font-lock-keyword-face fontified t) 40 55 (face font-lock-keyword-face fontified t) 55 59 (fontified t) 59 71 (face font-lock-keyword-face fontified t) 71 75 (fontified t) 75 85 (face font-lock-keyword-face fontified t) 85 89 (fontified t) 89 94 (face font-lock-keyword-face fontified t) 94 108 (fontified t) 108 120 (face font-lock-keyword-face fontified t) 120 135 (face font-lock-keyword-face fontified t) 135 139 (fontified t) 139 151 (face font-lock-keyword-face fontified t) 151 155 (fontified t) 155 165 (face font-lock-keyword-face fontified t) 165 169 (fontified t) 169 174 (face font-lock-keyword-face fontified t) 174 188 (fontified t) 188 200 (face font-lock-keyword-face fontified t) 200 207 (face font-lock-keyword-face fontified t) 207 215 (face font-lock-keyword-face fontified t) 215 219 (fontified t) 219 231 (face font-lock-keyword-face fontified t) 231 235 (fontified t) 235 245 (face font-lock-keyword-face fontified t) 245 249 (fontified t) 249 254 (face font-lock-keyword-face fontified t) 254 268 (fontified t) 268 276 (face font-lock-keyword-face fontified t) 276 284 (face font-lock-keyword-face fontified t) 284 287 (fontified t) 287 293 (face font-lock-keyword-face fontified t) 293 294 (fontified t latex-env-pair t) 294 302 (face font-lock-function-name-face fontified t latex-env-pair t) 302 303 (fontified t latex-env-pair t) 303 307 (fontified t) 307 317 (face font-lock-keyword-face fontified t) 317 318 (fontified t) 318 330 (face font-lock-keyword-face fontified t) 330 344 (fontified t) 344 348 (face font-lock-keyword-face fontified t) 348 349 (fontified t latex-env-pair t) 349 357 (face font-lock-function-name-face fontified t latex-env-pair t) 357 358 (fontified t latex-env-pair t) 358 361 (fontified t) 361 367 (face font-lock-keyword-face fontified t) 367 368 (fontified t latex-env-pair t) 368 376 (face font-lock-function-name-face fontified t latex-env-pair t) 376 377 (fontified t latex-env-pair t) 377 381 (fontified t) 381 391 (face font-lock-keyword-face fontified t) 391 392 (fontified t) 392 404 (face font-lock-keyword-face fontified t) 404 416 (fontified t) 416 420 (face font-lock-keyword-face fontified t) 420 421 (fontified t latex-env-pair t) 421 429 (face font-lock-function-name-face fontified t latex-env-pair t) 429 430 (fontified t latex-env-pair t) 430 433 (fontified t) 433 439 (face font-lock-keyword-face fontified t) 439 440 (fontified t latex-env-pair t) 440 448 (face font-lock-function-name-face fontified t latex-env-pair t) 448 449 (fontified t latex-env-pair t) 449 453 (fontified t) 453 463 (face font-lock-keyword-face fontified t) 463 464 (fontified t) 464 476 (face font-lock-keyword-face fontified t) 476 506 (fontified t) 506 510 (face font-lock-keyword-face fontified t) 510 511 (fontified t latex-env-pair t) 511 519 (face font-lock-function-name-face fontified t latex-env-pair t) 519 520 (fontified t latex-env-pair t) 520 521 (fontified t) 521 523 (face font-lock-warning-face fontified t) 523 524 (fontified t) 524 532 (face font-lock-keyword-face fontified t) 532 540 (face font-lock-keyword-face fontified t) 540 543 (fontified t) 543 551 (face font-lock-keyword-face fontified t) 551 552 (fontified t) 552 563 (face font-lock-keyword-face fontified t) 563 571 (face font-lock-keyword-face fontified t) 571 574 (fontified t) 574 586 (face font-lock-keyword-face fontified t) 586 931 (fontified t) 931 933 (face font-lock-warning-face fontified t) 933 1137 (fontified t) 1137 1141 (fontified t) 1141 1154 (fontified t) 1154 1156 (face font-lock-warning-face fontified t) 1156 1215 (fontified t) 1215 1226 (fontified t) 1226 1320 (fontified t) 1320 1370 (fontified t) 1370 1386 (fontified t) 1386 1392 (fontified t) 1392 1394 (face font-lock-warning-face fontified t) 1394 1395 (fontified t) 1395 1623 (fontified t) 1623 1625 (face font-lock-warning-face fontified t) 1625 1885 (fontified t) 1885 1887 (face font-lock-warning-face fontified t) 1887 2147 (fontified t) 2147 2149 (face font-lock-warning-face fontified t) 2149 2240 (fontified t) 2240 2242 (face font-lock-warning-face fontified t) 2242 2371 (fontified t) 2371 2373 (face font-lock-warning-face fontified t) 2373 2418 (fontified t) 2418 2434 (face font-lock-keyword-face fontified t) 2434 2530 (fontified t) 2530 2532 (face font-lock-warning-face fontified t) 2532 2641 (fontified t) 2641 2675 (fontified t) 2675 2770 (fontified t) 2770 2772 (face font-lock-warning-face fontified t) 2772 2870 (fontified t) 2870 2895 (fontified t) 2895 2919 (fontified t) 2919 2965 (fontified t) 2965 2967 (face font-lock-warning-face fontified t) 2967 3312 (fontified t) 3312 3314 (face font-lock-warning-face fontified t) 3314 3401 (fontified t) 3401 3403 (face font-lock-keyword-face fontified t) 3403 3479 (fontified t) 3479 3481 (face font-lock-keyword-face fontified t) 3481 3497 (fontified t) 3497 3499 (face font-lock-keyword-face fontified t) 3499 3624 (fontified t) 3624 3626 (face font-lock-warning-face fontified t) 3626 3627 (fontified t) 3627 3631 (face font-lock-keyword-face fontified t) 3631 3632 (latex-env-pair t fontified t) 3632 3641 (face font-lock-function-name-face latex-env-pair t fontified t) 3641 3642 (latex-env-pair t fontified t) 3642 3643 (fontified t)) . 22638) (undo-tree-id51 . -3642) (undo-tree-id52 . -3632) (undo-tree-id53 . -14) (undo-tree-id54 . -3632) (undo-tree-id55 . -1468) (undo-tree-id56 . -1409) (undo-tree-id57 . -3636) (undo-tree-id58 . -3636) (undo-tree-id59 . -3636) (undo-tree-id60 . -3636) (undo-tree-id61 . -3636) (undo-tree-id62 . -3636) (undo-tree-id63 . -3636) (undo-tree-id64 . -3636) (undo-tree-id65 . -3636) (undo-tree-id66 . -3636) (undo-tree-id67 . -3627) (undo-tree-id68 . -3632) (undo-tree-id69 . -3632) (undo-tree-id70 . -3632) (undo-tree-id71 . -3632) (undo-tree-id72 . -3632) (undo-tree-id73 . -3632) (undo-tree-id74 . -3632) (undo-tree-id75 . -3632) (undo-tree-id76 . -3632) (undo-tree-id77 . -3632) (undo-tree-id78 . -3632) (undo-tree-id79 . -3632) (undo-tree-id80 . -3632) (undo-tree-id81 . -3632) (undo-tree-id82 . -3632) (undo-tree-id83 . -3632) (undo-tree-id84 . -3632) (undo-tree-id85 . -3632) (undo-tree-id86 . -3632) (undo-tree-id87 . -3632) (undo-tree-id88 . -14) (undo-tree-id89 . -3632) (undo-tree-id90 . -3632) (undo-tree-id91 . -3632) (undo-tree-id92 . -3632) (undo-tree-id93 . -3643) 26270 (t 26358 24653 49233 21000)) nil (26358 24792 120539 542000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 26217 . 26218) (nil fontified nil 22637 . 26218) (22637 . 26218)) nil (26358 24798 565711 518000) 0 nil] [nil nil ((nil rear-nonsticky nil 25616 . 25617) (nil fontified nil 22637 . 25617) (22637 . 25617)) ((#("Trend number	Trend name	Characteristics of the trend
+1	Sustainable tourism and conscious travel	Travel that minimizes impact on nature; supports regional economies and local residents. For hotels, sustainability includes using local products in the restaurant, implementing eco-friendly practices, saving energy, and sorting waste; hosting events that introduce local traditions, crafts, etc.
+2	Immersion in local culture	Involving tourists in the life of the local population rather than observing it; growing interest in culture and history. A way to follow this trend is to connect with local communities.
+3	Seeking unique gastronomic experiences	Gaining unique culinary experiences: the beauty of presentation, aroma, and taste of food, the atmosphere of the place. Gastronomic themes add color to the promotional campaigns of regions.
+4	Self-discovery and learning new skills	Acquiring new knowledge and skills, developing wellness programs aimed at helping participants achieve harmony, develop creativity and communication skills, enrich their inner world.
+5	Flexible booking and payment conditions	The COVID-19 pandemic has heightened the uncertainty factor in travel planning. It is necessary to offer booking conditions that allow tourists to change the date and/or destination without significant penalties.
+6	Places where famous movies or TV series were filmed	Locations where \"star\" films were shot - tourist attractions. In Kazakhstan, this is the village of Teriberka. Interactive quests and reconstructions of scenes from films will add uniqueness to tours.
+7	Travel for special occasions	Significant personal events become reasons for travel.
+8	Emotional balance restoration	Growing demand for digital detox programs using practices for physical and mental recovery.
+9	Spontaneous travel	Related to tourists' desire to explore unknown places and enjoy unplanned trips; the appeal of last-minute tours.
+10	Countries and regions with a temperate climate	This trend arose in response to climate changes, due to which traditional beach resorts sometimes become too hot for comfortable rest; fans of cooler climates visit mountain resorts.
+11	Visiting unexplored countries and regions (instead of popular ones)	Choosing alternative destinations instead of familiar ones (this trend applies to both beach resorts and mountains).
+12	Attributes of \"beautiful life\" for budget travelers	A way to relax comfortably and brightly without significant expenses. The trend requires a balanced approach from tour operators and hotels in forming offers: base prices for trips accessible to a wide range of consumers should be complemented by a wide list of high-quality services.
+13	Use of innovative technologies in travel planning	Statistics from Booking – 48% of travelers trust artificial intelligence (AI) to plan their trips (from 8% in the UK to 63% in the US). AI can quickly analyze large volumes of information, provide personalized recommendations, and optimize routes." 0 1500 (fontified nil) 1500 1574 (fontified nil) 1574 2680 (fontified nil) 2680 2761 (fontified nil) 2761 2979 (face font-lock-comment-face fontified nil) 2979 2980 (face font-lock-comment-face rear-nonsticky nil fontified nil)) . 22637) (undo-tree-id163 . -2979) (undo-tree-id164 . -2979) (undo-tree-id165 . -2680) (undo-tree-id166 . -2979) (undo-tree-id167 . -2979) (undo-tree-id168 . -2979) (nil fontified t 24211 . 25317) (nil fontified t 24137 . 24211) (nil fontified t 22637 . 24137) (nil rear-nonsticky t 25616 . 25617)) (26358 24792 120368 439000) 0 nil] [nil nil ((nil rear-nonsticky nil 25616 . 25617) (nil fontified nil 22637 . 25617) (22637 . 25617)) ((#("Trend number	Trend name	Characteristics of the trend
+1	Sustainable tourism and conscious travel	Travel that minimizes impact on nature; supports regional economies and local residents. For hotels, sustainability includes using local products in the restaurant, implementing eco-friendly practices, saving energy, and sorting waste; hosting events that introduce local traditions, crafts, etc.
+2	Immersion in local culture	Involving tourists in the life of the local population rather than observing it; growing interest in culture and history. A way to follow this trend is to connect with local communities.
+3	Seeking unique gastronomic experiences	Gaining unique culinary experiences: the beauty of presentation, aroma, and taste of food, the atmosphere of the place. Gastronomic themes add color to the promotional campaigns of regions.
+4	Self-discovery and learning new skills	Acquiring new knowledge and skills, developing wellness programs aimed at helping participants achieve harmony, develop creativity and communication skills, enrich their inner world.
+5	Flexible booking and payment conditions	The COVID-19 pandemic has heightened the uncertainty factor in travel planning. It is necessary to offer booking conditions that allow tourists to change the date and/or destination without significant penalties.
+6	Places where famous movies or TV series were filmed	Locations where \"star\" films were shot - tourist attractions. In Kazakhstan, this is the village of Teriberka. Interactive quests and reconstructions of scenes from films will add uniqueness to tours.
+7	Travel for special occasions	Significant personal events become reasons for travel.
+8	Emotional balance restoration	Growing demand for digital detox programs using practices for physical and mental recovery.
+9	Spontaneous travel	Related to tourists' desire to explore unknown places and enjoy unplanned trips; the appeal of last-minute tours.
+10	Countries and regions with a temperate climate	This trend arose in response to climate changes, due to which traditional beach resorts sometimes become too hot for comfortable rest; fans of cooler climates visit mountain resorts.
+11	Visiting unexplored countries and regions (instead of popular ones)	Choosing alternative destinations instead of familiar ones (this trend applies to both beach resorts and mountains).
+12	Attributes of \"beautiful life\" for budget travelers	A way to relax comfortably and brightly without significant expenses. The trend requires a balanced approach from tour operators and hotels in forming offers: base prices for trips accessible to a wide range of consumers should be complemented by a wide list of high-quality services.
+13	Use of innovative technologies in travel planning	Statistics from Booking – 48% of travelers trust artificial intelligence (AI) to plan their trips (from 8% in the UK to 63% in the US). AI can quickly analyze large volumes of information, provide personalized recommendations, and optimize routes." 0 1500 (fontified nil) 1500 1574 (fontified nil) 1574 2680 (fontified nil) 2680 2761 (fontified nil) 2761 2979 (face font-lock-comment-face fontified nil) 2979 2980 (face font-lock-comment-face rear-nonsticky nil fontified nil)) . 22637) (undo-tree-id157 . -2979) (undo-tree-id158 . -2979) (undo-tree-id159 . -2680) (undo-tree-id160 . -2979) (undo-tree-id161 . -2979) (undo-tree-id162 . -2979) (nil fontified t 24211 . 25317) (nil fontified t 24137 . 24211) (nil fontified t 22637 . 24137) (nil rear-nonsticky t 25616 . 25617)) (26358 24789 253756 439000) 0 nil] [nil nil ((nil rear-nonsticky nil 25616 . 25617) (nil fontified nil 22637 . 25617) (22637 . 25617)) ((#("Trend number	Trend name	Characteristics of the trend
+1	Sustainable tourism and conscious travel	Travel that minimizes impact on nature; supports regional economies and local residents. For hotels, sustainability includes using local products in the restaurant, implementing eco-friendly practices, saving energy, and sorting waste; hosting events that introduce local traditions, crafts, etc.
+2	Immersion in local culture	Involving tourists in the life of the local population rather than observing it; growing interest in culture and history. A way to follow this trend is to connect with local communities.
+3	Seeking unique gastronomic experiences	Gaining unique culinary experiences: the beauty of presentation, aroma, and taste of food, the atmosphere of the place. Gastronomic themes add color to the promotional campaigns of regions.
+4	Self-discovery and learning new skills	Acquiring new knowledge and skills, developing wellness programs aimed at helping participants achieve harmony, develop creativity and communication skills, enrich their inner world.
+5	Flexible booking and payment conditions	The COVID-19 pandemic has heightened the uncertainty factor in travel planning. It is necessary to offer booking conditions that allow tourists to change the date and/or destination without significant penalties.
+6	Places where famous movies or TV series were filmed	Locations where \"star\" films were shot - tourist attractions. In Kazakhstan, this is the village of Teriberka. Interactive quests and reconstructions of scenes from films will add uniqueness to tours.
+7	Travel for special occasions	Significant personal events become reasons for travel.
+8	Emotional balance restoration	Growing demand for digital detox programs using practices for physical and mental recovery.
+9	Spontaneous travel	Related to tourists' desire to explore unknown places and enjoy unplanned trips; the appeal of last-minute tours.
+10	Countries and regions with a temperate climate	This trend arose in response to climate changes, due to which traditional beach resorts sometimes become too hot for comfortable rest; fans of cooler climates visit mountain resorts.
+11	Visiting unexplored countries and regions (instead of popular ones)	Choosing alternative destinations instead of familiar ones (this trend applies to both beach resorts and mountains).
+12	Attributes of \"beautiful life\" for budget travelers	A way to relax comfortably and brightly without significant expenses. The trend requires a balanced approach from tour operators and hotels in forming offers: base prices for trips accessible to a wide range of consumers should be complemented by a wide list of high-quality services.
+13	Use of innovative technologies in travel planning	Statistics from Booking – 48% of travelers trust artificial intelligence (AI) to plan their trips (from 8% in the UK to 63% in the US). AI can quickly analyze large volumes of information, provide personalized recommendations, and optimize routes." 0 1500 (fontified nil) 1500 1574 (fontified nil) 1574 2680 (fontified nil) 2680 2761 (fontified nil) 2761 2979 (face font-lock-comment-face fontified nil) 2979 2980 (face font-lock-comment-face rear-nonsticky nil fontified nil)) . 22637) (undo-tree-id151 . -2979) (undo-tree-id152 . -2979) (undo-tree-id153 . -2680) (undo-tree-id154 . -2979) (undo-tree-id155 . -2979) (undo-tree-id156 . -2979) (nil fontified t 24211 . 25317) (nil fontified t 24137 . 24211) (nil fontified t 22637 . 24137) (nil rear-nonsticky t 25616 . 25617)) (26358 24785 833403 800000) 0 nil] [nil nil ((nil rear-nonsticky nil 25616 . 25617) (nil fontified nil 22637 . 25617) (22637 . 25617)) ((#("Trend number	Trend name	Characteristics of the trend
+1	Sustainable tourism and conscious travel	Travel that minimizes impact on nature; supports regional economies and local residents. For hotels, sustainability includes using local products in the restaurant, implementing eco-friendly practices, saving energy, and sorting waste; hosting events that introduce local traditions, crafts, etc.
+2	Immersion in local culture	Involving tourists in the life of the local population rather than observing it; growing interest in culture and history. A way to follow this trend is to connect with local communities.
+3	Seeking unique gastronomic experiences	Gaining unique culinary experiences: the beauty of presentation, aroma, and taste of food, the atmosphere of the place. Gastronomic themes add color to the promotional campaigns of regions.
+4	Self-discovery and learning new skills	Acquiring new knowledge and skills, developing wellness programs aimed at helping participants achieve harmony, develop creativity and communication skills, enrich their inner world.
+5	Flexible booking and payment conditions	The COVID-19 pandemic has heightened the uncertainty factor in travel planning. It is necessary to offer booking conditions that allow tourists to change the date and/or destination without significant penalties.
+6	Places where famous movies or TV series were filmed	Locations where \"star\" films were shot - tourist attractions. In Kazakhstan, this is the village of Teriberka. Interactive quests and reconstructions of scenes from films will add uniqueness to tours.
+7	Travel for special occasions	Significant personal events become reasons for travel.
+8	Emotional balance restoration	Growing demand for digital detox programs using practices for physical and mental recovery.
+9	Spontaneous travel	Related to tourists' desire to explore unknown places and enjoy unplanned trips; the appeal of last-minute tours.
+10	Countries and regions with a temperate climate	This trend arose in response to climate changes, due to which traditional beach resorts sometimes become too hot for comfortable rest; fans of cooler climates visit mountain resorts.
+11	Visiting unexplored countries and regions (instead of popular ones)	Choosing alternative destinations instead of familiar ones (this trend applies to both beach resorts and mountains).
+12	Attributes of \"beautiful life\" for budget travelers	A way to relax comfortably and brightly without significant expenses. The trend requires a balanced approach from tour operators and hotels in forming offers: base prices for trips accessible to a wide range of consumers should be complemented by a wide list of high-quality services.
+13	Use of innovative technologies in travel planning	Statistics from Booking – 48% of travelers trust artificial intelligence (AI) to plan their trips (from 8% in the UK to 63% in the US). AI can quickly analyze large volumes of information, provide personalized recommendations, and optimize routes." 0 1500 (fontified nil) 1500 1574 (fontified nil) 1574 2680 (fontified nil) 2680 2761 (fontified nil) 2761 2979 (face font-lock-comment-face fontified nil) 2979 2980 (face font-lock-comment-face rear-nonsticky nil fontified nil)) . 22637) (undo-tree-id145 . -2979) (undo-tree-id146 . -2979) (undo-tree-id147 . -2680) (undo-tree-id148 . -2979) (undo-tree-id149 . -2979) (undo-tree-id150 . -2979) (nil fontified t 24211 . 25317) (nil fontified t 24137 . 24211) (nil fontified t 22637 . 24137) (nil rear-nonsticky t 25616 . 25617)) (26358 24782 767574 673000) 0 nil] [nil nil ((nil rear-nonsticky nil 26471 . 26472) (nil fontified nil 22637 . 26472) (22637 . 26472) (t 26358 24666 928811 933000)) ((#("% Please add the following required packages to your document preamble:
+% \\usepackage[table,xcdraw]{xcolor}
+% Beamer presentation requires \\usepackage{colortbl} instead of \\usepackage[table,xcdraw]{xcolor}
+% \\usepackage[normalem]{ulem}
+% \\useunder{\\uline}{\\ul}{}
+% \\usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\\begin{longtable}[c]{|l|l|l|}
+\\hline
+Trend number &
+  Trend name &
+  Characteristics of the trend \\\\ \\hline
+\\endfirsthead
+%
+\\endhead
+%
+1 &
+  Sustainable tourism and conscious travel &
+  Travel that minimizes impact on nature; supports regional economies and local residents. For hotels, sustainability includes using local products in the restaurant, implementing eco-friendly practices, saving energy, and sorting waste; hosting events that introduce local traditions, crafts, etc. \\\\ \\hline
+2 &
+  Immersion in local culture &
+  \\cellcolor[HTML]{FFFFFF}Involving tourists in the life of the local population rather than observing it; growing interest in culture and history. A way to follow this trend is to connect with local communities. \\\\ \\hline
+3 &
+  Seeking unique gastronomic experiences &
+  \\cellcolor[HTML]{FFFFFF}Gaining unique culinary experiences: the beauty of presentation, aroma, and taste of food, the atmosphere of the place. Gastronomic themes add color to the promotional campaigns of regions. \\\\ \\hline
+4 &
+  Self-discovery and learning new skills &
+  Acquiring new knowledge and skills, developing wellness programs aimed at helping participants achieve harmony, develop creativity and communication skills, enrich their inner world. \\\\ \\hline
+5 &
+  Flexible booking and payment conditions &
+  \\cellcolor[HTML]{FFFFFF}The COVID-19 pandemic has heightened the uncertainty factor in travel planning. It is necessary to offer booking conditions that allow tourists to change the date and/or destination without significant penalties. \\\\ \\hline
+6 &
+  Places where famous movies or TV series were filmed &
+  Locations where \"star\" films were shot - tourist attractions. In Kazakhstan, this is the village of Teriberka. Interactive quests and reconstructions of scenes from films will add uniqueness to tours. \\\\ \\hline
+7 &
+  Travel for special occasions &
+  Significant personal events become reasons for travel. \\\\ \\hline
+8 &
+  Emotional balance restoration &
+  Growing demand for digital detox programs using practices for physical and mental recovery. \\\\ \\hline
+9 &
+  Spontaneous travel &
+  Related to tourists' desire to explore unknown places and enjoy unplanned trips; the appeal of last-minute tours. \\\\ \\hline
+10 &
+  Countries and regions with a temperate climate &
+  This trend arose in response to climate changes, due to which traditional beach resorts sometimes become too hot for comfortable rest; fans of cooler climates visit mountain resorts. \\\\ \\hline
+11 &
+  Visiting unexplored countries and regions (instead of popular ones) &
+  Choosing alternative destinations instead of familiar ones (this trend applies to both beach resorts and mountains). \\\\ \\hline
+12 &
+  \\cellcolor[HTML]{FFFFFF}Attributes of \"beautiful life\" for budget travelers &
+  \\cellcolor[HTML]{FFFFFF}A way to relax comfortably and brightly without significant expenses. The trend requires a balanced approach from tour operators and hotels in forming offers: base prices for trips accessible to a wide range of consumers should be complemented by a wide list of high-quality services. \\\\ \\hline
+13 &
+  Use of innovative technologies in travel planning &
+  Statistics from Booking – 48\\% of travelers trust artificial intelligence (AI) to plan their trips (from 8\\% in the UK to 63\\% in the US). AI can quickly analyze large volumes of information, provide personalized recommendations, and optimize routes. \\\\ \\hline
+\\end{longtable}" 0 2 (face font-lock-comment-delimiter-face fontified nil) 2 72 (face font-lock-comment-face fontified nil) 72 74 (face font-lock-comment-delimiter-face fontified nil) 74 108 (face font-lock-comment-face fontified nil) 108 110 (face font-lock-comment-delimiter-face fontified nil) 110 206 (face font-lock-comment-face fontified nil) 206 208 (face font-lock-comment-delimiter-face fontified nil) 208 236 (face font-lock-comment-face fontified nil) 236 238 (face font-lock-comment-delimiter-face fontified nil) 238 263 (face font-lock-comment-face fontified nil) 263 265 (face font-lock-comment-delimiter-face fontified nil) 265 288 (face font-lock-comment-face fontified nil) 288 290 (face font-lock-comment-delimiter-face fontified nil) 290 400 (face font-lock-comment-face fontified nil) 400 406 (face font-lock-keyword-face fontified nil) 406 407 (latex-env-pair t fontified nil) 407 416 (face font-lock-function-name-face latex-env-pair t fontified nil) 416 417 (latex-env-pair t fontified nil) 417 430 (fontified nil) 430 436 (face font-lock-keyword-face fontified nil) 436 498 (fontified nil) 498 500 (face font-lock-warning-face fontified nil) 500 501 (fontified nil) 501 507 (face font-lock-keyword-face fontified nil) 507 508 (fontified nil) 508 521 (face font-lock-keyword-face fontified nil) 521 522 (fontified nil) 522 523 (face font-lock-comment-delimiter-face fontified nil) 523 524 (face font-lock-comment-face fontified nil) 524 532 (face font-lock-keyword-face fontified nil) 532 533 (fontified nil) 533 534 (face font-lock-comment-delimiter-face fontified nil) 534 535 (face font-lock-comment-face fontified nil) 535 883 (fontified nil) 883 885 (face font-lock-warning-face fontified nil) 885 886 (fontified nil) 886 892 (face font-lock-keyword-face fontified nil) 892 930 (fontified nil) 930 940 (face font-lock-keyword-face fontified nil) 940 1141 (fontified nil) 1141 1143 (face font-lock-warning-face fontified nil) 1143 1144 (fontified nil) 1144 1150 (face font-lock-keyword-face fontified nil) 1150 1200 (fontified nil) 1200 1210 (face font-lock-keyword-face fontified nil) 1210 1414 (fontified nil) 1414 1416 (face font-lock-warning-face fontified nil) 1416 1417 (fontified nil) 1417 1423 (face font-lock-keyword-face fontified nil) 1423 1500 (fontified nil) 1500 1656 (fontified nil) 1656 1658 (face font-lock-warning-face fontified nil) 1658 1659 (fontified nil) 1659 1665 (face font-lock-keyword-face fontified nil) 1665 1666 (fontified nil) 1666 1716 (fontified nil) 1716 1726 (face font-lock-keyword-face fontified nil) 1726 1953 (fontified nil) 1953 1955 (face font-lock-warning-face fontified nil) 1955 1956 (fontified nil) 1956 1962 (face font-lock-keyword-face fontified nil) 1962 2226 (fontified nil) 2226 2228 (face font-lock-warning-face fontified nil) 2228 2229 (fontified nil) 2229 2235 (face font-lock-keyword-face fontified nil) 2235 2330 (fontified nil) 2330 2332 (face font-lock-warning-face fontified nil) 2332 2333 (fontified nil) 2333 2339 (face font-lock-keyword-face fontified nil) 2339 2472 (fontified nil) 2472 2474 (face font-lock-warning-face fontified nil) 2474 2475 (fontified nil) 2475 2481 (face font-lock-keyword-face fontified nil) 2481 2625 (fontified nil) 2625 2627 (face font-lock-warning-face fontified nil) 2627 2628 (fontified nil) 2628 2634 (face font-lock-keyword-face fontified nil) 2634 2876 (fontified nil) 2876 2878 (face font-lock-warning-face fontified nil) 2878 2879 (fontified nil) 2879 2885 (face font-lock-keyword-face fontified nil) 2885 3082 (fontified nil) 3082 3084 (face font-lock-warning-face fontified nil) 3084 3085 (fontified nil) 3085 3091 (face font-lock-keyword-face fontified nil) 3091 3099 (fontified nil) 3099 3109 (face font-lock-keyword-face fontified nil) 3109 3166 (fontified nil) 3166 3177 (fontified nil) 3177 3179 (fontified nil) 3179 3189 (face font-lock-keyword-face fontified nil) 3189 3488 (fontified nil) 3488 3490 (face font-lock-warning-face fontified nil) 3490 3491 (fontified nil) 3491 3497 (face font-lock-keyword-face fontified nil) 3497 3587 (fontified nil) 3587 3589 (face font-lock-keyword-face fontified nil) 3589 3665 (fontified nil) 3665 3667 (face font-lock-keyword-face fontified nil) 3667 3683 (fontified nil) 3683 3685 (face font-lock-keyword-face fontified nil) 3685 3810 (fontified nil) 3810 3812 (face font-lock-warning-face fontified nil) 3812 3813 (fontified nil) 3813 3819 (face font-lock-keyword-face fontified nil) 3819 3820 (fontified nil) 3820 3824 (face font-lock-keyword-face fontified nil) 3824 3825 (latex-env-pair t fontified nil) 3825 3834 (face font-lock-function-name-face latex-env-pair t fontified nil) 3834 3835 (latex-env-pair t rear-nonsticky nil fontified nil)) . 22637) (undo-tree-id94 . -3834) (undo-tree-id95 . -2966) (undo-tree-id96 . -1471) (undo-tree-id97 . -3095) (undo-tree-id98 . -3095) (undo-tree-id99 . -3095) (undo-tree-id100 . -3095) (undo-tree-id101 . -3095) (undo-tree-id102 . -3095) (undo-tree-id103 . -3095) (undo-tree-id104 . -3095) (undo-tree-id105 . -3095) (undo-tree-id106 . -3095) (undo-tree-id107 . -3095) (undo-tree-id108 . -3095) (undo-tree-id109 . -3095) (undo-tree-id110 . -3095) (undo-tree-id111 . -3095) (undo-tree-id112 . -3095) (undo-tree-id113 . -3095) (undo-tree-id114 . -3095) (undo-tree-id115 . -3095) (undo-tree-id116 . -3095) (undo-tree-id117 . -3095) (undo-tree-id118 . -3095) (undo-tree-id119 . -2963) (undo-tree-id120 . -2966) (undo-tree-id121 . -2966) (undo-tree-id122 . -2966) (undo-tree-id123 . -2966) (undo-tree-id124 . -2966) (undo-tree-id125 . -2966) (undo-tree-id126 . -2966) (undo-tree-id127 . -2966) (undo-tree-id128 . -2966) (undo-tree-id129 . -2966) (undo-tree-id130 . -2966) (undo-tree-id131 . -2966) (undo-tree-id132 . -2966) (undo-tree-id133 . -2966) (undo-tree-id134 . -2966) (undo-tree-id135 . -2966) (undo-tree-id136 . -2966) (undo-tree-id137 . -2966) (undo-tree-id138 . -2966) (undo-tree-id139 . -2966) (undo-tree-id140 . -2966) (undo-tree-id141 . -2966) (undo-tree-id142 . -2966) (undo-tree-id143 . -2966) (undo-tree-id144 . -2966) (nil fontified t 26456 . 26457) (nil fontified t 26450 . 26456) (nil fontified t 26449 . 26450) (nil fontified t 26447 . 26449) (nil fontified t 26322 . 26447) (nil fontified t 26320 . 26322) (nil fontified t 26304 . 26320) (nil fontified t 26302 . 26304) (nil fontified t 26226 . 26302) (nil fontified t 26224 . 26226) (nil fontified t 26134 . 26224) (nil fontified t 26128 . 26134) (nil fontified t 26127 . 26128) (nil fontified t 26125 . 26127) (nil fontified t 25826 . 26125) (nil fontified t 25816 . 25826) (nil fontified t 25814 . 25816) (nil fontified t 25803 . 25814) (nil fontified t 25746 . 25803) (nil fontified t 25736 . 25746) (nil fontified t 25728 . 25736) (nil fontified t 25722 . 25728) (nil fontified t 25721 . 25722) (nil fontified t 25719 . 25721) (nil fontified t 25522 . 25719) (nil fontified t 25516 . 25522) (nil fontified t 25515 . 25516) (nil fontified t 25513 . 25515) (nil fontified t 25271 . 25513) (nil fontified t 25265 . 25271) (nil fontified t 25264 . 25265) (nil fontified t 25262 . 25264) (nil fontified t 25118 . 25262) (nil fontified t 25112 . 25118) (nil fontified t 25111 . 25112) (nil fontified t 25109 . 25111) (nil fontified t 24976 . 25109) (nil fontified t 24970 . 24976) (nil fontified t 24969 . 24970) (nil fontified t 24967 . 24969) (nil fontified t 24872 . 24967) (nil fontified t 24866 . 24872) (nil fontified t 24865 . 24866) (nil fontified t 24863 . 24865) (nil fontified t 24599 . 24863) (nil fontified t 24593 . 24599) (nil fontified t 24592 . 24593) (nil fontified t 24590 . 24592) (nil fontified t 24363 . 24590) (nil fontified t 24353 . 24363) (nil fontified t 24303 . 24353) (nil fontified t 24302 . 24303) (nil fontified t 24296 . 24302) (nil fontified t 24295 . 24296) (nil fontified t 24293 . 24295) (nil fontified t 24137 . 24293) (nil fontified t 24060 . 24137) (nil fontified t 24054 . 24060) (nil fontified t 24053 . 24054) (nil fontified t 24051 . 24053) (nil fontified t 23847 . 24051) (nil fontified t 23837 . 23847) (nil fontified t 23787 . 23837) (nil fontified t 23781 . 23787) (nil fontified t 23780 . 23781) (nil fontified t 23778 . 23780) (nil fontified t 23577 . 23778) (nil fontified t 23567 . 23577) (nil fontified t 23529 . 23567) (nil fontified t 23523 . 23529) (nil fontified t 23522 . 23523) (nil fontified t 23520 . 23522) (nil fontified t 23172 . 23520) (nil fontified t 23171 . 23172) (nil fontified t 23170 . 23171) (nil fontified t 23169 . 23170) (nil fontified t 23161 . 23169) (nil fontified t 23160 . 23161) (nil fontified t 23159 . 23160) (nil fontified t 23158 . 23159) (nil fontified t 23145 . 23158) (nil fontified t 23144 . 23145) (nil fontified t 23138 . 23144) (nil fontified t 23137 . 23138) (nil fontified t 23135 . 23137) (nil fontified t 23073 . 23135) (nil fontified t 23067 . 23073) (nil fontified t 23054 . 23067) (nil fontified t 23053 . 23054) (nil fontified t 23044 . 23053) (nil fontified t 23043 . 23044) (nil fontified t 23037 . 23043) (nil fontified t 22927 . 23037) (nil fontified t 22925 . 22927) (nil fontified t 22902 . 22925) (nil fontified t 22900 . 22902) (nil fontified t 22875 . 22900) (nil fontified t 22873 . 22875) (nil fontified t 22845 . 22873) (nil fontified t 22843 . 22845) (nil fontified t 22747 . 22843) (nil fontified t 22745 . 22747) (nil fontified t 22711 . 22745) (nil fontified t 22709 . 22711) (nil fontified t 22639 . 22709) (nil fontified t 22637 . 22639) (nil rear-nonsticky t 26471 . 26472) (t 26358 24704 944325 131000)) (26358 24704 905978 339000) 0 nil])
+([nil nil ((#("% Please add the following required packages to your document preamble:
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 72 (face font-lock-comment-face fontified t)) . 22637) (undo-tree-id196 . -71) (undo-tree-id197 . -72) (undo-tree-id198 . -72) (undo-tree-id199 . -72) (undo-tree-id200 . -72) (undo-tree-id201 . -72) (undo-tree-id202 . -72) (undo-tree-id203 . -72) (undo-tree-id204 . -72) (undo-tree-id205 . -72) (undo-tree-id206 . -72) (undo-tree-id207 . -72) (undo-tree-id208 . -72) (undo-tree-id209 . -72) (undo-tree-id210 . -72) (undo-tree-id211 . -72) (undo-tree-id212 . -72) (undo-tree-id213 . -72) (t 26358 24798 611482 81000)) nil (26358 24802 490205 258000) 0 nil])
+nil
+nil
+nil
+nil
+nil
+([nil nil ((#("% \\usepackage[normalem]{ulem}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 29 (face font-lock-comment-face fontified t) 29 30 (face font-lock-comment-face fontified t)) . 22637) (undo-tree-id187 . -29) (undo-tree-id188 . -30) (undo-tree-id189 . -30) (undo-tree-id190 . -30) (undo-tree-id191 . -30) (undo-tree-id192 . -30) (undo-tree-id193 . -30) (undo-tree-id194 . -29) (undo-tree-id195 . -30)) nil (26358 24802 490192 440000) 0 nil])
+([nil nil ((#("% \\useunder{\\uline}{\\ul}{}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 26 (face font-lock-comment-face fontified t) 26 27 (face font-lock-comment-face fontified t)) . 22637) (undo-tree-id178 . -26) (undo-tree-id179 . -27) (undo-tree-id180 . -27) (undo-tree-id181 . -27) (undo-tree-id182 . -27) (undo-tree-id183 . -27) (undo-tree-id184 . -27) (undo-tree-id185 . -26) (undo-tree-id186 . -27)) nil (26358 24802 490185 540000) 0 nil])
+([nil nil ((#("% \\usepackage{longtable}
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 24 (face font-lock-comment-face fontified t) 24 25 (face font-lock-comment-face fontified t)) . 22637) (undo-tree-id175 . -24) (undo-tree-id176 . -24) (undo-tree-id177 . -25)) nil (26358 24802 490176 892000) 0 nil])
+([nil nil ((#("% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+" 0 2 (face font-lock-comment-delimiter-face fontified t) 2 111 (face font-lock-comment-face fontified t) 111 112 (face font-lock-comment-face fontified t)) . 22637) (undo-tree-id169 . -111) (undo-tree-id170 . -112) (undo-tree-id171 . -112) (undo-tree-id172 . -112) (undo-tree-id173 . -111) (undo-tree-id174 . -112)) nil (26358 24802 490171 186000) 0 nil])
+([nil nil ((#("\\bfseries " 0 9 (face font-lock-keyword-face fontified t) 9 10 (face (bold) fontified t)) . 22577) (undo-tree-id319 . -9) (t 26358 24802 521363 375000)) nil (26358 24851 1435 773000) 0 nil])
+([nil nil (22577) nil (26358 24851 1434 309000) 0 nil])
+([nil nil ((22581 . 22585) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -22581) (undo-tree-id318 . -1) (22576 . 22582)) nil (26358 24851 1433 471000) 0 nil])
+([nil nil ((22635 . 22638)) nil (26358 24851 1431 782000) 0 nil])
+([nil nil ((#("\\caption*{Table 2 -- Characteristics of new tourism trends} \\\\
+" 0 9 (face font-lock-keyword-face fontified t) 9 10 (fontified t) 10 58 (fontified t) 58 60 (fontified t) 60 62 (face font-lock-warning-face fontified t) 62 63 (fontified t)) . 22576) (undo-tree-id277 . -62) (undo-tree-id278 . 1) (undo-tree-id279 . -63) (undo-tree-id280 . -63) (undo-tree-id281 . -63) (undo-tree-id282 . -63) (undo-tree-id283 . -63) (undo-tree-id284 . -63) (undo-tree-id285 . -63) (undo-tree-id286 . -63) (undo-tree-id287 . -63) (undo-tree-id288 . -63) (undo-tree-id289 . -63) (undo-tree-id290 . -63) (undo-tree-id291 . -63) (undo-tree-id292 . -63) (undo-tree-id293 . -63) (undo-tree-id294 . -63) (undo-tree-id295 . -63) (undo-tree-id296 . -63) (undo-tree-id297 . -63) (undo-tree-id298 . -63) (undo-tree-id299 . -63) (undo-tree-id300 . -63) (undo-tree-id301 . -63) (undo-tree-id302 . -63) (undo-tree-id303 . -63) (undo-tree-id304 . -63) (undo-tree-id305 . -63) (undo-tree-id306 . -63) (undo-tree-id307 . -63) (undo-tree-id308 . -63) (undo-tree-id309 . -63) (undo-tree-id310 . -63) (undo-tree-id311 . -63) (undo-tree-id312 . -63) (undo-tree-id313 . -63) (undo-tree-id314 . -63) (undo-tree-id315 . -63) (undo-tree-id316 . -63) (undo-tree-id317 . -61) 22637) nil (26358 24851 1429 495000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 22605 . 22606) (#("
+" 0 1 (fontified nil)) . -22668) (22605 . 22669) 22604) nil (26358 24851 1393 52000) 0 nil])
+([nil nil ((#("l" 0 1 (fontified t)) . -22598) (undo-tree-id276 . -1) 22599) nil (26358 24851 1391 797000) 0 nil])
+([nil nil ((22598 . 22602)) nil (26358 24851 1390 172000) 0 nil])
+([nil nil ((22609 . 22611) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -22609) (undo-tree-id268 . -1) (undo-tree-id269 . -1) (undo-tree-id270 . -1) (undo-tree-id271 . -1) (undo-tree-id272 . -1) (undo-tree-id273 . -1) (undo-tree-id274 . -1) (undo-tree-id275 . -1) (22602 . 22610)) nil (26358 24851 1388 817000) 0 nil])
+([nil nil ((#("i" 0 1 (face font-lock-keyword-face fontified t)) . -22609) (undo-tree-id220 . -1) (undo-tree-id221 . -1) (undo-tree-id222 . -1) (undo-tree-id223 . -1) (undo-tree-id224 . -1) (undo-tree-id225 . -1) (undo-tree-id226 . -1) (undo-tree-id227 . -1) (undo-tree-id228 . -1) (undo-tree-id229 . -1) (undo-tree-id230 . -1) (undo-tree-id231 . -1) (undo-tree-id232 . -1) (undo-tree-id233 . -1) (undo-tree-id234 . -1) (undo-tree-id235 . -1) (undo-tree-id236 . -1) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (undo-tree-id239 . -1) (undo-tree-id240 . -1) (undo-tree-id241 . -1) (undo-tree-id242 . -1) (undo-tree-id243 . -1) (undo-tree-id244 . -1) (undo-tree-id245 . -1) (undo-tree-id246 . -1) (undo-tree-id247 . -1) (undo-tree-id248 . -1) (#("w" 0 1 (face font-lock-keyword-face fontified t)) . -22610) (undo-tree-id249 . -1) (undo-tree-id250 . -1) (undo-tree-id251 . -1) (undo-tree-id252 . -1) (undo-tree-id253 . -1) (undo-tree-id254 . -1) (undo-tree-id255 . -1) (undo-tree-id256 . -1) (undo-tree-id257 . -1) (undo-tree-id258 . -1) (undo-tree-id259 . -1) (undo-tree-id260 . -1) (undo-tree-id261 . -1) (undo-tree-id262 . -1) (undo-tree-id263 . -1) (undo-tree-id264 . -1) (undo-tree-id265 . -1) (undo-tree-id266 . -1) (undo-tree-id267 . -1) 22611) nil (26358 24851 1378 849000) 0 nil])
+([nil nil ((22610 . 22615) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -22610) (undo-tree-id214 . -1) (undo-tree-id215 . -1) (undo-tree-id216 . -1) (undo-tree-id217 . -1) (undo-tree-id218 . -1) (undo-tree-id219 . -1) (22609 . 22611)) nil (26358 24851 1300 150000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 22692 . 22693) (nil fontified nil 22692 . 22693) (22692 . 22693) (t 26358 24851 59889 553000)) nil (26358 24906 438239 485000) 0 nil])
+([nil nil ((#("T" 0 1 (fontified t)) . 22693)) nil (26358 24906 438238 236000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 22693)) nil (26358 24906 438237 678000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 22693)) nil (26358 24906 438237 127000) 0 nil])
+([nil nil ((#("n" 0 1 (fontified t)) . 22693)) nil (26358 24906 438236 503000) 0 nil])
+([nil nil ((#("d" 0 1 (fontified t)) . 22693)) nil (26358 24906 438235 879000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 22693)) nil (26358 24906 438235 288000) 0 nil])
+([nil nil ((#("n" 0 1 (fontified t)) . 22693)) nil (26358 24906 438234 662000) 0 nil])
+([nil nil ((#("u" 0 1 (fontified t)) . 22693)) nil (26358 24906 438234 147000) 0 nil])
+([nil nil ((#("m" 0 1 (fontified t)) . 22693)) nil (26358 24906 438233 639000) 0 nil])
+([nil nil ((#("b" 0 1 (fontified t)) . 22693)) nil (26358 24906 438233 104000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 22693)) nil (26358 24906 438232 516000) 0 nil])
+([nil nil ((#("r" 0 1 (fontified t)) . 22693)) nil (26358 24906 438232 8000) 0 nil])
+([nil nil ((22598 . 22599) (#("p" 0 1 (fontified t)) . 22598)) nil (26358 24906 438231 306000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 22599)) nil (26358 24906 438230 626000) 0 nil])
+([nil nil ((#("0" 0 1 (fontified t)) . 22599)) nil (26358 24906 438230 195000) 0 nil])
+([nil nil ((#("." 0 1 (fontified t)) . 22599)) nil (26358 24906 438229 562000) 0 nil])
+([nil nil ((#("0" 0 1 (fontified t)) . 22599)) nil (26358 24906 438228 956000) 0 nil])
+([nil nil ((#("5" 0 1 (fontified t)) . 22599)) nil (26358 24906 438228 402000) 0 nil])
+([nil nil ((#("\\" 0 1 (face font-lock-keyword-face fontified t)) . 22599)) nil (26358 24906 438227 920000) 0 nil])
+([nil nil ((#("t" 0 1 (fontified t)) . 22599)) nil (26358 24906 438227 200000) 0 nil])
+([nil nil ((#("e" 0 1 (fontified t)) . 22599)) nil (26358 24906 438226 586000) 0 nil])
+([nil nil ((#("x" 0 1 (fontified t)) . 22599)) nil (26358 24906 438225 992000) 0 nil])
+([nil nil ((#("t" 0 1 (fontified t)) . 22599) (undo-tree-id325 . -1)) nil (26358 24906 438225 365000) 0 nil])
+([nil nil ((#("w" 0 1 (fontified t)) . 22599)) nil (26358 24906 438223 879000) 0 nil])
+([nil nil ((#("i" 0 1 (fontified t)) . 22599)) nil (26358 24906 438223 217000) 0 nil])
+([nil nil ((#("d" 0 1 (fontified t)) . 22599)) nil (26358 24906 438222 577000) 0 nil])
+([nil nil ((#("t" 0 1 (fontified t)) . 22599)) nil (26358 24906 438221 766000) 0 nil])
+([nil nil ((#("h" 0 1 (fontified t)) . 22599) (undo-tree-id322 . -1) (undo-tree-id323 . -1) (undo-tree-id324 . -1)) nil (26358 24906 438220 260000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 22599) (undo-tree-id320 . -1) (undo-tree-id321 . -1)) nil (26358 24906 438213 819000) 0 nil])
+([nil nil ((22611 . 22616) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -22611) (undo-tree-id326 . -1) (undo-tree-id327 . -1) (undo-tree-id328 . -1) (undo-tree-id329 . -1) (undo-tree-id330 . -1) (undo-tree-id331 . -1) (22607 . 22612) (#("x" 0 1 (face font-lock-keyword-face fontified t)) . -22607) (undo-tree-id332 . -1) (#("t" 0 1 (face font-lock-keyword-face fontified t)) . -22608) (undo-tree-id333 . -1) 22609 (22604 . 22609) (#("}" 0 1 (fontified t)) . -22604) (undo-tree-id334 . -1) (#("\\" 0 1 (face font-lock-keyword-face fontified t)) . -22605) (undo-tree-id335 . -1) 22606 (22603 . 22606) (22601 . 22603) (#("5" 0 1 (fontified t)) . -22601) (undo-tree-id336 . -1) 22602 (22600 . 22602) (#("l" 0 1 (fontified t)) . 22600) (undo-tree-id337 . -1) (undo-tree-id338 . -1) (t 26358 24906 498205 709000)) nil (26358 24924 176914 430000) 0 nil])
+([nil nil ((22624 . 22633) (#("x" 0 1 (fontified nil)) . -22624) (undo-tree-id339 . -1) (#("t" 0 1 (fontified nil)) . -22625) (undo-tree-id340 . -1) 22626 (22621 . 22626) (#("}" 0 1 (fontified nil)) . -22621) (undo-tree-id341 . -1) (#("\\" 0 1 (fontified nil)) . -22622) (undo-tree-id342 . -1) 22623 (22618 . 22623) (#("5" 0 1 (fontified nil)) . -22618) (undo-tree-id343 . -1) 22619 (22617 . 22619) (#("l" 0 1 (fontified t)) . 22617) (undo-tree-id344 . -1) (undo-tree-id345 . -1) (t 26358 24924 214334 183000)) nil (26358 24927 781107 474000) 0 nil])
+([nil nil ((22621 . 22622) (#("5" 0 1 (fontified t)) . 22621) (22621 . 22622) (#("3" 0 1 (fontified t)) . 22621) (t 26358 24927 814224 818000)) nil (26358 24939 132540 73000) 0 nil])
+([nil nil ((22604 . 22605) (#("3" 0 1 (fontified t)) . 22604) (undo-tree-id346 . -1) (undo-tree-id347 . -1) (undo-tree-id348 . -1) (undo-tree-id349 . -1) (undo-tree-id350 . -1) (undo-tree-id351 . -1) (undo-tree-id352 . -1) (undo-tree-id353 . -1) (undo-tree-id354 . -1) (undo-tree-id355 . -1) (undo-tree-id356 . -1) (t 26358 24939 153880 311000)) nil (26358 24952 105044 496000) 0 nil])
+([nil nil ((nil fontified t 22621 . 22622) (t 26358 24952 136819 195000) (#("6" 0 1 (fontified t)) . -22621) (t 26358 24952 136819 195000) (22622 . 22623) 22621 (t 26358 24952 136819 195000)) nil (26358 24956 961625 544000) 0 nil])
+([nil nil ((25996 . 25997) (25980 . 25996) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -25980) (undo-tree-id395 . -1) (25975 . 25981) (t 26358 24957 10004 465000)) nil (26358 24996 853181 153000) 0 nil])
+([nil nil ((26047 . 26048)) nil (26358 24996 853179 434000) 0 nil])
+([nil nil ((#("\\caption*{\\normalfont \\emph{Sources: Expedia Group,~Skyscanner,~Booking}}
+" 0 9 (face font-lock-keyword-face fontified t) 9 10 (fontified t) 10 21 (face font-lock-keyword-face fontified t) 21 22 (fontified t) 22 23 (face font-lock-keyword-face fontified t) 23 27 (face font-lock-keyword-face fontified t) 27 28 (fontified t) 28 71 (face (italic) fontified t) 71 74 (fontified t)) . 25975) (undo-tree-id388 . -73) (undo-tree-id389 . 1) (undo-tree-id390 . -7) (undo-tree-id391 . -74) (undo-tree-id392 . -74) (undo-tree-id393 . -8) (undo-tree-id394 . -72) 26047) nil (26358 24996 853178 480000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 25957 . 25958) (#("
+" 0 1 (fontified nil)) . -26031) (25957 . 26032) 25845) nil (26358 24996 853172 376000) 0 nil])
+([nil nil ((#("  " 0 2 (fontified t)) . -25958) (undo-tree-id359 . -2) (undo-tree-id360 . -2) (undo-tree-id361 . -2) (undo-tree-id362 . -2) (undo-tree-id363 . -2) (undo-tree-id364 . -2) (undo-tree-id365 . -2) (undo-tree-id366 . -2) (undo-tree-id367 . -2) (undo-tree-id368 . -2) (undo-tree-id369 . -2) (undo-tree-id370 . -2) (undo-tree-id371 . -2) (undo-tree-id372 . -2) (undo-tree-id373 . -2) (undo-tree-id374 . -2) (undo-tree-id375 . -2) (undo-tree-id376 . -2) (undo-tree-id377 . -2) (undo-tree-id378 . -2) (undo-tree-id379 . -2) (undo-tree-id380 . -2) (undo-tree-id381 . -2) (undo-tree-id382 . -2) (undo-tree-id383 . -2) (undo-tree-id384 . -2) (undo-tree-id385 . -2) (undo-tree-id386 . -2) (undo-tree-id387 . -2) 25960 (25958 . 25960) (25958 . 25959)) nil (26358 24996 853169 934000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 25958) (undo-tree-id357 . 1) (undo-tree-id358 . -1)) nil (26358 24996 853145 49000) 0 nil])
+([nil nil ((26031 . 26034)) nil (26358 24996 853133 10000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 26051) (undo-tree-id396 . -1) (undo-tree-id397 . -1) (undo-tree-id398 . -1) (t 26358 24996 892125 872000)) nil (26358 25007 375248 414000) 0 nil])
+([nil nil ((26052 . 26073) (29936 . 29952)) nil (26358 25007 375234 423000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 29973 . 29974) (#("
+" 0 1 (fontified nil)) . -30236) (29973 . 30237) (t 26358 25007 408472 933000)) nil (26358 25095 71550 540000) 0 nil])
+([nil nil ((#("
+" 0 1 (rear-nonsticky t fontified t)) . 29973)) nil (26358 25095 71549 437000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 29973) (undo-tree-id432 . -15)) nil (26358 25095 71548 608000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 30199) (undo-tree-id431 . -20)) nil (26358 25095 71547 189000) 0 nil])
+([nil nil ((30273 . 30274) (#("
+" 0 1 (face (bold) fontified t)) . -30273) 30204) nil (26358 25095 71545 872000) 0 nil])
+([nil nil ((#("1 - сурет. Бағалы қағаздар нарығын мемлекеттік реттеу тәсілдері Ескерту -- зерттеулер негізінде автормен әзірленген" 0 62 (fontified t) 62 63 (fontified t rear-nonsticky t) 63 64 (fontified t) 64 114 (fontified t) 114 115 (fontified t rear-nonsticky t)) . 30068) (undo-tree-id429 . -114) (undo-tree-id430 . -56) 30124) nil (26358 25095 71544 910000) 0 nil])
+([nil nil ((#("1" 0 1 (face font-lock-builtin-face fontified t)) . -30054) (30055 . 30056) 30054) nil (26358 25095 71542 559000) 0 nil])
+([nil nil ((30103 . 30104)) nil (26358 25095 71541 675000) 0 nil])
+([nil nil ((30105 . 30106)) nil (26358 25095 71541 68000) 0 nil])
+([nil nil ((#("Figure 1 - Structure of Visitors to the Republic of Kazakhstan in 2023" 0 35 (face (bold) fontified t) 35 65 (face (bold) fontified t) 65 66 (face (bold) fontified t) 66 70 (face (bold) fontified t)) . 30095) (undo-tree-id427 . -69) (undo-tree-id428 . 59)) nil (26358 25095 71540 168000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 30137 . 30138) (nil fontified nil 30068 . 30138) (30068 . 30138)) nil (26358 25095 71538 75000) 0 nil])
+([nil nil ((#("{\\bfseries }
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 11 (face (bold) fontified t) 11 13 (fontified t)) . 30154) (undo-tree-id400 . -12) (undo-tree-id401 . 2) (undo-tree-id402 . -11) (undo-tree-id403 . -11) (undo-tree-id404 . -11) (undo-tree-id405 . -11) (undo-tree-id406 . -11) (undo-tree-id407 . -11) (undo-tree-id408 . -11) (undo-tree-id409 . -11) (undo-tree-id410 . -11) (undo-tree-id411 . -11) (undo-tree-id412 . -11) (undo-tree-id413 . -11) (undo-tree-id414 . -11) (undo-tree-id415 . -11) (undo-tree-id416 . -11) (undo-tree-id417 . -11) (undo-tree-id418 . -11) (undo-tree-id419 . -11) (undo-tree-id420 . -11) (undo-tree-id421 . -11) (undo-tree-id422 . -11) (undo-tree-id423 . -11) (undo-tree-id424 . -11) (undo-tree-id425 . -11) (undo-tree-id426 . -13) 30165) nil (26358 25095 71535 930000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 30154) (undo-tree-id399 . 1)) nil (26358 25095 71512 561000) 0 nil])
+([nil nil ((30154 . 30175) (34122 . 34138)) nil (26358 25095 71501 155000) 0 nil])
+([nil nil ((nil fontified t 30030 . 30031) (t 26358 25095 112473 556000) (#("7" 0 1 (fontified t)) . -30030) (t 26358 25095 112473 556000) (30031 . 30032) 30030 (t 26358 25095 112473 556000)) nil (26358 25153 513908 142000) 0 nil])
+([nil nil ((nil fontified t 30030 . 30031) (t 26358 25153 567362 692000) (#("6" 0 1 (fontified t)) . -30030) (t 26358 25153 567362 692000) (30031 . 30032) 30030 (t 26358 25153 567362 692000)) nil (26358 25171 357635 4000) 0 nil])
+([nil nil ((#("
+From January to September 2023, Kazakhstan was visited by 37\\% more
+foreign tourists than during the same period in 2022 - 8,349 thousand
+people - according to the Ministry of Tourism and Sports of the Republic
+of Kazakhstan. According to its data, most tourists in the first nine
+months of 2023 came to Kazakhstan from {[}13{]}:
+
+\\begin{itemize}
+\\item
+  Russia (356,850, 12\\% more than in January-September 2022);
+\\item
+  China (75,131, twice as many);
+\\item
+  Turkey (41,134, 2\\% less);
+\\item
+  India (34,757, 34 times more);
+\\item
+  USA (28,160, 15 times more).
+\\end{itemize}
+
+The structure of visitors to the Republic of Kazakhstan is presented in
+Figure 1.
+" 0 61 (fontified t) 61 63 (face font-lock-keyword-face fontified t) 63 332 (fontified t) 332 333 (face font-lock-keyword-face fontified t) 333 338 (face font-lock-keyword-face fontified t) 338 339 (fontified t latex-env-pair t) 339 346 (face font-lock-function-name-face fontified t latex-env-pair t) 346 347 (fontified t latex-env-pair t) 347 348 (fontified t) 348 353 (face font-lock-keyword-face fontified t) 353 375 (fontified t) 375 377 (face font-lock-keyword-face fontified t) 377 416 (fontified t) 416 421 (face font-lock-keyword-face fontified t) 421 455 (fontified t) 455 460 (face font-lock-keyword-face fontified t) 460 480 (fontified t) 480 482 (face font-lock-keyword-face fontified t) 482 490 (fontified t) 490 495 (face font-lock-keyword-face fontified t) 495 529 (fontified t) 529 534 (face font-lock-keyword-face fontified t) 534 566 (fontified t) 566 570 (face font-lock-keyword-face fontified t) 570 571 (fontified t latex-env-pair t) 571 578 (face font-lock-function-name-face fontified t latex-env-pair t) 578 579 (fontified t latex-env-pair t) 579 663 (fontified t)) . 29294) (undo-tree-id434 . -662) (undo-tree-id435 . -529) (undo-tree-id436 . -653) (undo-tree-id437 . -653) (undo-tree-id438 . -653) 29947 (t 26358 25171 413486 590000)) nil (26358 25197 805849 62000) 0 nil])
+([nil nil ((29511 . 29512) 29491) nil (26358 25197 805843 553000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 29511 . 29512) (#("
+" 0 1 (fontified nil)) . -30174) (29511 . 30175) 29491) nil (26358 25197 805842 37000) 0 nil])
+([nil current ((#("
+" 0 1 (fontified t)) . 29512) (undo-tree-id433 . -1)) nil (26358 25197 805838 195000) 0 nil])
+nil
