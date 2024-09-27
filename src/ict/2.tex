@@ -14,10 +14,8 @@ STUDENTS}
 after K.Kulazhanov, Astana, Kazakhstan,
 
 \textsuperscript{2}NJSC ''Shakarim University'', Semey, Kazakhstan
-
-
 \end{center}
-Corresponding author:\emph{Akmail04cx@mail.ru}
+Corresponding author:\emph{Akmail04cx@mail.ru} \vspace{0.5cm}
 
 The educational and methodological set of documentation (UMKD) is an
 integral part of the educational process at a higher educational
@@ -188,9 +186,6 @@ concentration and responsibility;
 
 3) Excludes human influence.
 
-\end{multicols}
-\begin{multicols}{2}
-
 One of the main criteria of software products used for test control is
 saving time, as well as time spent on developing software code.
 
@@ -207,10 +202,7 @@ In this regard, there is a problem in the need to automate the
 preparation of test tasks while maintaining the quality of the
 questions, the ability to edit, the availability of adequate ergonomics
 and use for mobile applications.
-\end{multicols}
 
-
-\begin{multicols}{2}
 
 The purpose of the study: The development of software code that allows
 you to automate the process of preparing test tasks using ChatGPT
@@ -223,7 +215,36 @@ create HTTP requests and interact with the ChatGPT API.
 {\bfseries Discussion of the results.} The development of the program code
 begins with going to the project folder and http://localhost:3000 we
 will launch the development server.
+
+Our React application will be placed in the \textless div id="root"\textgreater{} line. 
+The element will be replaced with the application code, and everything 
+else will remain the same.	Open the src / index js file, the React application is located here, the
+source code of the application is located in the src directory (see fig.
+2).Let\textquotesingle s look at the code of our first component. Src / App (see fig. 3). 
+
+Let\textquotesingle s consider the principle of using ChatGPT in our
+study.
+
+By creating HTTP API requests, we can interact with ChatGPT and receive
+responses in real time {[}3-8{]}.
+
+This requires tools and accounts in particular:
+
+-\/-Open ID account and API key (registering an account on the Open AI
+platform and obtaining an API key to authenticate ChatGPT API requests;
+
+-the presence of a Node.js and npm;
+
+-a project in the React JS Project.
+
+
+The next important point is to create a component to control the chat
+function (see listing 1 of the program code).The program is written
+using the Russian alphabet.
+	
+
 \end{multicols}
+
 \begin{table}[]
     \centering
     {\bfseries Table 1−Test development programs} \\[10pt] % Adjust the space here, e.g., 10pt for a small gap
@@ -247,63 +268,29 @@ will launch the development server.
 \begin{figure}[H]
 	{\bfseries Open the file located at the address (see fig.1)}
 	\centering
-	\includegraphics[width=0.9\textwidth]{assets/126}
+	\includegraphics[width=0.7\textwidth]{assets/126}
 	\caption*{\bfseries Figure 1− Index.html files}
 \end{figure}
 
-\begin{multicols}{2}
 
-
-Our React application will be placed in the \textless div
-id="root"\textgreater{} line. The element will be replaced with the
-application code, and everything else will remain the same.
-
-Open the src / index js file, the React application is located here, the
-source code of the application is located in the src directory (see fig.
-2).Let\textquotesingle s look at the code of our first component. Src / App (see fig. 3). 
-\end{multicols}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{assets/127}
+	\includegraphics[width=0.7\textwidth]{assets/127}
 	\caption*{\bfseries Figure 2−Index.js files}
 \end{figure}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.9\textwidth]{assets/128}
+	\includegraphics[width=0.7\textwidth]{assets/128}
 	\caption*{\bfseries Figure 3− App.js files}
 \end{figure}
 
-\begin{multicols}{2}
 
-Let\textquotesingle s consider the principle of using ChatGPT in our
-study.
-
-By creating HTTP API requests, we can interact with ChatGPT and receive
-responses in real time {[}3-8{]}.
-\end{multicols}
-\begin{multicols}{2}
-This requires tools and accounts in particular:
-
--\/-Open ID account and API key (registering an account on the Open AI
-platform and obtaining an API key to authenticate ChatGPT API requests;
-
--the presence of a Node.js and npm;
-
--a project in the React JS Project.
-\end{multicols}
-\begin{multicols}{2}
-
-The next important point is to create a component to control the chat
-function (see listing 1 of the program code).The program is written
-using the Russian alphabet.
 
 Listing 1 of the program code:
-\end{multicols}
-
 \begin{lstlisting}
 	// Chat.js
 	Import React , { useState } внутринний 'react' ;
