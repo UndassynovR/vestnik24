@@ -48,7 +48,7 @@ teacher\textquotesingle s work by 80\% compared to existing analogues
 for the development of test tasks. At the same time, the quality and
 adequacy of the developed issues are at a high level.
 
-{\bfseries Key words}: automation, information technology, software
+{\bfseries Keywords}: automation, information technology, software
 product, test tasks, efficiency, student.
 
 
@@ -194,6 +194,29 @@ higher from the point of view of the organization, but the efficiency is
 much higher.
 
 Table 1 shows the most common test development programs.
+\end{multicols}
+
+\begin{table}[H]
+    \centering
+    \caption*{Table 1−Test development programs} 
+    \resizebox{0.6\textwidth}{!}{
+    \begin{tabular}{|l|l|}
+    \hline
+    Title    & Functional                                                                                          \\ \hline
+    TestMaker &
+      \begin{tabular}[c]{@{}l@{}}-editing previously created tests;\\ -save test results;\\ -adding graphic images;\\ -Generate questions in random order.\end{tabular} \\ \hline
+    RichTest &
+      \begin{tabular}[c]{@{}l@{}}Differs from the previous one by the possibility of:\\ -transition to theory to prepare for the test;\\ -setting the difficulty of each question;\\ -attaching a hint to a question;\\ -the user switches to the training mode.\end{tabular} \\ \hline
+    Examinator & Practically no different from TestMaker                                                           \\ \hline
+    MyTestXPro &
+      \begin{tabular}[c]{@{}l@{}}The difference from the previous ones:\\ -single selection;\\ -multiple choice;\\ -establishment of the order of succession;\\ -establishing compliance;\\ -indication of the truth or falsity of statements;\end{tabular} \\ \hline
+    INDIGO   & \begin{tabular}[c]{@{}l@{}}Features:\\ -tasks for each group of individual settings.\end{tabular} \\ \hline
+    \end{tabular}
+	}
+\end{table}
+
+
+\begin{multicols}{2}
 
 The disadvantages of the above programs are the need for manual
 formation of questions, considerable time for the development of tests.
@@ -216,11 +239,42 @@ create HTTP requests and interact with the ChatGPT API.
 begins with going to the project folder and http://localhost:3000 we
 will launch the development server.
 
+
+\end{multicols}
+
+\begin{figure}[H]
+	{\bfseries Open the file located at the address (see fig.1)}
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/126}
+	\caption*{\bfseries Figure 1− Index.html files}
+\end{figure}
+
+\begin{multicols}{2}
+
 Our React application will be placed in the \textless div id="root"\textgreater{} line. 
 The element will be replaced with the application code, and everything 
 else will remain the same.	Open the src / index js file, the React application is located here, the
 source code of the application is located in the src directory (see fig.
-2).Let\textquotesingle s look at the code of our first component. Src / App (see fig. 3). 
+2).
+Let\textquotesingle s look at the code of our first component. Src / App (see fig. 3). 
+
+\end{multicols}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/127}
+	\caption*{\bfseries Figure 2−Index.js files}
+\end{figure}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.8\textwidth]{assets/128}
+	\caption*{\bfseries Figure 3− App.js files}
+\end{figure}
+
+\begin{multicols}{2}
+
 
 Let\textquotesingle s consider the principle of using ChatGPT in our
 study.
@@ -244,51 +298,6 @@ using the Russian alphabet.
 	
 
 \end{multicols}
-
-\begin{table}[]
-    \centering
-    {\bfseries Table 1−Test development programs} \\[10pt] % Adjust the space here, e.g., 10pt for a small gap
-    \resizebox{0.6\textwidth}{!}{
-    \begin{tabular}{|l|l|}
-    \hline
-    Title    & Functional                                                                                          \\ \hline
-    TestMaker &
-      \begin{tabular}[c]{@{}l@{}}-editing previously created tests;\\ -save test results;\\ -adding graphic images;\\ -Generate questions in random order.\end{tabular} \\ \hline
-    RichTest &
-      \begin{tabular}[c]{@{}l@{}}Differs from the previous one by the possibility of:\\ -transition to theory to prepare for the test;\\ -setting the difficulty of each question;\\ -attaching a hint to a question;\\ -the user switches to the training mode.\end{tabular} \\ \hline
-    Examinator & Practically no different from TestMaker                                                           \\ \hline
-    MyTestXPro &
-      \begin{tabular}[c]{@{}l@{}}The difference from the previous ones:\\ -single selection;\\ -multiple choice;\\ -establishment of the order of succession;\\ -establishing compliance;\\ -indication of the truth or falsity of statements;\end{tabular} \\ \hline
-    INDIGO   & \begin{tabular}[c]{@{}l@{}}Features:\\ -tasks for each group of individual settings.\end{tabular} \\ \hline
-    \end{tabular}
-	}
-\end{table}
-
-
-\begin{figure}[H]
-	{\bfseries Open the file located at the address (see fig.1)}
-	\centering
-	\includegraphics[width=0.7\textwidth]{assets/126}
-	\caption*{\bfseries Figure 1− Index.html files}
-\end{figure}
-
-
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{assets/127}
-	\caption*{\bfseries Figure 2−Index.js files}
-\end{figure}
-
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.7\textwidth]{assets/128}
-	\caption*{\bfseries Figure 3− App.js files}
-\end{figure}
-
-
 
 Listing 1 of the program code:
 \begin{lstlisting}
@@ -437,47 +446,43 @@ message, if isLoading is erroneous, it is returned.
 Let\textquotesingle s consider the description of the program code
 "Assistant for preparing test tasks". Fig. 4 shows the entrance to the
 program {[}13{]}.
-\end{multicols}
 
-
-
-
-\begin{multicols}{2}
 The user can log in as a teacher with admin rights, or as a student fig.5;6.
 \end{multicols}
 
 
-
-
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{assets/129}
+	\includegraphics[height=0.35\textwidth, width=0.65\textwidth]{assets/129}
 	\caption*{\bfseries Figure 4−Login to the program}
 \end{figure}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{assets/130}
+	\includegraphics[height=0.35\textwidth, width=0.65\textwidth]{assets/130}
 	\caption*{\bfseries Figure 5−Entering the program as a teacher}
 \end{figure}
-\begin{multicols}{2}
-	The presented software product on the main page contains educational
-	programs in the disciplines for which it is supposed to develop tests fig.7.
-	Each educational program contains disciplines in which the student is tested fig.8.
-	\end{multicols}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{assets/131}
+	\includegraphics[height=0.35\textwidth, width=0.65\textwidth]{assets/131}
 	\caption*{\bfseries Figure 6−Entering the program as a student}
 \end{figure}
 
+\begin{multicols}{2}
+The presented software product on the main page contains educational
+programs in the disciplines for which it is supposed to develop tests fig.7.
+Each educational program contains disciplines in which the student is tested fig.8.
+\end{multicols}
+
+
+
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{assets/132}
-	\caption*{\bfseries Figure 7−The main menu of the program code "Assistant for
+	\includegraphics[height=0.4\textwidth, width=0.8\textwidth]{assets/132}
+	\caption*{Figure 7−The main menu of the program code "Assistant for
 	preparing test tasks"}
 \end{figure}
 
@@ -485,7 +490,7 @@ The user can log in as a teacher with admin rights, or as a student fig.5;6.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.6\textwidth]{assets/133}
+	\includegraphics[height=0.4\textwidth, width=0.8\textwidth]{assets/133}
 	\caption*{\bfseries Figure 8−An example of disciplines for testing students}
 \end{figure}
 
@@ -494,15 +499,6 @@ The development of tests begins with entering the name of the discipline
 (in our example, the subject "Controller Programming" for the
 educational program is Automation and control), the number of test
 questions, and the time to answer fig.9.
-\end{multicols}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.8\textwidth]{assets/134}
-	\caption*{\bfseries Figure 9−Development of test tasks}
-\end{figure}
-
-\begin{multicols}{2}
 
 The user (teacher) enters the number of questions and the time to answer
 manually. The material for the tests can be prepared in advance or
@@ -513,29 +509,32 @@ large number of questions. In our test task (see fig. 8) 25 questions
 and 20 minutes to answer. We can see the result in fig. 10-11.
 \end{multicols}
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[height=0.35\textwidth, width=0.8\textwidth]{assets/134}
+	\caption*{\bfseries Figure 9−Development of test tasks}
+\end{figure}
+
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/135}
+	\includegraphics[height=0.35\textwidth, width=0.8\textwidth]{assets/135}
 	\caption*{\bfseries Figure 10− Developed test questions from 1-6}
 \end{figure}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/136}
+	\includegraphics[height=0.35\textwidth, width=0.8\textwidth]{assets/136}
 	\caption*{\bfseries Figure 11− Developed test questions from 20-25}
 \end{figure}
 
-\begin{multicols}{2}
-The resulting test is automatically placed in the Educational Programs
-automation and Management folder fig.12.
-\end{multicols}
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/137}
+	\includegraphics[height=0.4\textwidth, width=0.8\textwidth]{assets/137}
 	\caption*{\bfseries Figure 12- Developed test on the discipline "Controller
 	programming"}
 \end{figure}
@@ -544,11 +543,14 @@ automation and Management folder fig.12.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/138}
+	\includegraphics[height=0.4\textwidth, width=0.8\textwidth]{assets/138}
 	\caption*{\bfseries Figure 13−Adding students to control knowledge}
 \end{figure}
 
 \begin{multicols}{2}
+The resulting test is automatically placed in the Educational Programs
+automation and Management folder fig.12.
+
 Students of the groups are added to the appropriate discipline to
 complete the test tasks fig.13, this requires their login and email in
 gmail.com.
@@ -563,12 +565,15 @@ programming".
 
 
 The result of the response can be viewed in a separate folder fig.15.
+
+The result of the answer is given as a percentage of the equivalent
+number of points received by students fig.16.
 \end{multicols}
 
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/139}
+	\includegraphics[height=0.35\textwidth, width=0.8\textwidth]{assets/139}
 	\caption*{\bfseries Figure 14- Completing the answers to the test}
 \end{figure}
 
@@ -576,20 +581,16 @@ The result of the response can be viewed in a separate folder fig.15.
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/140}
+	\includegraphics[height=0.35\textwidth, width=0.8\textwidth]{assets/140}
 	\caption*{\bfseries Figure 15−Storage location for students\textquotesingle{}
 	answers}
 \end{figure}
 
 
-\begin{multicols}{2}
-The result of the answer is given as a percentage of the equivalent
-number of points received by students fig.16.
-\end{multicols}
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/141}
+	\includegraphics[height=0.35\textwidth, width=0.8\textwidth]{assets/141}
 	\caption*{\bfseries Figure 16−The result of the student\textquotesingle s answer to
 	the test questions}
 \end{figure}
