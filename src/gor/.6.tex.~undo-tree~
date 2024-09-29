@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"80df4fb202314c15b3dc29c5536414867d3938da"
+"224a59c73320d3672ba75844f38ebeee7b4ebcd9"
 [nil nil nil nil (26357 27863 789280 201000) 0 nil]
 ([nil nil ((#("{\\bfseries МРНТИ 61.51.21}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 25 (face (bold) fontified t) 25 26 (fontified t)) . -11) (undo-tree-id150 . -14) (undo-tree-id151 . -14) (undo-tree-id152 . -14) (undo-tree-id153 . -14) (undo-tree-id154 . -14) (undo-tree-id155 . -14) 25 (t 26354 21871 547099 475000)) nil (26357 27863 789279 149000) 0 nil])
 ([nil nil ((nil rear-nonsticky nil 24 . 25) (nil fontified nil 11 . 25) (11 . 25)) nil (26357 27863 789276 83000) 0 nil])
@@ -787,6 +787,7 @@ nil
 ([nil nil ((18474 . 18475) 18459) nil (26357 31825 283138 884000) 0 nil])
 ([nil nil ((nil rear-nonsticky nil 18833 . 18834) (#("
 " 0 1 (fontified nil)) . -18855) (18833 . 18856)) nil (26357 31825 283138 343000) 0 nil])
-([nil current ((#("
+([nil nil ((#("
 " 0 1 (fontified t)) . 18855) (undo-tree-id274 . -1)) nil (26357 31825 283135 227000) 0 nil])
+([nil current ((24 . 137) 10 (t 26357 31825 291213 949000)) nil (26361 52748 978597 430000) 0 nil])
 nil

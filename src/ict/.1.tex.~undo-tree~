@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"37eb74b24e0a950227a8bd76927307036bf41568"
+[nil nil nil nil (26361 51598 900021 530000) 0 nil]
+([nil current ((172 . 285) 171 (t 26360 2500 142271 258000)) nil (26361 51637 299463 978000) 0 nil] [nil nil ((173 . 286) (t 26360 2500 142271 258000)) ((#("
+\\hfill {\\bfseries \\href{https://doi.org/10.58805/kazutb.v.3.24-495}{https://doi.org/10.58805/kazutb.v.3.24-495}}" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 9 (fontified t) 9 18 (face font-lock-keyword-face fontified t) 18 19 (face (bold) fontified t) 19 24 (face (font-lock-keyword-face bold) fontified t) 24 25 (face (bold) fontified t) 25 41 (face (tex-verbatim bold) fontified t) 41 67 (face (tex-verbatim bold) fontified t foreign-selection nil) 67 85 (face (bold) fontified t) 85 111 (face (bold) fontified t foreign-selection nil) 111 112 (face (bold) fontified t) 112 113 (fontified t)) . 173) (undo-tree-id0 . -1) (undo-tree-id1 . -112) (undo-tree-id2 . -112) (undo-tree-id3 . -112) (undo-tree-id4 . -112) (undo-tree-id5 . -112)) (26361 51598 899825 955000) 0 nil])
+nil
+nil

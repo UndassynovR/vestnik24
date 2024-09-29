@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"e7d6e6162ed70c69940e0a96196f48b71493b1ec"
+[nil nil nil nil (26361 52616 698552 453000) 0 nil]
+([nil nil ((#("{\\bfseries IRSTI 65.51.03}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 25 (face (bold) fontified t) 25 26 (fontified t)) . -10) (undo-tree-id0 . -24) (undo-tree-id1 . -24) 34 (t 26361 47951 73161 178000)) nil (26361 52616 698551 652000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 23 . 24) (nil fontified nil 10 . 24) (10 . 24)) nil (26361 52616 698536 614000) 0 nil])
+([nil current ((24 . 137) 23) nil (26361 52616 698533 187000) 0 nil])
+nil

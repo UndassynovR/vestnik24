@@ -1,0 +1,7 @@
+(undo-tree-save-format-version . 1)
+"cf3b7b24f45f84a42ee27e78c87f322259d2b46f"
+[nil nil nil nil (26361 52571 505900 141000) 0 nil]
+([nil nil ((#("{\\bfseries МРНТИ 65.63.35}" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 25 (face (bold) fontified t) 25 26 (fontified t)) . -10) (undo-tree-id0 . -15) (undo-tree-id1 . -15) (undo-tree-id2 . -15) (undo-tree-id3 . -15) (undo-tree-id4 . -15) (undo-tree-id5 . -15) (undo-tree-id6 . -15) (undo-tree-id7 . -15) (undo-tree-id8 . -15) (undo-tree-id9 . -15) (undo-tree-id10 . -15) (undo-tree-id11 . -15) (undo-tree-id12 . -15) (undo-tree-id13 . -15) (undo-tree-id14 . -15) (undo-tree-id15 . -15) 25 (t 26361 47951 72161 184000)) nil (26361 52571 505899 109000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 23 . 24) (nil fontified nil 10 . 24) (10 . 24)) nil (26361 52571 505878 561000) 0 nil])
+([nil current ((24 . 137) 23) nil (26361 52571 505874 754000) 0 nil])
+nil
