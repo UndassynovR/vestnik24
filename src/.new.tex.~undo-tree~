@@ -1,0 +1,9 @@
+(undo-tree-save-format-version . 1)
+"01912f23a7dd48ea6148030ce655f36911e0ee68"
+[nil nil nil nil (26361 56522 115834 869000) 0 nil]
+([nil nil ((#("
+" 0 1 (fontified t)) . 1) (t 26361 56477 271090 454000)) nil (26361 56522 115833 938000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 1) (undo-tree-id0 . -1)) nil (26361 56522 115832 946000) 0 nil])
+([nil current ((39759 . 39760) 1) nil (26361 56522 115813 359000) 0 nil])
+nil

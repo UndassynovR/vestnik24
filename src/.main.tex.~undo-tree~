@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"abff09d535ae749c3e18fb322b5aaa8cb4d592fa"
+"72e5d72cd1eea8703f1ca330e7533a45e303c381"
 [nil nil nil nil (26357 31968 717423 360000) 0 nil]
 ([nil nil ((#("<<<<<<< HEAD
 " 0 1 (face font-lock-keyword-face smerge-refine-part (10 . 2) fontified t) 1 2 (face font-lock-keyword-face fontified t) 2 13 (face smerge-markers fontified t)) . 257) (undo-tree-id4 . -12) (t 26357 31938 485589 333000)) nil (26357 31968 717422 78000) 0 nil])
@@ -164,5 +164,10 @@ nil
 ([nil nil ((apply -3 1211 1281 undo--wrap-and-run-primitive-undo 1211 1281 ((1219 . 1222) 1243))) nil (26361 41970 511344 459000) 0 nil])
 ([nil nil ((apply 3 1246 1278 undo--wrap-and-run-primitive-undo 1246 1278 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1254) 1246))) nil (26361 41970 511340 632000) 0 nil])
 ([nil nil ((apply -3 1246 1282 undo--wrap-and-run-primitive-undo 1246 1282 ((1254 . 1257) 1278))) nil (26361 42900 630941 27000) 0 nil])
-([nil current ((apply 3 800 831 undo--wrap-and-run-primitive-undo 800 831 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -808) 834))) nil (26361 42900 630937 831000) 0 nil])
+([nil nil ((apply 3 800 831 undo--wrap-and-run-primitive-undo 800 831 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -808) 834))) nil (26361 42900 630937 831000) 0 nil])
+([nil nil ((apply -3 800 835 undo--wrap-and-run-primitive-undo 800 835 ((808 . 811) 831))) nil (26361 56605 424906 348000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified nil face font-lock-comment-face)) . -1315) (1280 . 1316) 1246) nil (26361 56605 424905 897000) 0 nil])
+([nil nil ((nil fontified t 1308 . 1310) (nil face font-lock-comment-face 1308 . 1310) (#("13" 0 2 (face font-lock-comment-face fontified t)) . -1308) (1310 . 1312) 1309) nil (26361 56605 424904 985000) 0 nil])
+([nil current ((apply 3 1281 1313 undo--wrap-and-run-primitive-undo 1281 1313 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -1289) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) (#<marker at 1289 in main.tex> . -1) 1316))) nil (26361 56605 424900 687000) 0 nil])
 nil
