@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"e811e0fcb20fbcc837aa126377cbecde77a810de"
+"b6fabda2f6f4872d5caf31d13c12e7d2342a8871"
 [nil nil nil nil (26362 26563 991351 445000) 0 nil]
 ([nil nil ((258 . 1996) (#("\\input{src/ict/1.tex}
         \\input{src/ict/2.tex}
@@ -65,5 +65,43 @@
 ([nil nil ((apply 2 1260 1292 undo--wrap-and-run-primitive-undo 1260 1292 ((#("% " 0 2 (face font-lock-comment-face fontified t)) . -1268) 1294))) nil (26362 26563 991325 414000) 0 nil])
 ([nil nil ((apply -3 308 373 undo--wrap-and-run-primitive-undo 308 373 ((316 . 319) 338))) nil (26362 27059 128443 996000) 0 nil])
 ([nil nil ((apply 12 67 218 undo--wrap-and-run-primitive-undo 67 218 ((#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -196) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -165) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -134) (#("%% " 0 3 (face font-lock-comment-delimiter-face fontified t)) . -70) 67))) nil (26362 27059 128440 175000) 0 nil])
-([nil current ((apply -12 67 251 undo--wrap-and-run-primitive-undo 67 251 ((205 . 208) (171 . 174) (137 . 140) (70 . 73) 218))) nil (26362 27397 678640 413000) 0 nil])
+([nil nil ((apply -12 67 251 undo--wrap-and-run-primitive-undo 67 251 ((205 . 208) (171 . 174) (137 . 140) (70 . 73) 218))) nil (26362 27397 678640 413000) 0 nil])
+([nil nil ((67 . 1132) (#("   %% \\includepdf[pages=-,fitpaper=true]{assets/vestnik-front.pdf}
+   %%      \\pagenumbering{gobble}
+   %% \\input{src/first_pages.tex}
+   %%      \\tableofcontents
+   \\pagestyle{fancy}
+	\\pagenumbering{arabic}
+
+        % \\input{src/ict/1.tex}
+        %% \\input{src/ict/2.tex}
+        % \\input{src/ict/3.tex}
+        % \\input{src/ict/4.tex}
+        % \\input{src/ict/5.tex}
+        % \\input{src/ict/6.tex}
+        % \\input{src/ict/7.tex}
+        % \\input{src/ict/8.tex}
+        % \\input{src/ict/9.tex}
+        % \\input{src/ict/10.tex}
+        % \\input{src/ict/11.tex}
+        % \\input{src/ict/12.tex}
+        % \\input{src/ict/13.tex}
+        % \\input{src/ict/14.tex}
+        % \\input{src/ict/15.tex}
+        % \\input{src/ict/16.tex}
+        %" 0 3 (fontified t) 3 6 (face font-lock-comment-delimiter-face fontified t) 6 17 (face font-lock-comment-face fontified t) 17 67 (face font-lock-comment-face fontified t) 67 70 (fontified t) 70 73 (face font-lock-comment-delimiter-face fontified t) 73 78 (face font-lock-comment-delimiter-face fontified t) 78 92 (face font-lock-comment-face fontified t) 92 101 (face font-lock-comment-face fontified t) 101 104 (fontified t) 104 107 (face font-lock-comment-delimiter-face fontified t) 107 113 (face font-lock-comment-face fontified t) 113 114 (face font-lock-comment-face fontified t) 114 133 (face font-lock-comment-face fontified t) 133 135 (face font-lock-comment-face fontified t) 135 138 (fontified t) 138 141 (face font-lock-comment-delimiter-face fontified t) 141 146 (face font-lock-comment-delimiter-face fontified t) 146 162 (face font-lock-comment-face fontified t) 162 163 (face font-lock-comment-face fontified t) 163 166 (fontified t) 166 176 (face font-lock-keyword-face fontified t) 176 184 (fontified t) 184 185 (fontified t) 185 199 (face font-lock-keyword-face fontified t) 199 208 (fontified t) 208 209 (fontified t) 209 217 (fontified t) 217 241 (face font-lock-comment-face fontified t) 241 249 (fontified t) 249 252 (face font-lock-comment-delimiter-face fontified t) 252 258 (face font-lock-comment-face fontified t) 258 259 (face font-lock-comment-face fontified t) 259 272 (face font-lock-comment-face fontified t) 272 273 (face font-lock-comment-face fontified t) 273 274 (face font-lock-comment-face fontified t) 274 282 (fontified t) 282 306 (face font-lock-comment-face fontified t) 306 314 (fontified t) 314 338 (face font-lock-comment-face fontified t) 338 346 (fontified t) 346 370 (face font-lock-comment-face fontified t) 370 378 (fontified t) 378 402 (face font-lock-comment-face fontified t) 402 410 (fontified t) 410 434 (face font-lock-comment-face fontified t) 434 442 (fontified t) 442 466 (face font-lock-comment-face fontified t) 466 474 (fontified t) 474 498 (face font-lock-comment-face fontified t) 498 506 (fontified t) 506 531 (face font-lock-comment-face fontified t) 531 539 (fontified t) 539 564 (face font-lock-comment-face fontified t) 564 572 (fontified t) 572 597 (face font-lock-comment-face fontified t) 597 605 (fontified t) 605 630 (face font-lock-comment-face fontified t) 630 638 (fontified t) 638 663 (face font-lock-comment-face fontified t) 663 671 (fontified t) 671 696 (face font-lock-comment-face fontified t) 696 704 (fontified t) 704 729 (face font-lock-comment-face fontified t) 729 737 (fontified t) 737 738 (face font-lock-comment-face fontified t)) . 67) (undo-tree-id96 . -161) (undo-tree-id97 . -26) (undo-tree-id98 . 575) (undo-tree-id99 . -26) (undo-tree-id100 . -161) (t 26362 27397 719030 596000)) nil (26362 31448 317098 602000) 0 nil])
+([nil nil ((#("=======
+%    \\includepdf[pages=-,fitpaper=true]{assets/vestnik-front.pdf}
+% 	\\pagenumbering{gobble}
+%    \\input{src/first_pages.tex}
+% 	\\tableofcontents
+%    \\pagestyle{fancy}
+% 	\\pagenumbering{arabic}
+
+        % \\input{src/ict/1.tex}
+        % \\input{src/ict/2.tex}
+>>>>>>> 03061ecc545d1d850384f6d164d39e79c73d124e
+" 0 7 (face smerge-markers fontified t) 7 8 (face nil fontified t) 8 13 (face (smerge-lower font-lock-comment-delimiter-face) fontified t) 13 74 (face (smerge-lower font-lock-comment-face) fontified t) 74 76 (face (smerge-lower font-lock-comment-delimiter-face) fontified t) 76 100 (face (smerge-lower font-lock-comment-face) fontified t) 100 105 (face (smerge-lower font-lock-comment-delimiter-face) fontified t) 105 133 (face (smerge-lower font-lock-comment-face) fontified t) 133 135 (face (smerge-lower font-lock-comment-delimiter-face) fontified t) 135 153 (face (smerge-lower font-lock-comment-face) fontified t) 153 158 (face (smerge-lower font-lock-comment-delimiter-face) fontified t) 158 176 (face (smerge-lower font-lock-comment-face) fontified t) 176 178 (face (smerge-lower font-lock-comment-delimiter-face) fontified t) 178 202 (face (smerge-lower font-lock-comment-face) fontified t) 202 211 (face (smerge-lower) fontified t) 211 235 (face (smerge-lower font-lock-comment-face) fontified t) 235 243 (face (smerge-lower) fontified t) 243 267 (face (smerge-lower font-lock-comment-face) fontified t) 267 269 (face font-lock-keyword-face fontified t) 269 316 (face smerge-markers fontified t)) . 354) (undo-tree-id27 . -273) (undo-tree-id28 . -6) (undo-tree-id29 . -273) (undo-tree-id30 . -7) (undo-tree-id31 . -209) (undo-tree-id32 . -209) (undo-tree-id33 . -209) (undo-tree-id34 . -209) (undo-tree-id35 . -209) (undo-tree-id36 . -209) (undo-tree-id37 . -209) (undo-tree-id38 . -209) (undo-tree-id39 . -209) (undo-tree-id40 . -209) (undo-tree-id41 . -241) (undo-tree-id42 . -241) (undo-tree-id43 . -241) (undo-tree-id44 . -241) (undo-tree-id45 . -241) (undo-tree-id46 . -241) (undo-tree-id47 . -241) (undo-tree-id48 . -241) (undo-tree-id49 . -241) (undo-tree-id50 . -241) (undo-tree-id51 . -241) (undo-tree-id52 . -241) (undo-tree-id53 . -241) (undo-tree-id54 . -241) (undo-tree-id55 . -241) (undo-tree-id56 . -267) (undo-tree-id57 . -273) (undo-tree-id58 . -273) (undo-tree-id59 . -273) (undo-tree-id60 . -273) (undo-tree-id61 . -273) (undo-tree-id62 . -273) (undo-tree-id63 . -273) (undo-tree-id64 . -273) (undo-tree-id65 . -273) (undo-tree-id66 . -273) (undo-tree-id67 . -273) (undo-tree-id68 . -273) (undo-tree-id69 . -273) (undo-tree-id70 . -273) (undo-tree-id71 . -273) (undo-tree-id72 . -273) (undo-tree-id73 . -273) (undo-tree-id74 . -273) (undo-tree-id75 . -273) (undo-tree-id76 . -273) (undo-tree-id77 . -273) (undo-tree-id78 . -273) (undo-tree-id79 . -273) (undo-tree-id80 . -273) (undo-tree-id81 . -273) (undo-tree-id82 . -273) (undo-tree-id83 . -273) (undo-tree-id84 . -273) (undo-tree-id85 . -273) (undo-tree-id86 . -273) (undo-tree-id87 . -273) (undo-tree-id88 . -273) (undo-tree-id89 . -273) (undo-tree-id90 . -273) (undo-tree-id91 . -273) (undo-tree-id92 . -273) (undo-tree-id93 . -273) (undo-tree-id94 . -316) (undo-tree-id95 . -315) 627 (t 26362 31425 148725 279000)) nil (26362 31448 316988 869000) 0 nil])
+([nil current ((#("<<<<<<< HEAD
+" 0 2 (face font-lock-keyword-face fontified t) 2 13 (face smerge-markers fontified t)) . 67) (undo-tree-id0 . -10) (undo-tree-id1 . -12) (undo-tree-id2 . -6) (undo-tree-id3 . -6) (undo-tree-id4 . -6) (undo-tree-id5 . -6) (undo-tree-id6 . -6) (undo-tree-id7 . -6) (undo-tree-id8 . -6) (undo-tree-id9 . -6) (undo-tree-id10 . -6) (undo-tree-id11 . -6) (undo-tree-id12 . -6) (undo-tree-id13 . -6) (undo-tree-id14 . -6) (undo-tree-id15 . -6) (undo-tree-id16 . -6) (undo-tree-id17 . -6) (undo-tree-id18 . -6) (undo-tree-id19 . -6) (undo-tree-id20 . -6) (undo-tree-id21 . -6) (undo-tree-id22 . -6) (undo-tree-id23 . -6) (undo-tree-id24 . -6) (undo-tree-id25 . -6) (undo-tree-id26 . -13) 73) nil (26362 31448 316938 43000) 0 nil])
 nil
