@@ -301,64 +301,68 @@ using the Russian alphabet.
 \end{multicols}
 
 Listing 1 of the program code:
-\begin{verbatim}
+\begin{lstlisting}
 	// Chat.js
-	Import React , { useState } внутринний 'react' ;
-	аксиомы 'axios' внутрениий импорт;
-	const чат = () => {
-	 const [input, setInput] = useState ('');
-	 const [известия, setMessages] = useState([]);
-	 const sendMessage = async() => {
-	он бір
-	 if (вход. Trim () === '') возвращение;
-	// ChatGPT API-ге  выполните запрос
-	попытка {
-	const ответ = аксиома ожидание. почты (
-	'https://api.openai.com/v1/engines/davinci-codex/completions' ,
-	 {
-	определение: ввод,
-	 максимальное_символов: 150,
-	 },
-	 {
-	 темы: {
-	 "Тип контента ": "application/json"
-	 'Авторизация' : 'Media ${ процесс . конв. REACT_APP_OPENAI_API_KEY }` 
-	 },
-	}
-	);
-	// Обновите Статус, используя ответ
-	тридцать
-	 setMessages ([ ... сообщение , { текст : ввод , тип : 'пользователь' }]);
-	setMessages ([ ... сообщение , { текст : ответ .выбор данных [ 0 ]. текст , тип: 'месяц' }]);
-	setInput('');
-	} catch (ошибка) {
-	консоль error(''Ошибка отправки сообщения :', ошибка);
-	}
-	};
-	выход (
-	<ситуация >
-	<ситуация >
-	{Карта сообщений(( сообщение , индекс ) => (
-	<div ключ = {индекс} className = {сообщение. } >введите
-	 { информация . тип }
-	</del>
-	 ))}
-	</del>
-	<случай>
-	<тип ввода = «тип»
-	 мән = {ввод}
-	 onChange = {( e ) => setInput ( например. задача . значение )}
-	Заполните = "Введите сообщение..."
-	/>
-	< button onClick = { sendMessage } >Отправить</button>
-	</del>
-	</del>
-	 );
+	Import React, { useState } internal 'react';
+	axioms 'axios' domestic imports;
+	
+	const chat = () => {
+	  const [input, setInput] = useState('');
+	  const [news, setMessages] = useState([]);
+	  
+	  const sendMessage = async() => {
+		eleven
+		if (entrance.trim() === '') return;
+	
+		// ChatGPT API execute the request
+		attempt {
+		  const answer = the axiom of expectation.mail(
+			'https://api.openai.com/v1/engines/davinci-codex/completions',
+			{
+			  definition: input,
+			  max_signs: 150,
+			},
+			{
+			  topic: {
+				"Type of content": "application/json",
+				'Authorization': 'Media ${process.conver.REACT_APP_OPENAI_API_KEY}'
+			  },
+			}
+		  );
+		  // Update the Status using the response 
+		  thirty
+		  setMessages([...message, { text: input, type: 'user' }]);
+		  setMessages([...message, { text: answer.choice data[0].text, type: 'month' }]);
+		  setInput('');
+		} catch (mistake) {
+		  consol.error('Error sending the message:', error);
+		}
+	  };
+	
+	  exit (
+		<situation>
+		  <situation>
+			{Message Card((message, index) => (
+			  <div key={index} className={message.}>input
+				{information.type}
+			  </del>
+			))}
+		  </del>
+		  <случай>
+			<type input="type"
+			  I’m={input}
+			  onChange={(e) => setInput(for example. a task. meaning)}
+			  Fill in="Enter a message..."
+			/>
+			<button onClick={sendMessage}>Send</button>
+		  </del>
+		  </del>
+		);
 	};
 	
 	
-
-\end{verbatim}
+	
+\end{lstlisting}
 
 
 \begin{multicols}{2}
@@ -713,9 +717,10 @@ Kazakhstan,\\ e -mail:78oea@mail.ru;
 \end{noparindent}
 
 \emph{{\bfseries Информация об авторах}}
+
 \begin{noparindent}
 Акишев К. М. -к.т.н., асс. профессор, Казахский университет технологии и
-бизнеса им. К. Кулажанова,Астана, Казахстан,e-mail:akmail04cx@mail.ru;
+бизнеса им. К. Кулажанова, Астана, Казахстан,e-mail:akmail04cx@mail.ru;
 
 Тулегулов А. Д.- к.ф.м.н., асс. профессор, Казахский университет
 технологии и бизнеса \\им. К. Кулажанова,Астана, Казахстан:
