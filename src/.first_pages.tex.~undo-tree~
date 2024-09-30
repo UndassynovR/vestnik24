@@ -1,0 +1,21 @@
+(undo-tree-save-format-version . 1)
+"9331f31e647caceb1809f4ac5bdf8d9a7f50d5b7"
+[nil nil nil nil (26362 15627 207376 892000) 0 nil]
+([nil nil ((#("2023" 0 4 (fontified t)) . -613) (t 26344 2768 661059 113000) (617 . 621) 616 (t 26344 2768 661059 113000)) nil (26362 15627 207375 429000) 0 nil])
+([nil nil ((#("2023" 0 4 (fontified t)) . -628) (632 . 636) 631) nil (26362 15627 207373 533000) 0 nil])
+([nil nil ((#("21" 0 2 (face (bold) fontified t)) . -118) (120 . 122) 119) nil (26362 15627 207372 249000) 0 nil])
+([nil nil ((nil fontified t 118 . 120) (nil face (bold) 118 . 120) (#("22" 0 2 (face (bold) fontified t)) . -118) (120 . 122) 119) nil (26362 15627 207370 993000) 0 nil])
+([nil nil ((nil fontified t 118 . 120) (nil face (bold) 118 . 120) (#("23" 0 2 (face (bold) fontified t)) . -118) (120 . 122) 119) nil (26362 15627 207369 336000) 0 nil])
+([nil nil ((#("2023" 0 4 (face (bold) fontified t)) . -124) (128 . 132) 127) nil (26362 15627 207367 710000) 0 nil])
+([nil nil ((115 . 116) (#("4" 0 1 (face (bold) fontified t)) . 115)) nil (26362 15627 207365 629000) 0 nil])
+([nil nil ((115 . 116) (#("1" 0 1 (face (bold) fontified t)) . 115)) nil (26362 15627 207360 750000) 0 nil])
+([nil nil ((#(", жеңіл өнеркәсіп өнімдерінің
+технологиясы және құрылысы" 0 56 (fontified t)) . 2661) (undo-tree-id5 . -55) (undo-tree-id6 . -55) (undo-tree-id7 . -55) (undo-tree-id8 . -55) 2716 (t 26362 15627 549659 682000)) nil (26362 15695 277948 3000) 0 nil])
+([nil nil ((#("технология и
+конструирование изделий легкой промышленности," 0 59 (fontified t)) . 5083) (undo-tree-id1 . -58) (undo-tree-id2 . -58) (undo-tree-id3 . -58) (undo-tree-id4 . -58) 5141) nil (26362 15695 277942 735000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 5083) (undo-tree-id0 . 1)) nil (26362 15695 277933 333000) 0 nil])
+([nil nil ((#("technology and design of light
+industry products" 0 48 (fontified t)) . 7872) (undo-tree-id15 . -47) (undo-tree-id16 . -47) (undo-tree-id17 . -47) (undo-tree-id18 . -47) 7919 (t 26362 15695 320934 72000)) nil (26362 15730 255574 386000) 0 nil])
+([nil nil ((#("," 0 1 (fontified t)) . 7870)) nil (26362 15730 255569 704000) 0 nil])
+([nil current ((#(" " 0 1 (fontified t)) . 7870) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1)) nil (26362 15730 255565 847000) 0 nil])
+nil
