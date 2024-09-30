@@ -1,27 +1,5 @@
 (undo-tree-save-format-version . 1)
-"fb8100d18f33f6766d750b6adc5ed14828b482b8"
-[nil nil nil nil (26360 7863 752726 551000) 0 nil]
-([nil nil ((#("
-\\begin{table}[H]
-\\caption*{Таблица 5 - Итоговый материальный баланс}
-\\centering
-\\begin{tabular}{|l|l|}
-\\hline
-Входящие материалы      & Масса (кг) \\\\ \\hline
-Стебли хлопчатника      & 2,57       \\\\ \\hline
-NaOH (чистый)           & 2,57       \\\\ \\hline
-HCl (2 н)               & 5,14       \\\\ \\hline
-Хлороформ               & 5,14       \\\\ \\hline
-Перекись водорода (3\\%) & 2          \\\\ \\hline
-\\end{tabular}
-\\end{table}
-" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (latex-env-pair t fontified t) 8 13 (face font-lock-function-name-face latex-env-pair t fontified t) 13 14 (latex-env-pair t fontified t) 14 18 (fontified t) 18 27 (face font-lock-keyword-face fontified t) 27 70 (fontified t) 70 80 (face font-lock-keyword-face fontified t) 80 81 (fontified t) 81 87 (face font-lock-keyword-face fontified t) 87 88 (latex-env-pair t fontified t) 88 95 (face font-lock-function-name-face latex-env-pair t fontified t) 95 96 (latex-env-pair t fontified t) 96 104 (fontified t) 104 110 (face font-lock-keyword-face fontified t) 110 148 (fontified t) 148 150 (face font-lock-warning-face fontified t) 150 151 (fontified t) 151 157 (face font-lock-keyword-face fontified t) 157 195 (fontified t) 195 197 (face font-lock-warning-face fontified t) 197 198 (fontified t) 198 204 (face font-lock-keyword-face fontified t) 204 242 (fontified t) 242 244 (face font-lock-warning-face fontified t) 244 245 (fontified t) 245 251 (face font-lock-keyword-face fontified t) 251 289 (fontified t) 289 291 (face font-lock-warning-face fontified t) 291 292 (fontified t) 292 298 (face font-lock-keyword-face fontified t) 298 336 (fontified t) 336 338 (face font-lock-warning-face fontified t) 338 339 (fontified t) 339 345 (face font-lock-keyword-face fontified t) 345 366 (fontified t) 366 368 (face font-lock-keyword-face fontified t) 368 383 (fontified t) 383 385 (face font-lock-warning-face fontified t) 385 386 (fontified t) 386 392 (face font-lock-keyword-face fontified t) 392 393 (fontified t) 393 397 (face font-lock-keyword-face fontified t) 397 398 (latex-env-pair t fontified t) 398 405 (face font-lock-function-name-face latex-env-pair t fontified t) 405 406 (latex-env-pair t fontified t) 406 407 (fontified t) 407 411 (face font-lock-keyword-face fontified t) 411 412 (latex-env-pair t fontified t) 412 417 (face font-lock-function-name-face latex-env-pair t fontified t) 417 418 (latex-env-pair t fontified t) 418 419 (fontified t)) . 40481) (undo-tree-id0 . -407) (undo-tree-id1 . -104) (undo-tree-id2 . -104) (undo-tree-id3 . -407) (undo-tree-id4 . -407) (undo-tree-id5 . -418) 40888 (t 26357 31938 479589 366000)) nil (26360 7863 752725 138000) 0 nil])
-([nil nil ((nil rear-nonsticky nil 39495 . 39496) (#("
-" 0 1 (fontified nil)) . -39914) (39495 . 39915) 39484) nil (26360 7863 752705 121000) 0 nil])
-([nil nil ((48508 . 48510) (t 26360 7863 762237 681000)) nil (26360 7928 175680 321000) 0 nil])
-([nil nil ((48941 . 48943) (t 26360 7928 183501 613000)) nil (26360 7934 416053 281000) 0 nil])
-([nil nil ((#("@" 0 1 (fontified t)) . -48941) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -1) (undo-tree-id33 . -1) (undo-tree-id34 . -1) (undo-tree-id35 . -1) (undo-tree-id36 . -1) (undo-tree-id37 . -1) (undo-tree-id38 . -1) (undo-tree-id39 . -1) (undo-tree-id40 . -1) (undo-tree-id41 . -1) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (undo-tree-id44 . -1) (undo-tree-id45 . -1) (undo-tree-id46 . -1) (undo-tree-id47 . -1) (undo-tree-id48 . -1) (#("@" 0 1 (fontified t)) . -48942) (undo-tree-id49 . -1) (undo-tree-id50 . -1) (undo-tree-id51 . -1) (undo-tree-id52 . -1) (undo-tree-id53 . -1) (undo-tree-id54 . -1) (undo-tree-id55 . -1) (undo-tree-id56 . -1) (undo-tree-id57 . -1) (undo-tree-id58 . -1) (undo-tree-id59 . -1) (undo-tree-id60 . -1) (undo-tree-id61 . -1) (undo-tree-id62 . -1) (undo-tree-id63 . -1) (undo-tree-id64 . -1) (undo-tree-id65 . -1) 48943) nil (26360 7934 416051 908000) 0 nil])
-([nil nil ((48941 . 48943)) nil (26360 7934 416020 900000) 0 nil])
-([nil nil ((46994 . 46996) (t 26360 7934 423430 323000)) nil (26360 7948 382142 584000) 0 nil])
-([nil current ((24 . 137) 10 (t 26360 7948 389270 771000)) nil (26361 52196 960155 187000) 0 nil])
+"3d6fca0ec92cd058fd70ab8ba959083776ff61fd"
+[nil nil nil nil (26362 32028 729773 213000) 0 nil]
+([nil current ((1013 . 1014) (t 26362 31425 138725 568000)) nil (26362 32028 729768 936000) 0 nil])
 nil

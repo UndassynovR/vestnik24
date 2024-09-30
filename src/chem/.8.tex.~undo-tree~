@@ -1,5 +1,92 @@
 (undo-tree-save-format-version . 1)
-"effa11e58eb8da76d943e9661fe0d1e119bebfb6"
-[nil nil nil nil (26361 52155 488916 632000) 0 nil]
-([nil current ((24 . 137) 10 (t 26357 31938 479589 366000)) nil (26361 52155 488913 56000) 0 nil])
+"10a3381bb81fa50a3e7bb506ed1c4d84eb813d6d"
+[nil nil nil nil (26362 41150 763189 661000) 0 nil]
+([nil nil ((nil rear-nonsticky nil 32789 . 32790) (nil fontified nil 32670 . 32790) (32670 . 32790) (t 26362 41152 38878 308000)) nil (26362 41240 618361 148000) 0 nil] [nil nil ((#("
+{\\bfseries Қорытынды.} Жару жұмыстарының экономикалық тиімділігі
+қолданылатын жарылғыш заттардың тиімділігімен және оларды өндірумен және
+пайдаланумен байланысты процестерді барынша механикаландыру
+мүмкіндігімен анықталады. Қауіптілігінің жоғарылауымен ерекшеленетін бұл
+жұмыс түрі механикаландыру деңгейінің жоғарылауымен және өнімділіктің
+жоғарылауымен одан да қауіпті болуы мүмкін.
+
+Өнеркәсіптік жарылғыш заттардың арасында маңызды орынды эмульсиялық
+жарылғыш заттар алады, олардың негізгі артықшылықтары өндіріс пен
+пайдалану қауіпсіздігінің ең жоғары деңгейі, тиеу процесін толық
+механикаландыру мүмкіндігі, энергетикалық сипаттамаларын реттеу, сонымен
+қатар, қол жетімділігі және төмен болуы болып табылады. Бұл жарылғыш
+заттардың құрамында жеке жарылғыш заттар жоқ, сондықтан қауіпті жүктерді
+тасымалдау мен сақтаумен байланысты проблемалар жойылады.
+
+Өнеркәсіптік жарғыштармен салыстырғанда эмульсиялық жарылғыш заттардың
+салмағы аз энергияға (ккал/кг) қарамастан, олардың тиімділігі жоғары
+зарядтау тығыздығымен және соның салдарынан жарылыс энергиясының
+көлемдік концентрациясының жоғары мәндерімен және ұңғыманың жарылу
+жылдамдығымен түсіндіріледі. Нәтижесінде эмульсиялық жарылғыш заттар
+қатты жыныстар үшін қолайлы кернеу толқындарының алдыңғы жағындағы
+қысымның жоғарылауымен ғана сипатталады, бірақ құрамында сұйық фазаның
+(эмульсия) болуына байланысты бұл шихтадан ұсақтау тиімділігін арттырып,
+оларды ұзақ уақыт бойы сақтайды. Эмульсиялық жарылғыш заттарды
+қолданудың тиімділігі анықталды, бұл эмульгирлеуші
+\\hspace{0pt}\\hspace{0pt}жарылғыш заттарды АНФО-мен біріктіріп қолдану
+кезінде біртекті затқа қатысты құрама шихтаның тиімділігінің
+жоғарылауына байланысты жоғары орындықтары бар жағдайларда бұрғылау және
+жару жұмыстарының тиімділігі артады. бір 15\\%-ға, кен шекарасының ығысуы
+1,5...2,0 есе және оны қоршап тұрған тау жыныстары азаяды, жарылғыш
+заттардың құнын 0,9\\%-ға төмендете отырып, тау-кен массасын ұсақтау
+сапасы жақсарады {[}10{]}.
+" 0 1 (fontified t) 1 2 (fontified t) 2 11 (face font-lock-keyword-face fontified t) 11 22 (face (bold) fontified t) 22 66 (fontified t) 66 139 (fontified t) 139 199 (fontified t) 199 272 (fontified t) 272 342 (fontified t) 342 386 (fontified t) 386 387 (fontified t) 387 455 (fontified t) 455 521 (fontified t) 521 586 (fontified t) 586 659 (fontified t) 659 728 (fontified t) 728 801 (fontified t) 801 1526 (fontified t) 1526 1533 (face font-lock-keyword-face fontified t) 1533 1538 (fontified t) 1538 1545 (face font-lock-keyword-face fontified t) 1545 1657 (fontified t) 1657 1773 (fontified t) 1773 1775 (face font-lock-keyword-face fontified t) 1775 1890 (fontified t) 1890 1892 (face font-lock-keyword-face fontified t) 1892 1966 (fontified t)) . 30688) (undo-tree-id0 . -1939) (undo-tree-id1 . -1939) (undo-tree-id3 . -1965) (t 26362 31425 142058 805000)) ((30688 . 32654) (t 26362 41133 236088 992000)) (26362 41133 174038 951000) 0 nil])
+([nil nil ((32669 . 32670) 32668) nil (26362 41240 618360 234000) 0 nil])
+nil
+([nil nil ((apply -12 32792 32924 undo--wrap-and-run-primitive-undo 32792 32924 ((32873 . 32876) (32859 . 32862) (32812 . 32815) (32792 . 32795) 32905))) nil (26362 41240 618359 538000) 0 nil])
+([nil nil ((apply -6 35557 35590 undo--wrap-and-run-primitive-undo 35557 35590 ((35574 . 35577) (35557 . 35560) 35583))) nil (26362 41240 618358 984000) 0 nil])
+([nil nil ((35590 . 35591) (35589 . 35590) 35589) nil (26362 41240 618358 258000) 0 nil])
+([nil nil ((#("n
+" 0 1 (fontified t) 1 2 (fontified t)) . 35590) (undo-tree-id6 . -2) (undo-tree-id7 . 1) (undo-tree-id8 . -1) (undo-tree-id9 . -2) (undo-tree-id10 . -2) (undo-tree-id11 . 1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (undo-tree-id23 . -1) (undo-tree-id24 . -1) (undo-tree-id25 . -1) (undo-tree-id26 . -1) (undo-tree-id27 . -1) (undo-tree-id28 . -1) (undo-tree-id29 . -1) (undo-tree-id30 . -1) (undo-tree-id31 . -1) (undo-tree-id32 . -2)) nil (26362 41240 618356 476000) 0 nil])
+([nil nil ((35588 . 35589) 35574) nil (26362 41240 618335 932000) 0 nil])
+([nil nil ((35589 . 35592)) nil (26362 41240 618334 936000) 0 nil])
+([nil nil ((#("d" 0 1 (face font-lock-keyword-face fontified t)) . -35591) (undo-tree-id5 . -1) 35592) nil (26362 41240 618334 138000) 0 nil])
+([nil nil ((35591 . 35604)) nil (26362 41240 618331 786000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . -35603) (undo-tree-id4 . -1) 35604) nil (26362 41240 618330 29000) 0 nil])
+([nil nil ((35603 . 35604)) nil (26362 41240 618317 206000) 0 nil])
+([nil nil ((#("n" 0 1 (latex-env-pair t fontified t)) . -35604) (undo-tree-id162 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35605) (undo-tree-id163 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35606) (undo-tree-id164 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35607) (undo-tree-id165 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35608) (undo-tree-id166 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35609) (undo-tree-id167 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35610) (undo-tree-id168 . -1) (#("n" 0 1 (latex-env-pair t fontified t)) . -35611) (undo-tree-id169 . -1) 35612 (35604 . 35612) (t 26362 41240 679646 92000)) nil (26362 41270 888908 606000) 0 nil])
+([nil nil ((#("
+{\\bfseries Қорытынды.} Жару жұмыстарының экономикалық тиімділігі
+қолданылатын жарылғыш заттардың тиімділігімен және оларды өндірумен және
+пайдаланумен байланысты процестерді барынша механикаландыру
+мүмкіндігімен анықталады. Қауіптілігінің жоғарылауымен ерекшеленетін бұл
+жұмыс түрі механикаландыру деңгейінің жоғарылауымен және өнімділіктің
+жоғарылауымен одан да қауіпті болуы мүмкін.
+
+Өнеркәсіптік жарылғыш заттардың арасында маңызды орынды эмульсиялық
+жарылғыш заттар алады, олардың негізгі артықшылықтары өндіріс пен
+пайдалану қауіпсіздігінің ең жоғары деңгейі, тиеу процесін толық
+механикаландыру мүмкіндігі, энергетикалық сипаттамаларын реттеу, сонымен
+қатар, қол жетімділігі және төмен болуы болып табылады. Бұл жарылғыш
+заттардың құрамында жеке жарылғыш заттар жоқ, сондықтан қауіпті жүктерді
+тасымалдау мен сақтаумен байланысты проблемалар жойылады.
+
+Өнеркәсіптік жарғыштармен салыстырғанда эмульсиялық жарылғыш заттардың
+салмағы аз энергияға (ккал/кг) қарамастан, олардың тиімділігі жоғары
+зарядтау тығыздығымен және соның салдарынан жарылыс энергиясының
+көлемдік концентрациясының жоғары мәндерімен және ұңғыманың жарылу
+жылдамдығымен түсіндіріледі. Нәтижесінде эмульсиялық жарылғыш заттар
+қатты жыныстар үшін қолайлы кернеу толқындарының алдыңғы жағындағы
+қысымның жоғарылауымен ғана сипатталады, бірақ құрамында сұйық фазаның
+(эмульсия) болуына байланысты бұл шихтадан ұсақтау тиімділігін арттырып,
+оларды ұзақ уақыт бойы сақтайды. Эмульсиялық жарылғыш заттарды
+қолданудың тиімділігі анықталды, бұл эмульгирлеуші
+\\hspace{0pt}\\hspace{0pt}жарылғыш заттарды АНФО-мен біріктіріп қолдану
+кезінде біртекті затқа қатысты құрама шихтаның тиімділігінің
+жоғарылауына байланысты жоғары орындықтары бар жағдайларда бұрғылау және
+жару жұмыстарының тиімділігі артады. бір 15\\%-ға, кен шекарасының ығысуы
+1,5...2,0 есе және оны қоршап тұрған тау жыныстары азаяды, жарылғыш
+заттардың құнын 0,9\\%-ға төмендете отырып, тау-кен массасын ұсақтау
+сапасы жақсарады {[}10{]}.
+" 0 1 (fontified t) 1 2 (fontified t) 2 11 (face font-lock-keyword-face fontified t) 11 22 (face (bold) fontified t) 22 66 (fontified t) 66 139 (fontified t) 139 199 (fontified t) 199 272 (fontified t) 272 342 (fontified t) 342 386 (fontified t) 386 387 (fontified t) 387 455 (fontified t) 455 521 (fontified t) 521 586 (fontified t) 586 659 (fontified t) 659 728 (fontified t) 728 801 (fontified t) 801 1500 (fontified t) 1500 1526 (fontified t) 1526 1533 (face font-lock-keyword-face fontified t) 1533 1538 (fontified t) 1538 1545 (face font-lock-keyword-face fontified t) 1545 1657 (fontified t) 1657 1773 (fontified t) 1773 1775 (face font-lock-keyword-face fontified t) 1775 1890 (fontified t) 1890 1892 (face font-lock-keyword-face fontified t) 1892 1966 (fontified t)) . 30688) (undo-tree-id33 . -1939) (undo-tree-id34 . -1939) (undo-tree-id35 . -1965) (undo-tree-id36 . -386) (undo-tree-id37 . -859) (undo-tree-id38 . -1526) (undo-tree-id39 . -1966) (undo-tree-id40 . -1526) (undo-tree-id41 . -1526) (undo-tree-id42 . -859) (undo-tree-id43 . -859) (undo-tree-id44 . -1526) (undo-tree-id45 . -1132) (undo-tree-id46 . -1132) (undo-tree-id47 . -1132) (undo-tree-id48 . -1132) (undo-tree-id49 . -1132) (undo-tree-id50 . -1201) (undo-tree-id51 . -1201) (undo-tree-id52 . -1201) (undo-tree-id53 . -1201) (undo-tree-id54 . -1201) (undo-tree-id55 . -1268) (undo-tree-id56 . -1268) (undo-tree-id57 . -1268) (undo-tree-id58 . -1268) (undo-tree-id59 . -1268) (undo-tree-id60 . -1339) (undo-tree-id61 . -1339) (undo-tree-id62 . -1339) (undo-tree-id63 . -1339) (undo-tree-id64 . -1339) (undo-tree-id65 . -1412) (undo-tree-id66 . -1412) (undo-tree-id67 . -1412) (undo-tree-id68 . -1412) (undo-tree-id69 . -1412) (undo-tree-id70 . -1475) (undo-tree-id71 . -1475) (undo-tree-id72 . -1475) (undo-tree-id73 . -1475) (undo-tree-id74 . -1475) (undo-tree-id75 . -1475) (undo-tree-id76 . -1526) (undo-tree-id77 . -1526) (undo-tree-id78 . -1526) (undo-tree-id79 . -1526) (undo-tree-id80 . -1526) (undo-tree-id81 . -1526) (undo-tree-id82 . -1596) (undo-tree-id83 . -1596) (undo-tree-id84 . -1596) (undo-tree-id85 . -1596) (undo-tree-id86 . -1596) (undo-tree-id87 . -1596) (undo-tree-id88 . -1657) (undo-tree-id89 . -1657) (undo-tree-id90 . -1657) (undo-tree-id91 . -1657) (undo-tree-id92 . -1657) (undo-tree-id93 . -1657) (undo-tree-id94 . -1730) (undo-tree-id95 . -1730) (undo-tree-id96 . -1730) (undo-tree-id97 . -1730) (undo-tree-id98 . -1730) (undo-tree-id99 . -1730) (undo-tree-id100 . -1803) (undo-tree-id101 . -1803) (undo-tree-id102 . -1803) (undo-tree-id103 . -1803) (undo-tree-id104 . -1803) (undo-tree-id105 . -1803) (undo-tree-id106 . -1803) (undo-tree-id107 . -1803) (undo-tree-id108 . -1803) (undo-tree-id109 . -1803) (undo-tree-id110 . -1803) (undo-tree-id111 . -1803) (undo-tree-id112 . -1803) (undo-tree-id113 . -1803) (undo-tree-id114 . -1803) (undo-tree-id115 . -1803) (undo-tree-id116 . -1803) (undo-tree-id117 . -1803) (undo-tree-id118 . -1803) (undo-tree-id119 . -1803) (undo-tree-id120 . -1803) (undo-tree-id121 . -1871) (undo-tree-id122 . -1871) (undo-tree-id123 . -1871) (undo-tree-id124 . -1871) (undo-tree-id125 . -1871) (undo-tree-id126 . -1871) (undo-tree-id127 . -1871) (undo-tree-id128 . -1871) (undo-tree-id129 . -1871) (undo-tree-id130 . -1871) (undo-tree-id131 . -1871) (undo-tree-id132 . -1871) (undo-tree-id133 . -1871) (undo-tree-id134 . -1871) (undo-tree-id135 . -1871) (undo-tree-id136 . -1871) (undo-tree-id137 . -1939) (undo-tree-id138 . -1939) (undo-tree-id139 . -1939) (undo-tree-id140 . -1939) (undo-tree-id141 . -1939) (undo-tree-id142 . -1939) (undo-tree-id143 . -1939) (undo-tree-id144 . -1939) (undo-tree-id145 . -1939) (undo-tree-id146 . -1939) (undo-tree-id147 . -1939) (undo-tree-id148 . -1939) (undo-tree-id149 . -1939) (undo-tree-id150 . -1939) (undo-tree-id151 . -1939) (undo-tree-id152 . -1939) (undo-tree-id153 . -1939) (undo-tree-id154 . -1939) (undo-tree-id155 . -1939) (undo-tree-id156 . -1939) (undo-tree-id157 . -1939) (undo-tree-id158 . -1939) (undo-tree-id159 . -1939) (undo-tree-id160 . -1939) (undo-tree-id161 . -1966) 32627) nil (26362 41270 888889 559000) 0 nil])
+([nil nil ((33660 . 33661) (t 26362 41270 952102 856000) 33640) nil (26362 41275 336343 969000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 33660 . 33661) (#("
+" 0 1 (fontified nil)) . -35626) (33660 . 35627) 33640) nil (26362 41275 336341 782000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 33661) (undo-tree-id170 . -1)) nil (26362 41275 336337 680000) 0 nil])
+([nil current ((39190 . 39192) (t 26362 41275 375308 102000)) nil (26362 41307 369785 128000) 0 nil])
 nil
