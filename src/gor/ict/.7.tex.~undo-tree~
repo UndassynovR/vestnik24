@@ -1,0 +1,663 @@
+(undo-tree-save-format-version . 1)
+"ca56166cfbbdf18dc2745a854e299006ab31abd0"
+[nil nil nil nil (26363 55556 848200 272000) 0 nil]
+([nil nil ((#("
+" 0 1 (fontified t)) . 24358) (undo-tree-id62 . -1)) nil (26363 55559 566860 507000) 0 nil] [nil nil ((#("
+\\begin{multicols}{2}
+
+Model adequacy assessment involves comparing simulation results with
+real-world data, including topology parameters, traffic intensity, and
+attack frequency. A model is considered adequate if its behavior does
+not statistically differ from real data, often verified using tests like
+the Kolmogorov-Smirnov test. An example application of such models could
+include testing intrusion detection systems on the TinyOS platform,
+achieving a detection accuracy of 95\\% with a false positive rate of
+less than 2\\%, utilizing a hybrid approach to enhance accuracy and
+minimize energy consumption.
+
+\\emph{Methods and tools for simulating attacks on wireless sensor
+networks}
+
+For implementing simulation models, a number of modern tools and methods
+were utilized to ensure high accuracy and scalability of the research.
+The key tools include:
+
+1. NS-3 (Network Simulator 3): A powerful tool for network simulation
+that allows reproduction of a wide range of protocols and attack
+scenarios on WLANs. NS-3 provides detailed modeling of node behavior and
+interactions between nodes.
+
+2. MATLAB/Simulink: Used for mathematical modeling and analysis of
+attack detection algorithms. MATLAB facilitates the development and
+testing of complex algorithms, as well as the analysis of data obtained
+from simulations.
+
+3. Omnet++: A tool for modeling and simulating networks, offering high
+flexibility in network parameter configuration and attack scenarios.
+Omnet++ supports extensibility, enabling integration of custom models
+and algorithms.
+
+These tools collectively support comprehensive modeling, simulation, and
+analysis of wireless sensor networks (WSNs), enabling researchers to
+evaluate the performance and effectiveness of various security
+mechanisms against different types of attacks.
+
+{\\bfseries Results and discussion.} Results of simulation experiments and
+their analysis. Within the
+
+framework of conducted simulation experiments, various types of attacks
+on WLANs were simulated, including jamming attacks, resource exhaustion
+attacks, replay attacks, and spoofing attacks. The results of the
+experiments enabled a detailed analysis of the effectiveness of the
+proposed models and attack detection algorithms (Table 5).
+\\end{multicols}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (latex-env-pair t fontified t) 8 17 (face font-lock-function-name-face latex-env-pair t fontified t) 17 18 (latex-env-pair t fontified t) 18 245 (fontified t) 245 306 (fontified t) 306 483 (fontified t) 483 485 (face font-lock-keyword-face fontified t) 485 527 (fontified t) 527 529 (face font-lock-keyword-face fontified t) 529 613 (fontified t) 613 618 (face font-lock-keyword-face fontified t) 618 619 (fontified t) 619 687 (face (italic) fontified t) 687 1802 (fontified t) 1802 1806 (face font-lock-keyword-face fontified t) 1806 1811 (face font-lock-keyword-face fontified t) 1811 1835 (face (bold) fontified t) 1835 1875 (fontified t) 1875 2240 (fontified t) 2240 2244 (face font-lock-keyword-face fontified t) 2244 2245 (latex-env-pair t fontified t) 2245 2254 (face font-lock-function-name-face latex-env-pair t fontified t) 2254 2255 (latex-env-pair t fontified t) 2255 2256 (fontified t)) . 24336) (undo-tree-id0 . -2240) (undo-tree-id1 . -2240) (undo-tree-id3 . -233) (undo-tree-id5 . -233) (undo-tree-id7 . -92) (undo-tree-id9 . -92) (undo-tree-id11 . -92) (undo-tree-id13 . -23) (undo-tree-id15 . -23) (undo-tree-id17 . -23) (undo-tree-id19 . -22) (undo-tree-id21 . -22) (undo-tree-id23 . -22) (undo-tree-id25 . -22) (undo-tree-id27 . -22) (undo-tree-id29 . -22) (undo-tree-id31 . -22) (undo-tree-id33 . -22) (undo-tree-id35 . -22) (undo-tree-id37 . -22) (undo-tree-id39 . -1) (undo-tree-id41 . -1) (undo-tree-id43 . -1) (undo-tree-id45 . -1) (undo-tree-id47 . -1) (undo-tree-id49 . -1) (undo-tree-id51 . -1) (undo-tree-id53 . -1) (undo-tree-id55 . -1) (undo-tree-id57 . -1) (undo-tree-id59 . -1) (undo-tree-id61 . -2255) (t 26363 55360 995151 846000)) ((24336 . 26592) (t 26363 55533 64227 389000)) (26363 55533 58797 324000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 26592) (t 26363 55559 576931 141000)) nil (26363 55562 182624 36000) 0 nil])
+nil
+([nil nil ((#("
+" 0 1 (fontified t)) . 26592) (undo-tree-id63 . -1)) nil (26363 55682 270293 822000) 0 nil])
+([nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.0475}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 19 (face font-lock-keyword-face fontified t) 19 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 26650) (undo-tree-id978 . -1) (undo-tree-id979 . -1) (undo-tree-id980 . -1) (undo-tree-id981 . -1) (undo-tree-id982 . -1) (undo-tree-id983 . -1) (undo-tree-id984 . -1)) ((26650 . 26694)) (26363 55683 327889 277000) 0 nil])
+([nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.1443}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 26688) (undo-tree-id985 . -6) (undo-tree-id986 . -6)) ((26688 . 26732)) (26363 55683 497947 869000) 0 nil])
+([nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.5248}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 26726)) ((26726 . 26770)) (26363 55688 928707 69000) 0 nil])
+([nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.2835}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 26764) (undo-tree-id1057 . -43)) nil (26363 55697 976107 785000) 0 nil] [nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.2835}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 26764) (undo-tree-id987 . -43) (undo-tree-id988 . -44)) ((26764 . 26808)) (26363 55688 928644 642000) 0 nil] [nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.2835}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 26764) (undo-tree-id112 . -43)) ((26764 . 26808)) (26363 55680 412320 822000) 0 nil])
+([nil nil ((26648 . 26649) (#("p{}" 0 1 (fontified t) 1 2 (fontified t) 2 3 (fontified t)) . 26648) (undo-tree-id1084 . -2) (undo-tree-id1085 . -2) (undo-tree-id1086 . -2) (undo-tree-id1087 . -2) (undo-tree-id1088 . -2) (undo-tree-id1089 . -1) (undo-tree-id1090 . -1) (undo-tree-id1091 . -1) (undo-tree-id1092 . -1) (undo-tree-id1093 . -1) (undo-tree-id1094 . -1) (undo-tree-id1095 . -1) (undo-tree-id1096 . -1) (undo-tree-id1097 . -1) (undo-tree-id1098 . -1) (undo-tree-id1099 . -1) (undo-tree-id1100 . -1) (undo-tree-id1101 . -1) (undo-tree-id1102 . -1) (undo-tree-id1103 . -1) (undo-tree-id1104 . -2) (undo-tree-id1105 . -2) (undo-tree-id1106 . -2) (undo-tree-id1107 . -2) (undo-tree-id1108 . -2) (undo-tree-id1109 . -2) (undo-tree-id1110 . -2) (undo-tree-id1111 . -2) (undo-tree-id1112 . -2) (undo-tree-id1113 . -2) (undo-tree-id1114 . -2) (undo-tree-id1115 . -2) (undo-tree-id1116 . -2) (undo-tree-id1117 . -2) (undo-tree-id1118 . -2) (undo-tree-id1119 . -2) (undo-tree-id1120 . -2) (undo-tree-id1121 . -2) (undo-tree-id1122 . -2) (undo-tree-id1123 . -2) (undo-tree-id1124 . -2) (undo-tree-id1125 . -2) (undo-tree-id1126 . -2) (undo-tree-id1127 . -2) (undo-tree-id1128 . -2) (undo-tree-id1129 . -2) (undo-tree-id1130 . -2) (undo-tree-id1131 . -2) (undo-tree-id1132 . -2) (undo-tree-id1133 . -2) (undo-tree-id1134 . -2) (undo-tree-id1135 . -2) (undo-tree-id1136 . -2) (undo-tree-id1137 . -2) (undo-tree-id1138 . -2) (undo-tree-id1139 . -2) (undo-tree-id1140 . -2) (undo-tree-id1141 . -2) (undo-tree-id1142 . -2) (undo-tree-id1143 . -2) (undo-tree-id1144 . -2) (undo-tree-id1145 . -2) (undo-tree-id1146 . -2) (undo-tree-id1147 . -2) (undo-tree-id1148 . -2) (undo-tree-id1149 . -2) (undo-tree-id1150 . -2) (undo-tree-id1151 . -2) (undo-tree-id1152 . -2) (undo-tree-id1153 . -2) (undo-tree-id1154 . -2) (undo-tree-id1155 . -2) (undo-tree-id1156 . -2) (undo-tree-id1157 . -2) (undo-tree-id1158 . -2) (undo-tree-id1159 . -2) (undo-tree-id1160 . -2) (undo-tree-id1161 . -2) (undo-tree-id1162 . -2) (undo-tree-id1163 . -2) (undo-tree-id1164 . -2) (undo-tree-id1165 . -1) (undo-tree-id1166 . -1) (undo-tree-id1167 . -1) (undo-tree-id1168 . -1) (undo-tree-id1169 . -1) (undo-tree-id1170 . -1) (undo-tree-id1171 . -1) (undo-tree-id1172 . -1) (undo-tree-id1173 . -1) (undo-tree-id1174 . -1) (undo-tree-id1175 . -1) (undo-tree-id1176 . -1) (undo-tree-id1177 . -1) (undo-tree-id1178 . -1) (undo-tree-id1179 . -1) (undo-tree-id1180 . -1) (undo-tree-id1181 . -1) (undo-tree-id1182 . -1) (undo-tree-id1183 . -1) (undo-tree-id1184 . -1) (undo-tree-id1185 . -1) (undo-tree-id1186 . -1) (undo-tree-id1187 . -1) (undo-tree-id1188 . -1) (undo-tree-id1189 . -1) (undo-tree-id1190 . -2) (undo-tree-id1191 . -2) (undo-tree-id1192 . -2) (undo-tree-id1193 . -2) (undo-tree-id1194 . -2) (undo-tree-id1195 . -2) (undo-tree-id1196 . -2) (undo-tree-id1197 . -2) (undo-tree-id1198 . -2) (undo-tree-id1199 . -2) (undo-tree-id1200 . -2) (undo-tree-id1201 . -2) (undo-tree-id1202 . -2) (undo-tree-id1203 . -2) (undo-tree-id1204 . -2) (undo-tree-id1205 . -2) (undo-tree-id1206 . -2) (undo-tree-id1207 . -2) (undo-tree-id1208 . -2) (undo-tree-id1209 . -2) (undo-tree-id1210 . -2) (undo-tree-id1211 . -2) (undo-tree-id1212 . -2) (undo-tree-id1213 . -2) (undo-tree-id1214 . -2) (undo-tree-id1215 . -2) (undo-tree-id1216 . -2) (undo-tree-id1217 . -3) (undo-tree-id1218 . -3) 26650) nil (26363 55713 307070 68000) 0 nil] [nil nil ((26650 . 26651) (#("}" 0 1 (fontified nil)) . 26650) (undo-tree-id989 . -1) (26649 . 26650) (#("{" 0 1 (fontified nil)) . 26649) (undo-tree-id990 . -1) (undo-tree-id991 . -1) (undo-tree-id992 . -1) (undo-tree-id993 . -1) (undo-tree-id994 . -1) (undo-tree-id995 . -1) (undo-tree-id996 . -1) (undo-tree-id997 . -1) (undo-tree-id998 . -1) (undo-tree-id999 . -1) (undo-tree-id1000 . -1) (undo-tree-id1001 . -1) (undo-tree-id1002 . -1) (undo-tree-id1003 . -1) (undo-tree-id1004 . -1) (undo-tree-id1005 . -1) (undo-tree-id1006 . -1) (undo-tree-id1007 . -1) (undo-tree-id1008 . -1) (undo-tree-id1009 . -1) (undo-tree-id1010 . -1) (undo-tree-id1011 . -1) (undo-tree-id1012 . -1) (undo-tree-id1013 . -1) (undo-tree-id1014 . -1) (undo-tree-id1015 . -1) (undo-tree-id1016 . -1) (undo-tree-id1017 . -1) (undo-tree-id1018 . -1) (undo-tree-id1019 . -1) (undo-tree-id1020 . -1) (undo-tree-id1021 . -1) (undo-tree-id1022 . -1) (undo-tree-id1023 . -1) (undo-tree-id1024 . -1) (undo-tree-id1025 . -1) (undo-tree-id1026 . -1) (undo-tree-id1027 . -1) (undo-tree-id1028 . -1) (undo-tree-id1029 . -1) (undo-tree-id1030 . -1) (undo-tree-id1031 . -1) (undo-tree-id1032 . -1) (undo-tree-id1033 . -1) (undo-tree-id1034 . -1) (undo-tree-id1035 . -1) (undo-tree-id1036 . -1) (undo-tree-id1037 . -1) (undo-tree-id1038 . -1) (undo-tree-id1039 . -1) (undo-tree-id1040 . -1) (undo-tree-id1041 . -1) (26648 . 26649) (#("p" 0 1 (fontified t)) . 26648) (undo-tree-id1042 . -1) (undo-tree-id1043 . -1) (undo-tree-id1044 . -1) (undo-tree-id1045 . -1) (undo-tree-id1046 . -1) (undo-tree-id1047 . -1) (undo-tree-id1048 . -1) (undo-tree-id1049 . -1) (undo-tree-id1050 . -1) (undo-tree-id1051 . -1) (undo-tree-id1052 . -1) (undo-tree-id1053 . -1) (undo-tree-id1054 . -1) (undo-tree-id1055 . -1) (undo-tree-id1056 . -1) 26650) ((26648 . 26649) (#("l" 0 1 (fontified nil)) . 26648) (undo-tree-id1058 . -1) (undo-tree-id1059 . -1) (undo-tree-id1060 . -1) (undo-tree-id1061 . -1) (26649 . 26650) (#("l" 0 1 (fontified nil)) . 26649) (undo-tree-id1062 . -1) (undo-tree-id1063 . -1) (undo-tree-id1064 . -1) (26650 . 26651) (#("l" 0 1 (fontified t)) . 26650)) (26363 55697 975975 468000) 0 nil])
+nil
+([nil nil ((26648 . 26649) (#("p" 0 1 (fontified t)) . -26648) (undo-tree-id110 . -1) (#("{" 0 1 (fontified t)) . -26649) (undo-tree-id111 . -1) 26650) ((26648 . 26650) (#("l" 0 1 (fontified t)) . 26648)) (26363 55680 242404 946000) 0 nil])
+([nil nil ((26684 . 26685) (#("p{}" 0 1 (fontified t) 1 2 (fontified t) 2 3 (fontified t)) . 26684) (undo-tree-id1077 . -2) (undo-tree-id1078 . -2) (undo-tree-id1079 . -2) (undo-tree-id1080 . -1) (undo-tree-id1081 . -1) (undo-tree-id1082 . -2) (undo-tree-id1083 . -2) 26686) nil (26363 55713 307023 962000) 0 nil])
+nil
+([nil nil ((26685 . 26686) (#("p" 0 1 (fontified t)) . -26685) (undo-tree-id109 . -1) 26686) ((26685 . 26686) (#("l" 0 1 (fontified t)) . 26685) (undo-tree-id948 . -1) (undo-tree-id949 . -1) (undo-tree-id950 . -1) (undo-tree-id951 . -1) (undo-tree-id952 . -1) (undo-tree-id953 . -1) (undo-tree-id954 . -1) (undo-tree-id955 . -1) (undo-tree-id956 . -1) (undo-tree-id957 . -1) (undo-tree-id958 . -1) (undo-tree-id959 . -1) (undo-tree-id960 . -1) (undo-tree-id961 . -1) (undo-tree-id962 . -1) (undo-tree-id963 . -1) (undo-tree-id964 . -1) (undo-tree-id965 . -1) (undo-tree-id966 . -1) (undo-tree-id967 . -1) (undo-tree-id968 . -1) (undo-tree-id969 . -1) (undo-tree-id970 . -1) (undo-tree-id971 . -1) (undo-tree-id972 . -1) (undo-tree-id973 . -1) (undo-tree-id974 . -1) (undo-tree-id975 . -1) (undo-tree-id976 . -1) (undo-tree-id977 . -1)) (26363 55680 95122 694000) 0 nil])
+([nil nil ((26733 . 26735) (26731 . 26733) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -26731) (undo-tree-id1071 . -1) (undo-tree-id1072 . -1) (undo-tree-id1073 . -1) (undo-tree-id1074 . -1) (undo-tree-id1075 . -1) (undo-tree-id1076 . -1) (26722 . 26732)) nil (26363 55713 307020 947000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 26686) (undo-tree-id73 . 1) (undo-tree-id75 . -1) (undo-tree-id77 . -1) (undo-tree-id79 . -1) (undo-tree-id81 . -1) (undo-tree-id83 . -1) (undo-tree-id85 . -1) (undo-tree-id87 . -1) (undo-tree-id89 . -1) (undo-tree-id91 . -1) (undo-tree-id93 . -1) (undo-tree-id95 . -1) (undo-tree-id97 . -1) (undo-tree-id99 . -1) (undo-tree-id101 . -1) (undo-tree-id103 . -1) (undo-tree-id105 . -1) (undo-tree-id107 . -1)) ((26686 . 26687)) (26363 55679 879262 687000) 0 nil])
+([nil nil ((26782 . 26786) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -26782) (undo-tree-id1065 . -1) (undo-tree-id1066 . -1) (undo-tree-id1067 . -1) (undo-tree-id1068 . -1) (undo-tree-id1069 . -1) (undo-tree-id1070 . -1) (26773 . 26783)) nil (26363 55713 307014 915000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 26686) (undo-tree-id72 . 1)) ((26686 . 26687)) (26363 55679 709325 161000) 0 nil])
+([nil nil ((#("l" 0 1 (fontified t)) . -26648) (undo-tree-id1219 . -1) (undo-tree-id1220 . -1) (undo-tree-id1221 . -1) (undo-tree-id1222 . -1) (undo-tree-id1223 . -1) (undo-tree-id1224 . -1) (undo-tree-id1225 . -1) (undo-tree-id1226 . -1) (undo-tree-id1227 . -1) (undo-tree-id1228 . -1) (undo-tree-id1229 . -1) (undo-tree-id1230 . -1) (undo-tree-id1231 . -1) (undo-tree-id1232 . -1) (undo-tree-id1233 . -1) (undo-tree-id1234 . -1) (undo-tree-id1235 . -1) (undo-tree-id1236 . -1) (undo-tree-id1237 . -1) (undo-tree-id1238 . -1) (undo-tree-id1239 . -1) (undo-tree-id1240 . -1) (undo-tree-id1241 . -1) (undo-tree-id1242 . -1) (undo-tree-id1243 . -1) (undo-tree-id1244 . -1) (undo-tree-id1245 . -1) (undo-tree-id1246 . -1) (undo-tree-id1247 . -1) 26649 (t 26363 55713 313214 506000)) nil (26363 55746 308306 169000) 0 nil])
+([nil nil ((#("p" 0 1 (fontified t)) . 26721)) ((26721 . 26722)) (26363 55679 562268 601000) 0 nil])
+([nil nil ((26648 . 26656)) nil (26363 55746 308280 932000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 26721)) ((26721 . 26722)) (26363 55679 369014 976000) 0 nil])
+([nil nil ((26652 . 26653) (#("5" 0 1 (fontified t)) . 26652) (undo-tree-id1248 . -1) (undo-tree-id1249 . -1) (undo-tree-id1250 . -1) (undo-tree-id1251 . -1) (undo-tree-id1252 . -1) (undo-tree-id1253 . -1) (undo-tree-id1254 . -1) (undo-tree-id1255 . -1) (undo-tree-id1256 . -1) (undo-tree-id1257 . -1) (undo-tree-id1258 . -1) (t 26363 55746 314846 238000)) nil (26363 55767 703563 53000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 26721)) ((26721 . 26722)) (26363 55679 199113 19000) 0 nil])
+([nil nil ((26694 . 26697) (26693 . 26694) (#("0" 0 1 (fontified t)) . -26693) (undo-tree-id1259 . -1) (undo-tree-id1260 . -1) (undo-tree-id1261 . -1) (undo-tree-id1262 . -1) (undo-tree-id1263 . -1) (undo-tree-id1264 . -1) (undo-tree-id1265 . -1) (undo-tree-id1266 . -1) (undo-tree-id1267 . -1) (undo-tree-id1268 . -1) (undo-tree-id1269 . -1) (undo-tree-id1270 . -1) (undo-tree-id1271 . -1) (undo-tree-id1272 . -1) (undo-tree-id1273 . -1) (undo-tree-id1274 . -1) (undo-tree-id1275 . -1) (undo-tree-id1276 . -1) (undo-tree-id1277 . -1) (undo-tree-id1278 . -1) (undo-tree-id1279 . -1) (undo-tree-id1280 . -1) 26694 (26691 . 26694) (#("l" 0 1 (fontified t)) . -26691) (undo-tree-id1281 . -1) (undo-tree-id1282 . -1) (undo-tree-id1283 . -1) (undo-tree-id1284 . -1) (undo-tree-id1285 . -1) (undo-tree-id1286 . -1) (undo-tree-id1287 . -1) (undo-tree-id1288 . -1) (undo-tree-id1289 . -1) (undo-tree-id1290 . -1) (undo-tree-id1291 . -1) (undo-tree-id1292 . -1) (undo-tree-id1293 . -1) (undo-tree-id1294 . -1) (undo-tree-id1295 . -1) (undo-tree-id1296 . -1) (undo-tree-id1297 . -1) (undo-tree-id1298 . -1) (undo-tree-id1299 . -1) (undo-tree-id1300 . -1) (undo-tree-id1301 . -1) (undo-tree-id1302 . -1) (undo-tree-id1303 . -1) (undo-tree-id1304 . -1) (undo-tree-id1305 . -1) (undo-tree-id1306 . -1) (undo-tree-id1307 . -1) (undo-tree-id1308 . -1) (undo-tree-id1309 . -1) (undo-tree-id1310 . -1) (undo-tree-id1311 . -1) (undo-tree-id1312 . -1) (undo-tree-id1313 . -1) (undo-tree-id1314 . -1) (undo-tree-id1315 . -1) (undo-tree-id1316 . -1) (undo-tree-id1317 . -1) (undo-tree-id1318 . -1) (undo-tree-id1319 . -1) (undo-tree-id1320 . -1) (undo-tree-id1321 . -1) (undo-tree-id1322 . -1) (undo-tree-id1323 . -1) (undo-tree-id1324 . -1) 26692 (t 26363 55767 712607 499000)) nil (26363 55779 117354 580000) 0 nil])
+([nil nil ((26732 . 26737) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . 26732) (26729 . 26733) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . 26729) (26729 . 26730) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . 26729) (26726 . 26730) (#("|" 0 1 (fontified nil)) . 26726) (26721 . 26727) (#("l" 0 1 (fontified nil)) . 26721) (26721 . 26722)) ((#("l" 0 1 (fontified nil)) . 26721) (26721 . 26722) (#("p{0.5|" 0 5 (fontified nil) 5 6 (fontified nil)) . 26721) (26726 . 26727) (#("\\tei" 0 3 (face font-lock-keyword-face fontified nil) 3 4 (face font-lock-keyword-face fontified nil)) . 26726) (26729 . 26730) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . 26729) (26729 . 26730) (#("xtwi" 0 3 (face font-lock-keyword-face fontified nil) 3 4 (face font-lock-keyword-face fontified nil)) . 26729) (26732 . 26733) (#("idth}" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t)) . 26732)) (26363 55676 610716 616000) 0 nil])
+([nil nil ((26694 . 26696) (t 26363 55779 121480 210000)) nil (26363 55791 584292 586000) 0 nil])
+([nil nil ((26782 . 26790) (#("i" 0 1 (fontified nil)) . 26782) (26779 . 26783) (#("|" 0 1 (fontified nil)) . 26779) (26774 . 26780) (#("l" 0 1 (fontified nil)) . 26774) (26774 . 26775)) ((#("l" 0 1 (fontified nil)) . 26774) (26774 . 26775) (#("p{0.5|" 0 1 (fontified nil) 1 2 (fontified nil) 2 4 (fontified nil) 4 5 (fontified nil) 5 6 (fontified nil)) . 26774) (undo-tree-id507 . -5) (undo-tree-id508 . -5) (undo-tree-id509 . -5) (undo-tree-id510 . -5) (undo-tree-id511 . -5) (undo-tree-id512 . -5) (undo-tree-id513 . -5) (undo-tree-id514 . -5) (undo-tree-id515 . -5) (undo-tree-id516 . -5) (undo-tree-id517 . -4) (undo-tree-id518 . -4) (undo-tree-id519 . -5) (undo-tree-id520 . -5) (undo-tree-id521 . -5) (undo-tree-id522 . -5) (undo-tree-id523 . -5) (undo-tree-id524 . -5) (undo-tree-id525 . -5) (undo-tree-id526 . -5) (undo-tree-id527 . -5) (undo-tree-id528 . -5) (undo-tree-id529 . -5) (undo-tree-id530 . -5) (undo-tree-id531 . -5) (undo-tree-id532 . -5) (undo-tree-id533 . -5) (undo-tree-id534 . -5) (undo-tree-id535 . -5) (undo-tree-id536 . -5) (undo-tree-id537 . -5) (undo-tree-id538 . -5) (undo-tree-id539 . -5) (undo-tree-id540 . -5) (undo-tree-id541 . -5) (undo-tree-id542 . -5) (undo-tree-id543 . -5) (undo-tree-id544 . -5) (undo-tree-id545 . -5) (undo-tree-id546 . -5) (undo-tree-id547 . -5) (undo-tree-id548 . -5) (undo-tree-id549 . -5) (undo-tree-id550 . -5) (undo-tree-id551 . -5) (undo-tree-id552 . -5) (undo-tree-id553 . -5) (undo-tree-id554 . -5) (undo-tree-id555 . -5) (undo-tree-id556 . -5) (undo-tree-id557 . -5) (undo-tree-id558 . -5) (undo-tree-id559 . -5) (undo-tree-id560 . -5) (undo-tree-id561 . -5) (undo-tree-id562 . -5) (undo-tree-id563 . -5) (undo-tree-id564 . -5) (undo-tree-id565 . -5) (undo-tree-id566 . -5) (undo-tree-id567 . -5) (undo-tree-id568 . -5) (undo-tree-id569 . -5) (undo-tree-id570 . -5) (undo-tree-id571 . -5) (undo-tree-id572 . -5) (undo-tree-id573 . -5) (undo-tree-id574 . -5) (undo-tree-id575 . -5) (undo-tree-id576 . -5) (undo-tree-id577 . -5) (undo-tree-id578 . -5) (undo-tree-id579 . -5) (undo-tree-id580 . -5) (undo-tree-id581 . -5) (undo-tree-id582 . -5) (undo-tree-id583 . -5) (undo-tree-id584 . -5) (undo-tree-id585 . -5) (undo-tree-id586 . -5) (undo-tree-id587 . -5) (undo-tree-id588 . -5) (undo-tree-id589 . -5) (undo-tree-id590 . -5) (undo-tree-id591 . -5) (undo-tree-id592 . -5) (undo-tree-id593 . -5) (undo-tree-id594 . -5) (undo-tree-id595 . -5) (undo-tree-id596 . -5) (undo-tree-id597 . -5) (undo-tree-id598 . -5) (undo-tree-id599 . -5) (undo-tree-id600 . -5) (undo-tree-id601 . -5) (undo-tree-id602 . -5) (undo-tree-id603 . -5) (undo-tree-id604 . -5) (undo-tree-id605 . -5) (undo-tree-id606 . -5) (undo-tree-id607 . -5) (undo-tree-id608 . -5) (undo-tree-id609 . -5) (undo-tree-id610 . -5) (undo-tree-id611 . -5) (undo-tree-id612 . -5) (undo-tree-id613 . -5) (undo-tree-id614 . -5) (undo-tree-id615 . -5) (undo-tree-id616 . -5) (undo-tree-id617 . -5) (undo-tree-id618 . -5) (undo-tree-id619 . -5) (undo-tree-id620 . -5) (undo-tree-id621 . -5) (undo-tree-id622 . -5) (undo-tree-id623 . -5) (undo-tree-id624 . -5) (undo-tree-id625 . -5) (undo-tree-id626 . -5) (undo-tree-id627 . -5) (undo-tree-id628 . -5) (undo-tree-id629 . -5) (undo-tree-id630 . -5) (undo-tree-id631 . -5) (undo-tree-id632 . -5) (undo-tree-id633 . -5) (undo-tree-id634 . -5) (undo-tree-id635 . -5) (undo-tree-id636 . -5) (undo-tree-id637 . -5) (undo-tree-id638 . -5) (undo-tree-id639 . -5) (undo-tree-id640 . -5) (undo-tree-id641 . -5) (undo-tree-id642 . -5) (undo-tree-id643 . -5) (undo-tree-id644 . -5) (undo-tree-id645 . -5) (undo-tree-id646 . -5) (undo-tree-id647 . -5) (undo-tree-id648 . -5) (undo-tree-id649 . -5) (undo-tree-id650 . -5) (undo-tree-id651 . -5) (undo-tree-id652 . -5) (undo-tree-id653 . -5) (undo-tree-id654 . -5) (undo-tree-id655 . -5) (undo-tree-id656 . -5) (undo-tree-id657 . -5) (undo-tree-id658 . -5) (undo-tree-id659 . -5) (undo-tree-id660 . -5) (undo-tree-id661 . -5) (undo-tree-id662 . -5) (undo-tree-id663 . -5) (undo-tree-id664 . -5) (undo-tree-id665 . -5) (undo-tree-id666 . -5) (undo-tree-id667 . -5) (undo-tree-id668 . -5) (undo-tree-id669 . -5) (undo-tree-id670 . -5) (undo-tree-id671 . -5) (undo-tree-id672 . -5) (undo-tree-id673 . -5) (undo-tree-id674 . -5) (undo-tree-id675 . -5) (undo-tree-id676 . -5) (undo-tree-id677 . -5) (undo-tree-id678 . -5) (undo-tree-id679 . -5) (undo-tree-id680 . -5) (undo-tree-id681 . -5) (undo-tree-id682 . -5) (undo-tree-id683 . -5) (undo-tree-id684 . -5) (undo-tree-id685 . -5) (26779 . 26780) (#("\\tei" 0 3 (face font-lock-keyword-face fontified nil) 3 4 (fontified nil)) . 26779) (undo-tree-id686 . -3) (undo-tree-id687 . -3) (undo-tree-id688 . -3) (undo-tree-id689 . -3) (undo-tree-id690 . -3) (undo-tree-id691 . -3) (undo-tree-id692 . -3) (undo-tree-id693 . -3) (undo-tree-id694 . -3) (undo-tree-id695 . -3) (undo-tree-id696 . -3) (undo-tree-id697 . -3) (undo-tree-id698 . -3) (undo-tree-id699 . -3) (undo-tree-id700 . -3) (undo-tree-id701 . -3) (undo-tree-id702 . -3) (undo-tree-id703 . -3) (undo-tree-id704 . -3) (undo-tree-id705 . -3) (undo-tree-id706 . -3) (undo-tree-id707 . -3) (undo-tree-id708 . -3) (undo-tree-id709 . -3) (undo-tree-id710 . -3) (undo-tree-id711 . -3) (undo-tree-id712 . -3) (undo-tree-id713 . -3) (undo-tree-id714 . -3) (undo-tree-id715 . -2) (undo-tree-id716 . -2) (undo-tree-id717 . -2) (undo-tree-id718 . -2) (undo-tree-id719 . -2) (undo-tree-id720 . -2) (undo-tree-id721 . -2) (undo-tree-id722 . -2) (undo-tree-id723 . -2) (undo-tree-id724 . -2) (undo-tree-id725 . -2) (undo-tree-id726 . -2) (undo-tree-id727 . -2) (undo-tree-id728 . -2) (undo-tree-id729 . -2) (undo-tree-id730 . -1) (undo-tree-id731 . -1) (undo-tree-id732 . -1) (undo-tree-id733 . -1) (undo-tree-id734 . -1) (undo-tree-id735 . -1) (undo-tree-id736 . -1) (undo-tree-id737 . -1) (undo-tree-id738 . -1) (undo-tree-id739 . -1) (undo-tree-id740 . -1) (undo-tree-id741 . -1) (undo-tree-id742 . -1) (undo-tree-id743 . -1) (undo-tree-id744 . -1) (undo-tree-id745 . -1) (undo-tree-id746 . -1) (undo-tree-id747 . -1) (undo-tree-id748 . -1) (undo-tree-id749 . -1) (undo-tree-id750 . -2) (undo-tree-id751 . -2) (undo-tree-id752 . -2) (undo-tree-id753 . -2) (undo-tree-id754 . -2) (undo-tree-id755 . -3) (undo-tree-id756 . -3) (undo-tree-id757 . -3) (undo-tree-id758 . -3) (undo-tree-id759 . -3) (undo-tree-id760 . -3) (undo-tree-id761 . -3) (undo-tree-id762 . -3) (undo-tree-id763 . -3) (undo-tree-id764 . -3) (undo-tree-id765 . -3) (undo-tree-id766 . -3) (undo-tree-id767 . -3) (undo-tree-id768 . -3) (undo-tree-id769 . -3) (undo-tree-id770 . -3) (undo-tree-id771 . -3) (undo-tree-id772 . -3) (undo-tree-id773 . -3) (undo-tree-id774 . -3) (undo-tree-id775 . -3) (undo-tree-id776 . -3) (undo-tree-id777 . -3) (undo-tree-id778 . -3) (undo-tree-id779 . -3) (undo-tree-id780 . -3) (undo-tree-id781 . -3) (undo-tree-id782 . -3) (undo-tree-id783 . -3) (undo-tree-id784 . -3) (undo-tree-id785 . -3) (undo-tree-id786 . -3) (undo-tree-id787 . -3) (undo-tree-id788 . -3) (undo-tree-id789 . -3) (undo-tree-id790 . -3) (undo-tree-id791 . -3) (undo-tree-id792 . -3) (undo-tree-id793 . -3) (undo-tree-id794 . -3) (undo-tree-id795 . -3) (undo-tree-id796 . -3) (undo-tree-id797 . -3) (undo-tree-id798 . -3) (undo-tree-id799 . -3) (undo-tree-id800 . -3) (undo-tree-id801 . -3) (undo-tree-id802 . -3) (undo-tree-id803 . -3) (undo-tree-id804 . -3) (undo-tree-id805 . -3) (undo-tree-id806 . -3) (undo-tree-id807 . -3) (undo-tree-id808 . -3) (undo-tree-id809 . -3) (undo-tree-id810 . -3) (undo-tree-id811 . -3) (undo-tree-id812 . -3) (undo-tree-id813 . -3) (undo-tree-id814 . -3) (undo-tree-id815 . -3) (undo-tree-id816 . -3) (undo-tree-id817 . -3) (undo-tree-id818 . -3) (undo-tree-id819 . -3) (undo-tree-id820 . -3) (undo-tree-id821 . -3) (undo-tree-id822 . -3) (undo-tree-id823 . -3) (undo-tree-id824 . -3) (undo-tree-id825 . -3) (undo-tree-id826 . -3) (undo-tree-id827 . -3) (undo-tree-id828 . -3) (undo-tree-id829 . -3) (undo-tree-id830 . -3) (undo-tree-id831 . -3) (undo-tree-id832 . -3) (undo-tree-id833 . -3) (undo-tree-id834 . -3) (undo-tree-id835 . -3) (undo-tree-id836 . -3) (undo-tree-id837 . -3) (undo-tree-id838 . -3) (undo-tree-id839 . -3) (undo-tree-id840 . -3) (undo-tree-id841 . -3) (undo-tree-id842 . -3) (undo-tree-id843 . -3) (undo-tree-id844 . -3) (undo-tree-id845 . -3) (undo-tree-id846 . -3) (undo-tree-id847 . -3) (26782 . 26783) (#("xtwidth}" 0 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t)) . 26782) (undo-tree-id848 . -7) (undo-tree-id849 . -7) (undo-tree-id850 . -7) (undo-tree-id851 . -7) (undo-tree-id852 . -7) (undo-tree-id853 . -7) (undo-tree-id854 . -7) (undo-tree-id855 . -7) (undo-tree-id856 . -7) (undo-tree-id857 . -7) (undo-tree-id858 . -7) (undo-tree-id859 . -7) (undo-tree-id860 . -1) (undo-tree-id861 . -1) (undo-tree-id862 . -1) (undo-tree-id863 . -1) (undo-tree-id864 . -1) (undo-tree-id865 . -2) (undo-tree-id866 . -2) (undo-tree-id867 . -2) (undo-tree-id868 . -2) (undo-tree-id869 . -2) (undo-tree-id870 . -3) (undo-tree-id871 . -3) (undo-tree-id872 . -3) (undo-tree-id873 . -3) (undo-tree-id874 . -3) (undo-tree-id875 . -4) (undo-tree-id876 . -4) (undo-tree-id877 . -4) (undo-tree-id878 . -4) (undo-tree-id879 . -4) (undo-tree-id880 . -5) (undo-tree-id881 . -5) (undo-tree-id882 . -5) (undo-tree-id883 . -5) (undo-tree-id884 . -5) (undo-tree-id885 . -5) (undo-tree-id886 . -5) (undo-tree-id887 . -5) (undo-tree-id888 . -5) (undo-tree-id889 . -5) (undo-tree-id890 . -5) (undo-tree-id891 . -5) (undo-tree-id892 . -5) (undo-tree-id893 . -5) (undo-tree-id894 . -5) (undo-tree-id895 . -6) (undo-tree-id896 . -6) (undo-tree-id897 . -6) (undo-tree-id898 . -6) (undo-tree-id899 . -6) (undo-tree-id900 . -6) (undo-tree-id901 . -6) (undo-tree-id902 . -6) (undo-tree-id903 . -6) (undo-tree-id904 . -6) (undo-tree-id905 . -6) (undo-tree-id906 . -6) (undo-tree-id907 . -6) (undo-tree-id908 . -6) (undo-tree-id909 . -6) (undo-tree-id910 . -7) (undo-tree-id911 . -7) (undo-tree-id912 . -7) (undo-tree-id913 . -7) (undo-tree-id914 . -7) (undo-tree-id915 . -7) (undo-tree-id916 . -7) (undo-tree-id917 . -7) (undo-tree-id918 . -7) (undo-tree-id919 . -7) (undo-tree-id920 . -7) (undo-tree-id921 . -7) (undo-tree-id922 . -7) (undo-tree-id923 . -7) (undo-tree-id924 . -7) (undo-tree-id925 . -7) (undo-tree-id926 . -7) (undo-tree-id927 . -7) (undo-tree-id928 . -7) (undo-tree-id929 . -7) (undo-tree-id930 . -7) (undo-tree-id931 . -7) (undo-tree-id932 . -7) (undo-tree-id933 . -7) (undo-tree-id934 . -7) (undo-tree-id935 . -7) (undo-tree-id936 . -7) (undo-tree-id937 . -7) (undo-tree-id938 . -7) (undo-tree-id939 . -7) (undo-tree-id940 . -7) (undo-tree-id941 . -7) (undo-tree-id942 . -7) (undo-tree-id943 . -7) (undo-tree-id944 . -7) (undo-tree-id945 . -7) (undo-tree-id946 . -7) (undo-tree-id947 . -7)) (26363 55671 680278 731000) 0 nil] [nil nil ((26782 . 26790) (#("i" 0 1 (fontified nil)) . -26782) (undo-tree-id64 . -1) 26783 (26779 . 26783) (#("|" 0 1 (fontified nil)) . -26779) (undo-tree-id65 . -1) 26780 (26774 . 26780) (#("l" 0 1 (fontified nil)) . -26774) (undo-tree-id66 . -1) 26775 (26774 . 26775)) ((#("l" 0 1 (fontified nil)) . 26774) (26774 . 26775) (#("p{0.5|" 0 5 (fontified nil) 5 6 (fontified nil)) . 26774) (undo-tree-id158 . -5) (undo-tree-id159 . -5) (undo-tree-id160 . -5) (26779 . 26780) (#("\\tei" 0 3 (face font-lock-keyword-face fontified nil) 3 4 (fontified nil)) . 26779) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) (26782 . 26783) (#("xtwidth}" 0 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t)) . 26782)) (26363 55626 615905 548000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t)) . -26695) (t 26363 55791 587341 139000) (26696 . 26697) 26695 (t 26363 55791 587341 139000)) nil (26363 55797 238424 577000) 0 nil])
+([nil nil ((#("p" 0 1 (fontified t)) . 26774)) ((26774 . 26775)) (26363 55666 867367 779000) 0 nil])
+nil
+([nil nil ((28265 . 28266) (t 26363 55797 241278 66000)) nil (26363 55814 406007 50000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 26774)) ((26774 . 26775)) (26363 55666 698361 644000) 0 nil])
+([nil nil ((#("5" 0 1 (fontified t)) . -26738) (t 26363 55814 412086 520000) (26739 . 26740) 26738 (t 26363 55814 412086 520000)) nil (26363 55849 21214 360000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 26787)) ((26787 . 26788)) (26363 55666 528378 132000) 0 nil])
+([nil nil ((26738 . 26740) (#("6" 0 1 (fontified t)) . -26738) (undo-tree-id1473 . -1) 26739 (t 26363 55849 28700 444000)) nil (26363 55874 854123 767000) 0 nil])
+([nil nil ((26776 . 26777) (#("5" 0 1 (fontified t)) . 26776)) ((26776 . 26777) (#("3" 0 1 (fontified t)) . 26776)) (26363 55666 357113 948000) 0 nil])
+([nil nil ((#("3" 0 1 (fontified t)) . -26790) (undo-tree-id1405 . -1) (undo-tree-id1406 . -1) (undo-tree-id1407 . -1) (undo-tree-id1408 . -1) (undo-tree-id1409 . -1) (undo-tree-id1410 . -1) (undo-tree-id1411 . -1) (undo-tree-id1412 . -1) (undo-tree-id1413 . -1) (undo-tree-id1414 . -1) (undo-tree-id1415 . -1) (undo-tree-id1416 . -1) (undo-tree-id1417 . -1) (undo-tree-id1418 . -1) (undo-tree-id1419 . -1) (undo-tree-id1420 . -1) (undo-tree-id1421 . -1) (undo-tree-id1422 . -1) (undo-tree-id1423 . -1) (undo-tree-id1424 . -1) (undo-tree-id1425 . -1) (undo-tree-id1426 . -1) (undo-tree-id1427 . -1) (undo-tree-id1428 . -1) (undo-tree-id1429 . -1) (undo-tree-id1430 . -1) (undo-tree-id1431 . -1) (undo-tree-id1432 . -1) (undo-tree-id1433 . -1) (undo-tree-id1434 . -1) (undo-tree-id1435 . -1) (undo-tree-id1436 . -1) (undo-tree-id1437 . -1) (undo-tree-id1438 . -1) (undo-tree-id1439 . -1) (undo-tree-id1440 . -1) (undo-tree-id1441 . -1) (undo-tree-id1442 . -1) (undo-tree-id1443 . -1) (undo-tree-id1444 . -1) (undo-tree-id1445 . -1) (undo-tree-id1446 . -1) (undo-tree-id1447 . -1) (undo-tree-id1448 . -1) (undo-tree-id1449 . -1) (undo-tree-id1450 . -1) (undo-tree-id1451 . -1) (undo-tree-id1452 . -1) (undo-tree-id1453 . -1) (undo-tree-id1454 . -1) (undo-tree-id1455 . -1) (undo-tree-id1456 . -1) (undo-tree-id1457 . -1) (undo-tree-id1458 . -1) (undo-tree-id1459 . -1) (undo-tree-id1460 . -1) (undo-tree-id1461 . -1) (undo-tree-id1462 . -1) (undo-tree-id1463 . -1) (undo-tree-id1464 . -1) (undo-tree-id1465 . -1) (undo-tree-id1466 . -1) (undo-tree-id1467 . -1) (undo-tree-id1468 . -1) (undo-tree-id1469 . -1) (undo-tree-id1470 . -1) (undo-tree-id1471 . -1) (undo-tree-id1472 . -1) 26791) nil (26363 55874 854122 284000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 26787) (undo-tree-id207 . 1) (undo-tree-id209 . -1) (undo-tree-id211 . -1) (undo-tree-id213 . -1) (undo-tree-id215 . -1) (undo-tree-id217 . -1) (undo-tree-id219 . -1) (undo-tree-id221 . -1) (undo-tree-id223 . -1) (undo-tree-id225 . -1) (undo-tree-id227 . -1) (undo-tree-id229 . -1) (undo-tree-id231 . -1) (undo-tree-id233 . -1) (undo-tree-id235 . -1) (undo-tree-id237 . -1) (undo-tree-id239 . -1) (t 26363 55633 103109 911000)) ((26787 . 26788)) (26363 55666 187067 329000) 0 nil])
+([nil nil ((26790 . 26792)) nil (26363 55874 854088 180000) 0 nil])
+([nil nil ((#("@" 0 1 (face font-lock-keyword-face fontified t)) . 26787) (undo-tree-id184 . 1) (undo-tree-id186 . -1) (undo-tree-id188 . -1) (undo-tree-id190 . -1) (undo-tree-id192 . -1) (undo-tree-id194 . -1) (undo-tree-id196 . -1) (undo-tree-id198 . -1) (undo-tree-id200 . -1) (undo-tree-id202 . -1) (undo-tree-id204 . -1) (undo-tree-id206 . -1)) ((26787 . 26788)) (26363 55665 993936 504000) 0 nil])
+([nil nil ((#("3" 0 1 (fontified t)) . -26791) (undo-tree-id1383 . -1) (undo-tree-id1384 . -1) (undo-tree-id1385 . -1) (undo-tree-id1386 . -1) (undo-tree-id1387 . -1) (undo-tree-id1388 . -1) (undo-tree-id1389 . -1) (undo-tree-id1390 . -1) (undo-tree-id1391 . -1) (undo-tree-id1392 . -1) (undo-tree-id1393 . -1) (undo-tree-id1394 . -1) (undo-tree-id1395 . -1) (undo-tree-id1396 . -1) (undo-tree-id1397 . -1) (undo-tree-id1398 . -1) (undo-tree-id1399 . -1) (undo-tree-id1400 . -1) (undo-tree-id1401 . -1) (undo-tree-id1402 . -1) (undo-tree-id1403 . -1) (undo-tree-id1404 . -1) 26792) nil (26363 55874 854087 609000) 0 nil])
+([nil nil ((#("{" 0 1 (fontified t)) . 26787) (undo-tree-id176 . 1) (undo-tree-id178 . -1) (undo-tree-id180 . -1) (undo-tree-id182 . -1)) ((26787 . 26788)) (26363 55665 847216 614000) 0 nil])
+([nil nil ((26791 . 26792)) nil (26363 55874 854079 244000) 0 nil])
+([nil nil ((#("}" 0 1 (fontified t)) . 26787) (undo-tree-id168 . 1) (undo-tree-id170 . -1) (undo-tree-id172 . -1) (undo-tree-id174 . -1)) ((26787 . 26788) (t 26363 55657 466837 887000)) (26363 55656 975852 445000) 0 nil])
+([nil nil ((#("7" 0 1 (fontified t)) . -26791) (undo-tree-id1366 . -1) (undo-tree-id1367 . -1) (undo-tree-id1368 . -1) (undo-tree-id1369 . -1) (undo-tree-id1370 . -1) (undo-tree-id1371 . -1) (undo-tree-id1372 . -1) (undo-tree-id1373 . -1) (undo-tree-id1374 . -1) (undo-tree-id1375 . -1) (undo-tree-id1376 . -1) (undo-tree-id1377 . -1) (undo-tree-id1378 . -1) (undo-tree-id1379 . -1) (undo-tree-id1380 . -1) (undo-tree-id1381 . -1) (undo-tree-id1382 . -1) 26792) nil (26363 55874 854078 853000) 0 nil])
+([nil nil ((#("|" 0 1 (fontified t)) . 26787) (undo-tree-id165 . 1) (undo-tree-id166 . -1) (undo-tree-id167 . -1)) ((26787 . 26788)) (26363 55656 975757 86000) 0 nil])
+([nil nil ((26791 . 26792)) nil (26363 55874 854072 501000) 0 nil])
+nil
+([nil nil ((#("7" 0 1 (fontified t)) . -26791) (undo-tree-id1344 . -1) (undo-tree-id1345 . -1) (undo-tree-id1346 . -1) (undo-tree-id1347 . -1) (undo-tree-id1348 . -1) (undo-tree-id1349 . -1) (undo-tree-id1350 . -1) (undo-tree-id1351 . -1) (undo-tree-id1352 . -1) (undo-tree-id1353 . -1) (undo-tree-id1354 . -1) (undo-tree-id1355 . -1) (undo-tree-id1356 . -1) (undo-tree-id1357 . -1) (undo-tree-id1358 . -1) (undo-tree-id1359 . -1) (undo-tree-id1360 . -1) (undo-tree-id1361 . -1) (undo-tree-id1362 . -1) (undo-tree-id1363 . -1) (undo-tree-id1364 . -1) (undo-tree-id1365 . -1) 26792) nil (26363 55874 854072 30000) 0 nil])
+([nil nil ((26791 . 26792)) nil (26363 55874 854062 182000) 0 nil])
+([nil nil ((#("3" 0 1 (fontified t)) . -26791) (undo-tree-id1325 . -1) (undo-tree-id1326 . -1) (undo-tree-id1327 . -1) (undo-tree-id1328 . -1) (undo-tree-id1329 . -1) (undo-tree-id1330 . -1) (undo-tree-id1331 . -1) (undo-tree-id1332 . -1) (undo-tree-id1333 . -1) (undo-tree-id1334 . -1) (undo-tree-id1335 . -1) (undo-tree-id1336 . -1) (undo-tree-id1337 . -1) (undo-tree-id1338 . -1) (undo-tree-id1339 . -1) (undo-tree-id1340 . -1) (undo-tree-id1341 . -1) (undo-tree-id1342 . -1) (undo-tree-id1343 . -1) 26792) nil (26363 55874 854061 481000) 0 nil])
+([nil nil ((26791 . 26792)) nil (26363 55874 854042 856000) 0 nil])
+([nil nil ((11255 . 11260) (#("(\\columnwidth - 8\\tabcolsep) * \\real{0.0723}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 11255) (undo-tree-id1566 . -43) (undo-tree-id1567 . -1) 11256 (t 26363 55874 860412 367000)) nil (26363 55956 66699 814000) 0 nil])
+([nil nil ((11298 . 11300) (11297 . 11298) (#("(\\columnwidth - 8\\tabcolsep) * \\real{0.1910}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 11297) (undo-tree-id1564 . -43) (undo-tree-id1565 . -2) 11299) nil (26363 55956 66698 121000) 0 nil])
+([nil nil ((11346 . 11350) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -11346) (undo-tree-id1474 . -1) (undo-tree-id1475 . -1) (undo-tree-id1476 . -1) (undo-tree-id1477 . -1) (undo-tree-id1478 . -1) (undo-tree-id1479 . -1) (11340 . 11347) (11337 . 11340) (#("(\\columnwidth - 8\\tabcolsep) * \\real{0.3046}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 11337) (undo-tree-id1480 . -43) (undo-tree-id1481 . -2) (undo-tree-id1482 . -2) (undo-tree-id1483 . -2) (undo-tree-id1484 . -2) (undo-tree-id1485 . -2) (undo-tree-id1486 . -2) (undo-tree-id1487 . -2) (undo-tree-id1488 . -2) (undo-tree-id1489 . -2) (undo-tree-id1490 . -2) (undo-tree-id1491 . -2) (undo-tree-id1492 . -2) (undo-tree-id1493 . -2) (undo-tree-id1494 . -2) (undo-tree-id1495 . -2) (undo-tree-id1496 . -2) (undo-tree-id1497 . -2) (undo-tree-id1498 . -2) (undo-tree-id1499 . -2) (undo-tree-id1500 . -2) (undo-tree-id1501 . -2) (undo-tree-id1502 . -2) (undo-tree-id1503 . -2) (undo-tree-id1504 . -2) (undo-tree-id1505 . -2) (undo-tree-id1506 . -2) (undo-tree-id1507 . -2) (undo-tree-id1508 . -2) (undo-tree-id1509 . -2) (undo-tree-id1510 . -2) (undo-tree-id1511 . -2) (undo-tree-id1512 . -2) (undo-tree-id1513 . -2) (undo-tree-id1514 . -2) (undo-tree-id1515 . -2) (undo-tree-id1516 . -2) (undo-tree-id1517 . -2) (undo-tree-id1518 . -2) (undo-tree-id1519 . -2) (undo-tree-id1520 . -2) (undo-tree-id1521 . -2) (undo-tree-id1522 . -2) (undo-tree-id1523 . -2) (undo-tree-id1524 . -2) (undo-tree-id1525 . -2) (undo-tree-id1526 . -2) (undo-tree-id1527 . -2) (undo-tree-id1528 . -2) (undo-tree-id1529 . -2) (undo-tree-id1530 . -2) (undo-tree-id1531 . -2) (undo-tree-id1532 . -2) (undo-tree-id1533 . -2) (undo-tree-id1534 . -2) (undo-tree-id1535 . -2) (undo-tree-id1536 . -2) (undo-tree-id1537 . -2) (undo-tree-id1538 . -2) (undo-tree-id1539 . -2) (undo-tree-id1540 . -2) (undo-tree-id1541 . -2) (undo-tree-id1542 . -2) (undo-tree-id1543 . -2) (undo-tree-id1544 . -2) (undo-tree-id1545 . -2) (undo-tree-id1546 . -2) (undo-tree-id1547 . -2) (undo-tree-id1548 . -2) (undo-tree-id1549 . -2) (undo-tree-id1550 . -2) (undo-tree-id1551 . -2) (undo-tree-id1552 . -2) (undo-tree-id1553 . -2) (undo-tree-id1554 . -2) (undo-tree-id1555 . -2) (undo-tree-id1556 . -2) (undo-tree-id1557 . -2) (undo-tree-id1558 . -2) (undo-tree-id1559 . -2) (undo-tree-id1560 . -2) (undo-tree-id1561 . -2) (undo-tree-id1562 . -44) (undo-tree-id1563 . -44) 11339) nil (26363 55956 66693 973000) 0 nil])
+([nil nil ((11396 . 11400) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -11396) (undo-tree-id1568 . -1) (undo-tree-id1569 . -1) (undo-tree-id1570 . -1) (undo-tree-id1571 . -1) (undo-tree-id1572 . -1) (undo-tree-id1573 . -1) (11390 . 11397) (11387 . 11390) (#("(\\columnwidth - 8\\tabcolsep) * \\real{0.2203}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 11387) (undo-tree-id1574 . -43) (undo-tree-id1575 . -12) (undo-tree-id1576 . -12) (undo-tree-id1577 . -12) (undo-tree-id1578 . -12) (undo-tree-id1579 . -12) (undo-tree-id1580 . -12) (undo-tree-id1581 . -12) (undo-tree-id1582 . -12) (undo-tree-id1583 . -12) (undo-tree-id1584 . -12) (undo-tree-id1585 . -12) (undo-tree-id1586 . -12) (undo-tree-id1587 . -12) (undo-tree-id1588 . -12) (undo-tree-id1589 . -12) (undo-tree-id1590 . -12) (undo-tree-id1591 . -12) (undo-tree-id1592 . -11) (undo-tree-id1593 . -11) (undo-tree-id1594 . -11) (undo-tree-id1595 . -11) (undo-tree-id1596 . -11) (undo-tree-id1597 . -11) (undo-tree-id1598 . -11) (undo-tree-id1599 . -11) (undo-tree-id1600 . -11) (undo-tree-id1601 . -11) (undo-tree-id1602 . -11) (undo-tree-id1603 . -11) (undo-tree-id1604 . -11) (undo-tree-id1605 . -11) (undo-tree-id1606 . -11) (undo-tree-id1607 . -11) (undo-tree-id1608 . -11) (undo-tree-id1609 . -11) (undo-tree-id1610 . -11) (undo-tree-id1611 . -11) (undo-tree-id1612 . -11) (undo-tree-id1613 . -11) (undo-tree-id1614 . -11) (undo-tree-id1615 . -11) (undo-tree-id1616 . -11) (undo-tree-id1617 . -11) (undo-tree-id1618 . -11) (undo-tree-id1619 . -11) (undo-tree-id1620 . -11) (undo-tree-id1621 . -11) (undo-tree-id1622 . -11) (undo-tree-id1623 . -11) (undo-tree-id1624 . -11) (undo-tree-id1625 . -11) (undo-tree-id1626 . -44) (undo-tree-id1627 . -44) 11398 (t 26363 55956 73506 877000)) nil (26363 55968 588734 311000) 0 nil])
+([nil nil ((#("(\\columnwidth - 8\\tabcolsep) * \\real{0.2117}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 11437) (undo-tree-id1634 . -43) (undo-tree-id1635 . -12) (undo-tree-id1636 . -12) (undo-tree-id1637 . -12) (undo-tree-id1638 . -12) (undo-tree-id1639 . -12) (undo-tree-id1640 . -12) (undo-tree-id1641 . -12) (undo-tree-id1642 . -12) (undo-tree-id1643 . -12) (undo-tree-id1644 . -12) (undo-tree-id1645 . -12) (undo-tree-id1646 . -12) (undo-tree-id1647 . -12) (undo-tree-id1648 . -12) (undo-tree-id1649 . -12) (undo-tree-id1650 . -12) (undo-tree-id1651 . -12) (undo-tree-id1652 . -12) (undo-tree-id1653 . -12) (undo-tree-id1654 . -12) (undo-tree-id1655 . -12) (undo-tree-id1656 . -12) (undo-tree-id1657 . -12) (undo-tree-id1658 . -12) (undo-tree-id1659 . -12) (undo-tree-id1660 . -12) (undo-tree-id1661 . -12) (undo-tree-id1662 . -12) (undo-tree-id1663 . -12) (undo-tree-id1664 . -12) (undo-tree-id1665 . -12) (undo-tree-id1666 . -12) (undo-tree-id1667 . -12) (undo-tree-id1668 . -12) (undo-tree-id1669 . -12) (undo-tree-id1670 . -12) (undo-tree-id1671 . -44) (undo-tree-id1672 . -44) 11449 (t 26363 55968 592367 322000)) nil (26363 55974 468025 343000) 0 nil])
+([nil nil ((11446 . 11450) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -11446) (undo-tree-id1628 . -1) (undo-tree-id1629 . -1) (undo-tree-id1630 . -1) (undo-tree-id1631 . -1) (undo-tree-id1632 . -1) (undo-tree-id1633 . -1) (11437 . 11447)) nil (26363 55974 468005 707000) 0 nil])
+([nil nil ((11257 . 11258) (#("5" 0 1 (fontified t)) . 11257) (t 26363 55974 474301 753000)) nil (26363 55999 286686 935000) 0 nil])
+([nil nil ((11298 . 11300)) nil (26363 55999 286686 624000) 0 nil])
+([nil nil ((11341 . 11342) (#("4" 0 1 (fontified t)) . 11341)) nil (26363 55999 286686 324000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t)) . -11391) (undo-tree-id1673 . -1) (undo-tree-id1674 . -1) (undo-tree-id1675 . -1) (undo-tree-id1676 . -1) (undo-tree-id1677 . -1) (undo-tree-id1678 . -1) (undo-tree-id1679 . -1) (undo-tree-id1680 . -1) (undo-tree-id1681 . -1) (undo-tree-id1682 . -1) (undo-tree-id1683 . -1) (undo-tree-id1684 . -1) (undo-tree-id1685 . -1) (undo-tree-id1686 . -1) (undo-tree-id1687 . -1) (undo-tree-id1688 . -1) (undo-tree-id1689 . -1) (undo-tree-id1690 . -1) (undo-tree-id1691 . -1) (undo-tree-id1692 . -1) (undo-tree-id1693 . -1) (undo-tree-id1694 . -1) (undo-tree-id1695 . -1) (undo-tree-id1696 . -1) (undo-tree-id1697 . -1) (undo-tree-id1698 . -1) (undo-tree-id1699 . -1) (undo-tree-id1700 . -1) (undo-tree-id1701 . -1) 11392) nil (26363 55999 286685 362000) 0 nil])
+([nil nil ((11391 . 11393)) nil (26363 55999 286635 399000) 0 nil])
+([nil nil ((13481 . 13482) (t 26363 55999 293025 105000)) nil (26363 56034 358054 229000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t)) . -11299) (t 26363 56034 364634 234000) (11300 . 11301) 11299 (t 26363 56034 364634 234000)) nil (26363 56044 979514 857000) 0 nil])
+([nil nil ((11392 . 11393) (#("5" 0 1 (fontified t)) . 11392) (undo-tree-id1702 . -1) (t 26363 56044 985515 872000)) nil (26363 56070 290497 505000) 0 nil])
+([nil nil ((11341 . 11342) (t 26363 56070 297233 804000)) nil (26363 56117 441874 178000) 0 nil])
+([nil nil ((14675 . 14676) (14659 . 14675) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -14659) (undo-tree-id1710 . -1) (14654 . 14660) (#("?" 0 1 (fontified t)) . -14654) (undo-tree-id1711 . -1) (#("c" 0 1 (fontified t)) . -14655) (undo-tree-id1712 . -1) (#("a" 0 1 (fontified t)) . -14656) (undo-tree-id1713 . -1) (#("p" 0 1 (fontified t)) . -14657) (undo-tree-id1714 . -1) (#("t" 0 1 (fontified t)) . -14658) (undo-tree-id1715 . -1) 14659 (14654 . 14659) (t 26363 56117 448708 431000)) nil (26363 56189 779359 967000) 0 nil])
+([nil nil ((14732 . 14733)) nil (26363 56189 779357 202000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 14756 . 14757) (nil fontified nil 14735 . 14757) (14735 . 14757)) nil (26363 56189 779357 22000) 0 nil])
+([nil nil ((14825 . 14826)) nil (26363 56189 779356 751000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14734) (undo-tree-id1709 . -1)) nil (26363 56189 779356 461000) 0 nil])
+([nil nil ((#("\\caption*{\\normalfont \\emph{Empirical models and attack detection algorithms.}}
+\\caption*{\\normalfont \\emph{Description of the empirical models used for attack detection}}
+" 0 9 (face font-lock-keyword-face fontified t) 9 10 (fontified t) 10 21 (face font-lock-keyword-face fontified t) 21 22 (fontified t) 22 23 (face font-lock-keyword-face fontified t) 23 27 (face font-lock-keyword-face fontified t) 27 28 (fontified t) 28 77 (face (italic) fontified t) 77 80 (fontified t) 80 89 (face font-lock-keyword-face fontified t) 89 90 (fontified t) 90 101 (face font-lock-keyword-face fontified t) 101 102 (rear-nonsticky t fontified t) 102 107 (face font-lock-keyword-face fontified t) 107 108 (fontified t) 108 169 (face (italic) fontified t) 169 171 (fontified t) 171 172 (fontified t)) . 14654) (undo-tree-id1703 . -80) (undo-tree-id1704 . -80) (undo-tree-id1705 . -171) (undo-tree-id1706 . 1) (undo-tree-id1707 . -21) (undo-tree-id1708 . -80) 14734) nil (26363 56189 779355 629000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 14635 . 14636) (#("
+" 0 1 (fontified nil)) . -14807) (14635 . 14808) 14629) nil (26363 56189 779343 607000) 0 nil])
+([nil nil ((14715 . 14718)) nil (26363 56189 779343 196000) 0 nil])
+([nil nil ((14810 . 14813)) nil (26363 56189 779339 529000) 0 nil])
+([nil nil ((#("4" 0 1 (fontified t)) . 11341) (undo-tree-id1716 . -1) (undo-tree-id1717 . -1) (t 26363 56189 785902 543000)) nil (26363 56196 647176 543000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t)) . 11392) (undo-tree-id1718 . -1) (undo-tree-id1719 . -1) (t 26363 56196 651826 62000)) nil (26363 56229 276947 560000) 0 nil])
+([nil nil ((11342 . 11343)) nil (26363 56264 309658 167000) 0 nil])
+([nil nil ((13899 . 13900)) nil (26363 56265 718869 620000) 0 nil] [nil nil ((13898 . 13899) (t 26363 56229 283460 484000)) ((#("-" 0 1 (fontified t)) . 13898) (t 26363 56259 324107 858000)) (26363 56259 317488 983000) 0 nil])
+([nil nil ((13314 . 13315) (t 26363 56265 725032 785000)) nil (26363 56277 267346 557000) 0 nil])
+nil
+([nil nil ((12150 . 12151) (t 26363 56277 273897 378000)) nil (26363 56312 96946 8000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 21227) (t 26363 56312 103489 365000)) nil (26363 56394 740606 762000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 21227)) ((21227 . 21228)) (26363 56397 430673 823000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 19471) (undo-tree-id1986 . -1)) nil (26363 56409 677645 401000) 0 nil] [nil nil ((#("
+
+  
+
+\\begin{multicols}{2}
+
+The effectiveness of full-scale models and attack detection algorithms is assessed based on several key parameters (Table 3) 
+
+Thus, natural models and intrusion detection algorithms in WLANs are
+effective tools for studying and protecting networks, ensuring high
+accuracy and timely detection of attacks in real operational conditions.
+
+\\emph{Imitative models and intrusion detection algorithms}
+
+Description of Developed Simulation Models. Simulation models are
+software tools designed to replicate the operations of Wireless Sensor
+Networks (WSNs) and simulate various attack scenarios in a controlled
+environment. Within the scope of the conducted research, simulation
+models were tested that accurately reproduce the behavior of sensor
+nodes, communication protocols, and interactions with the external
+environment. These models are based on the following principles:
+
+1. Multi-layered architecture of the model: The simulation model
+includes physical, data link, network, and application layers, enabling
+detailed reproduction of all aspects of Wireless Sensor Network (WSN)
+operation.
+
+2. Network topology modeling: Supports various topologies such as mesh,
+star, and tree, allowing exploration of how topology affects resilience
+to attacks.
+
+3. Parameter flexibility: The model allows configuration of node
+parameters such as transmitter power, data transmission rate, and energy
+consumption, crucial for investigating different attack scenarios.
+
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+\\end{multicols}
+" 0 6 (fontified t) 6 12 (face font-lock-keyword-face fontified t) 12 13 (fontified t latex-env-pair t) 13 22 (face font-lock-function-name-face fontified t latex-env-pair t) 22 23 (fontified t latex-env-pair t) 23 291 (fontified t) 291 292 (fontified t) 292 366 (fontified t) 366 371 (face font-lock-keyword-face fontified t) 371 372 (fontified t) 372 423 (face (italic) fontified t) 423 1500 (fontified t) 1500 1547 (fontified t) 1547 1740 (fontified t) 1740 1744 (face font-lock-keyword-face fontified t) 1744 1745 (fontified t latex-env-pair t) 1745 1754 (face font-lock-function-name-face fontified t latex-env-pair t) 1754 1755 (fontified t latex-env-pair t) 1755 1756 (fontified t)) . 19471) (undo-tree-id1797 . -1740) (undo-tree-id1798 . -1756) (undo-tree-id1799 . -1756) (undo-tree-id1800 . -1756) (undo-tree-id1801 . -1756) (undo-tree-id1802 . -1756) (undo-tree-id1803 . -1756) (undo-tree-id1804 . -1756) (undo-tree-id1805 . -1756) (undo-tree-id1806 . -1756) (undo-tree-id1807 . -1756) (undo-tree-id1808 . -1756) (undo-tree-id1809 . -1756) (undo-tree-id1810 . -1756) (undo-tree-id1811 . -1756) (undo-tree-id1812 . -1756) (undo-tree-id1813 . -1756) (undo-tree-id1814 . -1756) (undo-tree-id1815 . -1756) (undo-tree-id1816 . -1756) (undo-tree-id1817 . -1756) (undo-tree-id1818 . -1756) (undo-tree-id1819 . -1756) (undo-tree-id1820 . -1756) (undo-tree-id1821 . -1756) (undo-tree-id1822 . -1756) (undo-tree-id1823 . -1756) (undo-tree-id1824 . -1756) (undo-tree-id1825 . -1756) (undo-tree-id1826 . -1756) (undo-tree-id1827 . -1756) (undo-tree-id1828 . -1756) (undo-tree-id1829 . -1756) (undo-tree-id1830 . -1756) (undo-tree-id1831 . -1756) (undo-tree-id1832 . -1756) (undo-tree-id1833 . -1756) (undo-tree-id1834 . -1756) (undo-tree-id1835 . -1756) (undo-tree-id1836 . -1756) (undo-tree-id1837 . -1756) (undo-tree-id1838 . -1756) (undo-tree-id1839 . -1756) (undo-tree-id1840 . -1756) (undo-tree-id1841 . -1756) (undo-tree-id1842 . -1756) (undo-tree-id1843 . -1756) (undo-tree-id1844 . -1756) (undo-tree-id1845 . -1756) (undo-tree-id1846 . -1756)) ((19471 . 21227)) (26363 56396 870633 304000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 19471) (undo-tree-id1985 . -1)) nil (26363 56409 677644 820000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 22462 . 22463) (#("
+" 0 1 (fontified nil)) . -24218) (22462 . 24219) 22447) ((#("
+
+
+  
+
+\\begin{multicols}{2}
+
+The effectiveness of full-scale models and attack detection algorithms is assessed based on several key parameters (Table 3) 
+
+Thus, natural models and intrusion detection algorithms in WLANs are
+effective tools for studying and protecting networks, ensuring high
+accuracy and timely detection of attacks in real operational conditions.
+
+\\emph{Imitative models and intrusion detection algorithms}
+
+Description of Developed Simulation Models. Simulation models are
+software tools designed to replicate the operations of Wireless Sensor
+Networks (WSNs) and simulate various attack scenarios in a controlled
+environment. Within the scope of the conducted research, simulation
+models were tested that accurately reproduce the behavior of sensor
+nodes, communication protocols, and interactions with the external
+environment. These models are based on the following principles:
+
+1. Multi-layered architecture of the model: The simulation model
+includes physical, data link, network, and application layers, enabling
+detailed reproduction of all aspects of Wireless Sensor Network (WSN)
+operation.
+
+2. Network topology modeling: Supports various topologies such as mesh,
+star, and tree, allowing exploration of how topology affects resilience
+to attacks.
+
+3. Parameter flexibility: The model allows configuration of node
+parameters such as transmitter power, data transmission rate, and energy
+consumption, crucial for investigating different attack scenarios.
+
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+\\end{multicols}
+" 0 1 (fontified nil rear-nonsticky nil) 1 2 (fontified nil) 2 3 (fontified t) 3 5 (fontified t) 5 6 (fontified t) 6 7 (fontified t) 7 13 (face font-lock-keyword-face fontified t) 13 14 (fontified t latex-env-pair t) 14 23 (face font-lock-function-name-face fontified t latex-env-pair t) 23 24 (fontified t latex-env-pair t) 24 292 (fontified t) 292 293 (fontified t) 293 367 (fontified t) 367 372 (face font-lock-keyword-face fontified t) 372 373 (fontified t) 373 424 (face (italic) fontified t) 424 425 (fontified t) 425 426 (fontified t) 426 1298 (fontified t) 1298 1300 (fontified t) 1300 1344 (fontified t) 1344 1485 (fontified t) 1485 1502 (fontified t) 1502 1548 (fontified t) 1741 1745 (fontified nil face font-lock-keyword-face) 1745 1746 (fontified nil latex-env-pair t) 1746 1755 (fontified nil face font-lock-function-name-face latex-env-pair t) 1755 1756 (fontified nil latex-env-pair t) 1756 1757 (fontified nil)) . 22462) (undo-tree-id1738 . -1) (undo-tree-id1739 . -1) (undo-tree-id1740 . -1) (undo-tree-id1741 . -1) (undo-tree-id1742 . -1) (undo-tree-id1743 . -1) (undo-tree-id1744 . -1) (undo-tree-id1745 . -1) (undo-tree-id1746 . -1) (undo-tree-id1747 . -1) (undo-tree-id1748 . -1) (undo-tree-id1749 . -1) (undo-tree-id1750 . -1) (undo-tree-id1751 . -1) (undo-tree-id1752 . -1) (undo-tree-id1753 . -1) (undo-tree-id1754 . -1) (undo-tree-id1755 . -1) (undo-tree-id1756 . -1) (undo-tree-id1757 . -1) (undo-tree-id1758 . -1) (undo-tree-id1759 . -1) (undo-tree-id1760 . -1) (undo-tree-id1761 . -1) (undo-tree-id1762 . -1) (undo-tree-id1763 . -1) (undo-tree-id1764 . -1) (undo-tree-id1765 . -1) (undo-tree-id1766 . -1) (undo-tree-id1767 . -1) (undo-tree-id1768 . -1) (undo-tree-id1769 . -1) (undo-tree-id1770 . -1) (undo-tree-id1771 . -1) (undo-tree-id1772 . -1) (undo-tree-id1773 . -1) (undo-tree-id1774 . -1) (undo-tree-id1775 . -1) (undo-tree-id1776 . -1) (undo-tree-id1777 . -1) (undo-tree-id1778 . -1) (undo-tree-id1779 . -1) (undo-tree-id1780 . -1) (undo-tree-id1781 . -1) (undo-tree-id1782 . -1) (undo-tree-id1783 . -1) (undo-tree-id1784 . -1) (undo-tree-id1785 . -1) (undo-tree-id1786 . -1) (undo-tree-id1787 . -1) (undo-tree-id1788 . -1) (undo-tree-id1789 . -1) (undo-tree-id1790 . -1) (undo-tree-id1791 . -1) (undo-tree-id1792 . -1) (undo-tree-id1793 . -1) (undo-tree-id1794 . -1) (undo-tree-id1795 . -1) (undo-tree-id1796 . -1) (24218 . 24219) (nil rear-nonsticky t 22462 . 22463)) (26363 56391 482653 2000) 0 nil])
+([nil nil ((#("  
+" 0 2 (fontified t) 2 3 (fontified t)) . 19471) (undo-tree-id1983 . -2) (undo-tree-id1984 . -2)) nil (26363 56409 677643 968000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 22463)) ((22463 . 22464)) (26363 56390 988644 248000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 18299) (undo-tree-id1976 . -1) (undo-tree-id1977 . -1) (undo-tree-id1978 . -1) (undo-tree-id1979 . -1) (undo-tree-id1980 . -1) (undo-tree-id1981 . -1) (undo-tree-id1982 . -1)) nil (26363 56409 677642 736000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 22463)) ((22463 . 22464)) (26363 56390 333671 46000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 18299)) nil (26363 56409 677640 121000) 0 nil])
+([nil nil ((#("  
+" 0 2 (fontified t) 2 3 (fontified t)) . 22463) (undo-tree-id1734 . -2)) ((22463 . 22466)) (26363 56389 932654 20000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14832)) nil (26363 56409 677639 920000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 18299) (undo-tree-id1728 . -1) (undo-tree-id1730 . -1) (undo-tree-id1732 . -1)) ((18299 . 18300)) (26363 56389 347536 97000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14854)) nil (26363 56409 677639 570000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 18299) (undo-tree-id1721 . -1) (undo-tree-id1723 . -1) (undo-tree-id1725 . -1)) ((18299 . 18300) (t 26363 56366 336855 75000)) (26363 56366 330117 449000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+Natural models for detecting attacks in WSNs involve physically
+implemented networks where nodes and sensors are deployed in real
+operational conditions. These models utilize real devices such as
+microcontrollers, radio modules, and sensors that interact within
+realistic environmental settings. The primary advantage of natural
+models lies in their ability to accurately reproduce real network
+operation scenarios, including potential external interferences and
+physical attacks.
+
+Research on natural models for attack detection in wireless sensor
+networks includes functional and quantitative characteristics. Attack
+detection methods are categorized into signature-based, anomaly-based,
+and hybrid approaches, covering attacks on availability,
+confidentiality, integrity, and authentication. Hardware and network
+characteristics of sensors and nodes, data processing algorithms, and
+monitoring systems play a crucial role. Quantitative metrics include
+detection accuracy, detection time, energy consumption, throughput,
+delay, and scalability.
+
+For instance, platforms like TinyOS and Contiki are used to test
+intrusion detection systems, achieving 95\\% accuracy with low false
+positive rates. Machine learning-based systems such as K-means and SVM
+can achieve classification accuracies up to 98\\%. Distributed detection
+methods include autonomous algorithms that depend on node density and
+algorithm complexity {[}15, 16{]}. Table 2 presents empirical
+experiments on attack detection and their outcomes.
+\\end{multicols}
+
+
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t) 21 84 (fontified t) 84 85 (fontified t) 85 191 (fontified t) 191 217 (fontified t) 217 264 (fontified t) 264 283 (fontified t) 283 326 (fontified t) 326 341 (fontified t) 341 350 (fontified t) 350 475 (fontified t) 475 484 (fontified t) 484 573 (fontified t) 573 640 (fontified t) 640 1173 (fontified t) 1173 1175 (fontified t) 1175 1177 (face font-lock-keyword-face fontified t) 1177 1202 (fontified t) 1202 1319 (fontified t) 1319 1321 (face font-lock-keyword-face fontified t) 1321 1371 (fontified t) 1371 1389 (fontified t) 1389 1415 (fontified t) 1415 1429 (fontified t) 1429 1477 (fontified t) 1477 1481 (fontified t) 1481 1497 (fontified t) 1497 1499 (fontified t) 1499 1500 (fontified t) 1500 1529 (fontified t) 1529 1533 (face font-lock-keyword-face fontified t) 1533 1534 (fontified t latex-env-pair t) 1534 1543 (face font-lock-function-name-face fontified t latex-env-pair t) 1543 1544 (fontified t latex-env-pair t) 1544 1547 (fontified t)) . 14833) (undo-tree-id1847 . -1546) (undo-tree-id1848 . -1546) (undo-tree-id1849 . -1546) (undo-tree-id1850 . -640) (undo-tree-id1851 . -640) (undo-tree-id1852 . -768) (undo-tree-id1853 . -768) (undo-tree-id1854 . -768) (undo-tree-id1855 . -768) (undo-tree-id1856 . -768) (undo-tree-id1857 . -837) (undo-tree-id1858 . -837) (undo-tree-id1859 . -837) (undo-tree-id1860 . -837) (undo-tree-id1861 . -837) (undo-tree-id1862 . -907) (undo-tree-id1863 . -907) (undo-tree-id1864 . -907) (undo-tree-id1865 . -907) (undo-tree-id1866 . -907) (undo-tree-id1867 . -976) (undo-tree-id1868 . -976) (undo-tree-id1869 . -976) (undo-tree-id1870 . -976) (undo-tree-id1871 . -976) (undo-tree-id1872 . -1044) (undo-tree-id1873 . -1044) (undo-tree-id1874 . -1044) (undo-tree-id1875 . -1044) (undo-tree-id1876 . -1044) (undo-tree-id1877 . -1068) (undo-tree-id1878 . -1068) (undo-tree-id1879 . -1068) (undo-tree-id1880 . -1068) (undo-tree-id1881 . -1068) (undo-tree-id1882 . -1069) (undo-tree-id1883 . -1069) (undo-tree-id1884 . -1069) (undo-tree-id1885 . -1069) (undo-tree-id1886 . -1069) (undo-tree-id1887 . -1134) (undo-tree-id1888 . -1134) (undo-tree-id1889 . -1134) (undo-tree-id1890 . -1134) (undo-tree-id1891 . -1134) (undo-tree-id1892 . -1202) (undo-tree-id1893 . -1202) (undo-tree-id1894 . -1202) (undo-tree-id1895 . -1202) (undo-tree-id1896 . -1202) (undo-tree-id1897 . -1273) (undo-tree-id1898 . -1273) (undo-tree-id1899 . -1273) (undo-tree-id1900 . -1273) (undo-tree-id1901 . -1273) (undo-tree-id1902 . -1345) (undo-tree-id1903 . -1345) (undo-tree-id1904 . -1345) (undo-tree-id1905 . -1345) (undo-tree-id1906 . -1345) (undo-tree-id1907 . -1415) (undo-tree-id1908 . -1415) (undo-tree-id1909 . -1415) (undo-tree-id1910 . -1415) (undo-tree-id1911 . -1415) (undo-tree-id1912 . -1477) (undo-tree-id1913 . -1477) (undo-tree-id1914 . -1477) (undo-tree-id1915 . -1477) (undo-tree-id1916 . -1477) (undo-tree-id1917 . -1529) (undo-tree-id1918 . -1529) (undo-tree-id1919 . -1529) (undo-tree-id1920 . -1529) (undo-tree-id1921 . -1529) (undo-tree-id1922 . -1545) (undo-tree-id1923 . -1545) (undo-tree-id1924 . -1545) (undo-tree-id1925 . -1545) (undo-tree-id1926 . -1545) (undo-tree-id1927 . -1545) (undo-tree-id1928 . -1545) (undo-tree-id1929 . -1545) (undo-tree-id1930 . -1545) (undo-tree-id1931 . -1545) (undo-tree-id1932 . -1545) (undo-tree-id1933 . -1545) (undo-tree-id1934 . -1545) (undo-tree-id1935 . -1545) (undo-tree-id1936 . -1545) (undo-tree-id1937 . -1545) (undo-tree-id1938 . -1545) (undo-tree-id1939 . -1545) (undo-tree-id1940 . -1545) (undo-tree-id1941 . -1545) (undo-tree-id1942 . -1545) (undo-tree-id1943 . -1545) (undo-tree-id1944 . -1545) (undo-tree-id1945 . -1545) (undo-tree-id1946 . -1545) (undo-tree-id1947 . -1545) (undo-tree-id1948 . -1545) (undo-tree-id1949 . -1545) (undo-tree-id1950 . -1545) (undo-tree-id1951 . -1545) (undo-tree-id1952 . -1546) (undo-tree-id1953 . -1546) (undo-tree-id1954 . -1546) (undo-tree-id1955 . -1546) (undo-tree-id1956 . -1546) (undo-tree-id1957 . -1546) (undo-tree-id1958 . -1546) (undo-tree-id1959 . -1546) (undo-tree-id1960 . -1546) (undo-tree-id1961 . -1546) (undo-tree-id1962 . -1546) (undo-tree-id1963 . -1546) (undo-tree-id1964 . -1546) (undo-tree-id1965 . -1546) (undo-tree-id1966 . -1546) (undo-tree-id1967 . -1546) (undo-tree-id1968 . -1546) (undo-tree-id1969 . -1546) (undo-tree-id1970 . -1546) (undo-tree-id1971 . -1546) (undo-tree-id1972 . -1546) (undo-tree-id1973 . -1546) (undo-tree-id1974 . -1546) (undo-tree-id1975 . -1547) 16379) nil (26363 56409 677635 703000) 0 nil])
+nil
+([nil nil ((nil rear-nonsticky nil 17920 . 17921) (#("
+" 0 1 (fontified nil)) . -19467) (17920 . 19468) (t 26363 56409 681349 84000)) nil (26363 56424 73942 191000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 19450) (undo-tree-id1992 . -15) (undo-tree-id1993 . -16)) nil (26363 56424 73941 800000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 19450) (undo-tree-id1991 . -1)) nil (26363 56424 73940 378000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 19450) (undo-tree-id1990 . -1)) nil (26363 56424 73939 426000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 19450) (undo-tree-id1987 . -20) (undo-tree-id1988 . -20) (undo-tree-id1989 . -21)) nil (26363 56424 73936 340000) 0 nil])
+([nil nil ((21238 . 21243) (#("(\\columnwidth - 6\\tabcolsep) * \\real{0.0752}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 21238) (undo-tree-id2048 . -43) (undo-tree-id2049 . -2) 21240 (t 26363 56424 80181 163000)) nil (26363 56459 900206 980000) 0 nil])
+([nil nil ((#("(\\columnwidth - 6\\tabcolsep) * \\real{0.1812}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 29 (fontified t) 29 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 21280) (undo-tree-id1994 . -43) (undo-tree-id1995 . -2) (undo-tree-id1996 . -2) (undo-tree-id1997 . -2) (undo-tree-id1998 . -2) (undo-tree-id1999 . -2) (undo-tree-id2000 . -2) (undo-tree-id2001 . -2) (undo-tree-id2002 . -2) (undo-tree-id2003 . -2) (undo-tree-id2004 . -2) (undo-tree-id2005 . -2) (undo-tree-id2006 . -2) (undo-tree-id2007 . -2) (undo-tree-id2008 . -2) (undo-tree-id2009 . -2) (undo-tree-id2010 . -2) (undo-tree-id2011 . -2) (undo-tree-id2012 . -2) (undo-tree-id2013 . -2) (undo-tree-id2014 . -2) (undo-tree-id2015 . -2) (undo-tree-id2016 . -2) (undo-tree-id2017 . -2) (undo-tree-id2018 . -2) (undo-tree-id2019 . -2) (undo-tree-id2020 . -2) (undo-tree-id2021 . -2) (undo-tree-id2022 . -2) (undo-tree-id2023 . -2) (undo-tree-id2024 . -2) (undo-tree-id2025 . -2) (undo-tree-id2026 . -2) (undo-tree-id2027 . -2) (undo-tree-id2028 . -2) (undo-tree-id2029 . -2) (undo-tree-id2030 . -2) (undo-tree-id2031 . -2) (undo-tree-id2032 . -2) (undo-tree-id2033 . -2) (undo-tree-id2034 . -2) (undo-tree-id2035 . -2) (undo-tree-id2036 . -2) (undo-tree-id2037 . -2) (undo-tree-id2038 . -2) (undo-tree-id2039 . -2) (undo-tree-id2040 . -2) (undo-tree-id2041 . -2) (undo-tree-id2042 . -2) (undo-tree-id2043 . -2) (undo-tree-id2044 . -2) (undo-tree-id2045 . -2) (undo-tree-id2046 . -44) (undo-tree-id2047 . -44) 21282) nil (26363 56459 900205 207000) 0 nil])
+([nil nil ((21280 . 21283)) nil (26363 56459 900176 133000) 0 nil])
+([nil nil ((21281 . 21282) (t 26363 56459 904763 756000)) nil (26363 56468 588393 208000) 0 nil])
+([nil nil ((21330 . 21334) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -21330) (undo-tree-id2050 . -1) (undo-tree-id2051 . -1) (undo-tree-id2052 . -1) (undo-tree-id2053 . -1) (undo-tree-id2054 . -1) (undo-tree-id2055 . -1) (21325 . 21331) (21323 . 21325) (#("8" 0 1 (fontified t)) . -21323) (undo-tree-id2056 . -1) (undo-tree-id2057 . -1) (undo-tree-id2058 . -1) (undo-tree-id2059 . -1) (undo-tree-id2060 . -1) (undo-tree-id2061 . -1) (undo-tree-id2062 . -1) (undo-tree-id2063 . -1) (undo-tree-id2064 . -1) (undo-tree-id2065 . -1) (undo-tree-id2066 . -1) (undo-tree-id2067 . -1) (undo-tree-id2068 . -1) (undo-tree-id2069 . -1) (undo-tree-id2070 . -1) (undo-tree-id2071 . -1) (undo-tree-id2072 . -1) (undo-tree-id2073 . -1) (undo-tree-id2074 . -1) (undo-tree-id2075 . -1) (undo-tree-id2076 . -1) (undo-tree-id2077 . -1) 21324 (21321 . 21324) (#("*" 0 1 (fontified t)) . -21321) (undo-tree-id2078 . -1) (undo-tree-id2079 . -1) (undo-tree-id2080 . -1) (undo-tree-id2081 . -1) (undo-tree-id2082 . -1) (undo-tree-id2083 . -1) (undo-tree-id2084 . -1) (undo-tree-id2085 . -1) (undo-tree-id2086 . -1) (undo-tree-id2087 . -1) (undo-tree-id2088 . -1) (undo-tree-id2089 . -1) (undo-tree-id2090 . -1) (undo-tree-id2091 . -1) (undo-tree-id2092 . -1) (undo-tree-id2093 . -1) (undo-tree-id2094 . -1) (undo-tree-id2095 . -1) (undo-tree-id2096 . -1) (undo-tree-id2097 . -1) (undo-tree-id2098 . -1) (undo-tree-id2099 . -1) (undo-tree-id2100 . -1) (undo-tree-id2101 . -1) (undo-tree-id2102 . -1) (undo-tree-id2103 . -1) (undo-tree-id2104 . -1) (undo-tree-id2105 . -1) (undo-tree-id2106 . -1) (undo-tree-id2107 . -1) (undo-tree-id2108 . -1) (undo-tree-id2109 . -1) (undo-tree-id2110 . -1) (undo-tree-id2111 . -1) (undo-tree-id2112 . -1) (undo-tree-id2113 . -1) (undo-tree-id2114 . -1) (undo-tree-id2115 . -1) (undo-tree-id2116 . -1) (undo-tree-id2117 . -1) (undo-tree-id2118 . -1) (undo-tree-id2119 . -1) (undo-tree-id2120 . -1) (undo-tree-id2121 . -1) (undo-tree-id2122 . -1) (undo-tree-id2123 . -1) (undo-tree-id2124 . -1) (undo-tree-id2125 . -1) (undo-tree-id2126 . -1) (undo-tree-id2127 . -1) (undo-tree-id2128 . -1) (undo-tree-id2129 . -1) (undo-tree-id2130 . -1) (undo-tree-id2131 . -1) (undo-tree-id2132 . -1) (undo-tree-id2133 . -1) (undo-tree-id2134 . -1) (#("." 0 1 (fontified t)) . -21322) (undo-tree-id2135 . -1) (undo-tree-id2136 . -1) (undo-tree-id2137 . -1) (undo-tree-id2138 . -1) (undo-tree-id2139 . -1) (undo-tree-id2140 . -1) (undo-tree-id2141 . -1) (undo-tree-id2142 . -1) (undo-tree-id2143 . -1) (undo-tree-id2144 . -1) (undo-tree-id2145 . -1) (undo-tree-id2146 . -1) (undo-tree-id2147 . -1) (undo-tree-id2148 . -1) (undo-tree-id2149 . -1) (undo-tree-id2150 . -1) (undo-tree-id2151 . -1) (undo-tree-id2152 . -1) (undo-tree-id2153 . -1) (undo-tree-id2154 . -1) (undo-tree-id2155 . -1) (undo-tree-id2156 . -1) (undo-tree-id2157 . -1) (undo-tree-id2158 . -1) (undo-tree-id2159 . -1) (undo-tree-id2160 . -1) (undo-tree-id2161 . -1) (undo-tree-id2162 . -1) (undo-tree-id2163 . -1) (undo-tree-id2164 . -1) (undo-tree-id2165 . -1) (undo-tree-id2166 . -1) (undo-tree-id2167 . -1) (undo-tree-id2168 . -1) (undo-tree-id2169 . -1) (undo-tree-id2170 . -1) (undo-tree-id2171 . -1) (undo-tree-id2172 . -1) (undo-tree-id2173 . -1) (undo-tree-id2174 . -1) (undo-tree-id2175 . -1) (undo-tree-id2176 . -1) (#("6" 0 1 (fontified t)) . -21323) (undo-tree-id2177 . -1) (undo-tree-id2178 . -1) (undo-tree-id2179 . -1) (undo-tree-id2180 . -1) (undo-tree-id2181 . -1) (undo-tree-id2182 . -1) (undo-tree-id2183 . -1) (undo-tree-id2184 . -1) (undo-tree-id2185 . -1) (undo-tree-id2186 . -1) (undo-tree-id2187 . -1) (undo-tree-id2188 . -1) (undo-tree-id2189 . -1) (undo-tree-id2190 . -1) (undo-tree-id2191 . -1) (undo-tree-id2192 . -1) (undo-tree-id2193 . -1) (undo-tree-id2194 . -1) (undo-tree-id2195 . -1) (undo-tree-id2196 . -1) (undo-tree-id2197 . -1) (undo-tree-id2198 . -1) (undo-tree-id2199 . -1) (undo-tree-id2200 . -1) (undo-tree-id2201 . -1) (undo-tree-id2202 . -1) (undo-tree-id2203 . -1) (#("8" 0 1 (fontified t)) . -21324) (undo-tree-id2204 . -1) (undo-tree-id2205 . -1) (undo-tree-id2206 . -1) (undo-tree-id2207 . -1) (undo-tree-id2208 . -1) (undo-tree-id2209 . -1) (undo-tree-id2210 . -1) (undo-tree-id2211 . -1) (undo-tree-id2212 . -1) (undo-tree-id2213 . -1) (undo-tree-id2214 . -1) (undo-tree-id2215 . -1) (undo-tree-id2216 . -1) (undo-tree-id2217 . -1) (undo-tree-id2218 . -1) (undo-tree-id2219 . -1) (undo-tree-id2220 . -1) 21325 (21321 . 21325) (#("(\\columnwidth - 6\\tabcolsep) * \\real{0.3248}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 21321) (undo-tree-id2221 . -43) (undo-tree-id2222 . -1) (undo-tree-id2223 . -1) (undo-tree-id2224 . -1) (undo-tree-id2225 . -1) (undo-tree-id2226 . -1) (undo-tree-id2227 . -1) (undo-tree-id2228 . -1) (undo-tree-id2229 . -1) (undo-tree-id2230 . -1) (undo-tree-id2231 . -1) (undo-tree-id2232 . -1) (undo-tree-id2233 . -1) (undo-tree-id2234 . -1) (undo-tree-id2235 . -1) (undo-tree-id2236 . -1) (undo-tree-id2237 . -1) (undo-tree-id2238 . -1) (undo-tree-id2239 . -1) (undo-tree-id2240 . -1) (undo-tree-id2241 . -1) (undo-tree-id2242 . -1) (undo-tree-id2243 . -1) (undo-tree-id2244 . -1) (undo-tree-id2245 . -1) (undo-tree-id2246 . -1) (undo-tree-id2247 . -1) (undo-tree-id2248 . -1) (undo-tree-id2249 . -1) (undo-tree-id2250 . -1) (undo-tree-id2251 . -1) (undo-tree-id2252 . -1) (undo-tree-id2253 . -1) (undo-tree-id2254 . -1) (undo-tree-id2255 . -1) (undo-tree-id2256 . -1) (undo-tree-id2257 . -1) (undo-tree-id2258 . -1) (undo-tree-id2259 . -1) (undo-tree-id2260 . -1) (undo-tree-id2261 . -1) (undo-tree-id2262 . -1) (undo-tree-id2263 . -1) (undo-tree-id2264 . -1) (undo-tree-id2265 . -1) (undo-tree-id2266 . -1) (undo-tree-id2267 . -1) (undo-tree-id2268 . -1) (undo-tree-id2269 . -2) (undo-tree-id2270 . -2) (undo-tree-id2271 . -2) (undo-tree-id2272 . -2) (undo-tree-id2273 . -2) (undo-tree-id2274 . -2) (undo-tree-id2275 . -2) (undo-tree-id2276 . -2) (undo-tree-id2277 . -2) (undo-tree-id2278 . -2) (undo-tree-id2279 . -3) (undo-tree-id2280 . -3) (undo-tree-id2281 . -3) (undo-tree-id2282 . -3) (undo-tree-id2283 . -3) (undo-tree-id2284 . -4) (undo-tree-id2285 . -4) (undo-tree-id2286 . -4) (undo-tree-id2287 . -4) (undo-tree-id2288 . -4) (undo-tree-id2289 . -5) (undo-tree-id2290 . -5) (undo-tree-id2291 . -5) (undo-tree-id2292 . -5) (undo-tree-id2293 . -5) (undo-tree-id2294 . -5) (undo-tree-id2295 . -5) (undo-tree-id2296 . -5) (undo-tree-id2297 . -5) (undo-tree-id2298 . -5) (undo-tree-id2299 . -5) (undo-tree-id2300 . -5) (undo-tree-id2301 . -5) (undo-tree-id2302 . -5) (undo-tree-id2303 . -5) (undo-tree-id2304 . -5) (undo-tree-id2305 . -5) (undo-tree-id2306 . -5) (undo-tree-id2307 . -5) (undo-tree-id2308 . -5) (undo-tree-id2309 . -5) (undo-tree-id2310 . -5) (undo-tree-id2311 . -5) (undo-tree-id2312 . -5) (undo-tree-id2313 . -5) (undo-tree-id2314 . -5) (undo-tree-id2315 . -5) (undo-tree-id2316 . -5) (undo-tree-id2317 . -5) (undo-tree-id2318 . -5) (undo-tree-id2319 . -5) (undo-tree-id2320 . -5) (undo-tree-id2321 . -5) (undo-tree-id2322 . -5) (undo-tree-id2323 . -5) (undo-tree-id2324 . -5) (undo-tree-id2325 . -1) (undo-tree-id2326 . -5) (undo-tree-id2327 . -5) (undo-tree-id2328 . -5) (undo-tree-id2329 . -44) (undo-tree-id2330 . -44) 21326 (t 26363 56468 593662 592000)) nil (26363 56480 161591 433000) 0 nil])
+([nil nil ((21281 . 21282) (t 26363 56480 168527 870000)) nil (26363 56488 328955 622000) 0 nil])
+([nil nil ((21324 . 21325) (#("6" 0 1 (fontified t)) . 21324) (undo-tree-id2403 . -1) (t 26363 56488 352432 233000)) nil (26363 56534 188093 754000) 0 nil])
+([nil nil ((21381 . 21385) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -21381) (undo-tree-id2331 . -1) (undo-tree-id2332 . -1) (undo-tree-id2333 . -1) (undo-tree-id2334 . -1) (undo-tree-id2335 . -1) (undo-tree-id2336 . -1) (21375 . 21382) (#("2" 0 1 (fontified t)) . -21375) (undo-tree-id2337 . -1) (undo-tree-id2338 . -1) (undo-tree-id2339 . -1) (undo-tree-id2340 . -1) (undo-tree-id2341 . -1) (undo-tree-id2342 . -1) (undo-tree-id2343 . -1) (undo-tree-id2344 . -1) (undo-tree-id2345 . -1) (undo-tree-id2346 . -1) (undo-tree-id2347 . -1) (undo-tree-id2348 . -1) (undo-tree-id2349 . -1) (undo-tree-id2350 . -1) (undo-tree-id2351 . -1) (undo-tree-id2352 . -1) (undo-tree-id2353 . -1) (undo-tree-id2354 . -1) (undo-tree-id2355 . -1) (undo-tree-id2356 . -1) (undo-tree-id2357 . -1) (undo-tree-id2358 . -1) 21376 (21372 . 21376) (#("(\\columnwidth - 6\\tabcolsep) * \\real{0.4188}" 0 1 (fontified t) 1 13 (face font-lock-keyword-face fontified t) 13 17 (fontified t) 17 27 (face font-lock-keyword-face fontified t) 27 31 (fontified t) 31 36 (face font-lock-keyword-face fontified t) 36 44 (fontified t)) . 21372) (undo-tree-id2359 . -43) (undo-tree-id2360 . -2) (undo-tree-id2361 . -2) (undo-tree-id2362 . -2) (undo-tree-id2363 . -2) (undo-tree-id2364 . -2) (undo-tree-id2365 . -2) (undo-tree-id2366 . -2) (undo-tree-id2367 . -2) (undo-tree-id2368 . -2) (undo-tree-id2369 . -2) (undo-tree-id2370 . -2) (undo-tree-id2371 . -2) (undo-tree-id2372 . -2) (undo-tree-id2373 . -2) (undo-tree-id2374 . -2) (undo-tree-id2375 . -2) (undo-tree-id2376 . -2) (undo-tree-id2377 . -2) (undo-tree-id2378 . -2) (undo-tree-id2379 . -2) (undo-tree-id2380 . -2) (undo-tree-id2381 . -2) (undo-tree-id2382 . -2) (undo-tree-id2383 . -2) (undo-tree-id2384 . -2) (undo-tree-id2385 . -2) (undo-tree-id2386 . -2) (undo-tree-id2387 . -2) (undo-tree-id2388 . -2) (undo-tree-id2389 . -2) (undo-tree-id2390 . -2) (undo-tree-id2391 . -2) (undo-tree-id2392 . -2) (undo-tree-id2393 . -2) (undo-tree-id2394 . -2) (undo-tree-id2395 . -2) (undo-tree-id2396 . -2) (undo-tree-id2397 . -2) (undo-tree-id2398 . -2) (undo-tree-id2399 . -2) (undo-tree-id2400 . -2) (undo-tree-id2401 . -44) (undo-tree-id2402 . -44) 21374) nil (26363 56671 601581 445000) 0 nil])
+([nil nil ((#("Model adequacy assessment involves comparing simulation results with
+real-world data, including topology parameters, traffic intensity, and
+attack frequency. A model is considered adequate if its behavior does
+not statistically differ from real data, often verified using tests like
+the Kolmogorov-Smirnov test. An example application of such models could
+include testing intrusion detection systems on the TinyOS platform,
+achieving a detection accuracy of 95\\% with a false positive rate of
+less than 2\\%, utilizing a hybrid approach to enhance accuracy and
+minimize energy consumption.
+
+\\emph{Methods and tools for simulating attacks on wireless sensor
+networks}
+
+For implementing simulation models, a number of modern tools and methods
+were utilized to ensure high accuracy and scalability of the research.
+The key tools include:
+
+1. NS-3 (Network Simulator 3): A powerful tool for network simulation
+that allows reproduction of a wide range of protocols and attack
+scenarios on WLANs. NS-3 provides detailed modeling of node behavior and
+interactions between nodes.
+
+2. MATLAB/Simulink: Used for mathematical modeling and analysis of
+attack detection algorithms. MATLAB facilitates the development and
+testing of complex algorithms, as well as the analysis of data obtained
+from simulations.
+
+3. Omnet++: A tool for modeling and simulating networks, offering high
+flexibility in network parameter configuration and attack scenarios.
+Omnet++ supports extensibility, enabling integration of custom models
+and algorithms.
+
+These tools collectively support comprehensive modeling, simulation, and
+analysis of wireless sensor networks (WSNs), enabling researchers to
+evaluate the performance and effectiveness of various security
+mechanisms against different types of attacks.
+
+" 0 68 (fontified t) 68 69 (fontified t) 69 140 (fontified t) 140 147 (fontified t) 147 210 (fontified t) 210 222 (fontified t) 222 223 (fontified t) 223 283 (fontified t) 283 356 (fontified t) 356 400 (fontified t) 400 424 (fontified t) 424 460 (fontified t) 460 462 (face font-lock-keyword-face fontified t) 462 493 (fontified t) 493 504 (fontified t) 504 506 (face font-lock-keyword-face fontified t) 506 560 (fontified t) 560 589 (fontified t) 589 590 (fontified t) 590 595 (face font-lock-keyword-face fontified t) 595 596 (fontified t) 596 656 (face (italic) fontified t) 656 664 (face (italic) fontified t) 664 666 (fontified t) 666 667 (fontified t) 667 740 (fontified t) 740 811 (fontified t) 811 1462 (fontified t) 1462 1477 (fontified t) 1477 1508 (fontified t) 1508 1778 (fontified t)) . 24053) (undo-tree-id2786 . -1777) (undo-tree-id2787 . -1777) (undo-tree-id2788 . -1777) (undo-tree-id2789 . -1777) 25830) nil (26363 56686 198569 485000) 0 nil] [nil nil ((#("Natural models for detecting attacks in WSNs involve physically
+implemented networks where nodes and sensors are deployed in real
+operational conditions. These models utilize real devices such as
+microcontrollers, radio modules, and sensors that interact within
+realistic environmental settings. The primary advantage of natural
+models lies in their ability to accurately reproduce real network
+operation scenarios, including potential external interferences and
+physical attacks.
+
+Research on natural models for attack detection in wireless sensor
+networks includes functional and quantitative characteristics. Attack
+detection methods are categorized into signature-based, anomaly-based,
+and hybrid approaches, covering attacks on availability,
+confidentiality, integrity, and authentication. Hardware and network
+characteristics of sensors and nodes, data processing algorithms, and
+monitoring systems play a crucial role. Quantitative metrics include
+detection accuracy, detection time, energy consumption, throughput,
+delay, and scalability.
+
+For instance, platforms like TinyOS and Contiki are used to test
+intrusion detection systems, achieving 95\\% accuracy with low false
+positive rates. Machine learning-based systems such as K-means and SVM
+can achieve classification accuracies up to 98\\%. Distributed detection
+methods include autonomous algorithms that depend on node density and
+algorithm complexity {[}15, 16{]}. Table 2 presents empirical
+experiments on attack detection and their outcomes.
+
+The effectiveness of full-scale models and attack detection algorithms is assessed based on several key parameters (Table 3) 
+
+Thus, natural models and intrusion detection algorithms in WLANs are
+effective tools for studying and protecting networks, ensuring high
+accuracy and timely detection of attacks in real operational conditions.
+
+" 0 63 (fontified t) 63 64 (fontified t) 64 170 (fontified t) 170 196 (fontified t) 196 243 (fontified t) 243 262 (fontified t) 262 305 (fontified t) 305 320 (fontified t) 320 329 (fontified t) 329 454 (fontified t) 454 463 (fontified t) 463 552 (fontified t) 552 619 (fontified t) 619 1152 (fontified t) 1152 1154 (fontified t) 1154 1156 (face font-lock-keyword-face fontified t) 1156 1181 (fontified t) 1181 1298 (fontified t) 1298 1300 (face font-lock-keyword-face fontified t) 1300 1350 (fontified t) 1350 1368 (fontified t) 1368 1394 (fontified t) 1394 1408 (fontified t) 1408 1456 (fontified t) 1456 1460 (fontified t) 1460 1476 (fontified t) 1476 1478 (fontified t) 1478 1479 (fontified t) 1479 1508 (fontified t) 1508 1509 (fontified t) 1509 1772 (fontified t) 1772 1773 (fontified t) 1773 1846 (fontified t) 1846 1847 (fontified t)) . 17942) (undo-tree-id2781 . -1846) (undo-tree-id2782 . -1846) (undo-tree-id2783 . -1846) (undo-tree-id2784 . -1846) (undo-tree-id2785 . -1846) 19788) ((17942 . 19789)) (26363 56671 601499 321000) 0 nil] [nil nil ((#("
+3. Parameter flexibility: The model allows configuration of node
+parameters such as transmitter power, data transmission rate, and energy
+consumption, crucial for investigating different attack scenarios.
+
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+" 0 206 (fontified t) 206 211 (fontified t) 211 212 (fontified t) 212 223 (fontified t) 223 251 (fontified t) 251 270 (fontified t) 270 463 (fontified t)) . 20700) (undo-tree-id2655 . -405) (undo-tree-id2656 . -405) (undo-tree-id2657 . -462) (undo-tree-id2658 . -206) (undo-tree-id2659 . -206) (undo-tree-id2660 . -207) (undo-tree-id2661 . -207) (undo-tree-id2662 . -207) (undo-tree-id2663 . -207) (undo-tree-id2664 . -207) (undo-tree-id2665 . -270) (undo-tree-id2666 . -270) (undo-tree-id2667 . -270) (undo-tree-id2668 . -270) (undo-tree-id2669 . -270) (undo-tree-id2670 . -270) (undo-tree-id2671 . -270) (undo-tree-id2672 . -270) (undo-tree-id2673 . -270) (undo-tree-id2674 . -270) (undo-tree-id2675 . -339) (undo-tree-id2676 . -339) (undo-tree-id2677 . -339) (undo-tree-id2678 . -339) (undo-tree-id2679 . -339) (undo-tree-id2680 . -339) (undo-tree-id2681 . -339) (undo-tree-id2682 . -339) (undo-tree-id2683 . -339) (undo-tree-id2684 . -339) (undo-tree-id2685 . -405) (undo-tree-id2686 . -405) (undo-tree-id2687 . -405) (undo-tree-id2688 . -405) (undo-tree-id2689 . -405) (undo-tree-id2690 . -405) (undo-tree-id2691 . -405) (undo-tree-id2692 . -405) (undo-tree-id2693 . -405) (undo-tree-id2694 . -405) (undo-tree-id2695 . -405) (undo-tree-id2696 . -405) (undo-tree-id2697 . -405) (undo-tree-id2698 . -405) (undo-tree-id2699 . -405) (undo-tree-id2700 . -405) (undo-tree-id2701 . -405) (undo-tree-id2702 . -405) (undo-tree-id2703 . -405) (undo-tree-id2704 . -405) (undo-tree-id2705 . -405) (undo-tree-id2706 . -405) (undo-tree-id2707 . -405) (undo-tree-id2708 . -405) (undo-tree-id2709 . -405) (undo-tree-id2710 . -405) (undo-tree-id2711 . -405) (undo-tree-id2712 . -405) (undo-tree-id2713 . -405) (undo-tree-id2714 . -405) (undo-tree-id2715 . -405) (undo-tree-id2716 . -405) (undo-tree-id2717 . -405) (undo-tree-id2718 . -405) (undo-tree-id2719 . -405) (undo-tree-id2720 . -405) (undo-tree-id2721 . -405) (undo-tree-id2722 . -339) (undo-tree-id2723 . -339) (undo-tree-id2724 . -339) (undo-tree-id2725 . -339) (undo-tree-id2726 . -339) (undo-tree-id2727 . -339) (undo-tree-id2728 . -339) (undo-tree-id2729 . -339) (undo-tree-id2730 . -339) (undo-tree-id2731 . -339) (undo-tree-id2732 . -339) (undo-tree-id2733 . -339) (undo-tree-id2734 . -339) (undo-tree-id2735 . -339) (undo-tree-id2736 . -339) (undo-tree-id2737 . -339) (undo-tree-id2738 . -339) (undo-tree-id2739 . -270) (undo-tree-id2740 . -270) (undo-tree-id2741 . -270) (undo-tree-id2742 . -270) (undo-tree-id2743 . -270) (undo-tree-id2744 . -207) (undo-tree-id2745 . -207) (undo-tree-id2746 . -207) (undo-tree-id2747 . -207) (undo-tree-id2748 . -207) (undo-tree-id2749 . -206) (undo-tree-id2750 . -206) (undo-tree-id2751 . -206) (undo-tree-id2752 . -206) (undo-tree-id2753 . -206) (undo-tree-id2754 . -139) (undo-tree-id2755 . -139) (undo-tree-id2756 . -139) (undo-tree-id2757 . -139) (undo-tree-id2758 . -139) (undo-tree-id2759 . -66) (undo-tree-id2760 . -66) (undo-tree-id2761 . -66) (undo-tree-id2762 . -66) (undo-tree-id2763 . -66) (undo-tree-id2764 . -1) (undo-tree-id2765 . -1) (undo-tree-id2766 . -1) (undo-tree-id2767 . -1) (undo-tree-id2768 . -1) (undo-tree-id2769 . -1) (undo-tree-id2770 . -1) (undo-tree-id2771 . -1) (undo-tree-id2772 . -1) (undo-tree-id2773 . -1) (undo-tree-id2774 . -1) (undo-tree-id2775 . -1) (undo-tree-id2776 . -1) (undo-tree-id2777 . -1) (undo-tree-id2778 . -1) (undo-tree-id2779 . -206) (undo-tree-id2780 . -463)) ((20700 . 21163) (t 26363 56618 103911 16000)) (26363 56618 95409 218000) 0 nil] [nil nil ((#("
+2. Network topology modeling: Supports various topologies such as mesh,
+star, and tree, allowing exploration of how topology affects resilience
+to attacks.
+
+3. Parameter flexibility: The model allows configuration of node
+parameters such as transmitter power, data transmission rate, and energy
+consumption, crucial for investigating different attack scenarios.
+
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+" 0 363 (fontified t) 363 368 (fontified t) 368 369 (fontified t) 369 380 (fontified t) 380 408 (fontified t) 408 427 (fontified t) 427 620 (fontified t)) . 20543) (undo-tree-id2648 . -562) (undo-tree-id2649 . -562) (undo-tree-id2650 . -619) (undo-tree-id2651 . -363) (undo-tree-id2652 . -363) (undo-tree-id2653 . -363) (undo-tree-id2654 . -620)) ((20543 . 21163) (t 26363 56610 5 796000)) (26363 56609 995892 825000) 0 nil] [nil nil ((#("
+1. Multi-layered architecture of the model: The simulation model
+includes physical, data link, network, and application layers, enabling
+detailed reproduction of all aspects of Wireless Sensor Network (WSN)
+operation.
+
+2. Network topology modeling: Supports various topologies such as mesh,
+star, and tree, allowing exploration of how topology affects resilience
+to attacks.
+
+3. Parameter flexibility: The model allows configuration of node
+parameters such as transmitter power, data transmission rate, and energy
+consumption, crucial for investigating different attack scenarios.
+
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+" 0 582 (fontified t) 582 587 (fontified t) 587 588 (fontified t) 588 599 (fontified t) 599 627 (fontified t) 627 646 (fontified t) 646 839 (fontified t)) . 20324) (undo-tree-id2491 . -781) (undo-tree-id2492 . -781) (undo-tree-id2493 . -838) (undo-tree-id2494 . -582) (undo-tree-id2495 . -582) (undo-tree-id2497 . -1) (undo-tree-id2499 . -1) (undo-tree-id2501 . -1) (undo-tree-id2503 . -1) (undo-tree-id2505 . -1) (undo-tree-id2507 . -1) (undo-tree-id2509 . -1) (undo-tree-id2511 . -1) (undo-tree-id2513 . -66) (undo-tree-id2515 . -66) (undo-tree-id2517 . -66) (undo-tree-id2519 . -138) (undo-tree-id2521 . -138) (undo-tree-id2523 . -208) (undo-tree-id2525 . -208) (undo-tree-id2527 . -208) (undo-tree-id2529 . -219) (undo-tree-id2531 . -219) (undo-tree-id2533 . -220) (undo-tree-id2535 . -220) (undo-tree-id2537 . -220) (undo-tree-id2539 . -292) (undo-tree-id2541 . -292) (undo-tree-id2543 . -364) (undo-tree-id2545 . -364) (undo-tree-id2547 . -364) (undo-tree-id2549 . -376) (undo-tree-id2551 . -376) (undo-tree-id2553 . -377) (undo-tree-id2555 . -377) (undo-tree-id2557 . -377) (undo-tree-id2559 . -442) (undo-tree-id2561 . -442) (undo-tree-id2563 . -515) (undo-tree-id2565 . -515) (undo-tree-id2567 . -515) (undo-tree-id2569 . -582) (undo-tree-id2571 . -582) (undo-tree-id2573 . -583) (undo-tree-id2575 . -583) (undo-tree-id2577 . -583) (undo-tree-id2579 . -646) (undo-tree-id2581 . -646) (undo-tree-id2583 . -646) (undo-tree-id2585 . -646) (undo-tree-id2587 . -646) (undo-tree-id2589 . -646) (undo-tree-id2591 . -646) (undo-tree-id2593 . -646) (undo-tree-id2595 . -646) (undo-tree-id2597 . -646) (undo-tree-id2599 . -646) (undo-tree-id2601 . -646) (undo-tree-id2603 . -715) (undo-tree-id2605 . -715) (undo-tree-id2607 . -715) (undo-tree-id2609 . -715) (undo-tree-id2611 . -715) (undo-tree-id2613 . -715) (undo-tree-id2615 . -715) (undo-tree-id2617 . -715) (undo-tree-id2619 . -715) (undo-tree-id2621 . -715) (undo-tree-id2623 . -781) (undo-tree-id2625 . -781) (undo-tree-id2627 . -781) (undo-tree-id2629 . -781) (undo-tree-id2631 . -781) (undo-tree-id2633 . -781) (undo-tree-id2635 . -781) (undo-tree-id2637 . -781) (undo-tree-id2639 . -781) (undo-tree-id2641 . -781) (undo-tree-id2642 . -582) (undo-tree-id2643 . -781) (undo-tree-id2645 . -781) (undo-tree-id2647 . -839) 21105) ((20324 . 21163) (t 26363 56603 122086 267000)) (26363 56603 115728 705000) 0 nil] [nil nil ((#("
+\\emph{Imitative models and intrusion detection algorithms}
+
+Description of Developed Simulation Models. Simulation models are
+software tools designed to replicate the operations of Wireless Sensor
+Networks (WSNs) and simulate various attack scenarios in a controlled
+environment. Within the scope of the conducted research, simulation
+models were tested that accurately reproduce the behavior of sensor
+nodes, communication protocols, and interactions with the external
+environment. These models are based on the following principles:
+
+1. Multi-layered architecture of the model: The simulation model
+includes physical, data link, network, and application layers, enabling
+detailed reproduction of all aspects of Wireless Sensor Network (WSN)
+operation.
+
+2. Network topology modeling: Supports various topologies such as mesh,
+star, and tree, allowing exploration of how topology affects resilience
+to attacks.
+
+3. Parameter flexibility: The model allows configuration of node
+parameters such as transmitter power, data transmission rate, and energy
+consumption, crucial for investigating different attack scenarios.
+
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+" 0 1 (fontified t) 1 5 (face font-lock-keyword-face fontified t) 5 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 58 (face (italic) fontified t) 58 60 (fontified t) 60 1118 (fontified t) 1118 1123 (fontified t) 1123 1124 (fontified t) 1124 1135 (fontified t) 1135 1163 (fontified t) 1163 1182 (fontified t) 1182 1375 (fontified t)) . 19788) (undo-tree-id2467 . -1317) (undo-tree-id2468 . -1317) (undo-tree-id2469 . -1374) (undo-tree-id2471 . -1118) (undo-tree-id2472 . -1118) (undo-tree-id2473 . -1118) (undo-tree-id2475 . -1) (undo-tree-id2477 . -1) (undo-tree-id2479 . -1) (undo-tree-id2481 . -1) (undo-tree-id2483 . -1) (undo-tree-id2485 . -1) (undo-tree-id2487 . -1) (undo-tree-id2489 . -1118)) ((19788 . 21163) (t 26363 56590 950228 743000)) (26363 56590 946236 210000) 0 nil] [nil nil ((#("
+All simulation models are built using diverse mathematical and
+computational methods. These models facilitate testing and analyzing
+network behavior under attack, evaluating detection accuracy, and
+justifying the realism of simulated conditions (Table-4).
+" 0 5 (fontified t) 5 6 (fontified t) 6 17 (fontified t) 17 45 (fontified t) 45 64 (fontified t) 64 257 (fontified t)) . 20906) (undo-tree-id2404 . -247) (undo-tree-id2405 . -247) (undo-tree-id2406 . -256) (undo-tree-id2408 . -247) (undo-tree-id2410 . -247) (undo-tree-id2412 . -247) (undo-tree-id2414 . -247) (undo-tree-id2416 . -247) (undo-tree-id2418 . -247) (undo-tree-id2420 . -181) (undo-tree-id2422 . -181) (undo-tree-id2424 . -181) (undo-tree-id2426 . -181) (undo-tree-id2428 . -181) (undo-tree-id2430 . -181) (undo-tree-id2432 . -181) (undo-tree-id2434 . -181) (undo-tree-id2436 . -112) (undo-tree-id2438 . -112) (undo-tree-id2440 . -112) (undo-tree-id2442 . -112) (undo-tree-id2444 . -112) (undo-tree-id2446 . -112) (undo-tree-id2448 . -112) (undo-tree-id2450 . -112) (undo-tree-id2452 . -49) (undo-tree-id2454 . -49) (undo-tree-id2456 . -49) (undo-tree-id2458 . -49) (undo-tree-id2460 . -49) (undo-tree-id2462 . -49) (undo-tree-id2464 . -49) (undo-tree-id2466 . -257) (t 26363 56534 195893 906000)) ((20906 . 21163) (t 26363 56573 667431 151000)) (26363 56573 659953 669000) 0 nil])
+([nil nil ((21162 . 21163) 21105) nil (26363 56686 198560 428000) 0 nil])
+nil
+nil
+nil
+nil
+nil
+nil
+([nil nil ((nil rear-nonsticky nil 21163 . 21164) (#("
+" 0 1 (fontified nil)) . -22941) (21163 . 22942)) nil (26363 56762 447771 759000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 31994) (undo-tree-id2813 . -1) (undo-tree-id2814 . -1) (t 26363 56686 205115 572000)) nil (26363 56773 397638 567000) 0 nil] [nil nil ((#("Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
+
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 161 (fontified t) 161 209 (fontified t) 209 472 (fontified t) 472 477 (face font-lock-keyword-face fontified t) 477 478 (fontified t) 478 539 (face (italic) fontified t) 539 542 (fontified t) 542 547 (face font-lock-keyword-face fontified t) 547 548 (fontified t) 548 605 (face (italic) fontified t) 605 926 (fontified t) 926 950 (fontified t) 950 984 (fontified t)) . 31995) (undo-tree-id2790 . -983) (undo-tree-id2791 . -6) (undo-tree-id2792 . -983) (undo-tree-id2793 . -983) (undo-tree-id2794 . -983) (undo-tree-id2795 . -983) (undo-tree-id2796 . -983) (undo-tree-id2797 . -983) (undo-tree-id2798 . -983) (undo-tree-id2799 . -983) (undo-tree-id2800 . -983) (undo-tree-id2801 . -983) (undo-tree-id2802 . -983) (undo-tree-id2803 . -983) (undo-tree-id2804 . -983) (undo-tree-id2805 . -983) (undo-tree-id2806 . -983) (undo-tree-id2807 . -983) (undo-tree-id2808 . -984) 32978 (t 26363 56686 205115 572000)) ((31995 . 32979)) (26363 56762 447574 931000) 0 nil])
+([nil nil ((#("Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
+
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 71 (fontified t) 71 72 (fontified t) 72 161 (fontified t) 161 209 (fontified t) 209 472 (fontified t) 472 477 (face font-lock-keyword-face fontified t) 477 478 (fontified t) 478 539 (face (italic) fontified t) 539 542 (fontified t) 542 547 (face font-lock-keyword-face fontified t) 547 548 (fontified t) 548 605 (face (italic) fontified t) 605 926 (fontified t) 926 950 (fontified t) 950 984 (fontified t)) . 31994) (undo-tree-id2809 . -983) (undo-tree-id2810 . -983) (undo-tree-id2811 . -983) (undo-tree-id2812 . -983) 32977) nil (26363 56785 252216 448000) 0 nil])
+nil
+([nil nil ((26270 . 26271) 26212) nil (26363 56793 4904 662000) 0 nil] [nil nil ((nil rear-nonsticky nil 22941 . 22942) (#("
+" 0 1 (fontified nil)) . -23925) (22941 . 23926)) ((#("
+Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
+
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 1 (rear-nonsticky nil fontified nil) 1 72 (fontified nil) 72 73 (fontified nil) 73 162 (fontified t) 162 210 (fontified t) 210 473 (fontified t) 473 478 (face font-lock-keyword-face fontified t) 478 479 (fontified t) 479 540 (face (italic) fontified t) 540 543 (fontified t) 543 548 (face font-lock-keyword-face fontified t) 548 549 (fontified t) 549 606 (face (italic) fontified t) 606 927 (fontified t) 927 951 (fontified t) 951 984 (fontified t) 984 985 (fontified nil)) . 22941) (undo-tree-id2815 . -1) (undo-tree-id2816 . -1) (undo-tree-id2817 . -984) (undo-tree-id2818 . -1) (undo-tree-id2819 . -1) (undo-tree-id2820 . -1) (undo-tree-id2821 . -1) (undo-tree-id2822 . -1) (undo-tree-id2823 . -1) (undo-tree-id2824 . -1) (undo-tree-id2825 . -1) (undo-tree-id2826 . -1) (undo-tree-id2827 . -1) (undo-tree-id2828 . -1) (undo-tree-id2829 . -1) (undo-tree-id2830 . -1) (undo-tree-id2831 . -1) (undo-tree-id2832 . -1) (undo-tree-id2833 . -1) (undo-tree-id2834 . -1) (undo-tree-id2835 . -1) (undo-tree-id2836 . -1) (undo-tree-id2837 . -1) (undo-tree-id2838 . -1) (undo-tree-id2839 . -1) (undo-tree-id2840 . -1) (undo-tree-id2841 . -1) (undo-tree-id2842 . -1) (undo-tree-id2843 . -1) (undo-tree-id2844 . -1) (undo-tree-id2845 . -1) (undo-tree-id2846 . -1) (undo-tree-id2847 . -1) (undo-tree-id2848 . -1) (undo-tree-id2849 . -1) (undo-tree-id2850 . -1) (undo-tree-id2851 . -1) (undo-tree-id2852 . -1) (undo-tree-id2853 . -1) (undo-tree-id2854 . -1) (undo-tree-id2855 . -1) (undo-tree-id2856 . -1) (undo-tree-id2857 . -1) (undo-tree-id2858 . -1) (undo-tree-id2859 . -1) (undo-tree-id2860 . -1) (undo-tree-id2861 . -1) (undo-tree-id2862 . -1) (undo-tree-id2863 . -1) (undo-tree-id2864 . -1) (undo-tree-id2865 . -1) (undo-tree-id2866 . -1) (undo-tree-id2867 . -1) (undo-tree-id2868 . -1) (undo-tree-id2869 . -1) (undo-tree-id2870 . -1) (undo-tree-id2871 . -1) (undo-tree-id2872 . -1) (undo-tree-id2873 . -1) (undo-tree-id2874 . -1) (undo-tree-id2875 . -1) (undo-tree-id2876 . -1) (undo-tree-id2877 . -1) (undo-tree-id2878 . -1) (undo-tree-id2879 . -1) (undo-tree-id2880 . -1) (undo-tree-id2881 . -1) (undo-tree-id2882 . -1) (undo-tree-id2883 . -1) (undo-tree-id2884 . -1) (undo-tree-id2885 . -1) (undo-tree-id2886 . -1) (undo-tree-id2887 . -1) (undo-tree-id2888 . -1) (undo-tree-id2889 . -1) (undo-tree-id2890 . -1) (undo-tree-id2891 . -1) (undo-tree-id2892 . -1) (undo-tree-id2893 . -1) (undo-tree-id2894 . -1) (undo-tree-id2895 . -1) (undo-tree-id2896 . -1) (undo-tree-id2897 . -1) (undo-tree-id2898 . -1) (undo-tree-id2899 . -1) (undo-tree-id2900 . -1) (undo-tree-id2901 . -1) (undo-tree-id2902 . -1) (undo-tree-id2903 . -1) (undo-tree-id2904 . -1) (undo-tree-id2905 . -1) (undo-tree-id2906 . -1) (undo-tree-id2907 . -1) (undo-tree-id2908 . -1) (undo-tree-id2909 . -1) (undo-tree-id2910 . -1) (undo-tree-id2911 . -1) (undo-tree-id2912 . -1) (undo-tree-id2913 . -1) (undo-tree-id2914 . -1) (undo-tree-id2915 . -1) (undo-tree-id2916 . -1) (undo-tree-id2917 . -1) (undo-tree-id2918 . -1) (undo-tree-id2919 . -1) (undo-tree-id2920 . -1) (undo-tree-id2921 . -1) (undo-tree-id2922 . -1) (undo-tree-id2923 . -1) (undo-tree-id2924 . -1) (undo-tree-id2925 . -1) (undo-tree-id2926 . -1) (undo-tree-id2927 . -1) (undo-tree-id2928 . -1) (undo-tree-id2929 . -1) (undo-tree-id2930 . -1) (undo-tree-id2931 . -1) (undo-tree-id2932 . -1) (undo-tree-id2933 . -1) (undo-tree-id2934 . -1) (undo-tree-id2935 . -1) (undo-tree-id2936 . -1) (undo-tree-id2937 . -1) (undo-tree-id2938 . -1) (undo-tree-id2939 . -1) (undo-tree-id2940 . -1) (undo-tree-id2941 . -1) (undo-tree-id2942 . -1) (undo-tree-id2943 . -1) (undo-tree-id2944 . -1) (undo-tree-id2945 . -1) (undo-tree-id2946 . -1) (undo-tree-id2947 . -1) (undo-tree-id2948 . -1) (undo-tree-id2949 . -1) (undo-tree-id2950 . -1) (undo-tree-id2951 . -1) (undo-tree-id2952 . -1) (undo-tree-id2953 . -1) (undo-tree-id2954 . -1) (undo-tree-id2955 . -1) (undo-tree-id2956 . -1) (undo-tree-id2957 . -1) (undo-tree-id2958 . -1) (undo-tree-id2959 . -1) (undo-tree-id2960 . -1) (undo-tree-id2961 . -1) (undo-tree-id2962 . -1) (undo-tree-id2963 . -1) (undo-tree-id2964 . -1) (undo-tree-id2965 . -1) (undo-tree-id2966 . -1) (undo-tree-id2967 . -1) (undo-tree-id2968 . -1) (undo-tree-id2969 . -1) (undo-tree-id2970 . -1) (undo-tree-id2971 . -1) (undo-tree-id2972 . -1) (undo-tree-id2973 . -1) (23925 . 23926) (nil rear-nonsticky t 22941 . 22942) (t 26363 56773 405099 743000)) (26363 56773 397623 830000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 26271 . 26272) (#("
+" 0 1 (fontified nil)) . -27255) (26271 . 27256)) nil (26363 56881 879132 483000) 0 nil] [nil nil ((nil rear-nonsticky nil 26271 . 26272) (#("
+" 0 1 (fontified nil)) . -27255) (26271 . 27256)) ((#("
+Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
+
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 1 (rear-nonsticky nil fontified nil) 1 72 (fontified nil) 72 73 (fontified nil) 73 162 (fontified t) 162 210 (fontified t) 210 473 (fontified t) 473 478 (face font-lock-keyword-face fontified t) 478 479 (fontified t) 479 540 (face (italic) fontified t) 540 543 (fontified t) 543 548 (face font-lock-keyword-face fontified t) 548 549 (fontified t) 549 606 (face (italic) fontified t) 606 927 (fontified t) 927 951 (fontified t) 951 984 (fontified t) 984 985 (fontified nil)) . 26271) (undo-tree-id2980 . -1) (undo-tree-id2981 . -72) (undo-tree-id2982 . -72) (undo-tree-id2983 . -72) (undo-tree-id2984 . -1) (undo-tree-id2985 . -1) (undo-tree-id2986 . -1) (undo-tree-id2987 . -1) (undo-tree-id2988 . -1) (undo-tree-id2989 . -1) (undo-tree-id2990 . -1) (undo-tree-id2991 . -1) (undo-tree-id2992 . -1) (undo-tree-id2993 . -1) (undo-tree-id2994 . -1) (undo-tree-id2995 . -1) (undo-tree-id2996 . -1) (undo-tree-id2997 . -1) (undo-tree-id2998 . -1) (undo-tree-id2999 . -1) (undo-tree-id3000 . -1) (undo-tree-id3001 . -1) (undo-tree-id3002 . -1) (undo-tree-id3003 . -1) (undo-tree-id3004 . -1) (undo-tree-id3005 . -1) (undo-tree-id3006 . -72) (undo-tree-id3007 . -1) (27255 . 27256) (nil rear-nonsticky t 26271 . 26272)) (26363 56792 371367 827000) 0 nil])
+nil
+([nil nil ((#("5" 0 1 (fontified t)) . 27472) (undo-tree-id3450 . -1) (undo-tree-id3451 . -1)) nil (26363 56891 263326 20000) 0 nil] [nil nil ((#("
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+" 0 1 (fontified t) 1 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 68 (face (italic) fontified t) 68 71 (fontified t) 71 76 (face font-lock-keyword-face fontified t) 76 77 (fontified t) 77 134 (face (italic) fontified t) 134 136 (fontified t) 136 455 (fontified t) 455 479 (fontified t) 479 512 (fontified t)) . 26743) (undo-tree-id3399 . -479) (undo-tree-id3400 . -479) (undo-tree-id3401 . -511) (undo-tree-id3402 . -71) (undo-tree-id3404 . -269) (undo-tree-id3406 . -269) (undo-tree-id3408 . -137) (undo-tree-id3410 . -137) (undo-tree-id3412 . -137) (undo-tree-id3414 . -136) (undo-tree-id3416 . -136) (undo-tree-id3418 . -71) (undo-tree-id3420 . -71) (undo-tree-id3422 . -71) (undo-tree-id3424 . -70) (undo-tree-id3426 . -70) (undo-tree-id3428 . -1) (undo-tree-id3430 . -1) (undo-tree-id3432 . -1) (undo-tree-id3434 . -1) (undo-tree-id3436 . -1) (undo-tree-id3438 . -1) (undo-tree-id3440 . -1) (undo-tree-id3442 . -1) (undo-tree-id3444 . -1) (undo-tree-id3446 . -1) (undo-tree-id3448 . -136)) ((26743 . 27255) (t 26363 56864 362043 160000)) (26363 56864 354841 745000) 0 nil] [nil nil ((#("
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 319 (fontified t) 319 343 (fontified t) 343 376 (fontified t) 376 377 (fontified t)) . 26879) (undo-tree-id3172 . -376) (undo-tree-id3173 . -376) (undo-tree-id3174 . -376) (undo-tree-id3175 . 1) (undo-tree-id3177 . -271) (undo-tree-id3179 . -271) (undo-tree-id3181 . -271) (undo-tree-id3183 . -271) (undo-tree-id3185 . -271) (undo-tree-id3187 . -343) (undo-tree-id3189 . -343) (undo-tree-id3191 . -343) (undo-tree-id3193 . -343) (undo-tree-id3195 . -343) (undo-tree-id3197 . -343) (undo-tree-id3199 . -343) (undo-tree-id3201 . -343) (undo-tree-id3203 . -343) (undo-tree-id3205 . -343) (undo-tree-id3207 . -376) (undo-tree-id3209 . -376) (undo-tree-id3211 . -376) (undo-tree-id3213 . -376) (undo-tree-id3215 . -376) (undo-tree-id3217 . -376) (undo-tree-id3219 . -376) (undo-tree-id3221 . -376) (undo-tree-id3223 . -376) (undo-tree-id3225 . -376) (undo-tree-id3227 . -376) (undo-tree-id3229 . -377) 27255) ((26879 . 27256)) (26363 56854 640654 941000) 0 nil] [nil nil ((#("
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 1 (fontified t) 1 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 68 (face (italic) fontified t) 68 71 (fontified t) 71 76 (face font-lock-keyword-face fontified t) 76 77 (fontified t) 77 134 (face (italic) fontified t) 134 455 (fontified t) 455 479 (fontified t) 479 512 (fontified t) 512 513 (fontified t)) . 26743) (undo-tree-id3137 . -512) (undo-tree-id3138 . -512) (undo-tree-id3139 . -512) (undo-tree-id3140 . 1) (undo-tree-id3142 . -136) (undo-tree-id3144 . -136) (undo-tree-id3146 . -71) (undo-tree-id3148 . -71) (undo-tree-id3150 . -71) (undo-tree-id3152 . -70) (undo-tree-id3154 . -70) (undo-tree-id3156 . -1) (undo-tree-id3158 . -1) (undo-tree-id3160 . -1) (undo-tree-id3162 . -1) (undo-tree-id3164 . -1) (undo-tree-id3166 . -1) (undo-tree-id3168 . -1) (undo-tree-id3170 . -1)) ((26743 . 27256) (t 26363 56826 340484 485000)) (26363 56826 335865 946000) 0 nil] [nil nil ((#("
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 1 (fontified t) 1 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 68 (face (italic) fontified t) 68 71 (fontified t) 71 76 (face font-lock-keyword-face fontified t) 76 77 (fontified t) 77 134 (face (italic) fontified t) 134 455 (fontified t) 455 479 (fontified t) 479 512 (fontified t) 512 513 (fontified t)) . 26743) (undo-tree-id3008 . -512) (undo-tree-id3009 . -512) (undo-tree-id3010 . -512) (undo-tree-id3011 . 1) (undo-tree-id3013 . -1) (undo-tree-id3015 . -1) (undo-tree-id3017 . -1) (undo-tree-id3019 . -1) (undo-tree-id3021 . -1) (undo-tree-id3023 . -1) (undo-tree-id3025 . -1) (undo-tree-id3027 . -1) (undo-tree-id3029 . -70) (undo-tree-id3031 . -70) (undo-tree-id3033 . -70) (undo-tree-id3035 . -71) (undo-tree-id3037 . -71) (undo-tree-id3039 . -136) (undo-tree-id3041 . -136) (undo-tree-id3043 . -136) (undo-tree-id3045 . -137) (undo-tree-id3047 . -137) (undo-tree-id3049 . -137) (undo-tree-id3051 . -210) (undo-tree-id3053 . -210) (undo-tree-id3055 . -210) (undo-tree-id3057 . -269) (undo-tree-id3059 . -269) (undo-tree-id3061 . -269) (undo-tree-id3063 . -270) (undo-tree-id3065 . -270) (undo-tree-id3067 . -270) (undo-tree-id3069 . -341) (undo-tree-id3071 . -341) (undo-tree-id3073 . -341) (undo-tree-id3075 . -407) (undo-tree-id3077 . -407) (undo-tree-id3079 . -407) (undo-tree-id3081 . -407) (undo-tree-id3083 . -407) (undo-tree-id3085 . -407) (undo-tree-id3087 . -407) (undo-tree-id3089 . -407) (undo-tree-id3091 . -407) (undo-tree-id3093 . -407) (undo-tree-id3095 . -407) (undo-tree-id3097 . -479) (undo-tree-id3099 . -479) (undo-tree-id3101 . -479) (undo-tree-id3103 . -479) (undo-tree-id3105 . -479) (undo-tree-id3107 . -479) (undo-tree-id3109 . -479) (undo-tree-id3111 . -479) (undo-tree-id3113 . -512) (undo-tree-id3115 . -512) (undo-tree-id3117 . -512) (undo-tree-id3119 . -512) (undo-tree-id3121 . -512) (undo-tree-id3123 . -512) (undo-tree-id3125 . -512) (undo-tree-id3127 . -512) (undo-tree-id3129 . -512) (undo-tree-id3131 . -512) (undo-tree-id3132 . -512) (undo-tree-id3134 . -512) (undo-tree-id3136 . -513) 27255 (t 26363 56794 195857 981000)) ((26743 . 27256) (t 26363 56808 682689 617000)) (26363 56808 674734 41000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 26343 . 26344) (#("
+" 0 1 (fontified nil)) . -27327) (26343 . 27328) 26272) ((#("
+Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
+
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 1 (rear-nonsticky nil fontified nil) 1 72 (fontified nil) 72 73 (fontified nil) 73 162 (fontified t) 162 210 (fontified t) 210 473 (fontified t) 473 478 (face font-lock-keyword-face fontified t) 478 479 (fontified t) 479 540 (face (italic) fontified t) 540 543 (fontified t) 543 548 (face font-lock-keyword-face fontified t) 548 549 (fontified t) 549 606 (face (italic) fontified t) 606 927 (fontified t) 927 951 (fontified t) 951 984 (fontified t) 984 985 (fontified nil)) . 26343) (undo-tree-id2974 . -1) (undo-tree-id2975 . -1) (undo-tree-id2976 . -984) (undo-tree-id2977 . -1) (undo-tree-id2978 . -1) (undo-tree-id2979 . -1) (27327 . 27328) (nil rear-nonsticky t 26343 . 26344)) (26363 56792 371281 336000) 0 nil])
+([nil nil ((#("2" 0 1 (fontified t)) . -27471) (27472 . 27473) 27471) nil (26363 56891 263314 318000) 0 nil])
+nil
+([nil nil ((#("
+Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
+
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+" 0 1 (rear-nonsticky t fontified t) 1 72 (fontified t) 72 73 (fontified t) 73 162 (fontified t) 162 210 (fontified t) 210 472 (fontified t) 472 473 (fontified t) 473 478 (face font-lock-keyword-face fontified t) 478 479 (fontified t) 479 540 (face (italic) fontified t) 540 543 (fontified t) 543 548 (face font-lock-keyword-face fontified t) 548 549 (fontified t) 549 606 (face (italic) fontified t) 606 608 (fontified t)) . 26271) (undo-tree-id3230 . -543) (undo-tree-id3231 . -543) (undo-tree-id3232 . -607) (undo-tree-id3233 . -472) (undo-tree-id3234 . -472) (undo-tree-id3235 . -472) (undo-tree-id3237 . -608) (undo-tree-id3239 . -608) (undo-tree-id3241 . -608) (undo-tree-id3243 . -608) (undo-tree-id3245 . -608) (undo-tree-id3247 . -608) (undo-tree-id3249 . -608) (undo-tree-id3251 . -608) (undo-tree-id3253 . -608) (undo-tree-id3255 . -608) (undo-tree-id3257 . -608) (undo-tree-id3259 . -608) (undo-tree-id3261 . -608) (undo-tree-id3263 . -608) (undo-tree-id3265 . -608) (undo-tree-id3267 . -543) (undo-tree-id3269 . -543) (undo-tree-id3271 . -543) (undo-tree-id3273 . -543) (undo-tree-id3275 . -543) (undo-tree-id3277 . -543) (undo-tree-id3279 . -543) (undo-tree-id3281 . -543) (undo-tree-id3283 . -543) (undo-tree-id3285 . -543) (undo-tree-id3287 . -543) (undo-tree-id3289 . -543) (undo-tree-id3291 . -543) (undo-tree-id3293 . -543) (undo-tree-id3295 . -543) (undo-tree-id3297 . -543) (undo-tree-id3299 . -543) (undo-tree-id3301 . -543) (undo-tree-id3303 . -543) (undo-tree-id3305 . -543) (undo-tree-id3307 . -543) (undo-tree-id3309 . -543) (undo-tree-id3311 . -543) (undo-tree-id3313 . -543) (undo-tree-id3315 . -543) (undo-tree-id3317 . -543) (undo-tree-id3319 . -543) (undo-tree-id3321 . -542) (undo-tree-id3323 . -542) (undo-tree-id3325 . -542) (undo-tree-id3327 . -542) (undo-tree-id3329 . -542) (undo-tree-id3331 . -542) (undo-tree-id3333 . -542) (undo-tree-id3335 . -542) (undo-tree-id3337 . -473) (undo-tree-id3339 . -473) (undo-tree-id3341 . -473) (undo-tree-id3343 . -472) (undo-tree-id3345 . -472) (undo-tree-id3347 . -420) (undo-tree-id3349 . -420) (undo-tree-id3351 . -420) (undo-tree-id3353 . -349) (undo-tree-id3355 . -349) (undo-tree-id3357 . -282) (undo-tree-id3359 . -282) (undo-tree-id3361 . -282) (undo-tree-id3363 . -210) (undo-tree-id3365 . -210) (undo-tree-id3367 . -139) (undo-tree-id3369 . -139) (undo-tree-id3371 . -139) (undo-tree-id3373 . -73) (undo-tree-id3375 . -73) (undo-tree-id3377 . -1) (undo-tree-id3379 . -1) (undo-tree-id3381 . -1) (undo-tree-id3383 . -1) (undo-tree-id3385 . -1) (undo-tree-id3387 . -1) (undo-tree-id3389 . -1) (undo-tree-id3391 . -1) (undo-tree-id3393 . -1) (undo-tree-id3395 . -1) (undo-tree-id3397 . -608) (t 26363 56840 622318 655000)) ((26271 . 26879) (t 26363 56848 451227 780000)) (26363 56848 446555 410000) 0 nil])
+nil
+nil
+nil
+([nil nil ((#("
+\\emph{Comparative analysis of full-scale and simulation approaches.}
+
+\\emph{Methodology for Comparing Physical and Simulation Models.}
+
+To conduct a comparative analysis of physical and simulation models, the
+following methodological steps were developed and applied:
+
+Selection of Representative Attack Scenarios: Typical attack scenarios
+were chosen, such as jamming, resource exhaustion attacks, replay
+attacks, and spoofing. These scenarios cover a wide range of threats to
+wireless sensor networks (WSNs).
+
+" 0 1 (fontified t) 1 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t) 7 68 (face (italic) fontified t) 68 71 (fontified t) 71 76 (face font-lock-keyword-face fontified t) 76 77 (fontified t) 77 134 (face (italic) fontified t) 134 136 (fontified t) 136 455 (fontified t) 455 479 (fontified t) 479 512 (fontified t) 512 513 (fontified t)) . 26743) (undo-tree-id3452 . -512) (undo-tree-id3453 . -512) (undo-tree-id3454 . -512) (undo-tree-id3455 . 1) (undo-tree-id3456 . -71) (undo-tree-id3457 . -1) (undo-tree-id3458 . -1) (undo-tree-id3459 . -1) (undo-tree-id3460 . -1) (undo-tree-id3461 . -1) (undo-tree-id3462 . -1) (undo-tree-id3463 . -1) (undo-tree-id3464 . -1) (undo-tree-id3465 . -1) (undo-tree-id3466 . -1) (undo-tree-id3467 . -1) (undo-tree-id3468 . -1) (undo-tree-id3469 . -1) (undo-tree-id3470 . -1) (undo-tree-id3471 . -1) (undo-tree-id3472 . -1) (undo-tree-id3473 . -1) (undo-tree-id3474 . -1) (undo-tree-id3475 . -1) (undo-tree-id3476 . -1) (undo-tree-id3477 . -513) (t 26363 56891 271731 133000)) nil (26363 56903 211213 56000) 0 nil])
+nil
+([nil nil ((32464 . 32465) (t 26363 56903 216592 699000) 32444) nil (26363 56918 882899 471000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 32464 . 32465) (#("
+" 0 1 (fontified nil)) . -32977) (32464 . 32978) 32444) nil (26363 56918 882898 489000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 32465) (undo-tree-id3478 . -1)) nil (26363 56918 882895 544000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 33840) (undo-tree-id3482 . -1) (t 26363 56918 890411 117000)) nil (26363 56926 829212 316000) 0 nil])
+([nil current ((#("\\newpage
+" 0 8 (face font-lock-warning-face fontified t) 8 9 (fontified t)) . 33840) (undo-tree-id3479 . -8) (undo-tree-id3480 . -8) (undo-tree-id3481 . -9)) nil (26363 56926 829209 0) 0 nil])
+nil

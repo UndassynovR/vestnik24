@@ -220,11 +220,11 @@ consequences.
 \newpage
 
 \begin{longtable}[H]{|@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0723}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1910}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3046}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2203}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2117}}@{}|}
+  >{\centering\arraybackslash}p{0.3cm}|
+  >{\raggedright\arraybackslash}p{1.3cm}|
+  >{\raggedright\arraybackslash}p{0.52\textwidth}|
+  >{\raggedright\arraybackslash}p{0.1\textwidth}|
+  >{\raggedright\arraybackslash}p{0.2\textwidth}@{}|}
 \caption*{Table 1 - Most common attacks on WSN} \\
 \hline
 № & Attack name & Mechanism of action & Consequences & Mitigation Strategies \\
@@ -243,7 +243,7 @@ routing mechanisms to redirect or block data flows. Attackers exploit
 vulnerabilities across various layers of the network protocol stack.
 Examples include black hole attacks, where malicious nodes discard
 received data, and wormhole attacks, where attackers create shortcuts
-between remote nodes. & Data loss. Network segmentation. Resource
+between remote nodes. & Data loss. Network segment-ation. Resource
 exhaustion. & Secure routing protocols. Anomaly detection. Cooperative
 verification. Hop count verification. Location verification. \\
 \hline
@@ -264,7 +264,7 @@ goal is to inject false information or disrupt network communication.
 These attacks can undermine data accuracy, routing efficiency, and
 overall network functionality. & Data integrity
 
-Routing manipulation
+Routing mani-pulation
 
 Resource exhaustion & Behavioral analysis
 
@@ -276,12 +276,12 @@ Reputation mechanisms
 
 Cryptographic methods \\
 \hline
-4 & Eavesdropping {[}13{]} & In an eavesdropping attack, an attacker is
+4 & Eaves-dropping {[}13{]} & In an eavesdropping attack, an attacker is
 placed within the range of two or more sensor nodes using the
 transmission of unencrypted or weakly encrypted data. The attacker
 passively intercepts data packets without changing the functionality of
 the network. Eavesdropping can occur at various levels of the
-communications stack, from the physical layer to the application layer. & - Data confidentiality
+communications stack, from the physical layer to the application layer. & - Data confidenti-ality
 
 - Data integrity
 
@@ -318,42 +318,9 @@ Energy consumption management
 
 Collaborative defense \\
 \hline
+\caption*{\normalfont \emph{Empirical models and attack detection algorithms.}} \\
+\caption*{\normalfont \emph{Description of the empirical models used for attack detection}} \\
 \end{longtable}
-
-
-\emph{Empirical models and attack detection algorithms.}
-
-\emph{Description of the empirical models used for attack detection}
-\begin{multicols}{2}
-
-Natural models for detecting attacks in WSNs involve physically
-implemented networks where nodes and sensors are deployed in real
-operational conditions. These models utilize real devices such as
-microcontrollers, radio modules, and sensors that interact within
-realistic environmental settings. The primary advantage of natural
-models lies in their ability to accurately reproduce real network
-operation scenarios, including potential external interferences and
-physical attacks.
-
-Research on natural models for attack detection in wireless sensor
-networks includes functional and quantitative characteristics. Attack
-detection methods are categorized into signature-based, anomaly-based,
-and hybrid approaches, covering attacks on availability,
-confidentiality, integrity, and authentication. Hardware and network
-characteristics of sensors and nodes, data processing algorithms, and
-monitoring systems play a crucial role. Quantitative metrics include
-detection accuracy, detection time, energy consumption, throughput,
-delay, and scalability.
-
-For instance, platforms like TinyOS and Contiki are used to test
-intrusion detection systems, achieving 95\% accuracy with low false
-positive rates. Machine learning-based systems such as K-means and SVM
-can achieve classification accuracies up to 98\%. Distributed detection
-methods include autonomous algorithms that depend on node density and
-algorithm complexity {[}15, 16{]}. Table 2 presents empirical
-experiments on attack detection and their outcomes.
-\end{multicols}
-
 
 \begin{longtable}[H]{|@{}
   >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0923}}|
@@ -399,8 +366,6 @@ commands. \\
 \hline
 \end{longtable}
 
-
-
 \begin{longtable}{|p{7cm}|p{8cm}|}
   \caption*{Table 3 - Evaluation of the effectiveness of full-scale models and algorithms}\\
   \hline
@@ -412,10 +377,33 @@ commands. \\
   The ability of the model and algorithms to adapt to changes in the environment and new types of attacks. Natural models have demonstrated good adaptability when new nodes are added or when the network topology changes. \\ \hline
 \end{longtable}
 
-
-  
-
 \begin{multicols}{2}
+Natural models for detecting attacks in WSNs involve physically
+implemented networks where nodes and sensors are deployed in real
+operational conditions. These models utilize real devices such as
+microcontrollers, radio modules, and sensors that interact within
+realistic environmental settings. The primary advantage of natural
+models lies in their ability to accurately reproduce real network
+operation scenarios, including potential external interferences and
+physical attacks.
+
+Research on natural models for attack detection in wireless sensor
+networks includes functional and quantitative characteristics. Attack
+detection methods are categorized into signature-based, anomaly-based,
+and hybrid approaches, covering attacks on availability,
+confidentiality, integrity, and authentication. Hardware and network
+characteristics of sensors and nodes, data processing algorithms, and
+monitoring systems play a crucial role. Quantitative metrics include
+detection accuracy, detection time, energy consumption, throughput,
+delay, and scalability.
+
+For instance, platforms like TinyOS and Contiki are used to test
+intrusion detection systems, achieving 95\% accuracy with low false
+positive rates. Machine learning-based systems such as K-means and SVM
+can achieve classification accuracies up to 98\%. Distributed detection
+methods include autonomous algorithms that depend on node density and
+algorithm complexity {[}15, 16{]}. Table 2 presents empirical
+experiments on attack detection and their outcomes.
 
 The effectiveness of full-scale models and attack detection algorithms is assessed based on several key parameters (Table 3) 
 
@@ -450,15 +438,51 @@ All simulation models are built using diverse mathematical and
 computational methods. These models facilitate testing and analyzing
 network behavior under attack, evaluating detection accuracy, and
 justifying the realism of simulated conditions (Table-4).
+
+Model adequacy assessment involves comparing simulation results with
+real-world data, including topology parameters, traffic intensity, and
+attack frequency. A model is considered adequate if its behavior does
+not statistically differ from real data, often verified using tests like
+the Kolmogorov-Smirnov test. An example application of such models could
+include testing intrusion detection systems on the TinyOS platform,
+achieving a detection accuracy of 95\% with a false positive rate of
+less than 2\%, utilizing a hybrid approach to enhance accuracy and
+minimize energy consumption.
+
+\emph{Methods and tools for simulating attacks on wireless sensor
+networks}
+
+For implementing simulation models, a number of modern tools and methods
+were utilized to ensure high accuracy and scalability of the research.
+The key tools include:
+
+1. NS-3 (Network Simulator 3): A powerful tool for network simulation
+that allows reproduction of a wide range of protocols and attack
+scenarios on WLANs. NS-3 provides detailed modeling of node behavior and
+interactions between nodes.
+
+2. MATLAB/Simulink: Used for mathematical modeling and analysis of
+attack detection algorithms. MATLAB facilitates the development and
+testing of complex algorithms, as well as the analysis of data obtained
+from simulations.
+
+3. Omnet++: A tool for modeling and simulating networks, offering high
+flexibility in network parameter configuration and attack scenarios.
+Omnet++ supports extensibility, enabling integration of custom models
+and algorithms.
+
+These tools collectively support comprehensive modeling, simulation, and
+analysis of wireless sensor networks (WSNs), enabling researchers to
+evaluate the performance and effectiveness of various security
+mechanisms against different types of attacks.
+
 \end{multicols}
 
-
-
 \begin{longtable}[H]{|@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0752}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1812}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3248}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4188}}@{}|}
+  >{\centering\arraybackslash}p{0.5cm}|
+  >{\raggedright\arraybackslash}p{1.5cm}|
+  >{\raggedright\arraybackslash}p{0.4\textwidth}|
+  >{\raggedright\arraybackslash}p{0.4\textwidth}@{}|}
 \caption*{Table 4 - Composition and structure of models}\\
 \hline
 № & Model & Composition and structure of models & Mathematical description \\
@@ -530,44 +554,6 @@ where
 \end{longtable}
 
 \begin{multicols}{2}
-
-Model adequacy assessment involves comparing simulation results with
-real-world data, including topology parameters, traffic intensity, and
-attack frequency. A model is considered adequate if its behavior does
-not statistically differ from real data, often verified using tests like
-the Kolmogorov-Smirnov test. An example application of such models could
-include testing intrusion detection systems on the TinyOS platform,
-achieving a detection accuracy of 95\% with a false positive rate of
-less than 2\%, utilizing a hybrid approach to enhance accuracy and
-minimize energy consumption.
-
-\emph{Methods and tools for simulating attacks on wireless sensor
-networks}
-
-For implementing simulation models, a number of modern tools and methods
-were utilized to ensure high accuracy and scalability of the research.
-The key tools include:
-
-1. NS-3 (Network Simulator 3): A powerful tool for network simulation
-that allows reproduction of a wide range of protocols and attack
-scenarios on WLANs. NS-3 provides detailed modeling of node behavior and
-interactions between nodes.
-
-2. MATLAB/Simulink: Used for mathematical modeling and analysis of
-attack detection algorithms. MATLAB facilitates the development and
-testing of complex algorithms, as well as the analysis of data obtained
-from simulations.
-
-3. Omnet++: A tool for modeling and simulating networks, offering high
-flexibility in network parameter configuration and attack scenarios.
-Omnet++ supports extensibility, enabling integration of custom models
-and algorithms.
-
-These tools collectively support comprehensive modeling, simulation, and
-analysis of wireless sensor networks (WSNs), enabling researchers to
-evaluate the performance and effectiveness of various security
-mechanisms against different types of attacks.
-
 {\bfseries Results and discussion.} Results of simulation experiments and
 their analysis. Within the
 
@@ -576,15 +562,21 @@ on WLANs were simulated, including jamming attacks, resource exhaustion
 attacks, replay attacks, and spoofing attacks. The results of the
 experiments enabled a detailed analysis of the effectiveness of the
 proposed models and attack detection algorithms (Table 5).
+
+Analysis of the results showed that the developed simulation models and
+algorithms are highly effective in detecting attacks on WSNs. The
+experiments conducted allowed for a detailed study of network behavior
+under various types of attacks and proposed algorithms that demonstrate
+high accuracy and promptness in detection. The results confirm the
+feasibility of using simulation models in the research and development
+of protection systems for wireless sensor networks.
 \end{multicols}
 
-
-
 \begin{longtable}[H]{|@{}
-  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0475}}|%
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1443}}|%
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5248}}|%
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2835}}@{}|}
+  >{\centering\arraybackslash}p{0.4cm}|%
+  >{\raggedright\arraybackslash}p{1.3cm}|%
+  >{\raggedright\arraybackslash}p{0.55\textwidth}|%
+  >{\raggedright\arraybackslash}p{0.3\textwidth}@{}|}
 \caption*{Table 5 - Composition and structure of models}\\
 \hline
 № & Attack & Description of the experiment & Results \\
@@ -602,7 +594,7 @@ proposed models and attack detection algorithms (Table 5).
 \endlastfoot
 1. & jamming attack & An experiment to simulate a jamming attack was conducted using a powerful transmitter in Omnet++, a platform for modeling network systems. The experiment involved creating a wireless sensor network of 100 nodes with a random topology and a transmission radius of 50 meters. The experiment consisted of three stages: network initialization without attack, introduction of the jamming transmitter, and data collection. The collected data included received signal strength indicator (RSSI), packet loss, and transmission delay, amounting to approximately 10,000 records. Data processing was performed using statistical methods and machine learning algorithms such as K-means and SVM. The data processing methodology included data filtering, analysis of signal strength levels, and anomaly classification {[}17, 18{]}. & The results showed that the jamming attack significantly reduces communication quality and increases latency. Simulation algorithms were able to detect the attack with 94\% accuracy by analyzing signal strength and packet loss rates. The experiment demonstrated the possibility of using this technique in real wireless sensor networks. \\
 \hline
-2. & resource exhaustion attack & A simulation experiment for a resource exhaustion attack was conducted using the NS-3 network simulator. The experimental setup included a wireless sensor network comprising 50 nodes, each equipped with a limited battery. The experiment was planned by creating the network, setting battery parameters, and launching a series of attacks involving sending a large number of false requests to the nodes. During the experiment, data on energy consumption, node response time, and failure rate were collected. Approximately 5000 data records were gathered, covering all stages of the attack. Data processing was carried out using an energy consumption monitoring methodology developed and described in {[}19{]}. This methodology included data filtering, analysis of energy consumption time series, and detection of deviations from normal behavior. & Algorithms based on this methodology were able to identify abnormal behavior with an accuracy of 89\% and an average attack detection time of 2.3 seconds. The effectiveness of the methodology was confirmed by its high accuracy and rapid detection of attacks. The experiment demonstrated that the proposed methodology is effective for application in real-world conditions of wireless sensor networks. \\
+2. & resource exhau-stion attack & A simulation experiment for a resource exhaustion attack was conducted using the NS-3 network simulator. The experimental setup included a wireless sensor network comprising 50 nodes, each equipped with a limited battery. The experiment was planned by creating the network, setting battery parameters, and launching a series of attacks involving sending a large number of false requests to the nodes. During the experiment, data on energy consumption, node response time, and failure rate were collected. Approximately 5000 data records were gathered, covering all stages of the attack. Data processing was carried out using an energy consumption monitoring methodology developed and described in {[}19{]}. This methodology included data filtering, analysis of energy consumption time series, and detection of deviations from normal behavior. & Algorithms based on this methodology were able to identify abnormal behavior with an accuracy of 89\% and an average attack detection time of 2.3 seconds. The effectiveness of the methodology was confirmed by its high accuracy and rapid detection of attacks. The experiment demonstrated that the proposed methodology is effective for application in real-world conditions of wireless sensor networks. \\
 \hline
 3. & replay attack & Experimental studies aimed at examining replay attacks were conducted using a model created in the Simulink environment. In this experiment, the model simulated the repeated transmission of intercepted messages, mimicking a scenario where an attacker could re-execute previously executed commands. The experimental setup consisted of a network model including several nodes and data transmission mechanisms configured to implement replay attacks. The experiment planning involved configuring model parameters, defining attack characteristics, and selecting detection methods. During the experiment, data related to message timestamps, as well as parameters of authentication and integrity verification methods, were collected. The total amount of gathered data was about 2,000 records, covering various attack scenarios and the system's responses to them. The data were processed using algorithms based on analyzing message timestamps and authentication methods. The data processing methodology included filtering out repeated messages and verifying their compliance with expected time intervals {[}19{]}. & The experimental results showed that algorithms based on timestamps and authentication methods successfully detected replayed messages with an accuracy of 97\%, significantly reducing the risk of executing false commands and enhancing the effectiveness of the replay attack defense system. \\
 \hline
@@ -613,15 +605,6 @@ proposed models and attack detection algorithms (Table 5).
 
 
 \begin{multicols}{2}
-
-Analysis of the results showed that the developed simulation models and
-algorithms are highly effective in detecting attacks on WSNs. The
-experiments conducted allowed for a detailed study of network behavior
-under various types of attacks and proposed algorithms that demonstrate
-high accuracy and promptness in detection. The results confirm the
-feasibility of using simulation models in the research and development
-of protection systems for wireless sensor networks.
-
 \emph{Comparative analysis of full-scale and simulation approaches.}
 
 \emph{Methodology for Comparing Physical and Simulation Models.}
@@ -633,6 +616,7 @@ Selection of Representative Attack Scenarios: Typical attack scenarios
 were chosen, such as jamming, resource exhaustion attacks, replay
 attacks, and spoofing. These scenarios cover a wide range of threats to
 wireless sensor networks (WSNs).
+
 
 Construction of Physical Models: The implementation of physical models
 involved deploying sensor nodes in real operational conditions. Various
@@ -651,8 +635,6 @@ conducted based on several criteria, including attack detection
 accuracy, response time, resource consumption, and adaptability to
 changes in network conditions (Table 6).
 \end{multicols}
-
-\newpage
 
 \begin{longtable}[H]{|@{}
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.5009}}|
