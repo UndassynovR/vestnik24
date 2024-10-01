@@ -220,7 +220,7 @@ consequences.
 \newpage
 
 \begin{longtable}[H]{|@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0723}}|
+  >{\centering\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.0723}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.1910}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.3046}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 8\tabcolsep) * \real{0.2203}}|
@@ -247,7 +247,7 @@ between remote nodes. & Data loss. Network segmentation. Resource
 exhaustion. & Secure routing protocols. Anomaly detection. Cooperative
 verification. Hop count verification. Location verification. \\
 \hline
-& The man in the middle attack {[}10{]} & Man-in-the-middle attack
+2 & The man in the middle attack {[}10{]} & Man-in-the-middle attack
 involves an attacker secretly intercepting and relaying messages between
 two communicating nodes without their knowledge. The attacker can
 manipulate the contents of the messages or simply eavesdrop on them.
@@ -258,7 +258,7 @@ Unauthorized access leading to breach of confidentiality. & Encryption.
 Public Key Infrastructure (PKI). Certificate revocation. Timestamps and
 one-time passwords. Intrusion detection systems. \\
 \hline
-& Sibyl {[}12{]} & Sybil attack involves creating a network of malicious
+3 & Sibyl {[}12{]} & Sybil attack involves creating a network of malicious
 nodes that impersonate legitimate nodes. The attacker’s
 goal is to inject false information or disrupt network communication.
 These attacks can undermine data accuracy, routing efficiency, and
@@ -276,7 +276,7 @@ Reputation mechanisms
 
 Cryptographic methods \\
 \hline
-& Eavesdropping {[}13{]} & In an eavesdropping attack, an attacker is
+4 & Eavesdropping {[}13{]} & In an eavesdropping attack, an attacker is
 placed within the range of two or more sensor nodes using the
 transmission of unencrypted or weakly encrypted data. The attacker
 passively intercepts data packets without changing the functionality of
@@ -295,7 +295,7 @@ communications stack, from the physical layer to the application layer. & - Data
 
 - Secure protocols \\
 \hline
-& Denial of Service (DoS)
+5& Denial of Service (DoS)
 
 {[}14,15{]} & A DoS attack exploits vulnerabilities in WSNs to reduce
 their performance or even disable them. Attackers employ various methods
@@ -356,7 +356,7 @@ experiments on attack detection and their outcomes.
 
 
 \begin{longtable}[H]{|@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0923}}|
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0923}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1915}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3709}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3453}}@{}|}
@@ -401,18 +401,18 @@ commands. \\
 
 
 
-
-
 \begin{longtable}{|p{7cm}|p{8cm}|}
   \caption*{Table 3 - Evaluation of the effectiveness of full-scale models and algorithms}\\
   \hline
-  \textbf{accuracy} & \textbf{detection time} \\ \hline
+  \makecell{\textbf{accuracy}} & \makecell{\textbf{detection time}} \\ \hline
   The ability of the model to correctly identify attacks and minimize false positives was evaluated in the conducted experiments. Accuracy ranged from 87\% to 95\%, depending on the type of attack and the algorithm applied. & 
   The time required to identify an attack after its onset. Natural models demonstrated the ability to detect attacks in real time, which is critical for preventing damage. \\ \hline
-  \textbf{resource consumption} & \textbf{adaptability} \\ \hline
+  \makecell{\textbf{resource consumption}} & \makecell{\textbf{adaptability}} \\ \hline
   The volume of computational and energy resources required for algorithm operation. Efficient algorithms minimize resource consumption, which is particularly crucial for sensor nodes with limited batteries. & 
   The ability of the model and algorithms to adapt to changes in the environment and new types of attacks. Natural models have demonstrated good adaptability when new nodes are added or when the network topology changes. \\ \hline
-  \end{longtable}
+\end{longtable}
+
+
   
 
 \begin{multicols}{2}
@@ -454,10 +454,8 @@ justifying the realism of simulated conditions (Table-4).
 
 
 
-
-
 \begin{longtable}[H]{|@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0752}}|
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0752}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1812}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.3248}}|
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.4188}}@{}|}
@@ -483,7 +481,7 @@ including the distance between nodes, node density, and network type
 (e.g., star, tree, mesh network). & \emph{G}(\emph{V},\emph{E})=\{(\emph{v\textsubscript{i}}\textsubscript{\hspace{0pt}},\emph{v\textsubscript{j}}\hspace{0pt})
 ∣ \emph{v\textsubscript{i}}\hspace{0pt},\emph{v\textsubscript{j}}\hspace{0pt}∈\emph{V}, \emph{e\textsubscript{ij}}\hspace{0pt}∈\emph{E}\} (1)
 
-Где
+where
 
 𝑉=\{𝑣\textsubscript{1},𝑣\textsubscript{2},\ldots,𝑣\textsubscript{𝑛}\} - many nodes,
 
@@ -519,7 +517,7 @@ where
 
 Machine learning algorithms: K-means: (5)
 
-Гдеде
+where
 
 𝐽 - loss function,
 
@@ -581,111 +579,38 @@ proposed models and attack detection algorithms (Table 5).
 \end{multicols}
 
 
+
 \begin{longtable}[H]{|@{}
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0475}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1443}}|
-  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5248}}|
+  >{\centering\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.0475}}|%
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.1443}}|%
+  >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.5248}}|%
   >{\raggedright\arraybackslash}p{(\columnwidth - 6\tabcolsep) * \real{0.2835}}@{}|}
 \caption*{Table 5 - Composition and structure of models}\\
 \hline
-
 № & Attack & Description of the experiment & Results \\
 \hline
 \endfirsthead
-\hline
 
+\hline
 № & Attack & Description of the experiment & Results \\
 \hline
 \endhead
-\hline
 
+\hline
 \endfoot
 
 \endlastfoot
-1. & jamming attack & An experiment to simulate a jamming attack was
-conducted using a powerful transmitter in Omnet++, a platform for
-modeling network systems. The experiment involved creating a wireless
-sensor network of 100 nodes with a random topology and a transmission
-radius of 50 meters. The experiment consisted of three stages: network
-initialization without attack, introduction of the jamming transmitter,
-and data collection. The collected data included received signal
-strength indicator (RSSI), packet loss, and transmission delay,
-amounting to approximately 10,000 records. Data processing was performed
-using statistical methods and machine learning algorithms such as
-K-means and SVM. The data processing methodology included data
-filtering, analysis of signal strength levels, and anomaly
-classification {[}17, 18{]}. & The results showed that the jamming
-attack significantly reduces communication quality and increases
-latency. Simulation algorithms were able to detect the attack with 94\%
-accuracy by analyzing signal strength and packet loss rates. The
-experiment demonstrated the possibility of using this technique in real
-wireless sensor networks. \\
+1. & jamming attack & An experiment to simulate a jamming attack was conducted using a powerful transmitter in Omnet++, a platform for modeling network systems. The experiment involved creating a wireless sensor network of 100 nodes with a random topology and a transmission radius of 50 meters. The experiment consisted of three stages: network initialization without attack, introduction of the jamming transmitter, and data collection. The collected data included received signal strength indicator (RSSI), packet loss, and transmission delay, amounting to approximately 10,000 records. Data processing was performed using statistical methods and machine learning algorithms such as K-means and SVM. The data processing methodology included data filtering, analysis of signal strength levels, and anomaly classification {[}17, 18{]}. & The results showed that the jamming attack significantly reduces communication quality and increases latency. Simulation algorithms were able to detect the attack with 94\% accuracy by analyzing signal strength and packet loss rates. The experiment demonstrated the possibility of using this technique in real wireless sensor networks. \\
 \hline
-2. & resource exhaustion attack & A simulation experiment for a resource
-exhaustion attack was conducted using the NS-3 network simulator. The
-experimental setup included a wireless sensor network comprising 50
-nodes, each equipped with a limited battery. The experiment was planned
-by creating the network, setting battery parameters, and launching a
-series of attacks involving sending a large number of false requests to
-the nodes. During the experiment, data on energy consumption, node
-response time, and failure rate were collected. Approximately 5000 data
-records were gathered, covering all stages of the attack. Data
-processing was carried out using an energy consumption monitoring
-methodology developed and described in {[}19{]}. This methodology
-included data filtering, analysis of energy consumption time series, and
-detection of deviations from normal behavior. & Algorithms based on this
-methodology were able to identify abnormal behavior with an accuracy of
-89\% and an average attack detection time of 2.3 seconds. The
-effectiveness of the methodology was confirmed by its high accuracy and
-rapid detection of attacks. The experiment demonstrated that the
-proposed methodology is effective for application in real-world
-conditions of wireless sensor networks. \\
+2. & resource exhaustion attack & A simulation experiment for a resource exhaustion attack was conducted using the NS-3 network simulator. The experimental setup included a wireless sensor network comprising 50 nodes, each equipped with a limited battery. The experiment was planned by creating the network, setting battery parameters, and launching a series of attacks involving sending a large number of false requests to the nodes. During the experiment, data on energy consumption, node response time, and failure rate were collected. Approximately 5000 data records were gathered, covering all stages of the attack. Data processing was carried out using an energy consumption monitoring methodology developed and described in {[}19{]}. This methodology included data filtering, analysis of energy consumption time series, and detection of deviations from normal behavior. & Algorithms based on this methodology were able to identify abnormal behavior with an accuracy of 89\% and an average attack detection time of 2.3 seconds. The effectiveness of the methodology was confirmed by its high accuracy and rapid detection of attacks. The experiment demonstrated that the proposed methodology is effective for application in real-world conditions of wireless sensor networks. \\
 \hline
-3. & replay attack & Experimental studies aimed at examining replay
-attacks were conducted using a model created in the Simulink
-environment. In this experiment, the model simulated the repeated
-transmission of intercepted messages, mimicking a scenario where an
-attacker could re-execute previously executed commands. The experimental
-setup consisted of a network model including several nodes and data
-transmission mechanisms configured to implement replay attacks. The
-experiment planning involved configuring model parameters, defining
-attack characteristics, and selecting detection methods.
-
-During the experiment, data related to message timestamps, as well as
-parameters of authentication and integrity verification methods, were
-collected. The total amount of gathered data was about 2,000 records,
-covering various attack scenarios and the system\textquotesingle s
-responses to them. The data were processed using algorithms based on
-analyzing message timestamps and authentication methods. The data
-processing methodology included filtering out repeated messages and
-verifying their compliance with expected time intervals {[}19{]}. & The
-experimental results showed that algorithms based on timestamps and
-authentication methods successfully detected replayed messages with an
-accuracy of 97\%, significantly reducing the risk of executing false
-commands and enhancing the effectiveness of the replay attack defense
-system. \\
+3. & replay attack & Experimental studies aimed at examining replay attacks were conducted using a model created in the Simulink environment. In this experiment, the model simulated the repeated transmission of intercepted messages, mimicking a scenario where an attacker could re-execute previously executed commands. The experimental setup consisted of a network model including several nodes and data transmission mechanisms configured to implement replay attacks. The experiment planning involved configuring model parameters, defining attack characteristics, and selecting detection methods. During the experiment, data related to message timestamps, as well as parameters of authentication and integrity verification methods, were collected. The total amount of gathered data was about 2,000 records, covering various attack scenarios and the system's responses to them. The data were processed using algorithms based on analyzing message timestamps and authentication methods. The data processing methodology included filtering out repeated messages and verifying their compliance with expected time intervals {[}19{]}. & The experimental results showed that algorithms based on timestamps and authentication methods successfully detected replayed messages with an accuracy of 97\%, significantly reducing the risk of executing false commands and enhancing the effectiveness of the replay attack defense system. \\
 \hline
-4. & spoofing & Experimental studies focused on spoofing attacks were
-conducted using Simulink software. The experiment was designed by
-creating scenarios in which an attacker sent false messages, pretending
-to be legitimate network nodes, with the aim of infiltrating the system.
-Parameters of the transmitted messages, such as node identifier, message
-content, and timestamp, were recorded for data collection. The total
-amount of data collected was approximately 3,000 records, covering
-various attack scenarios and network responses. For data analysis,
-algorithms for node identity verification and behavior analysis
-developed by the experiment\textquotesingle s authors were applied. The
-data processing methodology included the identification of anomalous
-nodes, comparison of their behavior with samples of normal functioning,
-and detection of deviations {[}20{]}. & As a result of the experiment,
-the model was able to effectively detect spoofing attacks with 92\%
-accuracy. The system\textquotesingle s response time to detect the
-attack was 1.8 seconds, demonstrating the high reactivity and efficiency
-of the developed algorithms. The obtained results confirm the
-effectiveness of the proposed spoofing attack protection methodology and
-its readiness for practical application in real network systems. \\
+4. & spoofing & Experimental studies focused on spoofing attacks were conducted using Simulink software. The experiment was designed by creating scenarios in which an attacker sent false messages, pretending to be legitimate network nodes, with the aim of infiltrating the system. Parameters of the transmitted messages, such as node identifier, message content, and timestamp, were recorded for data collection. The total amount of data collected was approximately 3,000 records, covering various attack scenarios and network responses. For data analysis, algorithms for node identity verification and behavior analysis developed by the experiment's authors were applied. The data processing methodology included the identification of anomalous nodes, comparison of their behavior with samples of normal functioning, and detection of deviations {[}20{]}. & As a result of the experiment, the model was able to effectively detect spoofing attacks with 92\% accuracy. The system's response time to detect the attack was 1.8 seconds, demonstrating the high reactivity and efficiency of the developed algorithms. The obtained results confirm the effectiveness of the proposed spoofing attack protection methodology and its readiness for practical application in real network systems. \\
 \hline
 \end{longtable}
+
+
 
 \begin{multicols}{2}
 
@@ -734,13 +659,12 @@ changes in network conditions (Table 6).
   >{\raggedright\arraybackslash}p{(\columnwidth - 2\tabcolsep) * \real{0.4991}}@{}|}
 \caption*{Table 6 - Composition and structure of models}\\
 \hline
-
-{\bfseries accuracy} & {\bfseries detection time} \\
+\makecell{\bfseries accuracy} & \makecell{\bfseries detection time} \\
 \hline
 \endfirsthead
 \hline
 \toprule
-{\bfseries accuracy} & {\bfseries detection time} \\
+\makecell{\bfseries accuracy} & \makecell{\bfseries detection time} \\
 \hline
 \endhead
 \hline
@@ -754,7 +678,7 @@ correctly detected attacks to the total number of attacks. & The time
 required to identify an attack after it has begun. Fast detection is
 critical to minimizing the damage from attacks. \\
 \hline
-{\bfseries resource consumption} & {\bfseries adaptability} \\
+\makecell{\bfseries resource consumption} & \makecell{\bfseries adaptability} \\
 \hline
 The amount of computing and energy resources required to run detection
 algorithms. This criterion is especially important for WSN nodes with

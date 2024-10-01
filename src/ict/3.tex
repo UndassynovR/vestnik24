@@ -7,7 +7,7 @@
 \begin{center}
 {\bfseries \textsuperscript{1}А.Ж. Танирбергенов, \textsuperscript{1}С.К.
 Серикбаева\envelope, \textsuperscript{2}Б.У. Бөбеева,
-\textsuperscript{3}Ш.Е. Ахметжанова, \textsuperscript{3}А.Д. Абдувалова}
+\textsuperscript{3}Ш.Е. Ахметжанова,\\ \textsuperscript{3}А.Д. Абдувалова}
 
 \textsuperscript{1}Л.Н.Гумилев атындағы Еуразия ұлттық университеті,
 Астана қ., Қазақстан,
@@ -48,7 +48,7 @@ Framework, Wit.ai, IBM Watson Assistant және Amazon Lex, пайдалану�
 
 {\bfseries \textsuperscript{1}А.Ж. Танирбергенов, \textsuperscript{1}С.К.
 Серикбаева\envelope, \textsuperscript{2}Б.У. Бөбеева,
-\textsuperscript{3}Ш.Е. Ахметжанова,\textsuperscript{3}А.Д. Абдувалова}
+\textsuperscript{3}Ш.Е. Ахметжанова,\\\textsuperscript{3}А.Д. Абдувалова}
 
 \textsuperscript{1}Евразийский национальный университет имени
 Л.Н.Гумилева, Астана, Казахстан \textsuperscript{2}Центрально-Азиатский
@@ -84,12 +84,12 @@ NLP основана на использовании алгоритмов обр
 \begin{center}
 {\bfseries \textsuperscript{1}А. Tanirbergenov, \textsuperscript{1}S.
 Serikbayeva\envelope, \textsuperscript{2}B. Bobeeva,
-\textsuperscript{3}Sh. Akhmetzhanova,{3}A. Abduvalova}
+\textsuperscript{3}Sh. Akhmetzhanova,\textsuperscript{3}A. Abduvalova}
 
 \textsuperscript{1}L.N. Gumilyov Eurasian National University,Department
 of Information Systems, Astana, Kazakhstan
 
-Central Asian Innovation University, Shymkent, Kazakhstan
+\textsuperscript{2}Central Asian Innovation University, Shymkent, Kazakhstan
 
 \textsuperscript{3}Taraz Regional University named after M.KH.Dulaty,
 Taraz, Kazakhstan
@@ -620,13 +620,8 @@ OSF консорциумында әзірленген бұл пакет Xt Intri
 \end{figure}
 
 
-
-\begin{multicols}{2}
 Табиғи тілді өңдеу коды:
-\end{multicols}
-
 \begin{lstlisting}
-
   doc = nlp(transcript)
   lemmatized_stemmed_text = [stemmer.stem(token.lemma_.lower()) for token in doc if token.is_alpha and not token.is_stop]
   

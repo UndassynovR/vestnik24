@@ -278,9 +278,9 @@ SQLite, с точки зрения производительности,
 решением.
 \end{multicols}
 
-\begin{figure}[H]
+\begin{figure}[]
 	\centering
-	\includegraphics[width=0.7\textwidth]{assets/151}
+	\includegraphics[width=0.8\textwidth]{assets/151}
 	\caption*{\bfseries Рис. 1 - Архитектура Angular}
 \end{figure}
 
@@ -323,15 +323,6 @@ SQLite {[}19{]}.
 данных содержит данные о врачах и пациентах, организуя информацию в
 нескольких таблицах. База данных содержит на таблицы, разделенных на три
 основные группы (Доктор, Пациент, Запись).
-\end{multicols}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.9\textwidth]{assets/152}
-	\caption*{\bfseries Рис. 2 -- ERD Диаграмма БД МИС системы}
-\end{figure}
-
-\begin{multicols}{2}
 
 Профиль (Profile): Содержит основную информацию о пользователе, включая
 имя, фамилию, адрес электронной почты, пароль, секретный вопрос и ответ
@@ -357,16 +348,25 @@ SQLite {[}19{]}.
 приложениям:
 \end{multicols}
 
-\begin{figure}[H]
+
+\begin{figure}[]
 	\centering
-	\includegraphics[width=0.3\textwidth]{assets/153}
-	\caption*{\bfseries Рис. 3 - Структура бэкенда системы}
+	\includegraphics[width=0.7\textwidth]{assets/152}
+	\caption*{\bfseries Рис. 2 -- ERD Диаграмма БД МИС системы}
 \end{figure}
 
 \begin{multicols}{2}
 
-Каждый модуль отвечает со следующие функции:
 
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.25\textwidth]{assets/153}
+	\caption*{\bfseries Рис. 3 - Структура бэкенда системы}
+\end{figure}
+
+
+
+Каждый модуль отвечает со следующие функции:
 \begin{enumerate}
 \def\labelenumi{\arabic{enumi}.}
 \item
@@ -383,6 +383,7 @@ SQLite {[}19{]}.
   конфигурациями.
 \end{enumerate}
 
+
 В проекте запрос поступает к диспетчеру URL-адресов в `urls.py`, который
 направляет его к соответствующему представлению в `views.py`.
 Представление обрабатывает запрос, проверяет данные, вызывает
@@ -391,15 +392,13 @@ SQLite {[}19{]}.
 данных используются сериализаторы из `serializers.py`. После обработки
 представление возвращает HTTP-ответ, будь то HTML-шаблон, JSON для API
 или перенаправление, указанные на Рисунке 4.
-\end{multicols}
+
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.2\textwidth]{assets/154}
+	\includegraphics[width=0.15\textwidth]{assets/154}
 	\caption*{\bfseries Рис. 4 - Структура программы}
 \end{figure}
-
-\begin{multicols}{2}
 
 МИС система обеспечивает доступ к медицинским услугам, позволяя
 пользователям искать и планировать встречи. Программа моделируют
@@ -414,15 +413,13 @@ SQLite {[}19{]}.
 пароль. Компонент проверяет, заполнены ли оба поля и валидность формата
 электронной почты. Если учетные данные верны, пользователь попадает на
 домашнюю страницу. Если нет, отображается сообщение об ошибке.
-\end{multicols}
+
 
 \begin{figure}[H]
 	\centering
 	\includegraphics[width=0.4\textwidth]{assets/155}
 	\caption*{\bfseries Рис. 5 - Форма авторизации}
 \end{figure}
-
-\begin{multicols}{2}
 
 Переходя на страницу выбора определенного доктора, страница сведений о
 враче предоставляет подробную информацию, включая его профиль и
@@ -431,14 +428,6 @@ SQLite {[}19{]}.
 идентификатора. Метод системы получает информацию о профиле врача, такую
 как имя, фамилия и адрес электронной почты. Если пользователь не
 авторизован, он перенаправляется на страницу входа.
-\end{multicols}
-
-\begin{figure}[H]
-	\centering
-	\includegraphics[width=0.6\textwidth]{assets/156}
-	\caption*{\bfseries Рис. 6 - Профиль доктора}
-\end{figure}
-\begin{multicols}{2}
 
 
 Управление встречами в системы Телемедици-ны является критическим
@@ -450,7 +439,14 @@ SQLite {[}19{]}.
 календаря, который отображает как свободные, так и зарезервированные
 слоты, гарантируя прозрачность и легкость использования системы для
 записи на консультацию на Рисунке 7.
+
 \end{multicols}
+
+\begin{figure}[]
+	\centering
+	\includegraphics[width=0.7\textwidth]{assets/156}
+	\caption*{\bfseries Рис. 6 - Профиль доктора}
+\end{figure}
 
 \begin{figure}[H]
 	\centering
