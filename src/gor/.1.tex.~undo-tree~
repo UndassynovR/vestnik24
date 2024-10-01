@@ -1,5 +1,95 @@
 (undo-tree-save-format-version . 1)
-"da6a64e6ed9d2a6340310841047e9daab89b2045"
-[nil nil nil nil (26361 52652 827463 608000) 0 nil]
-([nil current ((24 . 137) 10 (t 26357 17347 451081 300000)) nil (26361 52652 827460 71000) 0 nil])
+"98e86e0cfb55c22461c2585c4fd92ab9bb704fa4"
+[nil nil nil nil (26363 31031 83071 303000) 0 nil]
+([nil nil ((653 . 654) (t 26362 41481 822659 362000)) nil (26363 31031 83070 272000) 0 nil])
+([nil nil ((2412 . 2413)) nil (26363 31031 83068 665000) 0 nil])
+([nil nil ((4107 . 4108)) nil (26363 31031 83064 723000) 0 nil])
+([nil nil ((#("\\end{multicols}
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{assets/282}
+	\\caption*{}
+    \\caption*{ Рис. 1 - Коэффициент запаса прочности законтурного массива при параметрах очистной камеры 11х9 м и при угле падения 20 градусов}
+\\end{figure}
+
+\\begin{multicols}{2}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (latex-env-pair t fontified t) 5 14 (face font-lock-function-name-face latex-env-pair t fontified t) 14 15 (latex-env-pair t fontified t) 15 17 (fontified t) 17 23 (face font-lock-keyword-face fontified t) 23 24 (latex-env-pair t fontified t) 24 30 (face font-lock-function-name-face latex-env-pair t fontified t) 30 31 (latex-env-pair t fontified t) 31 36 (fontified t) 36 46 (face font-lock-keyword-face fontified t) 46 48 (fontified t) 48 64 (face font-lock-keyword-face fontified t) 64 74 (fontified t) 74 84 (face font-lock-keyword-face fontified t) 84 86 (fontified t) 86 96 (face font-lock-builtin-face fontified t) 96 99 (fontified t) 99 108 (face font-lock-keyword-face fontified t) 108 115 (fontified t) 115 124 (face font-lock-keyword-face fontified t) 124 255 (fontified t) 255 259 (face font-lock-keyword-face fontified t) 259 260 (latex-env-pair t fontified t) 260 266 (face font-lock-function-name-face latex-env-pair t fontified t) 266 267 (latex-env-pair t fontified t) 267 269 (fontified t) 269 275 (face font-lock-keyword-face fontified t) 275 276 (latex-env-pair t fontified t) 276 285 (face font-lock-function-name-face latex-env-pair t fontified t) 285 286 (latex-env-pair t fontified t) 286 290 (fontified t)) . 11303) (undo-tree-id25 . -276) (undo-tree-id26 . -7) (undo-tree-id27 . -276) (undo-tree-id28 . -276) (undo-tree-id29 . -289) 11579 (t 26363 31031 124745 814000)) nil (26363 31333 53692 933000) 0 nil])
+([nil nil ((11302 . 11303) 11271) nil (26363 31333 53688 948000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 12371 . 12372) (#("
+" 0 1 (fontified nil)) . -12661) (12371 . 12662)) nil (26363 31333 53688 118000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 12372) (undo-tree-id24 . -15)) nil (26363 31333 53687 144000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 12372)) nil (26363 31333 53685 925000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 12624) (undo-tree-id23 . -20)) nil (26363 31333 53685 291000) 0 nil])
+([nil nil ((#("\\end{multicols}
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{assets/282}
+	\\caption*{}
+    \\caption*{ Рис. 1 - Коэффициент запаса прочности законтурного массива при параметрах очистной камеры 11х9 м и при угле падения 20 градусов}
+\\end{figure}
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{assets/283}
+    \\caption*{Рис. 2 - Коэффициент запаса прочности законтурного массива при параметрах очистной камеры 12х8 м и при угле падения 20 градусов}
+\\end{figure}
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{assets/284}
+    \\caption*{Рис. 3 - Коэффициент запаса прочности законтурного массива при параметрах очистной камеры 13х7 м и при угле падения 20 градусов}
+\\end{figure}
+
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{assets/285}
+    \\caption*{Рис. 4 - Коэффициент запаса прочности законтурного массива при параметрах очистной камеры 14х6 м и при угле падения 20 градусов}
+\\end{figure}
+
+\\begin{multicols}{2}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t) 16 17 (fontified t rear-nonsticky t) 17 23 (face font-lock-keyword-face fontified t) 23 24 (fontified t latex-env-pair t) 24 30 (face font-lock-function-name-face fontified t latex-env-pair t) 30 31 (fontified t latex-env-pair t) 31 34 (fontified t) 34 35 (fontified t) 35 36 (fontified t) 36 46 (face font-lock-keyword-face fontified t) 46 48 (fontified t) 48 64 (face font-lock-keyword-face fontified t) 64 74 (fontified t) 74 84 (face font-lock-keyword-face fontified t) 84 86 (fontified t) 86 96 (face font-lock-builtin-face fontified t) 96 99 (fontified t) 99 108 (face font-lock-keyword-face fontified t) 108 115 (fontified t) 115 124 (face font-lock-keyword-face fontified t) 124 255 (fontified t) 255 259 (face font-lock-keyword-face fontified t) 259 260 (fontified t latex-env-pair t) 260 266 (face font-lock-function-name-face fontified t latex-env-pair t) 266 267 (fontified t latex-env-pair t) 267 269 (fontified t) 269 275 (face font-lock-keyword-face fontified t) 275 276 (fontified t latex-env-pair t) 276 282 (face font-lock-function-name-face fontified t latex-env-pair t) 282 283 (fontified t latex-env-pair t) 283 286 (fontified t) 286 287 (fontified t) 287 288 (fontified t) 288 298 (face font-lock-keyword-face fontified t) 298 300 (fontified t) 300 316 (face font-lock-keyword-face fontified t) 316 326 (fontified t) 326 336 (face font-lock-keyword-face fontified t) 336 338 (fontified t) 338 348 (face font-lock-builtin-face fontified t) 348 354 (fontified t) 354 363 (face font-lock-keyword-face fontified t) 363 411 (fontified t) 411 493 (fontified t) 493 497 (face font-lock-keyword-face fontified t) 497 498 (fontified t latex-env-pair t) 498 504 (face font-lock-function-name-face fontified t latex-env-pair t) 504 505 (fontified t latex-env-pair t) 505 507 (fontified t) 507 513 (face font-lock-keyword-face fontified t) 513 514 (fontified t latex-env-pair t) 514 520 (face font-lock-function-name-face fontified t latex-env-pair t) 520 521 (fontified t latex-env-pair t) 521 526 (fontified t) 526 536 (face font-lock-keyword-face fontified t) 536 538 (fontified t) 538 554 (face font-lock-keyword-face fontified t) 554 564 (fontified t) 564 574 (face font-lock-keyword-face fontified t) 574 576 (fontified t) 576 586 (face font-lock-builtin-face fontified t) 586 592 (fontified t) 592 601 (face font-lock-keyword-face fontified t) 601 731 (fontified t) 731 735 (face font-lock-keyword-face fontified t) 735 736 (fontified t latex-env-pair t) 736 742 (face font-lock-function-name-face fontified t latex-env-pair t) 742 743 (fontified t latex-env-pair t) 743 745 (fontified t) 745 751 (face font-lock-keyword-face fontified t) 751 752 (fontified t latex-env-pair t) 752 758 (face font-lock-function-name-face fontified t latex-env-pair t) 758 759 (fontified t latex-env-pair t) 759 764 (fontified t) 764 774 (face font-lock-keyword-face fontified t) 774 775 (fontified t) 775 776 (fontified t) 776 792 (face font-lock-keyword-face fontified t) 792 802 (fontified t) 802 812 (face font-lock-keyword-face fontified t) 812 814 (fontified t) 814 824 (face font-lock-builtin-face fontified t) 824 830 (fontified t) 830 839 (face font-lock-keyword-face fontified t) 839 969 (fontified t) 969 973 (face font-lock-keyword-face fontified t) 973 974 (fontified t latex-env-pair t) 974 980 (face font-lock-function-name-face fontified t latex-env-pair t) 980 981 (fontified t latex-env-pair t) 981 983 (fontified t) 983 989 (face font-lock-keyword-face fontified t) 989 990 (fontified t latex-env-pair t) 990 999 (face font-lock-function-name-face fontified t latex-env-pair t) 999 1000 (fontified t latex-env-pair t) 1000 1004 (fontified t)) . 12355) (undo-tree-id20 . -983) (undo-tree-id21 . -983) (undo-tree-id22 . -1003)) nil (26363 31333 53683 825000) 0 nil])
+([nil nil ((12354 . 12355) 12330) nil (26363 31333 53681 352000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 13473 . 13474) (#("
+" 0 1 (fontified nil)) . -14477) (13473 . 14478) 13458) nil (26363 31333 53680 346000) 0 nil])
+([nil nil ((#("\\end{multicols}
+" 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 13474) (undo-tree-id19 . -15)) nil (26363 31333 53679 65000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 14440) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1)) nil (26363 31333 53676 761000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 20 (fontified t) 20 21 (fontified t)) . 14440) (undo-tree-id0 . -20) (undo-tree-id1 . -21) (undo-tree-id2 . -21) (undo-tree-id3 . -21) (undo-tree-id4 . -21) (undo-tree-id5 . -21) (undo-tree-id6 . -20) (undo-tree-id7 . -21)) nil (26363 31333 53663 964000) 0 nil])
+([nil nil ((#("При отработке запасов руды при угле падения 20 градусов
+камерно-столбовой системой разработки законтурный массив устойчив,
+возможны локальные разрушения горных пород до 0,5 метров преимущественно
+с кровли выработки виде отслоений и заколов {[}5{]}. МКЦ находится в
+устойчивом состояний, к чему свидетельствует запас прочности МКЦ 1,3 и
+более.
+
+" 0 34 (fontified t) 34 36 (fontified t) 36 56 (fontified t) 56 344 (fontified t)) . 14918) (undo-tree-id32 . -343) (undo-tree-id33 . -343) (undo-tree-id34 . -343) (undo-tree-id35 . -343) 15261 (t 26363 31333 115587 719000)) nil (26363 31367 414895 55000) 0 nil])
+([nil nil ((13457 . 13458) 13404) nil (26363 31367 414890 529000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 13458 . 13459) (#("
+" 0 1 (fontified nil)) . -13802) (13458 . 13803)) nil (26363 31367 414888 813000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 13802) (undo-tree-id30 . 1) (undo-tree-id31 . -1)) nil (26363 31367 414884 649000) 0 nil])
+([nil nil ((#("6" 0 1 (fontified t)) . -14841) (t 26363 31367 481212 91000) (14842 . 14843) 14841 (t 26363 31367 481212 91000)) nil (26363 31389 10068 118000) 0 nil])
+([nil nil ((#("65" 0 2 (fontified t)) . -16087) (t 26363 31389 70557 296000) (16089 . 16091) 16087 (t 26363 31389 70557 296000)) nil (26363 31428 373986 446000) 0 nil])
+([nil nil ((nil fontified t 16087 . 16089) (#("66" 0 2 (fontified t)) . -16087) (16089 . 16091) 16088) nil (26363 31428 373984 543000) 0 nil])
+([nil nil ((nil fontified t 16087 . 16089) (#("67" 0 2 (fontified t)) . -16087) (16089 . 16091) 16088) nil (26363 31428 373983 37000) 0 nil])
+([nil nil ((nil fontified t 16087 . 16089) (#("68" 0 2 (fontified t)) . -16087) (16089 . 16091) 16088) nil (26363 31428 373981 434000) 0 nil])
+([nil nil ((nil fontified t 16087 . 16089) (#("69" 0 2 (fontified t)) . -16087) (16089 . 16091) 16088) nil (26363 31428 373979 451000) 0 nil])
+([nil nil ((#("0" 0 1 (fontified t)) . 16088) (undo-tree-id36 . -1) (undo-tree-id37 . -1)) nil (26363 31428 373974 726000) 0 nil])
+([nil nil ((16087 . 16088) (#("7" 0 1 (fontified t)) . 16087) (undo-tree-id42 . -1) (undo-tree-id43 . -1) (t 26363 31428 409364 117000)) nil (26363 31457 936942 873000) 0 nil])
+([nil nil ((#("
+\\begin{figure}[H]
+	\\centering
+	\\includegraphics[width=0.6\\textwidth]{assets/288}
+	\\caption*{Рис. 8 - Изменение коэффициента запаса прочности МКЦ}
+\\end{figure}
+" 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 32 (fontified t) 32 45 (face font-lock-keyword-face fontified t) 45 48 (fontified t face font-lock-keyword-face) 48 58 (fontified t) 58 68 (fontified t face font-lock-keyword-face) 68 70 (fontified t) 70 80 (fontified t face font-lock-builtin-face) 80 82 (fontified t) 82 83 (fontified t) 83 92 (face font-lock-keyword-face fontified t) 92 147 (fontified t) 147 151 (face font-lock-keyword-face fontified t) 151 152 (fontified t latex-env-pair t) 152 158 (face font-lock-function-name-face fontified t latex-env-pair t) 158 159 (fontified t latex-env-pair t) 159 160 (fontified t)) . 17567) (undo-tree-id38 . -147) (undo-tree-id39 . -147) (undo-tree-id40 . -159) (undo-tree-id41 . -147) 17714) nil (26363 31457 936939 536000) 0 nil])
+([nil current ((nil rear-nonsticky nil 16264 . 16265) (#("
+" 0 1 (fontified nil)) . -16424) (16264 . 16425) 16252) nil (26363 31457 936924 509000) 0 nil])
 nil

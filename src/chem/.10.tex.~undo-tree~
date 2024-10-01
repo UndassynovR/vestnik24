@@ -1,5 +1,76 @@
 (undo-tree-save-format-version . 1)
-"3d6fca0ec92cd058fd70ab8ba959083776ff61fd"
+"cfd8ea0e3a32616ca4d97fed31061daca6bbc4a9"
 [nil nil nil nil (26362 32028 729773 213000) 0 nil]
-([nil current ((1013 . 1014) (t 26362 31425 138725 568000)) nil (26362 32028 729768 936000) 0 nil])
+([nil nil ((1013 . 1014) (t 26362 31425 138725 568000)) nil (26362 32028 729768 936000) 0 nil])
+([nil nil ((#("4" 0 1 (fontified t)) . -15234) (t 26362 32028 784758 367000) (15235 . 15236) 15234 (t 26362 32028 784758 367000)) nil (26363 29233 837639 785000) 0 nil])
+([nil nil ((#("5" 0 1 (fontified t)) . -15641) (15642 . 15643) 15641) nil (26363 29233 837637 83000) 0 nil])
+([nil nil ((#("6" 0 1 (fontified t)) . -16251) (16252 . 16253) 16251) nil (26363 29233 837632 131000) 0 nil])
+([nil nil ((16251 . 16252) (#("7" 0 1 (fontified t)) . 16251) (undo-tree-id0 . -1) (t 26363 29233 886037 36000)) nil (26363 29381 432925 704000) 0 nil])
+([nil nil ((#("\\begin{multicols}{2}
+" 0 6 (face font-lock-keyword-face fontified t) 6 7 (fontified t latex-env-pair t) 7 16 (face font-lock-function-name-face fontified t latex-env-pair t) 16 17 (fontified t latex-env-pair t) 17 21 (fontified t)) . 25127) (undo-tree-id1 . -20) (undo-tree-id2 . -19) 25146) nil (26363 29384 810039 950000) 0 nil] [nil nil ((#("3" 0 1 (fontified t)) . -25044) (t 26363 29292 330925 951000) (25045 . 25046) 25044 (t 26363 29292 330925 951000)) ((#("4" 0 1 (fontified nil)) . 25045) (25044 . 25045) (t 26363 29347 912568 596000)) (26363 29347 872400 928000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 24987 . 24988) (#("
+" 0 1 (fontified nil)) . -25008) (24987 . 25009)) nil (26363 29384 810025 378000) 0 nil])
+nil
+([nil nil ((24988 . 24994) (#("\\begin" 0 6 (face font-lock-keyword-face fontified t)) . 24988) (t 26363 29384 841445 275000)) nil (26363 29504 645800 73000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 34244)) ((34244 . 34245)) (26363 29506 197600 178000) 0 nil])
+([nil nil ((24992 . 24994) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -24992) (undo-tree-id251 . -1) (24989 . 24993) (#("BEGIN" 0 5 (face font-lock-keyword-face fontified t)) . 24989) (undo-tree-id252 . -4) (undo-tree-id253 . -5) (undo-tree-id254 . -5) (undo-tree-id255 . -5) (undo-tree-id256 . -5) (undo-tree-id257 . -5) (undo-tree-id258 . -5) (undo-tree-id259 . -5) (undo-tree-id260 . -5) (undo-tree-id261 . -5) (undo-tree-id262 . -5) (undo-tree-id263 . -5) (undo-tree-id264 . -5) (undo-tree-id265 . -5) (undo-tree-id266 . -5) (undo-tree-id267 . -5) (undo-tree-id268 . -5) (undo-tree-id269 . -5) (undo-tree-id270 . -5) (undo-tree-id271 . -5) (undo-tree-id272 . -5) (undo-tree-id273 . -5) (undo-tree-id274 . -5) (undo-tree-id275 . -5) (undo-tree-id276 . -5) (undo-tree-id277 . -5) (undo-tree-id278 . -5) (undo-tree-id279 . -5) (undo-tree-id280 . -5) (undo-tree-id281 . -5) (undo-tree-id282 . -5)) nil (26363 29511 130304 495000) 0 nil] [nil nil ((#("Утилизация и экологические меры в технологическом процессе переработки
+стеблей хлопчатника в целлюлозу направлены на минимизацию воздействия на
+окружающую среду и обеспечение устойчивости производства. После
+экстракции масел и восков хлороформ подлежит регенерации с
+использованием процесса дистилляции, что позволяет повторно применять
+растворитель в последующих циклах. Остатки масел и восков утилизируются
+в соответствии с экологическими стандартами. Соляная кислота (HCl),
+использованная для обработки стеблей хлопчатника, нейтрализуется щелочью
+(NaOH), а полученные соли, такие как NaCl, могут быть использованы
+повторно или безопасно утилизированы. Растворы щелочи после варки также
+нейтрализуются кислотой, а образовавшиеся отходы, включая соли и воду,
+проходят очистку и, по возможности, возвращаются в производственный
+цикл. Перекись водорода (H₂O₂), используемая в процессе обесцвечивания,
+разлагается на воду и кислород, что делает процесс безопасным для
+окружающей среды. Вода, полученная в результате разложения, может быть
+использована повторно.
+
+Эти меры направлены на минимизацию воздействия на окружающую среду и
+обеспечивают устойчивость технологического процесса переработки стеблей
+хлопчатника в целлюлозу.
+
+" 0 1141 (fontified t) 1141 1202 (fontified t) 1202 1228 (fontified t)) . 36115) (undo-tree-id21 . -1227) (undo-tree-id22 . -1227) (undo-tree-id23 . -1227) (undo-tree-id24 . -1227) 37342 (t 26363 29425 813532 276000)) ((36115 . 37343)) (26363 29502 821935 871000) 0 nil])
+([nil nil ((30449 . 30450) (#("l" 0 1 (fontified t)) . 30449) (t 26363 29511 194268 372000)) nil (26363 29557 172146 359000) 0 nil])
+([nil nil ((34227 . 34228) 34177) ((#("
+" 0 1 (fontified t)) . 34227) (undo-tree-id202 . -1) (undo-tree-id203 . -1) (undo-tree-id204 . -1) (undo-tree-id205 . -1) (undo-tree-id206 . -1) (undo-tree-id207 . -1) (undo-tree-id208 . -1) (undo-tree-id209 . -1) (undo-tree-id210 . -1) (undo-tree-id211 . -1) (undo-tree-id212 . -1) (undo-tree-id213 . -1) (undo-tree-id214 . -1) (undo-tree-id215 . -1) (undo-tree-id216 . -1) (undo-tree-id217 . -1) (undo-tree-id218 . -1) (undo-tree-id219 . -1) (undo-tree-id220 . -1) (undo-tree-id221 . -1) (undo-tree-id222 . -1) (undo-tree-id223 . -1) (undo-tree-id224 . -1) (undo-tree-id225 . -1) (undo-tree-id226 . -1) (undo-tree-id227 . -1) (undo-tree-id228 . -1) (undo-tree-id229 . -1) (undo-tree-id230 . -1) (undo-tree-id231 . -1) (undo-tree-id232 . -1) (undo-tree-id233 . -1) (undo-tree-id234 . -1) (undo-tree-id235 . -1) (undo-tree-id236 . -1) (undo-tree-id237 . -1) (undo-tree-id238 . -1) (undo-tree-id239 . -1) (undo-tree-id240 . -1) (undo-tree-id241 . -1) (undo-tree-id242 . -1) (undo-tree-id243 . -1) (undo-tree-id244 . -1) (undo-tree-id245 . -1) (undo-tree-id246 . -1) (undo-tree-id247 . -1) (undo-tree-id248 . -1) (undo-tree-id249 . -1) (undo-tree-id250 . -1)) (26363 29501 942043 309000) 0 nil])
+([nil nil ((30447 . 30448) (#("l" 0 1 (fontified t)) . 30447) (undo-tree-id336 . -1)) nil (26363 29557 172145 84000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 34228 . 34229) (#("
+" 0 1 (fontified nil)) . -35456) (34228 . 35457)) ((#("
+Утилизация и экологические меры в технологическом процессе переработки
+стеблей хлопчатника в целлюлозу направлены на минимизацию воздействия на
+окружающую среду и обеспечение устойчивости производства. После
+экстракции масел и восков хлороформ подлежит регенерации с
+использованием процесса дистилляции, что позволяет повторно применять
+растворитель в последующих циклах. Остатки масел и восков утилизируются
+в соответствии с экологическими стандартами. Соляная кислота (HCl),
+использованная для обработки стеблей хлопчатника, нейтрализуется щелочью
+(NaOH), а полученные соли, такие как NaCl, могут быть использованы
+повторно или безопасно утилизированы. Растворы щелочи после варки также
+нейтрализуются кислотой, а образовавшиеся отходы, включая соли и воду,
+проходят очистку и, по возможности, возвращаются в производственный
+цикл. Перекись водорода (H₂O₂), используемая в процессе обесцвечивания,
+разлагается на воду и кислород, что делает процесс безопасным для
+окружающей среды. Вода, полученная в результате разложения, может быть
+использована повторно.
+
+Эти меры направлены на минимизацию воздействия на окружающую среду и
+обеспечивают устойчивость технологического процесса переработки стеблей
+хлопчатника в целлюлозу.
+
+" 0 1 (fontified nil rear-nonsticky nil) 1 72 (fontified nil) 72 727 (fontified t) 727 761 (fontified t) 761 1142 (fontified t) 1142 1203 (fontified t) 1203 1228 (fontified t) 1228 1229 (fontified nil)) . 34228) (undo-tree-id175 . -1228) (undo-tree-id176 . -1228) (undo-tree-id177 . -1228) (undo-tree-id178 . -1228) (undo-tree-id179 . -1228) (undo-tree-id180 . -1228) (undo-tree-id181 . -1228) (undo-tree-id182 . -1228) (undo-tree-id183 . -1228) (undo-tree-id184 . -1228) (undo-tree-id185 . -1228) (undo-tree-id186 . -1228) (undo-tree-id187 . -1228) (undo-tree-id188 . -1228) (undo-tree-id189 . -1228) (undo-tree-id190 . -1228) (undo-tree-id191 . -1228) (undo-tree-id192 . -1228) (undo-tree-id193 . -1228) (undo-tree-id194 . -1228) (undo-tree-id195 . -1228) (undo-tree-id196 . -1228) (undo-tree-id197 . -1228) (undo-tree-id198 . -1228) (undo-tree-id199 . -1228) (undo-tree-id200 . -1228) (undo-tree-id201 . -1228) (35456 . 35457) (nil rear-nonsticky t 34228 . 34229)) (26363 29501 189873 303000) 0 nil])
+([nil nil ((30445 . 30446) (#("l" 0 1 (fontified t)) . 30445) (undo-tree-id325 . -1) (undo-tree-id326 . -1) (undo-tree-id327 . -1) (undo-tree-id328 . -1) (undo-tree-id329 . -1) (undo-tree-id330 . -1) (undo-tree-id331 . -1) (undo-tree-id332 . -1) (undo-tree-id333 . -1) (undo-tree-id334 . -1) (undo-tree-id335 . -1)) nil (26363 29557 172142 685000) 0 nil])
+([nil nil ((#("
+" 0 1 (fontified t)) . 35456) (undo-tree-id19 . 1)) ((35456 . 35457)) (26363 29500 725882 874000) 0 nil])
+([nil nil ((30443 . 30444) (#("l" 0 1 (fontified t)) . 30443) (undo-tree-id299 . -1) (undo-tree-id300 . -1) (undo-tree-id301 . -1) (undo-tree-id302 . -1) (undo-tree-id303 . -1) (undo-tree-id304 . -1) (undo-tree-id305 . -1) (undo-tree-id306 . -1) (undo-tree-id307 . -1) (undo-tree-id308 . -1) (undo-tree-id309 . -1) (undo-tree-id310 . -1) (undo-tree-id311 . -1) (undo-tree-id312 . -1) (undo-tree-id313 . -1) (undo-tree-id314 . -1) (undo-tree-id315 . -1) (undo-tree-id316 . -1) (undo-tree-id317 . -1) (undo-tree-id318 . -1) (undo-tree-id319 . -1) (undo-tree-id320 . -1) (undo-tree-id321 . -1) (undo-tree-id322 . -1) (undo-tree-id323 . -1) (undo-tree-id324 . -1)) nil (26363 29557 172130 718000) 0 nil])
+([nil nil ((#("BEGIN" 0 5 (face font-lock-keyword-face fontified t)) . 24989) (undo-tree-id26 . -4) (undo-tree-id27 . -5) (undo-tree-id28 . -5) (t 26363 29458 599201 626000)) ((24989 . 24994)) (26363 29500 357667 154000) 0 nil])
+([nil nil ((30441 . 30442) (#("l" 0 1 (fontified t)) . 30441) (undo-tree-id283 . -1) (undo-tree-id284 . -1) (undo-tree-id285 . -1) (undo-tree-id286 . -1) (undo-tree-id287 . -1) (undo-tree-id288 . -1) (undo-tree-id289 . -1) (undo-tree-id290 . -1) (undo-tree-id291 . -1) (undo-tree-id292 . -1) (undo-tree-id293 . -1) (undo-tree-id294 . -1) (undo-tree-id295 . -1) (undo-tree-id296 . -1) (undo-tree-id297 . -1) (undo-tree-id298 . -1)) nil (26363 29557 172091 898000) 0 nil])
+([nil nil ((24992 . 24994) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -24992) (undo-tree-id25 . -1) (24989 . 24993)) ((#("begi" 0 3 (face font-lock-keyword-face fontified nil) 3 4 (face font-lock-keyword-face fontified nil)) . 24989) (undo-tree-id29 . -3) (undo-tree-id30 . -3) (undo-tree-id31 . -3) (undo-tree-id32 . -3) (undo-tree-id33 . -3) (undo-tree-id34 . -3) (undo-tree-id35 . -3) (undo-tree-id36 . -3) (undo-tree-id37 . -3) (undo-tree-id38 . -3) (undo-tree-id39 . -3) (undo-tree-id40 . -3) (undo-tree-id41 . -3) (undo-tree-id42 . -3) (undo-tree-id43 . -3) (undo-tree-id44 . -3) (undo-tree-id45 . -3) (undo-tree-id46 . -3) (undo-tree-id47 . -3) (undo-tree-id48 . -3) (undo-tree-id49 . -3) (undo-tree-id50 . -3) (undo-tree-id51 . -3) (undo-tree-id52 . -3) (undo-tree-id53 . -3) (undo-tree-id54 . -3) (undo-tree-id55 . -3) (undo-tree-id56 . -3) (undo-tree-id57 . -3) (undo-tree-id58 . -3) (undo-tree-id59 . -3) (undo-tree-id60 . -3) (undo-tree-id61 . -3) (undo-tree-id62 . -3) (undo-tree-id63 . -3) (undo-tree-id64 . -3) (undo-tree-id65 . -3) (undo-tree-id66 . -3) (undo-tree-id67 . -3) (undo-tree-id68 . -3) (undo-tree-id69 . -3) (undo-tree-id70 . -3) (undo-tree-id71 . -3) (undo-tree-id72 . -3) (undo-tree-id73 . -3) (undo-tree-id74 . -3) (undo-tree-id75 . -3) (undo-tree-id76 . -3) (undo-tree-id77 . -3) (undo-tree-id78 . -3) (undo-tree-id79 . -3) (undo-tree-id80 . -3) (undo-tree-id81 . -3) (undo-tree-id82 . -3) (undo-tree-id83 . -3) (undo-tree-id84 . -3) (undo-tree-id85 . -3) (undo-tree-id86 . -3) (undo-tree-id87 . -3) (undo-tree-id88 . -3) (undo-tree-id89 . -3) (undo-tree-id90 . -3) (undo-tree-id91 . -3) (undo-tree-id92 . -3) (undo-tree-id93 . -3) (undo-tree-id94 . -3) (undo-tree-id95 . -3) (undo-tree-id96 . -3) (undo-tree-id97 . -3) (undo-tree-id98 . -4) (undo-tree-id99 . -3) (undo-tree-id100 . -3) (undo-tree-id101 . -3) (24992 . 24993) (#("in" 0 2 (face font-lock-keyword-face fontified t)) . 24992) (undo-tree-id102 . -1) (undo-tree-id103 . -2) (undo-tree-id104 . -2) (undo-tree-id105 . -2) (undo-tree-id106 . -2) (undo-tree-id107 . -2) (undo-tree-id108 . -2) (undo-tree-id109 . -2) (undo-tree-id110 . -2) (undo-tree-id111 . -2) (undo-tree-id112 . -2) (undo-tree-id113 . -2) (undo-tree-id114 . -2) (undo-tree-id115 . -2) (undo-tree-id116 . -2) (undo-tree-id117 . -2) (undo-tree-id118 . -2) (undo-tree-id119 . -2) (undo-tree-id120 . -2) (undo-tree-id121 . -2) (undo-tree-id122 . -2) (undo-tree-id123 . -2) (undo-tree-id124 . -2) (undo-tree-id125 . -2) (undo-tree-id126 . -2) (undo-tree-id127 . -2) (undo-tree-id128 . -2) (undo-tree-id129 . -2) (undo-tree-id130 . -2) (undo-tree-id131 . -2) (undo-tree-id132 . -2) (undo-tree-id133 . -2) (undo-tree-id134 . -2) (undo-tree-id135 . -2) (undo-tree-id136 . -2) (undo-tree-id137 . -2) (undo-tree-id138 . -2) (undo-tree-id139 . -2) (undo-tree-id140 . -2) (undo-tree-id141 . -2) (undo-tree-id142 . -2) (undo-tree-id143 . -2) (undo-tree-id144 . -2) (undo-tree-id145 . -2) (undo-tree-id146 . -2) (undo-tree-id147 . -2) (undo-tree-id148 . -2) (undo-tree-id149 . -2) (undo-tree-id150 . -2) (undo-tree-id151 . -2) (undo-tree-id152 . -2) (undo-tree-id153 . -2) (undo-tree-id154 . -2) (undo-tree-id155 . -1) (undo-tree-id156 . -1) (undo-tree-id157 . -1) (undo-tree-id158 . -1) (undo-tree-id159 . -1) (undo-tree-id160 . -1) (undo-tree-id161 . -1) (undo-tree-id162 . -1) (undo-tree-id163 . -1) (undo-tree-id164 . -1) (undo-tree-id165 . -1) (undo-tree-id166 . -1) (undo-tree-id167 . -1) (undo-tree-id168 . -1) (undo-tree-id169 . -1) (undo-tree-id170 . -2) (undo-tree-id171 . -1) (undo-tree-id172 . -1) (undo-tree-id173 . -1) (undo-tree-id174 . -1) (t 26363 29475 172030 827000)) (26363 29475 111234 299000) 0 nil])
+([nil current ((49684 . 49685) (t 26363 29557 216201 705000)) nil (26363 29604 501917 647000) 0 nil])
+nil
 nil
