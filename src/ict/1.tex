@@ -48,7 +48,7 @@
 \begin{center}
 {\bfseries \textsuperscript{1}Д.К. Даркенбаев, \textsuperscript{1}Г.З.
 Зиятбекова\envelope, \textsuperscript{1}А. Алтыбай,
-\textsuperscript{2}Н.О. Мекебаев, \textsuperscript{1}Д. С. Жамангарин}
+\textsuperscript{2}Н.О. Мекебаев, \textsuperscript{3}Д. С. Жамангарин}
 
 \textsuperscript{1}әл-Фараби атындағы Қазақ ұлттық университеті, Алматы,
 Қазақстан,
@@ -88,7 +88,7 @@ ALGORITHMS}
 {\bfseries \textsuperscript{1}D.K. Darkenbayev,}
 {\bfseries \textsuperscript{1}G.Z. Ziyatbekova\envelope,}
 {\bfseries \textsuperscript{1}A. Altybay, \textsuperscript{2}N.O.
-Mekebayev,} {\bfseries D.S. Zhamangarin,}
+Mekebayev,} {\bfseries \textsuperscript{3}D.S. Zhamangarin,}
 
 \textsuperscript{1}Al-Farabi Kazakh National University, Almaty,
 Kazakhstan,
@@ -311,12 +311,12 @@ $k$-Nearest Neighbours (KNN) -- это тип
 точки данных на основе их принадлежности к определенному классу -- это
 может быть класс 0 или класс 1. Если мы представим, что это линия в
 контексте двумерного пространства, разделяющая наши данные. Например:
-\end{multicols}
+
 
 \begin{equation}
 	B_o+B_1X_1+B_2X_2=0
 \end{equation}
-\begin{multicols}{2}
+
 
 где коэффициенты $B_1$ и $B_2$ , определяющие наклон линии и точку
 пересечения $B_0$, находятся с помощью алгоритма обучения, а $X_1$ и $X_2$ -- две входные переменные.
@@ -342,7 +342,7 @@ $k$-Nearest Neighbours (KNN) -- это тип
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[width=0.4\textwidth]{assets/110}
+	\includegraphics[width=0.5\textwidth]{assets/110}
 	\caption*{\bfseries Рис. 1 -- Машины опорных векторов}
 \end{figure}
 
@@ -389,7 +389,7 @@ $k$-Nearest Neighbours (KNN) -- это тип
 
 \begin{figure}[H]
 	\centering
-	\includegraphics[height=0.35\textwidth, width=0.6\textwidth]{assets/111}
+	\includegraphics[height=0.45\textwidth, width=0.65\textwidth]{assets/111}
 	\caption*{\bfseries Рис. 2 -- Концептуальная основа классификатора случайного леса}
 \end{figure}
 
@@ -525,13 +525,14 @@ $F1$ оценка -- среднее гармоническое
 \begin{table}[H]
     \caption*{Таблица 1 -- Матрица путаницы}
     \centering
-    \begin{tabularx}{\textwidth}{|X X|X|}
+    \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
     \hline
-    \multicolumn{2}{|l|} {Actual   – True}                                   &                               \\ \hline
-    \multicolumn{1}{|l|}{True Positive}            & False Positive(Type 1) & Predicted – Positive/Negative \\ \hline
-    \multicolumn{1}{|l|}{False Negative(Type   2)} & True Negative          & Predicted – Positive/Negative \\ \hline
+    \multicolumn{2}{|l|}{Actual – True}                                   &                               \\ \hline
+    \multicolumn{1}{|l|}{True Positive}            & False Positive (Type 1) & Predicted – Positive/Negative \\ \hline
+    \multicolumn{1}{|l|}{False Negative (Type 2)} & True Negative          & Predicted – Positive/Negative \\ \hline
     \end{tabularx}
 \end{table}
+
 
 
 
@@ -550,22 +551,19 @@ $F1$ оценка -- среднее гармоническое
 		\end{subfigure}
 		
 	\end{figure}
-
-
 \begin{multicols}{2}
+Результаты случайного леса (Random Forest): точность - хорошая, но
+увеличилось и количество ошибок второго рода. Эта модель редко
+предсказывает, что человек не вернет кредит.
 
+Результаты SVM: эта модель показывает средние результаты при сравнении
+логистической регрессии и случайного леса.
 
-	Результаты случайного леса (Random Forest): точность - хорошая, но
-	увеличилось и количество ошибок второго рода. Эта модель редко
-	предсказывает, что человек не вернет кредит.
-	
-	
-	Результаты SVM: эта модель показывает средние результаты при сравнении
-	логистической регрессии и случайного леса.
+Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
+типа, он достаточно мал, о чем свидетельствует показатель полноты.
+Точность приемлемая.
+
 \end{multicols}
-
-
-
 \begin{figure}[H]
 	\centering
 	\begin{subfigure}[b]{0.45\textwidth}
@@ -582,12 +580,10 @@ $F1$ оценка -- среднее гармоническое
 	
 \end{figure}
 
-
-
 \begin{table}[H]
     \caption*{Таблица 2 -- Результаты использованных моделей}
     \centering
-    \begin{tabularx}{\textwidth}{|X|X|X|X|X|}
+    \begin{tabularx}{\textwidth}{|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|>{\centering\arraybackslash}X|}
     \hline
     Модели                        & Accuracy & Precision & Recall & F1-score \\ \hline
     Случайный лес (Random Forest) & 0.91     & 0.35      & 0.006  & 0.01     \\ \hline
@@ -597,10 +593,8 @@ $F1$ оценка -- среднее гармоническое
     \end{tabularx}
 \end{table}
 
+
 \begin{multicols}{2}
-Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
-типа, он достаточно мал, о чем свидетельствует показатель полноты.
-Точность приемлемая.
 
 {\bfseries Выводы.} В статье проведено исследование кредитного скоринга с
 использованием различных машинных алгоритмов. Основной целью
