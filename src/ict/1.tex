@@ -522,17 +522,17 @@ $F1$ оценка -- среднее гармоническое
 предоставляет информацию об ошибках первого и второго порядка {[}13{]}.
 
 \end{multicols}
-
 \begin{table}[H]
-	\caption*{Таблица 1 -- Матрица путаницы}
-	\centering
-	\begin{tabular}{|ll|l|}
-	\hline
-	\multicolumn{2}{|l|} {Actual   – True}                                   &                               \\ \hline
-	\multicolumn{1}{|l|}{True Positive}            & False Positive(Type 1) & Predicted – Positive/Negative \\ \hline
-	\multicolumn{1}{|l|}{False Negative(Type   2)} & True Negative          & Predicted – Positive/Negative \\ \hline
-	\end{tabular}
-	\end{table}
+    \caption*{Таблица 1 -- Матрица путаницы}
+    \centering
+    \begin{tabularx}{\textwidth}{|X X|X|}
+    \hline
+    \multicolumn{2}{|l|} {Actual   – True}                                   &                               \\ \hline
+    \multicolumn{1}{|l|}{True Positive}            & False Positive(Type 1) & Predicted – Positive/Negative \\ \hline
+    \multicolumn{1}{|l|}{False Negative(Type   2)} & True Negative          & Predicted – Positive/Negative \\ \hline
+    \end{tabularx}
+\end{table}
+
 
 
 	\begin{figure}[H]
@@ -584,19 +584,18 @@ $F1$ оценка -- среднее гармоническое
 
 
 
-
 \begin{table}[H]
-	\caption*{Таблица 2 -- Результаты использованных моделей}
-	\centering
-	\begin{tabular}{|l|l|l|l|l|}
-	\hline
-	Модели                        & Accuracy & Precision & Recall & F1-score \\ \hline
-	Случайный лес (Random Forest) & 0.91     & 0.35      & 0.006  & 0.01     \\ \hline
-	Машины опорных векторов (SVM) & 0.68     & 0.17      & 0.71   & 0.28     \\ \hline
-	\emph{k}-Ближайших соседей (KNN)      & 0.69     & 0.14      & 0.51   & 0.22     \\ \hline
-	Логистическая регрессия       & 0.7      & 0.18      & 0.68   & 0.28     \\ \hline
-	\end{tabular}
-	\end{table}
+    \caption*{Таблица 2 -- Результаты использованных моделей}
+    \centering
+    \begin{tabularx}{\textwidth}{|X|X|X|X|X|}
+    \hline
+    Модели                        & Accuracy & Precision & Recall & F1-score \\ \hline
+    Случайный лес (Random Forest) & 0.91     & 0.35      & 0.006  & 0.01     \\ \hline
+    Машины опорных векторов (SVM) & 0.68     & 0.17      & 0.71   & 0.28     \\ \hline
+    \emph{k}-Ближайших соседей (KNN)      & 0.69     & 0.14      & 0.51   & 0.22     \\ \hline
+    Логистическая регрессия       & 0.70     & 0.18      & 0.68   & 0.28     \\ \hline
+    \end{tabularx}
+\end{table}
 
 \begin{multicols}{2}
 Результат: из всех метрик лучше всего выделяется процент ошибок 2-го
