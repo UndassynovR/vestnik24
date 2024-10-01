@@ -1,8 +1,15 @@
 (undo-tree-save-format-version . 1)
-"1008799a8069a2a1686ef136d44fe4b47bc10755"
+"76a6816a93993b89dd97f4aed53dbaa5cfe4ce30"
 [nil nil nil nil (26363 30443 307903 217000) 0 nil]
 ([nil nil ((#("\\begin{multicols}{2}
 " 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 16 (face font-lock-function-name-face latex-env-pair t fontified t) 16 17 (latex-env-pair t fontified t) 17 21 (fontified t)) . 4273) (undo-tree-id0 . -7) (undo-tree-id1 . -20) 4280 (t 26362 26199 34302 261000)) nil (26363 30443 307901 756000) 0 nil])
-([nil current ((nil rear-nonsticky nil 5364 . 5365) (#("
+([nil nil ((nil rear-nonsticky nil 5364 . 5365) (#("
 " 0 1 (fontified nil)) . -5385) (5364 . 5386)) nil (26363 30443 307878 132000) 0 nil])
+([nil nil ((#("А." 0 2 (face (bold) fontified t)) . 2145) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) 2146 (t 26363 30443 329242 308000)) nil (26363 43485 201725 644000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 2136 . 2137) (nil fontified nil 2135 . 2137) (2135 . 2137) 2134) nil (26363 43485 201721 315000) 0 nil])
+([nil nil ((2137 . 2138)) nil (26363 43485 201720 275000) 0 nil])
+([nil nil ((2147 . 2148) (#("
+" 0 1 (fontified t)) . -2147) (undo-tree-id4 . -1) (undo-tree-id5 . -1) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) 2137) nil (26363 43485 201718 580000) 0 nil])
+([nil nil ((#(" " 0 1 (fontified t)) . 2147) (undo-tree-id2 . -1) (undo-tree-id3 . -1)) nil (26363 43485 201707 322000) 0 nil])
+([nil current ((3887 . 3888) (t 26363 43485 250469 903000)) nil (26363 43492 701302 722000) 0 nil])
 nil

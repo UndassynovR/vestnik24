@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"98e86e0cfb55c22461c2585c4fd92ab9bb704fa4"
+"3c5b6ba37bf610044dafad071ae95505b70d59b9"
 [nil nil nil nil (26363 31031 83071 303000) 0 nil]
 ([nil nil ((653 . 654) (t 26362 41481 822659 362000)) nil (26363 31031 83070 272000) 0 nil])
 ([nil nil ((2412 . 2413)) nil (26363 31031 83068 665000) 0 nil])
@@ -90,6 +90,10 @@
 	\\caption*{Рис. 8 - Изменение коэффициента запаса прочности МКЦ}
 \\end{figure}
 " 0 1 (fontified t) 1 7 (face font-lock-keyword-face fontified t) 7 8 (fontified t latex-env-pair t) 8 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 20 (fontified t) 20 30 (face font-lock-keyword-face fontified t) 30 32 (fontified t) 32 45 (face font-lock-keyword-face fontified t) 45 48 (fontified t face font-lock-keyword-face) 48 58 (fontified t) 58 68 (fontified t face font-lock-keyword-face) 68 70 (fontified t) 70 80 (fontified t face font-lock-builtin-face) 80 82 (fontified t) 82 83 (fontified t) 83 92 (face font-lock-keyword-face fontified t) 92 147 (fontified t) 147 151 (face font-lock-keyword-face fontified t) 151 152 (fontified t latex-env-pair t) 152 158 (face font-lock-function-name-face fontified t latex-env-pair t) 158 159 (fontified t latex-env-pair t) 159 160 (fontified t)) . 17567) (undo-tree-id38 . -147) (undo-tree-id39 . -147) (undo-tree-id40 . -159) (undo-tree-id41 . -147) 17714) nil (26363 31457 936939 536000) 0 nil])
-([nil current ((nil rear-nonsticky nil 16264 . 16265) (#("
+([nil nil ((nil rear-nonsticky nil 16264 . 16265) (#("
 " 0 1 (fontified nil)) . -16424) (16264 . 16425) 16252) nil (26363 31457 936924 509000) 0 nil])
+([nil nil ((#("	\\caption*{}
+" 0 1 (fontified t) 1 10 (face font-lock-keyword-face fontified t) 10 13 (fontified t)) . 9639) (undo-tree-id44 . -12) (t 26363 31457 981800 458000)) nil (26363 42889 77664 171000) 0 nil])
+([nil nil ((#("8" 0 1 (fontified t)) . -9614) (9615 . 9616) 9614) nil (26363 42889 77650 199000) 0 nil])
+([nil current ((5368 . 5389) (#("Keywords:" 0 9 (fontified t)) . -5368) (undo-tree-id45 . -8) (undo-tree-id46 . -8) (undo-tree-id47 . -8) (undo-tree-id48 . -8) (undo-tree-id49 . -8) (undo-tree-id50 . -8) (undo-tree-id51 . -8) (undo-tree-id52 . -8) (undo-tree-id53 . -8) (undo-tree-id54 . -8) (undo-tree-id55 . -8) (undo-tree-id56 . -9) 5377 (t 26363 42889 134365 900000)) nil (26363 43097 86777 880000) 0 nil])
 nil
