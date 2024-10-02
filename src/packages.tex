@@ -109,15 +109,32 @@
 
 \usepackage{tocloft}
 % Adjust vertical space before and after TOC title
-\setlength{\cftbeforetoctitleskip}{-1.5em} % Space before the TOC title
-\setlength{\cftaftertoctitleskip}{0.5em} % Space after the TOC title
+\setlength{\cftbeforetoctitleskip}{-3em} % Space before the TOC title
+\setlength{\cftaftertoctitleskip}{-2em} % Space after the TOC title
 
 \cftsetindents{part}{0em}{2em}
 \cftsetindents{chapter}{0em}{2em}
 \cftsetindents{section}{0.5em}{0em}
 \cftsetindents{subsection}{0em}{2em}
-\renewcommand{\cftchapfont}{\itshape}
-\renewcommand{\cftpartfont}{\itshape\bfseries}
+\renewcommand{\cftchapfont}{\itshape\bfseries}
+
+\makeatletter
+\renewcommand*\l@part[2]{%
+  \ifnum \c@tocdepth >-2\relax
+    \addpenalty{-\@highpenalty}%
+    \addvspace{1.25em \@plus\p@}%
+    \setlength\@tempdima{3em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      {\leavevmode
+       \hspace*{\fill}\centering\bfseries\itshape #1\hspace*{\fill}}\par
+       \nobreak
+         \global\@nobreaktrue
+         \everypar{\global\@nobreakfalse\everypar{}}%
+    \endgroup
+  \fi}
+\makeatother
 
 \renewcommand\cfttoctitlefont{\hfill\large\bfseries}
 \renewcommand\cftaftertoctitle{\hfill\mbox{}}
