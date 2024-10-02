@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"8fd3b120da06798211462df5bc1bb2355474141e"
+"e2f744ac33f14f8792fde0f70c3f55f18529ece1"
 [nil nil nil nil (26362 15627 207376 892000) 0 nil]
 ([nil nil ((#("2023" 0 4 (fontified t)) . -613) (t 26344 2768 661059 113000) (617 . 621) 616 (t 26344 2768 661059 113000)) nil (26362 15627 207375 429000) 0 nil])
 ([nil nil ((#("2023" 0 4 (fontified t)) . -628) (632 . 636) 631) nil (26362 15627 207373 533000) 0 nil])
@@ -49,5 +49,16 @@ industry products" 0 48 (fontified t)) . 7872) (undo-tree-id15 . -47) (undo-tree
 ([nil nil ((5401 . 5407) (#("\\" 0 1 (fontified t)) . -5401) (undo-tree-id159 . -1) 5402 (5401 . 5402) (#("|" 0 1 (fontified t)) . -5401) (undo-tree-id160 . -1) 5402 (5400 . 5402) (t 26362 27337 557467 537000)) nil (26362 27360 443602 688000) 0 nil])
 ([nil nil ((8199 . 8200)) nil (26362 27360 443599 449000) 0 nil])
 ([nil nil ((8111 . 8114) (#("i" 0 1 (face font-lock-keyword-face fontified nil)) . -8111) (undo-tree-id153 . -1) (undo-tree-id154 . -1) (undo-tree-id155 . -1) (undo-tree-id156 . -1) (undo-tree-id157 . -1) (undo-tree-id158 . -1) (8108 . 8112)) nil (26362 27360 443597 938000) 0 nil])
-([nil current ((8146 . 8149) (#("i" 0 1 (face (font-lock-keyword-face bold) fontified nil)) . -8146) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (8139 . 8147) (#("large" 0 5 (face (font-lock-keyword-face bold) fontified t)) . 8139) (undo-tree-id150 . -4) (undo-tree-id151 . -5) (undo-tree-id152 . -5)) nil (26362 27360 443588 412000) 0 nil])
+([nil nil ((8146 . 8149) (#("i" 0 1 (face (font-lock-keyword-face bold) fontified nil)) . -8146) (undo-tree-id143 . -1) (undo-tree-id144 . -1) (undo-tree-id145 . -1) (undo-tree-id146 . -1) (undo-tree-id147 . -1) (undo-tree-id148 . -1) (undo-tree-id149 . -1) (8139 . 8147) (#("large" 0 5 (face (font-lock-keyword-face bold) fontified t)) . 8139) (undo-tree-id150 . -4) (undo-tree-id151 . -5) (undo-tree-id152 . -5)) nil (26362 27360 443588 412000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 247 . 248) (nil fontified nil 186 . 248) (186 . 248) (#("Қазақ технология жəне бизнес университеті" 0 41 (face (bold) fontified t)) . 186) (undo-tree-id10 . -41) (undo-tree-id11 . -40) (undo-tree-id12 . -40) (undo-tree-id13 . -40) 227 (t 26362 27360 470126 718000)) nil (26364 52441 717040 178000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 350 . 351) (nil fontified nil 282 . 351) (282 . 351) (#("Kazakh University of Technology and Business" 0 44 (face (bold) fontified t)) . 282) (undo-tree-id7 . -44) (undo-tree-id8 . -43) (undo-tree-id9 . -43)) nil (26364 52441 717034 726000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 444 . 445) (nil fontified nil 385 . 445) (385 . 445) (#("Казахский университет технологии и бизнеса" 0 42 (face (bold) fontified t)) . 385) (undo-tree-id4 . -42) (undo-tree-id5 . -41) (undo-tree-id6 . -41)) nil (26364 52441 717030 52000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 3029 . 3030) (nil fontified nil 2968 . 3030) (2968 . 3030) (#("Қазақ технология жəне бизнес университеті" 0 41 (face (bold) fontified t)) . 2968) (undo-tree-id0 . -41) (undo-tree-id1 . -40) (undo-tree-id2 . -40) (undo-tree-id3 . -40) 3009) nil (26364 52441 717025 239000) 0 nil])
+([nil nil ((5457 . 5458)) nil (26364 52441 717000 284000) 0 nil])
+([nil nil ((nil rear-nonsticky nil 5469 . 5470) (nil fontified nil 5458 . 5470) (5458 . 5470) 5457) nil (26364 52444 107371 33000) 0 nil])
+([nil nil ((426 . 427)) nil (26364 52445 668355 447000) 0 nil] [nil nil ((425 . 426)) ((#("а" 0 1 (face (bold) fontified t)) . 425)) (26364 52444 107303 227000) 0 nil] [nil nil ((235 . 236)) ((#("а" 0 1 (face (bold) fontified t)) . 235)) (26364 52441 716993 596000) 0 nil])
+([nil nil ((#("Kazakh University of technology and business" 0 44 (face (bold) fontified t)) . 8250) (undo-tree-id14 . -43) (t 26364 52445 684080 105000)) nil (26364 52480 561692 646000) 0 nil])
+nil
+nil
+([nil current ((nil rear-nonsticky nil 8318 . 8319) (nil fontified nil 8250 . 8319) (8250 . 8319)) nil (26364 52480 561680 201000) 0 nil])
 nil

@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"ec4af453597bec532e8f61fbcea6cda947d88b21"
+"4bf15017dcc1be11c344dbe87ab20e69fb76d67c"
 [nil nil nil nil (26363 30673 171591 463000) 0 nil]
 ([nil nil ((#("\\begin{enumerate}
 " 0 6 (face font-lock-keyword-face fontified t) 6 7 (latex-env-pair t fontified t) 7 10 (face font-lock-function-name-face latex-env-pair t fontified t) 10 16 (face font-lock-function-name-face latex-env-pair t fontified t) 16 17 (latex-env-pair t fontified t) 17 18 (fontified t)) . 41593) (undo-tree-id4 . -7) (undo-tree-id5 . -17) 41600 (t 26362 26199 34302 261000)) nil (26363 30673 171590 265000) 0 nil])
@@ -8,5 +8,6 @@
 ([nil nil ((nil fontified t 42142 . 42145) (nil face font-lock-keyword-face 42142 . 42145) (#("\\item" 0 5 (face font-lock-keyword-face fontified t)) . -42142) (42147 . 42150) (nil fontified t 41977 . 41980) (nil face font-lock-keyword-face 41977 . 41980) (#("\\item" 0 5 (face font-lock-keyword-face fontified t)) . -41977) (41982 . 41985) (nil fontified t 41750 . 41753) (nil face font-lock-keyword-face 41750 . 41753) (#("\\item" 0 5 (face font-lock-keyword-face fontified t)) . -41750) (41755 . 41758) (nil fontified t 41593 . 41596) (nil face font-lock-keyword-face 41593 . 41596) (#("\\item" 0 5 (face font-lock-keyword-face fontified t)) . -41593) (41598 . 41601)) nil (26363 30673 171584 95000) 0 nil])
 ([nil nil ((#("\\end{enumerate}
 " 0 4 (face font-lock-keyword-face fontified t) 4 5 (fontified t latex-env-pair t) 5 14 (face font-lock-function-name-face fontified t latex-env-pair t) 14 15 (fontified t latex-env-pair t) 15 16 (fontified t)) . 42355) (undo-tree-id0 . -15) (undo-tree-id1 . 16)) nil (26363 30673 171580 759000) 0 nil])
-([nil current ((#("1" 0 1 (fontified t)) . -42143) (42144 . 42145) (#("1" 0 1 (fontified t)) . -41978) (41979 . 41980) (#("1" 0 1 (fontified t)) . -41751) (41752 . 41753) 41751) nil (26363 30673 171556 463000) 0 nil])
+([nil nil ((#("1" 0 1 (fontified t)) . -42143) (42144 . 42145) (#("1" 0 1 (fontified t)) . -41978) (41979 . 41980) (#("1" 0 1 (fontified t)) . -41751) (41752 . 41753) 41751) nil (26363 30673 171556 463000) 0 nil])
+([nil current ((#(" " 0 1 (face (bold) fontified t)) . 2633) (undo-tree-id6 . -1) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (undo-tree-id9 . -1) (undo-tree-id10 . -1) (undo-tree-id11 . -1) (undo-tree-id12 . -1) (undo-tree-id13 . -1) (undo-tree-id14 . -1) (undo-tree-id15 . -1) (undo-tree-id16 . -1) (undo-tree-id17 . -1) (undo-tree-id18 . -1) (undo-tree-id19 . -1) (undo-tree-id20 . -1) (undo-tree-id21 . -1) (undo-tree-id22 . -1) (t 26363 30673 222263 722000)) nil (26364 56662 330952 424000) 0 nil])
 nil

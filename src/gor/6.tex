@@ -358,7 +358,7 @@ V_{\text{СУС}} = V_{1} + V_{2} + V_{3} + \ldots + V_{n}
 V\textsubscript{n} -- объемы потоков углеводородного сырья, поступающих
 в общую смесь углеводородного сырья, тыс. м\textsuperscript{3}.
 
-Расчет доли i-того потока углеводородного сырья ꞷi, от общего количества
+Расчет доли i-того потока углеводородного сырья $\omega_i$, от общего количества
 смеси углеводородного сырья определяется, по следующей формуле:
 
 \begin{equation}
@@ -385,7 +385,6 @@ x_{j} = \sum_{i = 1}^{n}{x_{i}^{j} \times \omega_{i}}
 \left( n_{\text{СУС}}^{\text{тг}},\ n_{\text{СУС}}^{\text{СУГ}},\ n_{\text{СУС}}^{\text{конд}},\ n_{\text{С2}}^{\text{СУС}},n_{\text{С4}}^{\text{СУС}},n_{\text{С5}}^{\text{СУС}},n_{\text{С6}}^{\text{СУС}},\ldots,n_{\text{СО2}}^{\text{СУС}},n_{N2}^{\text{СУС}},\ldots\  \right)\  = \overrightarrow{\Omega_{0}}{\times A}^{- 1}
 \end{equation}
 
-\begin{multicols}{2}
 где, А -- является матрицей от состава \(\overrightarrow{\Omega_{\text{пг}}}\),
 \(\overrightarrow{\Omega_{\text{суг}}}\), \(\overrightarrow{\Omega_{\text{конд}}}\):
 
@@ -416,7 +415,6 @@ A = \left\| \begin{array}{r}
 технологических трубопроводах в начале и в конце расчетного
 периода,\(\ \mathrm{\Delta}\overrightarrow{Ν_{\text{запас}}}\), определяется
 как:
-\end{multicols}
 
 \begin{equation}
 \mathrm{\Delta}\overrightarrow{Ν_{\text{запас}}} = \left( 0,0,0,n_{\text{С2}}^{\text{СУС}},n_{\text{С4}}^{\text{СУС}},n_{\text{С5}}^{\text{СУС}},n_{\text{С6}}^{\text{СУС}},\ldots,n_{\text{СО2}}^{\text{СУС}},n_{N2}^{\text{СУС}},\ldots \right)
@@ -646,7 +644,9 @@ n = 0,04159713 \times V_{\text{ст.у.}}, \text{кмоль}
 Плотность газа в стандартных условиях, \emph{ρ},
 кг/м\textsuperscript{3}, определяется по формуле:
 
-ρ = 0,04159713⋅М (20)
+\begin{equation}
+\rho = 0,04159713\text{⋅М}
+\end{equation}
 
 где \emph{М} -- молярная масса, кг/кмоль.
 
