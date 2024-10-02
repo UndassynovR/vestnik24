@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"96fc39c81ff89e73cc08c7879eb608a5627c04e7"
+"c2ce51471349d972b567cf13671b734af1f8ec10"
 [nil nil nil nil (26363 30822 465318 227000) 0 nil]
 ([nil nil ((#("Физическое воздействие
 
@@ -36,6 +36,7 @@
 снижению производительности труда. Это оказывает негативное влияние на
 экономические показатели предприятий и национальной экономики в целом.
 " 0 664 (fontified t) 664 670 (fontified t) 670 1463 (fontified t)) . 19067) (undo-tree-id1 . -203) (undo-tree-id2 . -1399) (undo-tree-id3 . -7) (undo-tree-id4 . -1399) (undo-tree-id5 . -1399) (undo-tree-id6 . -1462) 20466 (t 26362 31425 142058 805000)) nil (26363 30822 465316 413000) 0 nil])
-([nil current ((#("
+([nil nil ((#("
 " 0 1 (fontified t)) . 19067) (undo-tree-id0 . 1)) nil (26363 30822 465306 532000) 0 nil])
+([nil current ((#(" " 0 1 (face (bold) fontified t)) . 6044) (undo-tree-id7 . -1) (undo-tree-id8 . -1) (t 26363 30822 537736 964000)) nil (26364 56681 269475 496000) 0 nil])
 nil

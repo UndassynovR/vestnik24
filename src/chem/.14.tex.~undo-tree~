@@ -1,5 +1,5 @@
 (undo-tree-save-format-version . 1)
-"b35ad2f74ca267e217516cd9dde1a0205f1b5c28"
+"a73c3618bb751b05b5fe2762ae37b9cfe23d2e77"
 [nil nil nil nil (26363 42735 138722 925000) 0 nil]
 ([nil nil ((#("," 0 1 (fontified t)) . 333) (t 26362 31425 138725 568000)) nil (26363 42735 138721 244000) 0 nil])
 ([nil nil ((1735 . 1736)) nil (26363 42735 138719 447000) 0 nil])
@@ -28,9 +28,11 @@
 ([nil nil ((#("%% \\begin{longtable}[c]{|l|l|l|l|l|ll|}
 " 0 3 (face font-lock-comment-delimiter-face fontified t) 3 9 (face font-lock-comment-face fontified t) 9 20 (face font-lock-comment-face fontified t latex-env-pair t) 20 39 (face font-lock-comment-face fontified t) 39 40 (face font-lock-comment-face rear-nonsticky t fontified t)) . 11906) (undo-tree-id5 . -39)) nil (26363 42831 492447 448000) 0 nil])
 ([nil nil ((41237 . 41238) 41223) nil (26363 42831 492740 285000) 0 nil])
-([nil current ((nil rear-nonsticky nil 41287 . 41288) (nil fontified nil 41238 . 41288) (41238 . 41288)) nil (26363 42837 101132 113000) 0 nil] [nil nil ((nil rear-nonsticky nil 41238 . 41239) (#("
+([nil nil ((nil rear-nonsticky nil 41287 . 41288) (nil fontified nil 41238 . 41288) (41238 . 41288)) nil (26363 42837 101132 113000) 0 nil] [nil nil ((nil rear-nonsticky nil 41238 . 41239) (#("
 " 0 1 (fontified nil rear-nonsticky t face font-lock-comment-face)) . -41278) (41238 . 41279)) ((#("
 %% \\begin{longtable}[c]{|l|l|l|l|l|ll|}
 " 0 1 (rear-nonsticky nil fontified nil) 1 4 (face font-lock-comment-delimiter-face fontified nil) 4 10 (face font-lock-comment-face fontified nil) 10 21 (face font-lock-comment-face fontified nil latex-env-pair t) 21 40 (face font-lock-comment-face fontified nil) 40 41 (fontified nil rear-nonsticky t face font-lock-comment-face)) . 41238) (undo-tree-id202 . -1) (undo-tree-id203 . -40) (undo-tree-id204 . -1) (undo-tree-id205 . -1) (undo-tree-id206 . -1) (undo-tree-id207 . -1) (41278 . 41279) (nil rear-nonsticky t 41238 . 41239)) (26363 42831 492432 177000) 0 nil])
+([nil nil ((#(" " 0 1 (face (bold) fontified t)) . 4176) (undo-tree-id208 . -1) (undo-tree-id209 . -1) (t 26363 42837 135872 795000)) nil (26364 53601 292007 52000) 0 nil])
 nil
+([nil current ((41287 . 41290) (t 26364 53601 348890 261000)) nil (26364 53643 550113 689000) 0 nil])
 nil
